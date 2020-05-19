@@ -1,0 +1,26 @@
+---
+title: Harmony 2 to Harmony 3 Guide
+parent: Migration
+has_toc: false
+nav_order: 2
+---
+
+# MPLAB Harmony 3 Application Development Guide for MPLAB Harmony 2 Users
+
+This page is intended to guide MPLAB®
+ Harmony 2 users on how to develop applications using MPLAB
+Harmony 3.  
+
+MPLAB Harmony is a software framework consisting of compatible and interoperable modules, such as peripheral
+libraries (PLIBs), drivers, system services, middleware, and third-party libraries.  
+
+MPLAB Harmony 3 has the same
+basic principles as MPLAB Harmony 2; however, new features and improvements were made for this release.
+
+For more information refer the **[links](#Web-Links)** below.
+
+## <a id="Web-Links"> </a> 
+## Web Links
+
+- [MPLAB Harmony v3 Application Development Guide for
+MPLAB Harmony v2 Users](http://ww1.microchip.com/downloads/en/Appnotes/MPLAB_Harmonyv3_Application_Development_%20Guide_for_%20MPLAB_Harmonyv2_Users_DS00003388A.pdf)

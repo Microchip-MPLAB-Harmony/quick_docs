@@ -1,0 +1,24 @@
+---
+title: Porting ASF to Harmony 3
+parent: Migration
+has_toc: false
+nav_order: 7
+---
+
+# Porting Application from ASF3 to MPLAB Harmony 3 Framework
+
+
+This page guides to the different steps to consider when porting an embedded application from Microchip Advance Software Framework 3 (ASF3) to MPLAB® Harmony 3 framework. It covers the following migration aspects:  
+
+- How to create a MPLAB Harmony 3 project under MPLAB X IDE and navigate through MPLAB Harmony 3
+Configurator (MHC)
+- How to identify and get the configuration of the different elements that compose the ASF3 project
+- How to port the System, Driver, or Middleware configuration using MPLAB Harmony 3 Configurator
+- Important aspects to consider when porting the project Application Layer
+
+For more information refer the **[links](#Web-Links)** below.
+
+## <a id="Web-Links"> </a> 
+## Web Links
+
+- [Porting Application from ASF3 to MPLAB Harmony 3 Framework](http://ww1.microchip.com/downloads/en/DeviceDoc/ASF3_to_Harmony3_%20Migration_%20Guide_DS70005412A.pdf)

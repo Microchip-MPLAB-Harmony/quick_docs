@@ -1,0 +1,31 @@
+---
+title: SD Card Audio Player Reader Tutorial
+parent: Middleware
+has_children: true
+has_toc: false
+nav_order: 5
+---
+
+# MPLAB® Harmony v3 SD Card Audio Player/Reader Tutorial
+
+
+The rapid prototyping ability of MPLAB Harmony is due to the availability of software modules (Drivers, System Services and Middleware Libraries) and tools (MPLAB Harmony 3 Configurator (MHC) and MPLAB Harmony Graphics Composer (MHGC)) that are designed to allow maximum reuse of code and rapid development.
+
+The following exercises demonstrate the quick prototyping capability of MPLAB Harmony. These exercises should be completed sequentially to understand how the following exercise enhances and adds new functionality to the earlier exercise.
+
+- [Lab 1: Audio-Tone Generation Using a Lookup Table](./audio_tone_using_a_lookup_table/readme.md)
+- [Lab 2: Audio-Tone Generation Using Text File Stored in SD Card](./audio_tone_using_text_file_in_sd_card/readme.md)
+- [Lab 3: SD Card Reader Support to Load Audio Files](./sd_card_reader_to_load_audio_files/readme.md)
+- [Lab 4: Play WAV Audio File from SD Card](./play_wav_audio_file_from_sd_card/readme.md)
+- [Lab 5: Display Graphics Support to Select and Play an Audio File](./display_graphics_to_select_and_play_audio_file/readme.md)
+
+This tutorial series makes makes use of [PIC32MZ Embedded Connectivity with FPU](http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=DM320007) and [PIC32 Multimedia Expansion Board II](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320005-5) (sold separately).
+
+**Note**: This tutorial series is a reference only to the existing users of Multimedia Expansion Board II (MEB II) to port/develop their application(s) using MPLAB Harmony v3 as the Multimedia Expansion Board II (MEB II) is now a matured product and the same is not available for purchase from Microchip Direct.
+
+For more information refer the **[links](#Web-Links)** below.
+
+## <a id="Web-Links"> </a> 
+## Web Links
+
+- [MPLAB® Harmony v3 SD Card Audio Player/Reader Tutorial](https://microchipdeveloper.com/harmony3:audio-player)

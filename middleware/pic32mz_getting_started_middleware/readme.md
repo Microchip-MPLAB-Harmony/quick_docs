@@ -1,0 +1,45 @@
+---
+title: Getting Started with Middleware on PIC32MZ EF MCUs
+parent: Middleware
+has_toc: false
+nav_order: 1
+---
+
+# Getting Started with Harmony v3 Drivers and Middleware on PIC32MZ EF MCUs using FreeRTOS
+
+
+This tutorial shows you how to use the MHC to create an application that gets you started in developing applications on PIC32MZ EF MCUs using MPLAB Harmony v3 software framework with FreeRTOS™.
+
+Harmony v3 drivers support Asynchronous and Synchronous modes of operation.
+
+- Asynchronous Mode
+    - Non-blocking Application Program Interfaces (APIs)
+    - Works seamlessly in bare-metal and RTOS environment
+    - Interrupt and thread-safe
+- Synchronous Mode
+    - Blocking APIs
+    - Suitable for use in RTOS environment
+    - Interrupt and thread-safe
+
+In this tutorial, you will use Harmony drivers in Synchronous mode of operation and Harmony middleware libraries with FreeRTOS.
+
+The application makes use of [Curiosity PIC32MZ EF 2.0 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/DM320209) and [I/O1 Xplained Pro Extension Kit](https://www.microchip.com/Developmenttools/ProductDetails/ATIO1-XPRO).
+
+The application reads the current room temperature from the temperature sensor on the I/O1 Xplained Pro Extension Kit. The temperature reading is displayed on a serial console periodically every second. Further, the application writes the temperature readings to EEPROM and to a file in a USB thumb drive whenever the USB thumb drive is connected. Also, an LED (LED1) is toggled every time the temperature is displayed on the serial console and an LED (LED2) is in ON state when a USB thumb drive is connected.
+
+The application you create will utilize:
+
+- I²C Synchronous Driver to read the temperature from a temperature sensor and store/retrieve to/from EEPROM.
+- Universal Synchronous Asynchronous Receiver Transmitter (USART) Synchronous Driver to print the temperature values on a COM (serial) port terminal application running on a PC.
+- USB High-Speed Driver, USB Host Middleware, and File System Service libraries to write the temperature readings to a file in a USB thumb drive whenever a USB thumb drive is connected.
+- GPIO Peripheral Library to toggle an LED.
+- FreeRTOS library to create middleware, application threads, and intercommunicate between these threads.
+
+
+
+For more information refer the **[links](#Web-Links)** below.
+
+## <a id="Web-Links"> </a> 
+## Web Links
+
+- [Getting Started with Harmony v3 Drivers and Middleware on PIC32MZ EF MCUs using FreeRTOS](https://microchipdeveloper.com/harmony3:pic32mz-get-start-tm-drvr-middlware-freertos)
