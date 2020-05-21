@@ -13,7 +13,14 @@ This tutorial implements a simple STA Client application on a microcontroller de
 
 For more information refer the **[links](#Web-Links)** below.
 
-## <a id="Web-Links"> </a> 
+## <a id="Web-Links"> </a>
 ## Web Links
 
-- [Create your first WIN1500 Bypass mode example using Harmony TCP/IP stack](https://github.com/Microchip-MPLAB-Harmony/wireless/wiki/Create-your-first-winc-bypass-application)
+- <a href="https://github.com/Microchip-MPLAB-Harmony/wireless/wiki/Create-your-first-winc-bypass-application" target="_blank">Create your first WIN1500 Bypass mode example using Harmony TCP/IP stack</a>
+
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

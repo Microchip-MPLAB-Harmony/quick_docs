@@ -26,4 +26,12 @@ To open **MPU Configuration** MHC plug-in, perform this action MHC → Tools the
 Users can configure MPU regions for memory spaces, such as ITCM, DTCM, Flash, SRAM, Peripherals, EBI, QSPI, USBHS and System. Users can also set the different attributes for these memory spaces. See image below:
 
 
-<img src = "images/figure_5.18.png" width="800" height="350" align="middle">  
+<img src = "images/figure_5.18.png" width="800" height="350" align="middle">
+
+**Note**: In the screenshot above, the MHC MPU configuration for SAME70 MCU is shown as an example. The MHC MPU configuration for other PIC or SAM MCUs may differ from the one shown above. 
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

@@ -12,25 +12,23 @@ nav_order: 9
 The purpose of this tutorial is to show you how to use Microchip MPLAB® Harmony 3 to create a simple “heartbeat” LED application that flashes an LED using the MPLAB® X IDE and the MPLAB® Harmony Configurator (MHC). As a bonus, you can reuse the heartbeat LED application in future projects as a simple indicator of system health. This tutorial focuses on direct use of MPLAB® Harmony peripheral libraries to build an application. If you are interested in using interoperable MPLAB® Harmony drivers, services, or middleware in your application, please see “Creating Your First Project – Harmony” when you’ve finished with this tutorial.
 The application can be defined by the following flowchart:
 
-<img src = "images/flowchart.png" width="300" height="330" align="middle"> 
+<img src = "images/flowchart.png" width="300" height="330" align="middle">
 
 ## Required Software
 The instructions in this tutorial assume that you have already installed following software.
 
-- [MPLAB® X Integrated Development Environment](https://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB® XC32/32++ C Compiler](https://www.microchip.com/mplab/compilers)
-- [MPLAB® Harmony Configurator](https://www.microchip.com/mplab/mplab-harmony)
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">MPLAB X Integrated Development Environment</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>
+- <a href="https://github.com/Microchip-MPLAB-Harmony/mhc" target="_blank">MPLAB Harmony Configurator</a>
 
 ## Required Hardware
 
-The instructions in this tutorial use [SAMC21N Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/atsamc21n-xpro) and it has one Yellow Color user LED (PC05) connected GPIO. Similar kits will work similarly, but the setup and steps may not be exactly as described.
+The instructions in this tutorial use <a href="https://www.microchip.com/developmenttools/ProductDetails/atsamc21n-xpro" target="_blank">SAMC21N Xplained Pro Evaluation Kit</a>and it has one Yellow Color user LED (PC05) connected GPIO. Similar kits will work similarly, but the setup and steps may not be exactly as described.
 
 **Setup**: The following figure shows the hardware setup details:
 
 - Connect SAMC21N Xplained Pro Evaluation Kit micro USB port to PC using a micro USB cable
-- Connect SAMC21N Xplained Pro Evaluation Kit Cortex Debug port to MPLAB® ICD4 with help of JTAG interface
-- Connect MPLAB® ICD4 to PC using a mini USB cable
-<img src = "images/ICD4_connection.png" width="715" height="400" align="middle"> 
+<img src = "images/hardware_setup.png" width="470" height="520" align="middle">
 
 ## Procedure
 The following are the steps to create, generate, build and flash LED Blinking application. Before proceeding, make sure you have downloaded the required Harmony 3 packages (for directions, the MPLAB® Harmony Configurator (MHC) User’s Guide) and setup the required hardware as shown previously.
@@ -42,7 +40,7 @@ The following are the steps to create, generate, build and flash LED Blinking ap
 2. Create a New Project by clicking the New Project icon ![](images/btn_new_project.png) or by selecting File > New Project.
 3. In the New Project window select 32-Bit MPLAB® Harmony 3 Project.
 4. Click Next.  
-<img src = "images/new_project_step1.png" width="700" height="500" align="middle"> 
+<img src = "images/new_project_step1.png" width="700" height="500" align="middle">
 **Note**: If 32-Bit MPLAB® Harmony 3 Project is not displayed, please download and install the MPLAB® Harmony 3 Configurator before continuing with these steps.
 5. Enter the path to the folder in which you downloaded the MPLAB® Harmony 3 packages in the Framework Path edit box.
 <img src = "images/new_project_step2.png" width="700" height="500" align="middle">  
@@ -103,7 +101,7 @@ The following table describes the Header and Source files generated from the sam
 |  3 |initialization.c	   |Implements SYS_Initialize to initializes all libraries and applications   |
 |  4 |interrupts.c	   |Implements the interrupt vectors   |
 |  5 |peripheral [libraries]	   | Implements peripheral libraries used by the project   |
-|  6 |startup.c	   | Startup code for the application  | 
+|  6 |startup.c	   | Startup code for the application  |
 
 
 If you click on the Files tab you will see the actual organization of these files on your drive:
@@ -173,13 +171,16 @@ If you do a control click on “LED_Toggle()” the editor will bring up where t
 We have now implemented a heartbeat for future applications. The LED blinking indicates that the application hasn’t frozen or isn’t stuck in a while(1){} loop (e.g.: assert or exception).
 
 ## Result
-If configured correctly, the LED PC05 on the [SAMC21N Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/atsamc21n-xpro) should now flash ON/OFF at **500 ms** intervals.
+If configured correctly, the LED PC05 on the <a href="https://www.microchip.com/developmenttools/ProductDetails/atsamc21n-xpro" target="_blank">SAMC21N Xplained Pro Evaluation Kit</a> should now flash ON/OFF at **500 ms** intervals.
 
 ## References
 
-- [SAMC21N Xplained Pro Evaluation Kit User Guide and Datasheet](https://www.microchip.com/developmenttools/ProductDetails/atsamc21n-xpro)
-- [MPLAB® X IDE User’s Guide](https://www.microchip.com/mplab/mplab-x-ide) see Documentation section at bottom of the page.
-    - [User’s Guide direct download](http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en556757)
-- [MPLAB® Harmony Configurator (MHC) User’s Guide](https://www.microchip.com/mplab/mplab-harmony)
+- <a href="https://www.microchip.com/developmenttools/ProductDetails/atsamc21n-xpro" target="_blank">SAMC21N Xplained Pro Evaluation Kit User Guide and Datasheet</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">MPLAB X IDE User’s Guide</a> see Documentation section at bottom of the page.
+    - <a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en556757" target="_blank">User’s Guide direct download</a>
 
-
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

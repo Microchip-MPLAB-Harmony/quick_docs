@@ -12,7 +12,13 @@ The Microchip QTouch® Peripheral Touch Controller (PTC) offers built-in hardwar
 
 For more information refer the **[links](#Web-Links)** below.
 
-## <a id="Web-Links"> </a> 
+## <a id="Web-Links"> </a>
 ## Web Links
 
-- [QTouch® Modular Library Peripheral Touch Controller User's Guide](http://ww1.microchip.com/downloads/en/DeviceDoc/QTouch-Modular-Library-Peripheral-Touch-Controller-40001986C.pdf)
+- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/QTouch-Modular-Library-Peripheral-Touch-Controller-40001986C.pdf" target="_blank">QTouch Modular Library Peripheral Touch Controller User's Guide</a>
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

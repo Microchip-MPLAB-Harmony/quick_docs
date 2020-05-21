@@ -13,7 +13,13 @@ It also provide information about the MPLAB Harmony USB stack, USB Stack Configu
 
 For more information refer the **[links](#Web-Links)** below.
 
-## <a id="Web-Links"> </a> 
+## <a id="Web-Links"> </a>
 ## Web Links
 
-- [Harmony USB Stack User Guide](https://microchip-mplab-harmony.github.io/usb/frames.html?frmname=topic&frmfile=index.html)
+- <a href="https://microchip-mplab-harmony.github.io/usb/frames.html?frmname=topic&frmfile=index.html" target="_blank">Harmony USB Stack User Guide</a>
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

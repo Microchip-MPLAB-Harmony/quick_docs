@@ -25,4 +25,12 @@ To open **NVIC Configuration** MHC plug-in, perform this action MHC → Tools th
 
 NVIC Manager allows users to enable or disable interrupts, change priority, and change names of interrupt handlers, see image below.
 
-<img src = "images/figure_5.16.png" width="700" height="440" align="middle">  
+<img src = "images/figure_5.16.png" width="700" height="440" align="middle">
+
+**Note**: In the screenshot above, the MHC NVIC configuration for SAME70 MCU is shown as an example. The MHC NVIC configuration for other PIC or SAM MCUs may differ from the one shown above. 
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

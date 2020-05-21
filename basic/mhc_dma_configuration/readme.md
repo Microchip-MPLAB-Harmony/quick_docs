@@ -26,4 +26,13 @@ To open **DMA Configuration** MHC plug-in, perform this action MHC → Tools the
 Users can add a channel and perform the channel settings, such as setting up source and destination address mode, interface identifier, data width, chunk size, and memory burst size. See image below.
 
 
-<img src = "images/figure_5.17.png" width="528" height="244" align="middle">  
+<img src = "images/figure_5.17.png" width="528" height="244" align="middle">
+
+
+**Note**: In the screenshot above, the MHC DMA configuration for SAME70 MCU is shown as an example. The MHC DMA configuration for other PIC or SAM MCUs may differ from the one shown above. 
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

@@ -14,7 +14,8 @@ SAMC2x supports two low power modes; IDLE and STANDBY.
 Idle sleep mode: In Idle mode, CPU and Synchronous clocks are stopped except when requested. Idle mode allows power optimization with fast wakeup time.
 Standby sleep mode: In standby mode, the CPU is stopped as well as the peripherals, except those that are running using the RUN IN STANDBY option. Standby mode allows the device to consume the lowest power with little overhead on wakeup time.
 
-The application makes use of the [SAM C21 Xplained Pro evaluation kit](https://www.microchip.com/developmenttools/ProductDetails/atsamc21-xpro) and the [I/O1 Xplained Pro extension kit](https://www.microchip.com/Developmenttools/ProductDetails/ATIO1-XPRO) (sold separately).
+The application makes use of the <a href="https://www.microchip.com/developmenttools/ProductDetails/atsamc21-xpro" target="_blank">SAM C21 Xplained Pro evaluation kit</a>
+ and the <a href="https://www.microchip.com/Developmenttools/ProductDetails/ATIO1-XPRO" target="_blank">I/O1 Xplained Pro Extension Kit</a> (sold separately).
 
 On power-up, the application is in sleep (standby) mode. The application wakes up from the sleep mode and enters active mode when you cover the light sensor (by placing a hand over it) on the I/O1 Xplained Pro extension kit. The application periodically prints room temperature on a serial terminal while the light sensor is covered. The application goes back to sleep (standby) mode when you uncover the light sensor. LED0 in the SAM C21 evaluation kit is toggled every time the temperature is displayed on the serial console.
 
@@ -34,7 +35,13 @@ Event System Peripheral Library to trigger the start of the ADC conversion on ev
 
 For more information refer the **[links](#Web-Links)** below.
 
-## <a id="Web-Links"> </a> 
+## <a id="Web-Links"> </a>
 ## Web Links
 
-- [Low Power Application on SAMC2x (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries](https://microchipdeveloper.com/harmony3:low-power-application-on-samc21)
+- <a href="https://microchipdeveloper.com/harmony3:low-power-application-on-samc21" target="_blank">Low Power Application on SAMC2x (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries</a>
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

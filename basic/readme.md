@@ -4,7 +4,7 @@ has_children: true
 has_toc: false
 nav_order: 2
 ---
-![](basic.png) 
+![](basic.png)
 # MPLAB Harmony Basic Documentation
 
 This page contains quick documentation for MPLAB® Harmony 3 Basics.   
@@ -24,13 +24,19 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 13. ### [Harmony 3 Packages ](./harmony_3_packages/readme.md)
 
 ## Web Links
-1. [How to Get Started with MPLAB Harmony v3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
-2. [Create a New MPLAB Harmony v3 Project](https://microchipdeveloper.com/harmony3:new-proj)
-3. [How to Set Up MPLAB Harmony v3 Software Development Framework](https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821)
-4. [MPLAB Harmony Content Manager](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki)
+1. <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
+2. <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>
+3. <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>
+4. <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony Content Manager</a>
 
 
-### **Note:** 
+### **Note:**
 This page provides a quick reference covering the Basic features of MPLAB Harmony 3. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.  
 
-Peripheral/Technology specific documentation are available in technology repositories like [csp](https://github.com/Microchip-MPLAB-Harmony/csp), [core](https://github.com/Microchip-MPLAB-Harmony/core), [usb](https://github.com/Microchip-MPLAB-Harmony/usb), [net](https://github.com/Microchip-MPLAB-Harmony/net), [audio](https://github.com/Microchip-MPLAB-Harmony/audio), [gfx_apps](https://github.com/Microchip-MPLAB-Harmony/gfx_apps), etc
+Peripheral/Technology specific documentation are available in technology repositories like <a href="https://github.com/Microchip-MPLAB-Harmony/csp" target="_blank">csp</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/core" target="_blank">core</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/usb" target="_blank">usb</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/net" target="_blank">net</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/audio" target="_blank">audio</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/gfx_apps" target="_blank">gfx_apps</a>, etc.
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

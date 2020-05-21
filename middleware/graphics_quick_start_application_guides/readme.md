@@ -7,11 +7,11 @@ nav_order: 8
 
 # Graphics Quick Start Application Guides
 
-A collection of application quickstart tutorials are provided with MPLAB Harmony Graphics Suite to help users understand and create applications quickly. These guides were created using Microchip [supported development boards](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Supported-Development-Boards).
+A collection of application quickstart tutorials are provided with MPLAB Harmony Graphics Suite to help users understand and create applications quickly. These guides were created using Microchip <a href="https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Supported-Development-Boards" target="_blank">supported development boards</a>.
 
 Although these guides run on Microchip boards, customers are free to reference our solutions to enable their custom designs.
 
-Note: Complete applications are part of each MPLAB Harmony distribution. Visit the [quickstart apps](https://github.com/Microchip-MPLAB-Harmony/gfx/tree/master/apps) and [feature apps](https://github.com/Microchip-MPLAB-Harmony/gfx_apps/tree/master/apps) for more information.
+Note: Complete applications are part of each MPLAB Harmony distribution. Visit the <a href="https://github.com/Microchip-MPLAB-Harmony/gfx/tree/master/apps" target="_blank">quickstart apps</a> and <a href="https://github.com/Microchip-MPLAB-Harmony/gfx_apps/tree/master/apps" target="_blank">feature apps</a> for more information.
 
 ### QuickStart Applications Demonstrate
 - Preferred Harmony Practices
@@ -21,7 +21,14 @@ Note: Complete applications are part of each MPLAB Harmony distribution. Visit t
 
 For more information refer the **[links](#Web-Links)** below.
 
-## <a id="Web-Links"> </a> 
+## <a id="Web-Links"> </a>
 ## Web Links
 
-- [Graphics Quick Start Application Guides](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-QuickStart)
+- <a href="https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-QuickStart" target="_blank">Graphics Quick Start Application Guides</a>
+
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

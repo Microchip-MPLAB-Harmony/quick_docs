@@ -18,7 +18,14 @@ Configurator (MHC).
 
 For more information refer the **[links](#Web-Links)** below.
 
-## <a id="Web-Links"> </a> 
+## <a id="Web-Links"> </a>
 ## Web Links
 
-- [Atmel START to MPLAB Harmony 3 Migration Guide](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel_START_to_%20MPLAB_%20Harmony3_Migration_Guide_DS70005413A.pdf)
+- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel_START_to_%20MPLAB_%20Harmony3_Migration_Guide_DS70005413A.pdf" target="_blank">Atmel START to MPLAB Harmony 3 Migration Guide</a>
+
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

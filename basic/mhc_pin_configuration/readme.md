@@ -47,3 +47,11 @@ The Package drop-down list shows the LQFP144 package is selected and the selecte
 Pin settings enables the user to configure the pins. Users can provide custom name for pin, change the pin function, direction, latch and other properties, see image below.
 <img src = "images/figure_5.15.png" width="700" height="400" align="middle">  
 
+
+**Note**: In the screenshots above, the MHC pin configuration for SAME70 MCU is shown as an example. The MHC pin configuration for other PIC or SAM MCUs may differ from the one shown above. 
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

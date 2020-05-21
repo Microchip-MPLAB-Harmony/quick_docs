@@ -13,7 +13,14 @@ The page also guides to the description of MPLAB X IDE features, MPLAB Harmony v
 
 For more information refer the **[links](#Web-Links)** below.
 
-## <a id="Web-Links"> </a> 
+## <a id="Web-Links"> </a>
 ## Web Links
 
-- [Introduction to MPLAB and Harmony v3 for Atmel Studio and ASF users](http://ww1.microchip.com/downloads/en/Appnotes/Introduction_to_MPLAB_X_IDE_and_Harmonyv3_for_%20Atmel_Studio_and_ASF_%20Users_DS00003346A.pdf)
+- <a href="http://ww1.microchip.com/downloads/en/Appnotes/Introduction_to_MPLAB_X_IDE_and_Harmonyv3_for_%20Atmel_Studio_and_ASF_%20Users_DS00003346A.pdf" target="_blank">Introduction to MPLAB and Harmony v3 for Atmel Studio and ASF users</a>
+
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

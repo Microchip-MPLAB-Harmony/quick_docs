@@ -5,34 +5,34 @@ nav_order: 499
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
-## Quick Docs Release v3.0.0 (May 2020)
+## Quick Docs Release v3.0.0 (June 2020)
 ### New Doc Pages
 
 The following table provides the list of new doc pages:
 
 | Doc Name | Doc Type - Content |
 | ---      | ---                |
-[MPLAB Harmony 3 Configurator (MHC)](./basic/mplab_harmony_3_configurator/readme.md)											|[Basic](./basic/readme.md) - Full | 
-[MHC Project Graph](./basic/mhc_project_graph/readme.md)														|[Basic](./basic/readme.md) - Full | 
-[MHC Clock Configuration](./basic/mhc_clock_configuration/readme.md)													|[Basic](./basic/readme.md) - Full | 
-[MHC Pin Configuration](./basic/mhc_pin_configuration/readme.md)													|[Basic](./basic/readme.md) - Full | 
-[MHC NVIC Configuration](./basic/mhc_nvic_configuration/readme.md)													|[Basic](./basic/readme.md) - Full | 
-[MHC DMA Configuration](./basic/mhc_dma_configuration/readme.md)													|[Basic](./basic/readme.md) - Full | 
-[MHC MPU Configuration](./basic/mhc_mpu_configuration/readme.md)													|[Basic](./basic/readme.md) - Full | 
-[MHC Code Generation](./basic/mhc_code_generation/readme.md)														|[Basic](./basic/readme.md) - Full | 
-[Create First MPLAB Harmony 3 Project](./basic/create_first_harmony_3_project/readme.md)										|[Basic](./basic/readme.md) - Full | 
-[Create "Hello World" application on SAM MCUs](./basic/create_hello_world_sam_mcus/readme.md)										|[Basic](./basic/readme.md) - Full | 
-[Create "Hello World" application on PIC MCUs](./basic/create_hello_world_pic_mcus/readme.md)										|[Basic](./basic/readme.md) - Full | 
-[Open an Existing Harmony 3 Project](./basic/open_an_existing_harmony_3_project/readme.md)										|[Basic](./basic/readme.md) - Full | 
-[Harmony 3 Packages ](./basic/harmony_3_packages/readme.md)														|[Basic](./basic/readme.md) - Full | 
-[Differences between MPLAB Harmony 2 and Harmony 3](./migration/differences_harmony_2_to_harmony_3/readme.md)								|[Migration](./migration/readme.md) - Brief Overview and Web link | 
+[MPLAB Harmony 3 Configurator (MHC)](./basic/mplab_harmony_3_configurator/readme.md)											|[Basic](./basic/readme.md) - Full |
+[MHC Project Graph](./basic/mhc_project_graph/readme.md)														|[Basic](./basic/readme.md) - Full |
+[MHC Clock Configuration](./basic/mhc_clock_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
+[MHC Pin Configuration](./basic/mhc_pin_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
+[MHC NVIC Configuration](./basic/mhc_nvic_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
+[MHC DMA Configuration](./basic/mhc_dma_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
+[MHC MPU Configuration](./basic/mhc_mpu_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
+[MHC Code Generation](./basic/mhc_code_generation/readme.md)														|[Basic](./basic/readme.md) - Full |
+[Create First MPLAB Harmony 3 Project](./basic/create_first_harmony_3_project/readme.md)										|[Basic](./basic/readme.md) - Full |
+[Create "Hello World" application on SAM MCUs](./basic/create_hello_world_sam_mcus/readme.md)										|[Basic](./basic/readme.md) - Full |
+[Create "Hello World" application on PIC MCUs](./basic/create_hello_world_pic_mcus/readme.md)										|[Basic](./basic/readme.md) - Full |
+[Open an Existing Harmony 3 Project](./basic/open_an_existing_harmony_3_project/readme.md)										|[Basic](./basic/readme.md) - Full |
+[Harmony 3 Packages ](./basic/harmony_3_packages/readme.md)														|[Basic](./basic/readme.md) - Full |
+[Differences between MPLAB Harmony 2 and Harmony 3](./migration/differences_harmony_2_to_harmony_3/readme.md)								|[Migration](./migration/readme.md) - Brief Overview and Web link |
 [MPLAB Harmony 3 Application Development Guide for MPLAB Harmony 2 Users](./migration/harmony_2_to_harmony_3/readme.md)							|[Migration](./migration/readme.md) - Brief Overview and Web link |  
 [Graphics Applications](./migration/aria_graphics_harmoy2_to_harmony_3/readme.md)											|[Migration](./migration/readme.md) - Brief Overview and Web link |  
 [TCP/IP Applications](./migration/tcpiip_harmoy2_to_harmony_3/readme.md)												|[Migration](./migration/readme.md) - Brief Overview and Web link |  
 [USB Applications](./migration/usb_harmoy2_to_harmony_3/readme.md)													|[Migration](./migration/readme.md) - Brief Overview and Web link |  
 [Introduction to MPLAB and Harmony 3 for Atmel Studio and ASF users](./migration/introduction_mplabx_harmony_3_to_studio_asf_users/readme.md)				|[Migration](./migration/readme.md) - Brief Overview and Web link |  
 [Porting Application from ASF3 to MPLAB Harmony 3 Framework](./migration/asf_to_harmony_3/readme.md)									|[Migration](./migration/readme.md) - Brief Overview and Web link |  
-[Atmel START to MPLAB Harmony 3 Migration Guide](./migration/atmel_start_to_harmony_3/readme.md)									|[Migration](./migration/readme.md) - Brief Overview and Web link | 
+[Atmel START to MPLAB Harmony 3 Migration Guide](./migration/atmel_start_to_harmony_3/readme.md)									|[Migration](./migration/readme.md) - Brief Overview and Web link |
 [Getting Started with Harmony v3 PLIBs on SAMC2x MCUs](./peripheral/samc2x_getting_started/readme.md)									|[Peripheral](./peripheral/readme.md) - Brief Overview and Web link |  
 [Getting Started with Harmony v3 PLIBs on SAM D5x/E5x MCUs](./peripheral/samd5x_getting_started/readme.md)								|[Peripheral](./peripheral/readme.md) - Brief Overview and Web link |  
 [Getting Started with Harmony v3 PLIBs on SAM E70/S70/V70/V71 MCUs](./peripheral/same70_getting_started/readme.md)							|[Peripheral](./peripheral/readme.md) - Brief Overview and Web link |  
@@ -71,9 +71,14 @@ The following table provides the list of new doc pages:
 [Create Your First WINC Bypass Mode Example](./middleware/create_first_winc_bypass_mode_example/readme.md)								|[Middleware](./middleware/readme.md) - Brief Overview and Web link |
 [Harmony WINC Driver Architecture](./middleware/harmony_winc_driver_architecture/readme.md)										|[Middleware](./middleware/readme.md) - Brief Overview and Web link |
 [Create your First Bluetooth Application in Harmony](./middleware/create_first_bluetooth_application/readme.md)								|[Middleware](./middleware/readme.md) - Brief Overview and Web link |
-					
-					
+
+
 ### Updated Doc Pages
-	- NA - 
+	- NA -
 
 
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

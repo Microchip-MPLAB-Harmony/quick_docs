@@ -19,13 +19,20 @@ The following exercises demonstrate the quick prototyping capability of MPLAB Ha
 - [Lab 4: Play WAV Audio File from SD Card](./play_wav_audio_file_from_sd_card/readme.md)
 - [Lab 5: Display Graphics Support to Select and Play an Audio File](./display_graphics_to_select_and_play_audio_file/readme.md)
 
-This tutorial series makes makes use of [PIC32MZ Embedded Connectivity with FPU](http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=DM320007) and [PIC32 Multimedia Expansion Board II](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320005-5) (sold separately).
+This tutorial series makes makes use of <a href="http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=DM320007" target="_blank">PIC32MZ Embedded Connectivity with FPU</a> and <a href="https://www.microchip.com/DevelopmentTools/ProductDetails/DM320005-5" target="_blank">PIC32 Multimedia Expansion Board II</a> (sold separately).
 
 **Note**: This tutorial series is a reference only to the existing users of Multimedia Expansion Board II (MEB II) to port/develop their application(s) using MPLAB Harmony v3 as the Multimedia Expansion Board II (MEB II) is now a matured product and the same is not available for purchase from Microchip Direct.
 
 For more information refer the **[links](#Web-Links)** below.
 
-## <a id="Web-Links"> </a> 
+## <a id="Web-Links"> </a>
 ## Web Links
 
-- [MPLAB® Harmony v3 SD Card Audio Player/Reader Tutorial](https://microchipdeveloper.com/harmony3:audio-player)
+- <a href="https://microchipdeveloper.com/harmony3:audio-player" target="_blank">MPLAB Harmony v3 SD Card Audio Player/Reader Tutorial</a>
+
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

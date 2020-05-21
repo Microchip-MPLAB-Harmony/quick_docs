@@ -19,7 +19,7 @@ After opening the MHC, the peripheral and library modules can be added to the pr
 <img src = "images/figure_6.1.png" width="900" height="480" align="middle">  
 
 ## Code Generation
-To perform the following actions, press ![](images/btn_generate_code.png) MHC Generate button in the Project Resources window. 
+To perform the following actions, press ![](images/btn_generate_code.png) MHC Generate button in the Project Resources window.
 
 ### Saving and Loading the MHC Configuration
 Saving and loading the MHC configuration is integrated into the MPLAB® X IDE Save and Load functions. The MHC configuration is saved whenever the Generate button is pressed. You can also save the MHC configuration by clicking on the MPLAB® X IDE Save tool or selecting Save from the File menu.  
@@ -62,7 +62,13 @@ The following table provides the Header and Source files generated from the samp
 |  3 |Peripheral (libs)		   |Supports peripherals used by the project   |
 |  4 |exceptions.c		   |Implements all exception handlers   |
 |  5 |initialization.c		   | Initializes all libraries and applications   |
-|  6 |interrupts.c		   | Provides the interrupt vector table  | 
-|  7 |libc_syscalls.c		   | Provides the Harmony specific system calls  | 
-|  8 |startup.c	   | Startup code for the application  | 
-|  9 |main.c	   | Applications Main source file  | 
+|  6 |interrupts.c		   | Provides the interrupt vector table  |
+|  7 |libc_syscalls.c		   | Provides the Harmony specific system calls  |
+|  8 |startup.c	   | Startup code for the application  |
+|  9 |main.c	   | Applications Main source file  |
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>

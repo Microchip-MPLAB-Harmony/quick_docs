@@ -26,3 +26,11 @@ To open **Clock Configuration** MHC plug-in, perform this action MHC → Tools t
 In the MHC, select the Clock Diagram Tab and verify that the clock is configured correctly for the selected target board. The Clock Diagram tab allows for easy setup of the master, system and peripheral clocks. See image below.
 
 <img src = "images/figure_5.12.png" width="800" height="555" align="middle">  
+
+**Note**: In the screenshot above, the MHC clock configuration for SAME70 MCU is shown as an example. The MHC clock configuration for other PIC or SAM MCUs may differ from the one shown above. 
+
+## Reference Links
+- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
+- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
+- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>
