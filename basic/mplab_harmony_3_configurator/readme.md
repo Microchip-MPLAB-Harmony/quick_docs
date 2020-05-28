@@ -34,7 +34,7 @@ This section describes the following MHC specific topics to get started using MP
 ## <a id="Installation"> </a>
 ## Installation
 
-The MHC is available as a plugin extension to the <a href="https://www.microchip.com/mplab/embedded-software-center" target="_blank">MPLAB X IDE </a> and as a standalone Java application for use with other tool suites (see here for details). Regardless which form you choose, there are some prerequisites that you must have installed first. Additionally, you will need to have a supported <a href="https://www.microchip.com/DevelopmentTools/Listing/90e9a9ef-2db3-488b-b74c-956604bc395e" target="_blank">32-bit MCU board </a> on which to program, run, and debug your application.
+The MHC is available as a plugin extension to the <a href="https://www.microchip.com/mplab/embedded-software-center" target="_blank">MPLAB X IDE </a> and as a standalone Java application for use with other tool suites (see <a href="https://github.com/Microchip-MPLAB-Harmony/mhc/blob/master/doc/getting_started_with_mhc.md" target="_blank">here </a> for details). Regardless which form you choose, there are some prerequisites that you must have installed first. Additionally, you will need to have a supported <a href="https://www.microchip.com/DevelopmentTools/Listing/90e9a9ef-2db3-488b-b74c-956604bc395e" target="_blank">32-bit MCU board </a> on which to program, run, and debug your application.
 
 ### <a id="Prerequisites-for-MHC-use-as-an-MPLAB®-X-IDE-Plugin"> </a>
 ### Prerequisites for MHC use as an MPLAB® X IDE Plugin
@@ -74,7 +74,7 @@ To generate code using the MHC in MPLAB® X IDE, you must first choose to create
 
 To create MPLAB® X IDE project, follow these steps:
 
-1. Select *File* > *New Project* or click ![](images/btn_new_project.png) New Project button to create a new project. The New Project wizard will open.
+1. Select *File* > *New Project* or click <img src = "images/btn_new_project.png"> New Project button to create a new project. The New Project wizard will open.
 2. In the Choose Project pane, select the *Microchip Embedded category*.
 3. In the Projects pane, select *32-bit MPLAB® Harmony 3 Project*, then click Next.
 4. Continue by following the Selecting MPLAB® Harmony 3 Packages steps, below.  
@@ -86,7 +86,7 @@ To create MPLAB® X IDE project, follow these steps:
 
 To choose an existing project, follow these steps:
 
-1. Click ![](images/btn_open_project.png) he Open Project window will be displayed.
+1. Click <img src = "images/btn_open_project.png"> he Open Project window will be displayed.
 2. Navigate to the desired project’s .X folder and click *Open Project*. The selected project will open in the IDE.  
 **Note:** If multiple projects are open in MPLAB® X IDE, set one as the main (active) project by Right-clicking on it and selecting “*Set as Main Project*”.
 
@@ -191,7 +191,7 @@ The following figure displays the project configuration of selected active “Sy
 
 To remove a component available in Active component area, follow these steps:
 
-1. Select it (for example, FreeRTOS) in Active Component Area or in Project Graph Area then click on button ![](images/btn_remove_component.png).
+1. Select it (for example, FreeRTOS) in Active Component Area or in Project Graph Area then click on button <img src = "images/btn_remove_component.png">.
 2. A pop-up window will display asking whether to deactivate a component. The following figure deactivating the FreeRTOS component.
 3. Click Yes to deactivate the FreeRTOS component.
 <img src = "images/figure_5.4.png" width="700" height="392" align="middle">  

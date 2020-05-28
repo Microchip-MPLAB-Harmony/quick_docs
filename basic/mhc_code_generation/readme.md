@@ -19,7 +19,7 @@ After opening the MHC, the peripheral and library modules can be added to the pr
 <img src = "images/figure_6.1.png" width="900" height="480" align="middle">  
 
 ## Code Generation
-To perform the following actions, press ![](images/btn_generate_code.png) MHC Generate button in the Project Resources window.
+To perform the following actions, press <img src = "images/btn_generate_code.png">  MHC Generate button in the Project Resources window.
 
 ### Saving and Loading the MHC Configuration
 Saving and loading the MHC configuration is integrated into the MPLAB® X IDE Save and Load functions. The MHC configuration is saved whenever the Generate button is pressed. You can also save the MHC configuration by clicking on the MPLAB® X IDE Save tool or selecting Save from the File menu.  

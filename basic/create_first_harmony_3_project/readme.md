@@ -2,7 +2,7 @@
 title: Create First Harmony 3 Project
 parent: Basic
 has_toc: false
-nav_order: 9
+nav_order: 10
 ---
 
 # Create First MPLAB Harmony 3 Project
@@ -35,9 +35,8 @@ The following are the steps to create, generate, build and flash LED Blinking ap
 
 ## Create a new project
 
-
 1. Open the MPLAB® X IDE.
-2. Create a New Project by clicking the New Project icon ![](images/btn_new_project.png) or by selecting File > New Project.
+2. Create a New Project by clicking the New Project icon <img src = "images/btn_new_project.png"> or by selecting File > New Project.
 3. In the New Project window select 32-Bit MPLAB® Harmony 3 Project.
 4. Click Next.  
 <img src = "images/new_project_step1.png" width="700" height="500" align="middle">
@@ -75,7 +74,8 @@ This is necessary because the project doesn’t use a Board Support Package (BSP
 
 5. Generate the application’s code for the first time.
 
-6. Select the Generate Code button of MHC’s window ![](images/btn_generate.png)
+6. Select the Generate Code button of MHC’s window <img src = "images/btn_generate.png">
+
 
 7. Save the project’s configuration (any name will do for the .xml file):
 <img src = "images/setup_step5.png" width="595" height="120" align="middle">

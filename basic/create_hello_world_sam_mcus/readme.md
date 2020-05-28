@@ -2,14 +2,14 @@
 title: Create "Hello World" application on SAM MCUs
 parent: Basic
 has_toc: false
-nav_order: 10
+nav_order: 11
 ---
 
 # Create "Hello World" application on SAM MCUs
 
 ## Introduction
 
-[MPLAB® Harmony v3](https://www.microchip.com/mplab/mplab-harmony) is a software development framework consisting of compatible and interoperable modules that include peripheral libraries (PLIBs), drivers, system services, middleware and third-party libraries. The MPLAB Harmony Configurator (MHC) is a GUI-based tool that provides an easy way to enable and configure various MPLAB Harmony modules. The MHC is a plug-in to the MPLAB X Integrated Development Environment (IDE).  
+<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">MPLAB Harmony v3</a> is a software development framework consisting of compatible and interoperable modules that include peripheral libraries (PLIBs), drivers, system services, middleware and third-party libraries. The MPLAB Harmony Configurator (MHC) is a GUI-based tool that provides an easy way to enable and configure various MPLAB Harmony modules. The MHC is a plug-in to the MPLAB X Integrated Development Environment (IDE).  
 This page explains how to create a simple application on an Arm® Cortex®-based SAM Microcontroller (MCU) using the MHC with MPLAB Harmony v3 modules. This application sends a “Hello World!” string to a console running on a computer. For this demonstration, the following MPLAB Harmony v3 modules are used and configured using the MHC:
 
 - Clock PLIB using the Clock Manager to configure the microcontroller clock.
@@ -40,7 +40,7 @@ The instructions in this tutorial use <a href="https://www.microchip.com/Develop
 1. Launch MPLAB X IDE.
 2. In MPLAB X IDE, select *File > New Project* (or click the New Project icon).
 3. In the **New Project** window, select **Microchip Embedded** in the **Categories** pane and select **32-bit MPLAB Harmony 3 Project** in the **Projects** pane.  
-**Note**: If the option 32-Bit MPLAB Harmony v3 Project is not available, install the MPLAB Harmony v3 Configurator plug-in from Tools > Plugins > Available Plugins before continuing with this demonstration. For details, Refer [MPLAB Harmony v3 Configurator](../mplab_harmony_3_configurator/readme.md).
+**Note**: If the option 32-Bit MPLAB Harmony v3 Project is not available, install the MPLAB Harmony v3 Configurator plug-in from Tools > Plugins > Available Plugins before continuing with this demonstration.
 <img src = "images/figure1_1.png" width="660" height="455" align="middle">
 
 4. Click **Next**.

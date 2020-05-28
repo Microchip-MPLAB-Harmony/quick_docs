@@ -2,7 +2,7 @@
 title: Create "Hello World" application on PIC MCUs
 parent: Basic
 has_toc: false
-nav_order: 11
+nav_order: 12
 ---
 
 # Create "Hello World" application on PIC MCUs
@@ -41,7 +41,7 @@ The instructions in this tutorial use <a href="https://www.microchip.com/Develop
 1. Launch MPLAB X IDE.
 2. In MPLAB X IDE, select *File > New Project* (or click the New Project icon).
 3. In the **New Project** window, select **Microchip Embedded** in the **Categories** pane and select **32-bit MPLAB Harmony 3 Project** in the **Projects** pane.  
-**Note**: If the option 32-Bit MPLAB Harmony v3 Project is not available, install the MPLAB Harmony v3 Configurator plug-in from Tools > Plugins > Available Plugins before continuing with this demonstration. For details, Refer [MPLAB Harmony v3 Configurator](../mplab_harmony_3_configurator/readme.md).
+**Note**: If the option 32-Bit MPLAB Harmony v3 Project is not available, install the MPLAB Harmony v3 Configurator plug-in from Tools > Plugins > Available Plugins before continuing with this demonstration.
 <img src = "images/figure1_1.png" width="660" height="455" align="middle">
 
 4. Click **Next**.

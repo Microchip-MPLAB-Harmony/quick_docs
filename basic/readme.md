@@ -17,11 +17,18 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 6. ### [MHC DMA Configuration](./mhc_dma_configuration/readme.md)
 7. ### [MHC MPU Configuration](./mhc_mpu_configuration/readme.md)
 8. ### [MHC Code Generation](./mhc_code_generation/readme.md)
-9. ### [Create First MPLAB Harmony 3 Project](./create_first_harmony_3_project/readme.md)
-10. ### [Create "Hello World" application on SAM MCUs](./create_hello_world_sam_mcus/readme.md)
-11. ### [Create "Hello World" application on PIC MCUs](./create_hello_world_pic_mcus/readme.md)
-12. ### [Open an Existing Harmony 3 Project](./open_an_existing_harmony_3_project/readme.md)
-13. ### [Harmony 3 Packages ](./harmony_3_packages/readme.md)
+9. ### [MHC Window Manager and Log Level](./mhc_window_manager_log_level/readme.md)
+10. ### [Create First MPLAB Harmony 3 Project](./create_first_harmony_3_project/readme.md)
+11. ### [Create "Hello World" application on SAM MCUs](./create_hello_world_sam_mcus/readme.md)
+12. ### [Create "Hello World" application on PIC MCUs](./create_hello_world_pic_mcus/readme.md)
+13. ### [Open an Existing Harmony 3 Project](./open_an_existing_harmony_3_project/readme.md)
+14. ### [Harmony 3 Packages](./harmony_3_packages/readme.md)
+15. ### [Creating an IAR or KEIL project using MHC](./create_iar_or_keil_project_using_mhc/readme.md)
+16. ### [Creating a New TrustZone Project](./create_new_trust_zone_project/readme.md)
+
+
+
+
 
 ## Web Links
 1. <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>

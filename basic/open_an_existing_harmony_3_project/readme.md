@@ -2,7 +2,7 @@
 title: Open an Existing Harmony 3 Project
 parent: Basic
 has_toc: false
-nav_order: 12
+nav_order: 13
 ---
 
 # Open an Existing Harmony 3 Project
@@ -15,10 +15,6 @@ Before doing this, you'll need to do the following:
 - <a href="https://microchipdeveloper.com/xc32:installation" target="_blank">Install MPLAB XC32 Compiler</a>
 - <a href="https://microchipdeveloper.com/harmony3:mhc-overview#install" target="_blank">Install the MPLAB Harmony Configurator (MHC)</a>
 - <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">Download the MPLAB Harmony Framework</a> 
-
-
-If you would rather learn how to create an MPLAB Harmony project from scratch, visit the "[Create your first Harmony v3 Project](../create_first_harmony_3_project/readme.md) page.
-
 
 ## Steps
 
