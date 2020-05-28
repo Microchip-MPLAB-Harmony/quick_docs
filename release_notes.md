@@ -20,11 +20,14 @@ The following table provides the list of new doc pages:
 [MHC DMA Configuration](./basic/mhc_dma_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
 [MHC MPU Configuration](./basic/mhc_mpu_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
 [MHC Code Generation](./basic/mhc_code_generation/readme.md)														|[Basic](./basic/readme.md) - Full |
+[MHC Window Manager and Log Level](./basic/mhc_window_manager_log_level/readme.md)											|[Basic](./basic/readme.md) - Full |
 [Create First MPLAB Harmony 3 Project](./basic/create_first_harmony_3_project/readme.md)										|[Basic](./basic/readme.md) - Full |
 [Create "Hello World" application on SAM MCUs](./basic/create_hello_world_sam_mcus/readme.md)										|[Basic](./basic/readme.md) - Full |
 [Create "Hello World" application on PIC MCUs](./basic/create_hello_world_pic_mcus/readme.md)										|[Basic](./basic/readme.md) - Full |
 [Open an Existing Harmony 3 Project](./basic/open_an_existing_harmony_3_project/readme.md)										|[Basic](./basic/readme.md) - Full |
 [Harmony 3 Packages ](./basic/harmony_3_packages/readme.md)														|[Basic](./basic/readme.md) - Full |
+[Create IAR or Keil project using MHC ](./basic/create_iar_or_keil_project_using_mhc/readme.md)										|[Basic](./basic/readme.md) - Full |
+[Create new TrustZone Project](./basic/create_new_trust_zone_project/readme.md)												|[Basic](./basic/readme.md) - Full |
 [Differences between MPLAB Harmony 2 and Harmony 3](./migration/differences_harmony_2_to_harmony_3/readme.md)								|[Migration](./migration/readme.md) - Brief Overview and Web link |
 [MPLAB Harmony 3 Application Development Guide for MPLAB Harmony 2 Users](./migration/harmony_2_to_harmony_3/readme.md)							|[Migration](./migration/readme.md) - Brief Overview and Web link |  
 [Graphics Applications](./migration/aria_graphics_harmoy2_to_harmony_3/readme.md)											|[Migration](./migration/readme.md) - Brief Overview and Web link |  

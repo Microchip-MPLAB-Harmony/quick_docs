@@ -23,8 +23,8 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 12. ### [Create "Hello World" application on PIC MCUs](./create_hello_world_pic_mcus/readme.md)
 13. ### [Open an Existing Harmony 3 Project](./open_an_existing_harmony_3_project/readme.md)
 14. ### [Harmony 3 Packages](./harmony_3_packages/readme.md)
-15. ### [Creating an IAR or KEIL project using MHC](./create_iar_or_keil_project_using_mhc/readme.md)
-16. ### [Creating a New TrustZone Project](./create_new_trust_zone_project/readme.md)
+15. ### [Create IAR or Keil project using MHC](./create_iar_or_keil_project_using_mhc/readme.md)
+16. ### [Create new TrustZone Project](./create_new_trust_zone_project/readme.md)
 
 
 
