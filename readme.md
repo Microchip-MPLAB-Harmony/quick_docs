@@ -8,22 +8,13 @@ MPLAB Harmony 3 is an extension of the MPLAB® ecosystem for creating
 embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller
 and microprocessor devices.  Refer to the following links for more information.
 
-- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
-- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
-- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
-- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>
-- <a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank">Microchip 32-bit MPUs</a>
-
-
 This repository contains the MPLAB Harmony 3 Quick Documentation Package.
 
 Quick documents are standalone html pages that help to get started developing applications using Microchip 32-bit SAM and PIC MCUs using MPLAB Harmony 3 software framework.
 
 [<img src="./basic/basic.png">](./basic/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./migration/migration.png">](./migration/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./middleware/middleware.png">](./middleware/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./peripheral/peripheral.png">](./peripheral/readme.md) &nbsp; &nbsp; &nbsp; &nbsp;
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src = "quick_doc_types.png" align="center">
-
-
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="quick_doc_types.png"> </a>]()
 
 - [**Basic**](./basic/readme.md) :  
 Cover topics that help to get started developing applications using MPLAB Harmony 3 software framework. For Example: MPLAB Harmony 3 Configurator (MHC), Creating the first application on Harmony 3, etc.
@@ -64,9 +55,10 @@ Refer to the following links for release notes and reference application informa
 - [MPLAB® Harmony License](./mplab_harmony_license.md)
 - [MPLAB® Harmony 3 Quick Docs Wiki](https://github.com/Microchip-MPLAB-Harmony/quick_docs/wiki)
 
-
 ____
-
+[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="mplab_compiler.png"> </a>]()  
+  
+  ____
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/quick_docs/blob/master/mplab_harmony_license.md)
 [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/quick_docs.svg)](https://github.com/Microchip-MPLAB-Harmony/quick_docs/releases/latest)
 [![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/quick_docs.svg)](https://github.com/Microchip-MPLAB-Harmony/quick_docs/releases/latest)
