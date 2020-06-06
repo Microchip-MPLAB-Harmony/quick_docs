@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 name: Microchip Technology
-title: Microchip MPLAB Harmony Reference Applications help
+title: Microchip MPLAB Harmony Quick Documentation help
 lang: en-US
 timezone: America/Phoenix
 

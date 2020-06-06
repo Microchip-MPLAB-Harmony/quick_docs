@@ -15,7 +15,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 4. ### [MHC Pin Configuration](./mhc_pin_configuration/readme.md)
 5. ### [MHC NVIC Configuration](./mhc_nvic_configuration/readme.md)
 6. ### [MHC DMA Configuration](./mhc_dma_configuration/readme.md)
-7. ### [MHC MPU Configuration](./mhc_mpu_configuration/readme.md)
+7. ### [MHC Memory protection Unit Configuration](./mhc_memory_protection_unit_configuration/readme.md)
 8. ### [MHC Code Generation](./mhc_code_generation/readme.md)
 9. ### [MHC Window Manager and Log Level](./mhc_window_manager_log_level/readme.md)
 10. ### [Create First MPLAB Harmony 3 Project](./create_first_harmony_3_project/readme.md)
@@ -26,8 +26,10 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 15. ### [Create IAR or Keil project using MHC](./create_iar_or_keil_project_using_mhc/readme.md)
 16. ### [Create new TrustZone Project](./create_new_trust_zone_project/readme.md)
 
+## Microprocessor units (MPUs)
+1. ### [Getting started with SAM MPU Devices on MPLAB X Tools](./sam_mpus_getting_started_mplabx/readme.md)
 
-
+2. ### [Getting Started with MPLAB Harmony v3 on the SAMA5D2](./sam_mpus_getting_started_harmony_3/readme.md)
 
 
 ## Web Links
