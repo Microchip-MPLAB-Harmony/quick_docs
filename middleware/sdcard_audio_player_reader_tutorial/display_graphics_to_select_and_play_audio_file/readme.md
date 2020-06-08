@@ -6,6 +6,7 @@ has_toc: false
 nav_order: 5
 ---
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../../r_images/quick_back.png"  title="Back">](../readme.md)
 # Lab 5: Display Graphics Support to Select and Play Audio File
 
 In this lab, you will add to the **previous one**, a graphics display UI on the <a href="https://www.microchip.com/DevelopmentTools/ProductDetails/DM320005-5" target="_blank">PIC32 Multimedia Expansion Board II</a>. The *audio_player_lab5* application displays audio tracks from the SD card in a list box. You can navigate the list to select and play a track. It also provides a volume increase/decrease scroll bar and a mute on/off button. This lab will demonstrate the configuration and integration of additional modules to *audio_player_lab4* using the MPLAB Harmony 3 Configurator (MHC), thereby extending its functionality.

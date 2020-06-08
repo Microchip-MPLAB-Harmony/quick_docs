@@ -6,6 +6,7 @@ has_toc: false
 nav_order: 3
 ---
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../../r_images/quick_back.png"  title="Back">](../readme.md)
 # Lab3: SD Card Reader Support to Load Audio Files with Harmony v3
 
 This lab extends **previous one** by adding Secure Digital (SD) card reader functionality. The *audio_player_lab3* application shows how to edit the contents of an SD card. The <a href="https://www.microchip.com/DevelopmentTools/ProductDetails/DM320005-5" target="_blank">PIC32 Multimedia Expansion Board II</a> is connected to a USB host, (typically a PC) and after a successful enumeration, the SD card is presented as a mass storage drive on the PC allowing you to add or delete contents.

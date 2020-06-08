@@ -6,6 +6,7 @@ has_toc: false
 nav_order: 4
 ---
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../../r_images/quick_back.png"  title="Back">](../readme.md)
 # Lab 4: Play a WAV Audio File from an SD Card with Harmony v3
 
  This lab extends **previous one** and add new functionality to it. This application reads a WAV audio file from the SD card on the <a href="https://www.microchip.com/DevelopmentTools/ProductDetails/DM320005-5" target="_blank">PIC32 Multimedia Expansion Board II</a> and streams it over the PIC32 I²S interface through the audio CODEC. Here, we implement the functionality of an audio player (for WAV files only). The application switches to the next track when the current track playing is completed (assuming that there is more than one track on the SD card). This application also demonstrates the configuration and integration of the additional modules using MHC, thereby extending its functionality.
