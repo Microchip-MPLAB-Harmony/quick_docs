@@ -1,5 +1,5 @@
 ---
-title: Create "Hello World" application on PIC MCUs
+title: Create Hello World application on PIC MCUs
 parent: Basic
 has_toc: false
 nav_order: 12

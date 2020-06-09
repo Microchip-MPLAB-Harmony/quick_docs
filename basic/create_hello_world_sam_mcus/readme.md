@@ -1,5 +1,5 @@
 ---
-title: Create "Hello World" application on SAM MCUs
+title: Create Hello World application on SAM MCUs
 parent: Basic
 has_toc: false
 nav_order: 11
