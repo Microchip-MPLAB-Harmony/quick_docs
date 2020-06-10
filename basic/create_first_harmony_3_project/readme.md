@@ -1,6 +1,6 @@
 ---
 title: Create First Harmony 3 Project
-parent: Basic
+parent: Harmony Basics
 has_toc: false
 nav_order: 10
 ---
