@@ -1,6 +1,6 @@
 ---
 title: Quickstart Prebuilt Graphics Applications
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 6
 ---

@@ -1,6 +1,6 @@
 ---
 title: Creating a new Graphics Application
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 7
 ---

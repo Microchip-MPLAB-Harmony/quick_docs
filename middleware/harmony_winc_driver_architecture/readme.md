@@ -1,6 +1,6 @@
 ---
 title: Harmony WINC Driver Architecture
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 20
 ---

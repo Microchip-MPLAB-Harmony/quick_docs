@@ -1,6 +1,6 @@
 ---
 title: Create Your First WINC Bypass Mode Example
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 19
 ---

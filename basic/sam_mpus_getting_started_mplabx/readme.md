@@ -1,6 +1,6 @@
 ---
 title: Getting started with SAM MPU Devices on MPLAB X Tools
-parent: Basic
+parent: Harmony Basics
 has_toc: false
 nav_order: 16
 ---
@@ -89,8 +89,8 @@ MPLAB X. Right click on the project name and select "Properties".
 
 <img src = "images/properties.png" align="middle"> 
 
-Select the correct HW debugging tool and Compiler.  In this example the SAM-ICE
-and XC-32 v2.30 are used.  Simply hit the debug image button
+Select the correct HW debugging tool and Compiler.  In this example the J-Link
+and XC-32 v2.41 are used.  Simply hit the debug image button
 
 <img src = "images/debug_image.png" align="middle"> 
 
@@ -98,6 +98,18 @@ The IDE will connect to the hardware, load the bootloader, wait for it to enter
 debug mode, then load the Harmony application into DDR and execute it.  You can
 set breakpoints, examine variables, and debug the hardware as you normally
 would.
+
+## Note
+<span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>  
+
+ - [MPLAB Harmony v3 "csp" repo v3.7.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.7.1)
+ - [MPLAB Harmony v3 "dev_packs" repo v3.7.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)
+ - [MPLAB Harmony v3 "mhc" repo v3.4.0](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.4.0)
+ - MPLAB Harmony Configurator Plugin v3.5.0
+ - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
+ - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
+
+<span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>  
 
 
 ## Reference Links

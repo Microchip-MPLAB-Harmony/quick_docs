@@ -1,6 +1,6 @@
 ---
 title: Low Power with PLIBs on SAMC2x MCUs
-parent: Peripheral
+parent: Peripheral Libraries
 has_toc: false
 nav_order: 9
 ---

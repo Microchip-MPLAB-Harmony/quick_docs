@@ -1,6 +1,6 @@
 ---
 title: Create first Audio Application
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 3
 ---

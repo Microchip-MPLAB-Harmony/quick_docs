@@ -1,6 +1,6 @@
 ---
 title: Create first Bluetooth Application
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 21
 ---

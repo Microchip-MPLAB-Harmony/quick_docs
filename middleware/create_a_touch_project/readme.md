@@ -1,6 +1,6 @@
 ---
 title: Create a Touch Project
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 15
 ---

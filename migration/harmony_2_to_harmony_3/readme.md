@@ -1,6 +1,6 @@
 ---
 title: Harmony 2 to Harmony 3 Guide
-parent: Migration
+parent: Migration Guides
 has_toc: false
 nav_order: 2
 ---

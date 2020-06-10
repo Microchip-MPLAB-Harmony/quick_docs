@@ -12,20 +12,20 @@ This repository contains the MPLAB Harmony 3 Quick Documentation Package.
 
 Quick documents are standalone html pages that help to get started developing applications using Microchip 32-bit SAM and PIC MCUs using MPLAB Harmony 3 software framework.
 
-[<img src="./basic/basic.png">](./basic/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./migration/migration.png">](./migration/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./middleware/middleware.png">](./middleware/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./peripheral/peripheral.png">](./peripheral/readme.md) &nbsp; &nbsp; &nbsp; &nbsp;
+[<img src="./basic/basic.png">](./basic/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./migration/migration.png">](./migration/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./peripheral/peripheral.png">](./peripheral/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./middleware/middleware.png">](./middleware/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; 
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="./r_images/quick_doc_types.png"> </a>]()
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="./r_images/quick_doc_types.png"> </a>]()
 
-- [**Basic**](./basic/readme.md) :  
+- [**Harmony Basics**](./basic/readme.md) :  
 Cover topics that help to get started developing applications using MPLAB Harmony 3 software framework. For Example: MPLAB Harmony 3 Configurator (MHC), Creating the first application on Harmony 3, etc.
 
-- [**Migration**](./migration/readme.md) :    
+- [**Migration Guides**](./migration/readme.md) :    
 Cover topics that help migrate from other Microchip 32-bit software solutions offering to MPLAB Harmony 3 based solution. For example: Port an existing application from Harmony 2/ASF/START to Harmony 3, etc.
 
-- [**Peripheral**](./peripheral/readme.md) :    
+- [**Peripheral Libraries**](./peripheral/readme.md) :    
 Cover topics that help use MPLAB Harmony peripheral libraries and drivers. For Example: Getting Started with Harmony v3 Peripheral Libraries on SAM D5x/E5x MCUs.
 
-- [**Middleware**](./middleware/readme.md) :    
+- [**Middleware Examples**](./middleware/readme.md) :    
 Cover topics that help use MPLAB Harmony middleware libraries to implement larger feature rich applications involving integration of multiple technologies. For Example: SD Card Audio Player/Reader Tutorial.
 
 The above doc types serve as a reference to evaluate solutions on 32-bit SAM and PIC MCUs by developing applications using MPLAB Harmony 3 software framework on Microchip 32-bit SAM and PIC development boards/kits.  

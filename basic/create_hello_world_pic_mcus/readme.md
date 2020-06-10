@@ -1,6 +1,6 @@
 ---
 title: Create Hello World application on PIC MCUs
-parent: Basic
+parent: Harmony Basics
 has_toc: false
 nav_order: 12
 ---
@@ -171,8 +171,25 @@ To develop and run an application, follow these steps:
 <img src = "images/figure1_25.png" width="640" height="335" align="middle">
 7. Programing and Running the Application: Build and program the Curiosity PIC32MZ EF 2.0 Development Board by using the MPLAB X IDE.  
 <img src = "images/figure1_26.png" width="285" height="50" align="middle">
-8. Observing the Output: Observe the “Hello World!” string on the console. If the desired output is not found on the console, press the **Reset** button on the Curiosity Development board to reset the device, and ensure that the UART message is communicated.  
+
+8. Select MPLAB PKoB 4 under Curiosity/Starter Kits (PKOB4) when prompted.  
+<img src = "images/pkob4_select.png" width="390" height="625" align="middle">
+
+9. Observing the Output: Observe the “Hello World!” string on the console. If the desired output is not found on the console, press the **Reset** button on the Curiosity Development board to reset the device, and ensure that the UART message is communicated.  
 <img src = "images/figure1_27.png" width="630" height="330" align="middle">
+
+## Note
+<span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>  
+
+ - [MPLAB Harmony v3 "csp" repo v3.7.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.7.1)
+ - [MPLAB Harmony v3 "dev_packs" repo v3.7.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)
+ - [MPLAB Harmony v3 "mhc" repo v3.4.0](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.4.0)
+ - MPLAB Harmony Configurator Plugin v3.5.0
+ - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
+ - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
+
+ <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>  
+
 
 ## Reference Links
 [<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]()  

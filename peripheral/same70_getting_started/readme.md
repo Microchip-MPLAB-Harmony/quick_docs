@@ -1,6 +1,6 @@
 ---
 title: Getting Started with PLIBs on SAM E70/S70/V70/V71 MCUs
-parent: Peripheral
+parent: Peripheral Libraries
 has_toc: false
 nav_order: 3
 ---

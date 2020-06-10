@@ -1,6 +1,6 @@
 ---
 title: Create IAR or Keil project using MHC
-parent: Basic
+parent: Harmony Basics
 has_toc: false
 nav_order: 15
 ---
@@ -74,6 +74,19 @@ Refer to documentation on how to use the project graph for configuring Harmony 3
 * Based on the choosen merge startegy, when MHC identifies that there is a diff in the files it generated (for eg: modification within the project IDE), it will launch the configured diff tool. We can bring in the changes that are relevant and ignore the rest. Once the diff tool is closed, the project generation sequence is continued until the entire configuration is generated.
 
 * If IAR or KEIL is chosen as the toolchain, MHC will also create a folder containing the relevant project files which can then be opened using the  corresponding IDE. The path of this folder, follows the rules explained in the "configuration" section. In this example, it would be under `"D:\Projects\My_Harmony_3\firmware\default.KEIL"`, since we choose keil as the the toolchain.
+
+## Note
+<span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>  
+
+ - [MPLAB Harmony v3 "csp" repo v3.7.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.7.1)
+ - [MPLAB Harmony v3 "dev_packs" repo v3.7.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)
+ - [MPLAB Harmony v3 "mhc" repo v3.4.0](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.4.0)
+ - MPLAB Harmony Configurator Plugin v3.5.0
+ - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
+ - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
+
+ <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>  
+
 
 ## Reference Links
 [<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]()  

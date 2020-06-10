@@ -1,6 +1,6 @@
 ---
 title: Graphics Quick Start Application Guides
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 8
 ---

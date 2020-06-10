@@ -1,6 +1,6 @@
 ---
 title: Harmony Graphics Suite User Guide
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 9
 ---

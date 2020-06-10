@@ -1,6 +1,6 @@
 ---
 title: Create Touch Surface and Gesture Project
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 16
 ---

@@ -1,6 +1,6 @@
 ---
 title: Harmony 3 Packages
-parent: Basic
+parent: Harmony Basics
 has_toc: false
 nav_order: 14
 ---

@@ -5,7 +5,7 @@ nav_order: 499
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
-## Quick Docs Release v3.0.0 (June 2020)
+## Quick Docs Release v3.1.0 (June 2020)
 ### New Doc Pages
 
 The following table provides the list of new doc pages:
@@ -18,7 +18,7 @@ The following table provides the list of new doc pages:
 [MHC Pin Configuration](./basic/mhc_pin_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
 [MHC NVIC Configuration](./basic/mhc_nvic_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
 [MHC DMA Configuration](./basic/mhc_dma_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
-[MHC MPU Configuration](./basic/mhc_mpu_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
+[MHC Memory Protection Unit Configuration](./basic/mhc_memory_protection_unit_configuration/readme.md)													|[Basic](./basic/readme.md) - Full |
 [MHC Code Generation](./basic/mhc_code_generation/readme.md)														|[Basic](./basic/readme.md) - Full |
 [MHC Window Manager and Log Level](./basic/mhc_window_manager_log_level/readme.md)											|[Basic](./basic/readme.md) - Full |
 [Create First MPLAB Harmony 3 Project](./basic/create_first_harmony_3_project/readme.md)										|[Basic](./basic/readme.md) - Full |
@@ -28,6 +28,8 @@ The following table provides the list of new doc pages:
 [Harmony 3 Packages ](./basic/harmony_3_packages/readme.md)														|[Basic](./basic/readme.md) - Full |
 [Create IAR or Keil project using MHC ](./basic/create_iar_or_keil_project_using_mhc/readme.md)										|[Basic](./basic/readme.md) - Full |
 [Create new TrustZone Project](./basic/create_new_trust_zone_project/readme.md)												|[Basic](./basic/readme.md) - Full |
+[Getting Started with MPLAB Harmony v3 on the SAMA5D2 ](./basic/sam_mpus_getting_started_harmony_3/readme.md)										|[Basic](./basic/readme.md) - Full |
+[Getting started with SAM MPU Devices on MPLAB X Tools](./basic/sam_mpus_getting_started_mplabx/readme.md)												|[Basic](./basic/readme.md) - Full |
 [Differences between MPLAB Harmony 2 and Harmony 3](./migration/differences_harmony_2_to_harmony_3/readme.md)								|[Migration](./migration/readme.md) - Brief Overview and Web link |
 [MPLAB Harmony 3 Application Development Guide for MPLAB Harmony 2 Users](./migration/harmony_2_to_harmony_3/readme.md)							|[Migration](./migration/readme.md) - Brief Overview and Web link |  
 [Graphics Applications](./migration/aria_graphics_harmoy2_to_harmony_3/readme.md)											|[Migration](./migration/readme.md) - Brief Overview and Web link |  
@@ -81,7 +83,4 @@ The following table provides the list of new doc pages:
 
 
 ## Reference Links
-- <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit MCUs</a>
-- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">Microchip MPLAB X IDE</a>
-- <a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank">Microchip MPLAB Harmony</a>
-- <a href="https://www.microchip.com/mplab/compilers" target="_blank">MPLAB XC32/32++ C Compiler</a>
+[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="./r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="./r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="./r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="./r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="./r_images/mplab_compiler.png"> </a>]()  

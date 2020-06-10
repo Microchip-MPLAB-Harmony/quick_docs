@@ -1,6 +1,6 @@
 ---
 title: MHC NVIC Configuration
-parent: Basic
+parent: Harmony Basics
 has_toc: false
 nav_order: 5
 ---
@@ -29,6 +29,18 @@ NVIC Manager allows users to enable or disable interrupts, change priority, and 
 <img src = "images/figure_5.16.png" width="700" height="440" align="middle">
 
 **Note**: In the screenshot above, the MHC NVIC configuration for SAME70 MCU is shown as an example. The MHC NVIC configuration for other PIC or SAM MCUs may differ from the one shown above. 
+
+## Note
+<span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>  
+
+ - [MPLAB Harmony v3 "csp" repo v3.7.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.7.1)
+ - [MPLAB Harmony v3 "dev_packs" repo v3.7.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)
+ - [MPLAB Harmony v3 "mhc" repo v3.4.0](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.4.0)
+ - MPLAB Harmony Configurator Plugin v3.5.0
+ - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
+ - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
+
+<span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>  
 
 ## Reference Links
 [<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]()  

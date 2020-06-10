@@ -1,6 +1,6 @@
 ---
 title:  Atmel START to MPLAB Harmony 3 Guide
-parent: Migration
+parent: Migration Guides
 has_toc: false
 nav_order: 8
 ---

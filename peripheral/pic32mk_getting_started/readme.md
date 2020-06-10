@@ -1,6 +1,6 @@
 ---
 title: Getting Started with PLIBs on PIC32MK GP MCUs
-parent: Peripheral
+parent: Peripheral Libraries
 has_toc: false
 nav_order: 8
 ---

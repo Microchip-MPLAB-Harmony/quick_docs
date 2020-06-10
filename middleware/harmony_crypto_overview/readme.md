@@ -1,6 +1,6 @@
 ---
 title: Harmony Crypto Overview
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 18
 ---

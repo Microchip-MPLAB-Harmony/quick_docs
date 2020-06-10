@@ -1,6 +1,6 @@
 ---
 title: Differences between Harmony 2 to Harmony 3
-parent: Migration
+parent: Migration Guides
 has_toc: false
 nav_order: 1
 ---

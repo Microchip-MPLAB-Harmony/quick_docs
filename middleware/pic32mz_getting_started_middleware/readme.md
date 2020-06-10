@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Middleware on PIC32MZ EF MCUs
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 1
 ---

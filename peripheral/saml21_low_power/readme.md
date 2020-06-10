@@ -1,6 +1,6 @@
 ---
 title: Low Power with PLIBs on SAM L21 MCUs
-parent: Peripheral
+parent: Peripheral Libraries
 has_toc: false
 nav_order: 10
 ---

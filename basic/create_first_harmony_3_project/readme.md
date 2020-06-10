@@ -55,7 +55,7 @@ The following are the steps to create, generate, build and flash LED Blinking ap
 <img src = "images/new_project_step4.png" width="750" height="550" align="middle">
 8. Click **Finish**.
 9. When the Configuration Database Setup dialog appears, just click Launch as shown below to open MPLAB® Harmony Configurator plugin. If the below dialog window doesn’t appear then MHC can be launched by selecting MPLAB® Harmony 3 Configurator under Tools ? Embedded.
-<img src = "images/new_project_step5.png" width="750" height="550" align="middle">
+<img src = "images/new_project_step5.png" width="750" height="185" align="middle">
 
 ## Setup MPLAB® Harmony Project Configurator to Generate Code
 
@@ -83,8 +83,8 @@ This is necessary because the project doesn’t use a Board Support Package (BSP
 <img src = "images/setup_step5.png" width="595" height="120" align="middle">
 <img src = "images/setup_step6.png" width="600" height="440" align="middle">
 
-8. Select default as the Merge Strategy (i.e. USER_ALL) and click Generate
-<img src = "images/setup_step7.png" width="600" height="440" align="middle">
+8. Select default as the Merge Strategy (i.e. USER_ALL) and click Generate  
+<img src = "images/setup_step7.png" width="600" height="440" align="middle">  
 Now the project’s initial software has been configured.  
 **Note**: Here is a brief explanation of the different merge strategies that are available:  
 **ALL**: The user will be prompted with a merge window for all generated files. This includes files that have no user modifications but are changed because of changes in MHC configuration or component updates. (This choice is always the safest.)  
@@ -161,13 +161,13 @@ If you do a control click on “LED_Toggle()” the editor will bring up where t
 
 ## Upload project to SAMC21N Xplained pro Evaluation Kit
 
-1. Do a right mouse click on the project’s name and bring up the Project Properties dialog:
+1. Do a right mouse click on the project’s name and bring up the Project Properties dialog:  
 <img src = "images/upload1.png" width="347" height="307" align="middle">
 
-2. Select the debugger (ICD 4) and the XC32 compiler (here v2.15). Then hit OK.
+2. Under Categories section, select Conf: (sam_c21n_xpro), and in the Configuration section, select the hardware tool and XC32 Compiler toolchain (here v2.41). Click Apply, and then click OK  
 <img src = "images/upload2.png" width="800" height="500" align="middle">
 
-3. Build and run the project: The board’s LED should flash with a 1 second period
+3. Build and run the project: The board’s LED should flash with a 1 second period  
 <img src = "images/upload3.png" width="170" height="70" align="middle">
 
 We have now implemented a heartbeat for future applications. The LED blinking indicates that the application hasn’t frozen or isn’t stuck in a while(1){} loop (e.g.: assert or exception).
@@ -175,6 +175,17 @@ We have now implemented a heartbeat for future applications. The LED blinking in
 ## Result
 If configured correctly, the LED PC05 on the <a href="https://www.microchip.com/developmenttools/ProductDetails/atsamc21n-xpro" target="_blank">SAMC21N Xplained Pro Evaluation Kit</a> should now flash ON/OFF at **500 ms** intervals.
 
+## Note
+<span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>  
+
+ - [MPLAB Harmony v3 "csp" repo v3.7.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.7.1)
+ - [MPLAB Harmony v3 "dev_packs" repo v3.7.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)
+ - [MPLAB Harmony v3 "mhc" repo v3.4.0](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.4.0)
+ - MPLAB Harmony Configurator Plugin v3.5.0
+ - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
+ - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
+
+ <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>  
 ## References
 
 - <a href="https://www.microchip.com/developmenttools/ProductDetails/atsamc21n-xpro" target="_blank">SAMC21N Xplained Pro Evaluation Kit User Guide and Datasheet</a>

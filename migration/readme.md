@@ -1,14 +1,14 @@
 ---
-title: Migration
+title: Migration Guides
 has_children: true
 has_toc: false
 nav_order: 3
 ---
 ![](migration.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../r_images/quick_home.png" title="Home">](../readme.md) [<img src="../r_images/quick_back.png"  title="Back">](../readme.md)  
 
-# MPLAB Harmony Migration Documentation
+# MPLAB Harmony Migration Guides Documentation
 
-This page contains quick documentation for MPLAB® Harmony 3 Migration.   
+This page contains quick documentation to migrate to MPLAB® Harmony 3.   
 
 ## Harmony 2 to Harmony 3
 1. ### [Differences between MPLAB Harmony 2 and Harmony 3](./differences_harmony_2_to_harmony_3/readme.md)

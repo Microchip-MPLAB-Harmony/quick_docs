@@ -1,6 +1,6 @@
 ---
 title: Getting Started with PLIBs on SAM D21 MCUs
-parent: Peripheral
+parent: Peripheral Libraries
 has_toc: false
 nav_order: 5
 ---

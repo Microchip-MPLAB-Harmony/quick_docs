@@ -1,5 +1,5 @@
 ---
-grand_parent: Middleware
+grand_parent: Middleware Examples
 parent: SD Card Audio Player Reader Tutorial
 title: Play WAV Audio File from SD Card
 has_toc: false

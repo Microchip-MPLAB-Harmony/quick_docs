@@ -1,6 +1,6 @@
 ---
 title: Harmony QTouch User Guide
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 17
 ---

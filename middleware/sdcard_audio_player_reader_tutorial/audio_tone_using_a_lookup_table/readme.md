@@ -1,5 +1,5 @@
 ---
-grand_parent: Middleware
+grand_parent: Middleware Examples
 parent: SD Card Audio Player Reader Tutorial
 title: Audio Tone using a lookup table
 has_toc: false

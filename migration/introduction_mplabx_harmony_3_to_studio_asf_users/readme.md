@@ -1,6 +1,6 @@
 ---
 title: Introduction to MPLABX and Harmony 3 to Atmel Studio and ASF Users
-parent: Migration
+parent: Migration Guides
 has_toc: false
 nav_order: 6
 ---

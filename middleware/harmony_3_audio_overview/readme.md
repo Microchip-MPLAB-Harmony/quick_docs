@@ -1,6 +1,6 @@
 ---
 title: MPLAB Harmony 3 Audio Overview
-parent: Middleware
+parent: Middleware Examples
 has_toc: false
 nav_order: 2
 ---

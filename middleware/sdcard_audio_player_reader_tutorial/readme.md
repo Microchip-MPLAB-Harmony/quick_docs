@@ -1,6 +1,6 @@
 ---
 title: SD Card Audio Player Reader Tutorial
-parent: Middleware
+parent: Middleware Examples
 has_children: true
 has_toc: false
 nav_order: 5
