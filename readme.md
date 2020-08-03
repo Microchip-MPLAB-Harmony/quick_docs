@@ -12,20 +12,20 @@ This repository contains the MPLAB Harmony 3 Quick Documentation Package.
 
 Quick documents are standalone html pages that help to get started developing applications using Microchip 32-bit SAM and PIC MCUs using MPLAB Harmony 3 software framework.
 
-[<img src="./basic/basic.png">](./basic/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./migration/migration.png">](./migration/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./peripheral/peripheral.png">](./peripheral/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./middleware/middleware.png">](./middleware/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; 
+[<img src="./pages/basic/basic.png">](./pages/basic/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./pages/migration/migration.png">](./pages/migration/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./pages/peripheral/peripheral.png">](./pages/peripheral/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./pages/middleware/middleware.png">](./pages/middleware/readme.md) &nbsp; &nbsp; &nbsp; &nbsp;
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="./r_images/quick_doc_types.png"> </a>]()
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="./pages/r_images/quick_doc_types.png"> </a>]()
 
-- [**Harmony Basics**](./basic/readme.md) :  
+- [**Harmony Basics**](./pages/basic/readme.md) :  
 Cover topics that help to get started developing applications using MPLAB Harmony 3 software framework. For Example: MPLAB Harmony 3 Configurator (MHC), Creating the first application on Harmony 3, etc.
 
-- [**Migration Guides**](./migration/readme.md) :    
+- [**Migration Guides**](./pages/migration/readme.md) :    
 Cover topics that help migrate from other Microchip 32-bit software solutions offering to MPLAB Harmony 3 based solution. For example: Port an existing application from Harmony 2/ASF/START to Harmony 3, etc.
 
-- [**Peripheral Libraries**](./peripheral/readme.md) :    
+- [**Peripheral Libraries**](./pages/peripheral/readme.md) :    
 Cover topics that help use MPLAB Harmony peripheral libraries and drivers. For Example: Getting Started with Harmony v3 Peripheral Libraries on SAM D5x/E5x MCUs.
 
-- [**Middleware Examples**](./middleware/readme.md) :    
+- [**Middleware Examples**](./pages/middleware/readme.md) :    
 Cover topics that help use MPLAB Harmony middleware libraries to implement larger feature rich applications involving integration of multiple technologies. For Example: SD Card Audio Player/Reader Tutorial.
 
 The above doc types serve as a reference to evaluate solutions on 32-bit SAM and PIC MCUs by developing applications using MPLAB Harmony 3 software framework on Microchip 32-bit SAM and PIC development boards/kits.  
@@ -56,8 +56,8 @@ Refer to the following links for release notes and reference application informa
 - [MPLAB® Harmony 3 Quick Docs Wiki](https://github.com/Microchip-MPLAB-Harmony/quick_docs/wiki)
 
 ____
-[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="./r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="./r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="./r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="./r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="./r_images/mplab_compiler.png"> </a>]()  
-  
+[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="./pages/r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="./pages/r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="./pages/r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="./pages/r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="./pages/r_images/mplab_compiler.png"> </a>]()  
+
   ____
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/quick_docs/blob/master/mplab_harmony_license.md)
 [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/quick_docs.svg)](https://github.com/Microchip-MPLAB-Harmony/quick_docs/releases/latest)
