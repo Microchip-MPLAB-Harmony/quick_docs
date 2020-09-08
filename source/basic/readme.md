@@ -27,18 +27,23 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 14. ### [Harmony 3 Packages](./harmony_3_packages/readme.md)
 15. ### [Create IAR or Keil project using MHC](./create_iar_or_keil_project_using_mhc/readme.md)
 16. ### [Create new TrustZone Project](./create_new_trust_zone_project/readme.md)
+17. ### [Differences Between MPLAB Harmony v3 Synchronous and Asynchronous Drivers](./harmony_sync_async_drivers/readme.md)
 
 ## Microprocessor units (MPUs)
 1. ### [Getting started with SAM MPU Devices on MPLAB X Tools](./sam_mpus_getting_started_mplabx/readme.md)
-
 2. ### [Getting Started with MPLAB Harmony v3 on the SAMA5D2](./sam_mpus_getting_started_harmony_3/readme.md)
 
 
 ## Web Links
-1. <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
-2. <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>
-3. <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>
-4. <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony Content Manager</a>
+1. <a href="https://www.youtube.com/watch?v=5nt3D-Cmbus" target="_blank">VIDEO - How to Set-up the Tools Required to Get Started with MPLAB® Harmony v3</a>
+2. <a href="https://www.youtube.com/watch?v=S02mAli_DTU" target="_blank">VIDEO - Create Your First Project with SAMD21 using MPLAB Harmony v3</a>
+3. <a href="https://www.youtube.com/watch?v=WECETngdYTU" target="_blank">VIDEO - Create Your First Project with SAMC21 using MPLAB Harmony v3</a>
+4. <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
+5. <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>
+6. <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>
+7. <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony Content Manager</a>
+
+
 
 
 ### **Note:**

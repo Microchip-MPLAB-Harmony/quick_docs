@@ -5,6 +5,33 @@ nav_order: 499
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+
+## Quick Docs Release v1.1.0 (September 2020)
+
+- Repo restructured to move offline documentation to "docs" folder
+
+### New Doc Pages
+
+The following table provides the list of new doc pages:
+
+| Doc Name | Doc Type - Content |
+| ---      | ---                |
+[Application migration from 8-bit PIC18F to 32-bit SAM D21](./source/migration/pic18f_to_samd21_migration/readme.md)											|[Migration](./source/migration/readme.md) - Full |
+[Application migration from 8-bit AVR to 32-bit SAM D21](./source/migration/atmega4809_to_samd21_migration/readme.md)											|[Migration](./source/migration/readme.md) - Full |
+[Differences Between MPLAB Harmony v3 Synchronous and Asynchronous Drivers](./source/basic/harmony_sync_async_drivers/readme.md)											|[Basic](./source/basic/readme.md) - Brief Overview and Web link |
+[Low Power Application on SAM L10 MCUs using Harmony v3 PLIBs](./source/peripheral/saml10_low_power/readme.md)									|[Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |  
+[Create your first Motor Control Application using MPLAB Harmony v3](./source/middleware/create_first_motor_control_application/readme.md)								|[Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
+
+### Updated Doc Pages
+- New video Weblinks added in [Basic](./source/basic/readme.md) page
+- New video Weblinks added in [Peripheral](./source/peripheral/readme.md) page
+- New doc Weblink added in [Peripheral](./source/peripheral/readme.md) page
+- harmony_3_packages TBD
+
+### Known Issues
+	- NA -
+
+---
 ## Quick Docs Release v1.0.0 (June 2020)
 ### New Doc Pages
 

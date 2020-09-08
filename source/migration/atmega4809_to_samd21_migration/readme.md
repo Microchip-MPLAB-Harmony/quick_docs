@@ -1,5 +1,5 @@
 ---
-title: Application migration from 8-bit AVR to 32-bit SAM D21
+title: Application migration from 8 bit AVR to 32 bit SAM D21
 parent: Migration Guides
 has_toc: false
 nav_order: 10

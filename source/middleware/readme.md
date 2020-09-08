@@ -37,7 +37,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 - ### [Create Your First USB Host Application](./create_first_usb_host_application/readme.md)
 - ### [Harmony USB Stack User Guide](./harmony_usb_stack_user_guide/readme.md)
 
-## TCP/IP 
+## TCP/IP
 - ### [Create your first TCP/IP Application](./create_first_tcpip_application/readme.md)
 - ### [Harmony TCP/IP User Guide](./harmony_tcpip_user_guide/readme.md)
 
@@ -57,7 +57,8 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 ## Bluetooth
 - ### [Create your First Bluetooth Application in Harmony](./create_first_bluetooth_application/readme.md)
 
-
+## Motor control
+- ### [Create your first Motor Control Application](./create_first_motor_control_application/readme.md)
 
 ## Web Links
 
