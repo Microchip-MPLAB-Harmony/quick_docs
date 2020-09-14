@@ -18,15 +18,24 @@ The following table provides the list of new doc pages:
 | ---      | ---                |
 [Application migration from 8-bit PIC18F to 32-bit SAM D21](./source/migration/pic18f_to_samd21_migration/readme.md)											|[Migration](./source/migration/readme.md) - Full |
 [Application migration from 8-bit AVR to 32-bit SAM D21](./source/migration/atmega4809_to_samd21_migration/readme.md)											|[Migration](./source/migration/readme.md) - Full |
+[Build MPLAB Harmony v3 project with ARM GCC toolchain in MPLAB X IDE](./source/migration/build_harmony_3_project_with_gcc/readme.md)											|[Migration](./source/migration/readme.md) - Full |
 [Differences Between MPLAB Harmony v3 Synchronous and Asynchronous Drivers](./source/basic/harmony_sync_async_drivers/readme.md)											|[Basic](./source/basic/readme.md) - Brief Overview and Web link |
 [Low Power Application on SAM L10 MCUs using Harmony v3 PLIBs](./source/peripheral/saml10_low_power/readme.md)									|[Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |  
+[Low Power Application on SAM E54 MCU using Harmony v3 PLIBs](./source/peripheral/same54_low_power/readme.md)									|[Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |  
 [Create your first Motor Control Application using MPLAB Harmony v3](./source/middleware/create_first_motor_control_application/readme.md)								|[Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
 
+
+
 ### Updated Doc Pages
+| Doc Name | Doc Type - Content | Comments |
+| ---      | ---                | ---                |
+[Harmony 3 Packages](./source/middleware/create_first_motor_control_application/readme.md)								|[Basic](./source/basic/readme.md) - Full | Updated the Harmony 3 Package readme.md with the latest release contents.  |
+
+
+
 - New video Weblinks added in [Basic](./source/basic/readme.md) page
 - New video Weblinks added in [Peripheral](./source/peripheral/readme.md) page
 - New doc Weblink added in [Peripheral](./source/peripheral/readme.md) page
-- harmony_3_packages TBD
 
 ### Known Issues
 	- NA -

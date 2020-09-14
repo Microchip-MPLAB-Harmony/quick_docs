@@ -22,6 +22,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Peripheral Librarie
 9. ### [Low Power Application on SAMC2x (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./samc2x_low_power/readme.md)
 10. ### [Low Power Application on SAM L21 (Cortex M0+) MCUs using MPLAB Harmony v3 Peripheral Libraries](./saml21_low_power/readme.md)
 11. ### [Low Power Application on SAM L10 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./saml10_low_power/readme.md)
+12. ### [Low Power Application on SAM E54 (Cortex M4) MCU Using MPLAB Harmony v3 Peripheral Libraries](./same54_low_power/readme.md)
 
 ## Drivers
 11. ### [Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs](./same70_getting_started_drivers/readme.md)
