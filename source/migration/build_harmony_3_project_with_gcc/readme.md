@@ -82,7 +82,7 @@ The [AC Sleepwalking](https://microchip-mplab-harmony.github.io/csp_apps_sam_d21
 **Note:** This is an optional step. This could be followed to verify whether the existing Harmony v3 example used in this guide builds and works on the XC32 compiler toolchain.
 
 - Open MPLAB X IDE and close if any projects are opened.
-- Go to File -> Open Project -> <**Go to Harmony v3 repository**> -> [csp_apps_sam_d21_da1](https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d21_da1/releases/tag/v3.0.0) **\apps\ac\ac_sleepwalk_singleshot\firmware** and select the **“sam_d21_xpro.X”** and open the project.
+- Go to File -> Open Project -> <**Go to Harmony v3 repository**> -> [csp_apps_sam_d21_da1](https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d21_da1/releases/tag/v3.0.0) **/apps/ac/ac_sleepwalk_singleshot/firmware** and select the **“sam_d21_xpro.X”** and open the project.
 - Before changing the toolchain to ARM GCC, ensure the example application demo is compiling and working fine with existing the XC32 toolchain. This is to avoid any errors because of missing library or source files.
 - Select the Project -> Right Click -> Properties -> ensure correct hardware and XC32 compiler version is selected.
 - Compile the project.
@@ -95,7 +95,7 @@ This can be done with two methods, either automatically or manually.
 1. Automatic Detection: If Atmel Studio is installed in PC, By default, MPLAB X IDE detects the ARM GCC toolchain (installed as a part of Atmel Studio) and shows it in the MPLAB X IDE's Project properties. Refer the [figure](#ARM-GCC-Toolchain-Selection) which shows ARM GCC Toolchain selection.
 Since the ARM GCC toolchain is already available, switch to the ARM GCC toolchain from the project properties.
 2. Manual: If Atmel Studio is not installed, install the ARM GCC toolchain manually.  
-  Go to MPLAB X IDE -> Tools -> Options -> Embedded -> Build Tools -> Add -> give the base directory -> **<toolchain_path>\toolchain\arm\arm-gnu-toolchain\bin"**. Save it.
+  Go to MPLAB X IDE -> Tools -> Options -> Embedded -> Build Tools -> Add -> give the base directory -> **<toolchain_path>/toolchain/arm/arm-gnu-toolchain/bin"**. Save it.
     - <img src = "images/ac_sleepwalk_singleshot_switch_toolchain.png" width="1026" height="659" align="middle">
     - Now, select the ARM GCC toolchain in the example application demo project properties. Select the Project -> Right Click -> Properties -> select the ARM GCC toolchain in compiler options and save.
     <a id="ARM-GCC-Toolchain-Selection"> </a>
@@ -106,8 +106,8 @@ Since the ARM GCC toolchain is already available, switch to the ARM GCC toolchai
 If the project is compiled at this point, the compiler may throw some errors. To avoid compiler errors, follow the below steps.
 - Add include directories as shown in the following image to avoid missing file errors for device.h and device_cache.h.
     - The include directory paths are shown below:
-        - **csp_apps_sam_d21_da1\apps\ac\ac_sleepwalk_singleshot\firmware\src\config\sam_d21_xpro**
-        - **csp_apps_sam_d21_da1\apps\ac\ac_sleepwalk_singleshot\firmware\src\packs\ATSAMD21J18A_DFP**
+        - **csp_apps_sam_d21_da1/apps/ac/ac_sleepwalk_singleshot/firmware/src/config/sam_d21_xpro**
+        - **csp_apps_sam_d21_da1/apps/ac/ac_sleepwalk_singleshot/firmware/src/packs/ATSAMD21J18A_DFP**
     - <img src = "images/ac_sleepwalk_singleshot_project_gcc_preprocessing_settings.png" width="899" height="578" align="middle">
 - Comment the user row configuration bits **#pragmas** from the "initialization.c" file. This is because #pragmas are not recognized by the ARM GCC compiler.
     - <img src = "images/ac_sleepwalk_singleshot_project_initialization.png" width="1065" height="730" align="middle">
@@ -119,7 +119,7 @@ If the project is compiled at this point, the compiler may throw some errors. To
         - This can be done as follows:
         - Go to config folder of Harmony v3 project config folder
         - Download the solution project from link [reference_apps](https://github.com/Microchip-MPLAB-Harmony/reference_apps/releases/tag/v1.1.0)
-        - From the downloaded solution project, copy the files from `\apps\sam_d21_xpro\samd21_ac_sleepwalk_singleshot_gcc\src_gcc_toolchain` and paste in the example application (downloaded from [csp_apps_sam_d21_da1](https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d21_da1/releases/tag/v3.0.0)) folder `apps\ac\ac_sleepwalk_singleshot\firmware\src\config\sam_d21_xpro`
+        - From the downloaded solution project, copy the files from `/apps/sam_d21_xpro/samd21_ac_sleepwalk_singleshot_gcc/src_gcc_toolchain` and paste in the example application (downloaded from [csp_apps_sam_d21_da1](https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d21_da1/releases/tag/v3.0.0)) folder `apps/ac/ac_sleepwalk_singleshot/firmware/src/config/sam_d21_xpro`
         - Paste the files **"ATSAMD21J18A.ld"**, **"startup_gcc.c"** in "sam_d21_xpro" folder and **"gcc_monitor.c"** file in **"stdio"** folder.
         - Right click Linker Files in MPLABX project -> Click Add Existing Item -> select corresponding recently added linker file and add to project. Below image is for reference.
             - <img src = "images/ac_sleepwalk_singleshot_project_add_existing_files.png" width="1069" height="579" align="middle">

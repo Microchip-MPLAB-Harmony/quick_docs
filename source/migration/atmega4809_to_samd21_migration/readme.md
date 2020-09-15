@@ -122,7 +122,7 @@ Follow the below steps to get started migrating to SAMD21 and later extend the f
  - In the **Framework Path** edit box, browse to the folder you downloaded the framework to and select **Next**    
  <img src = "images/framework_path.png" width="700" height="500" align="middle">  
  - In the **Project Settings** window, apply the following settings:  
-    1. **Location**: indicates the path to the root folder of the new project. All project files will be placed inside this folder. The project location can be any valid path, for example: `<your project path>`\atmega4809_to_samd21
+    1. **Location**: indicates the path to the root folder of the new project. All project files will be placed inside this folder. The project location can be any valid path, for example: `<your project path>`/atmega4809_to_samd21
     2. **Folder**: indicates the name of the MPLAB X .X folder. Enter "*atmega4809_to_samd21_migration*" to create an atmega4809_to_samd21_migration.X folder.
    3. **Name**: enter the project’s logical name as "*atmega4809_to_sam_d21_cnano*". This is the name that will be shown from within the MPLAB X IDE.
  - Click Next to proceed to configuration settings      

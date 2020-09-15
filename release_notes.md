@@ -27,10 +27,10 @@ The following table provides the list of new doc pages:
 
 
 ### Updated Doc Pages
-| Doc Name | Doc Type - Content | Comments |
-| ---      | ---                | ---                |
-[Harmony 3 Packages](./source/middleware/create_first_motor_control_application/readme.md)								|[Basic](./source/basic/readme.md) - Full | Updated the Harmony 3 Package readme.md with the latest release contents.  |
 
+| Doc Name | Doc Type - Content | Comments |
+| ---      | ---                | ---      |  
+[Harmony 3 Packages](./source/middleware/create_first_motor_control_application/readme.md) |[Basic](./source/basic/readme.md) - Full | Updated the Harmony 3 Package readme.md with the latest release contents. |  
 
 
 - New video Weblinks added in [Basic](./source/basic/readme.md) page
