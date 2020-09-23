@@ -38,12 +38,13 @@ To create a new TrustZone project, in MPLAB® X IDE, Select File > New Project o
 4. Configuration Settings:
    - Name: Enter the configuration name.
    - Target Device: Choose target device
-   - TrustZone Enabled: Select checkbox and click Finish to launch MPLAB® Harmony Configurator (MHC). After clicking the Finish button, MHC will create Secure and Non-secure MPLAB® X Projects.
+   - Click Finish button to launch MPLAB® Harmony Configurator (MHC). After clicking the Finish button, MHC will create Secure and Non-secure MPLAB® X Projects.
 
     <img src = "images/new_trustzone_project_step4.png" width="750" height="550" align="middle"> 
 
     **Note**:
-     - After clicking the Finish button, if MHC does not launch, user can launch it by selecting
+     - By default the **TrustZone Enabled** checkbox is selected by MHC for TrustZone devices, user can't disable the TrustZone functionality for that specific device.  
+     - After clicking the Finish button, if MHC does not launch, user can launch it by selecting.
      **Tools > Embedded > MPLAB® Harmony 3 Configurator** from the MPLAB® X IDE.
 
 
@@ -75,10 +76,10 @@ Following steps need to be done to run TrustZone project:
 ## Note
 <span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>  
 
- - [MPLAB Harmony v3 "csp" repo v3.7.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.7.1)
- - [MPLAB Harmony v3 "dev_packs" repo v3.7.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)
- - [MPLAB Harmony v3 "mhc" repo v3.4.0](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.4.0)
- - MPLAB Harmony Configurator Plugin v3.5.0
+ - [MPLAB Harmony v3 "csp" repo v3.8.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.1)
+ - [MPLAB Harmony v3 "dev_packs" repo v3.8.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.8.0)
+ - [MPLAB Harmony v3 "mhc" repo v3.5.1](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.5.1)
+ - MPLAB Harmony Configurator Plugin v3.6.0
  - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
  - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
 

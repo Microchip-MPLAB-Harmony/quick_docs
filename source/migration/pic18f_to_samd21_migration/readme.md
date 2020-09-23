@@ -63,10 +63,10 @@ nav_order: 9
 ## Software/Tools Used:
 <span style="color:blue"> *This project has been verified to work with the following versions of software tools:*</span>  
 
-- [MPLAB Harmony v3 "csp" repo v3.7.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.7.1)
-- [MPLAB Harmony v3 "dev_packs" repo v3.7.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)  
-- [MPLAB Harmony v3 "mhc" repo v3.4.0](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.4.0)    
-- MPLAB Harmony Configurator Plugin v3.5.0
+- [MPLAB Harmony v3 "csp" repo v3.8.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.1)
+- [MPLAB Harmony v3 "dev_packs" repo v3.8.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.8.0)
+- [MPLAB Harmony v3 "mhc" repo v3.5.1](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.5.1)
+- MPLAB Harmony Configurator Plugin v3.6.0
 - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
 - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
 - Any Serial Terminal application like Tera Term terminal application.  
@@ -363,11 +363,10 @@ The Pin Manager consists of Pin Settings, the Pin Diagram, and the Pin Table tab
                 (const void *)&(SERCOM5_REGS->USART_INT.SERCOM_DATA), \
                 27);
             }
-            DMAC_ChannelDisable(DMAC_CHANNEL_0);
  - Add below code snippet above main function
              uint8_t txData[]  = "SELF LOOPBACK DEMO FOR SPI!";
              uint8_t rxData[sizeof(txData)];  
-   <img src = "images/code_snippet5.png" align="middle">  
+<img src = "images/code_snippet5.png" align="middle">  
 
 45.	Clean and build your application by clicking on the Clean and Build button.
 46.	Program your application to the device by clicking on the Make and Program button.

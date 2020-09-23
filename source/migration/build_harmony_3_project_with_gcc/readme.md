@@ -49,12 +49,12 @@ The following bullet points provides links to the topics:
 ## Software/Tools Used:
 <span style="color:blue"> *This project has been verified to work with the following versions of software tools:*</span>  
 
- - [MPLAB Harmony v3 "csp" repo v3.7.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.7.1)
+ - [MPLAB Harmony v3 "csp" repo v3.8.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.1)
  - [MPLAB Harmony v3 "csp_apps_sam_d21_da1" repo v3.0.0](https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d21_da1/releases/tag/v3.0.0)
- - [MPLAB Harmony v3 "dev_packs" repo v3.7.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)
- - [MPLAB Harmony v3 "mhc" repo v3.4.0](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.4.0)
+ - [MPLAB Harmony v3 "dev_packs" repo v3.8.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.8.0)
+ - [MPLAB Harmony v3 "mhc" repo v3.5.1](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.5.1)
  - [MPLAB Harmony v3 "reference_apps" repo v1.1.0](https://github.com/Microchip-MPLAB-Harmony/reference_apps/releases/tag/v1.1.0)
- - MPLAB Harmony Configurator Plugin v3.5.0
+ - MPLAB Harmony Configurator Plugin v3.6.0
  - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
  - [ARM GNU Toolchain v6.3.1](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers)
  - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers) [Optional]

@@ -62,10 +62,10 @@ nav_order: 10
 ## Software/Tools Used:
 <span style="color:blue"> *This project has been verified to work with the following versions of software tools:*</span>  
 
-- [MPLAB Harmony v3 "csp" repo v3.7.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.7.1)
-- [MPLAB Harmony v3 "dev_packs" repo v3.7.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.7.0)  
-- [MPLAB Harmony v3 "mhc" repo v3.4.0](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.4.0)    
-- MPLAB Harmony Configurator Plugin v3.5.0
+- [MPLAB Harmony v3 "csp" repo v3.8.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.1)
+- [MPLAB Harmony v3 "dev_packs" repo v3.8.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.8.0)
+- [MPLAB Harmony v3 "mhc" repo v3.5.1](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.5.1)
+- MPLAB Harmony Configurator Plugin v3.6.0
 - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
 - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
 - Any Serial Terminal application like Tera Term terminal application.  
@@ -362,11 +362,10 @@ The Pin Manager consists of Pin Settings, the Pin Diagram, and the Pin Table tab
                 (const void *)&(SERCOM5_REGS->USART_INT.SERCOM_DATA), \
                 27);
             }
-            DMAC_ChannelDisable(DMAC_CHANNEL_0);
  - Add below code snippet above main function
              uint8_t txData[]  = "SELF LOOPBACK DEMO FOR SPI!";
              uint8_t rxData[sizeof(txData)];  
-   <img src = "images/code_snippet5.png" align="middle">  
+<img src = "images/code_snippet5.png" align="middle">  
 
 45.	Clean and build your application by clicking on the Clean and Build button.
 46.	Program your application to the device by clicking on the Make and Program button.
@@ -385,12 +384,12 @@ The Pin Manager consists of Pin Settings, the Pin Diagram, and the Pin Table tab
  You observed the migration of application from ATmega4809 to SAMD21. You successfully used USART and STDIO to print the messages and receive the commands. Ports and EIC were used to control the LED and also configured SPI and DMA to perform self-loop back test.
 
 ## <a id="analysis"> </a>
- ## Analysis
+## Analysis
  You have successfully created your first application using MPLAB Harmony v3 on a SAM D21 microcontroller. Your application used all the fundamental elements that go into building a real-time application. Your successfully migrated application from ATmega4809 to SAMD21.
  In this application, you used MPLAB Harmony Configurator (MHC) to configure the SAM D21 and also used the MPLAB Harmony v3 Framework. You used the clock configurator to set up the CPU clock and also configured Systick. You configured SERCOM 5 (as Universal Synchronous Asynchronous Receiver Transmitter (USART)), SERCOM 1 (SPI), and External Interrupt Controller (EIC) Peripheral Libraries (PLIBs). You also configured the Direct Memory Access (DMA) using the DMA configurator. You used the pin configurator to set up the pins for LED and switch functions.
 
 ## <a id="conclusions"> </a>
- ## Conclusions
+## Conclusions
  This guide provided you overview of migrating an application from ATmega4809 to SAMD21.
  This guide also provided steps to configure and using all the fundamental components needed to build an application on a SAM D21 microcontroller with MPLAB Harmony v3 framework.
 

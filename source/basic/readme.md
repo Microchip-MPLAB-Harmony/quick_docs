@@ -36,12 +36,13 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 
 ## Web Links
 1. <a href="https://www.youtube.com/watch?v=5nt3D-Cmbus" target="_blank">VIDEO - How to Set-up the Tools Required to Get Started with MPLAB® Harmony v3</a>
-2. <a href="https://www.youtube.com/watch?v=S02mAli_DTU" target="_blank">VIDEO - Create Your First Project with SAMD21 using MPLAB Harmony v3</a>
-3. <a href="https://www.youtube.com/watch?v=WECETngdYTU" target="_blank">VIDEO - Create Your First Project with SAMC21 using MPLAB Harmony v3</a>
-4. <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
-5. <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>
-6. <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>
-7. <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony Content Manager</a>
+2. <a href="https://www.youtube.com/watch?v=S02mAli_DTU" target="_blank">VIDEO - Create Your First Project with SAMD21 using MPLAB® Harmony v3</a>
+3. <a href="https://www.youtube.com/watch?v=WECETngdYTU" target="_blank">VIDEO - Create Your First Project with SAMC21 using MPLAB® Harmony v3</a>
+4. <a href="https://www.youtube.com/watch?v=KTEajJQ4ukc" target="_blank">VIDEO - Create Your First Project with SAME54 Using MPLAB® Harmony v3</a>
+5. <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
+6. <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>
+7. <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>
+8. <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony Content Manager</a>
 
 
 
