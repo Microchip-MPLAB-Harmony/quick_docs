@@ -31,9 +31,9 @@ The following table provides the list of new doc pages:
 | Doc Name | Doc Type - Content | Comments |
 | ---      | ---                | ---      |  
 [Harmony 3 Packages](./source/basic/harmony_3_packages/readme.md) |[Basic](./source/basic/readme.md) - Full | Updated the Harmony 3 Package readme.md with the latest release contents. |  
-[MPLAB Harmony 3 Configurator (MHC)](./source/basic/mplab_harmony_3_configurator/readme.md) | [Basic](./source/basic/readme.md) - Screenshot | Updated the MPLAB Harmony Configurator 3 plugin installation screenshot |  
-[Create “Hello World” application on PIC MCUs](./source/basic/create_hello_world_pic_mcus/readme.md) | [Basic](./source/basic/readme.md) - Screenshot |Updated the Pin Settings UI screenshot |  
-[Creating a New TrustZone Project](./source/basic/create_new_trust_zone_project/readme.md) | [Basic](./source/basic/readme.md) - Screenshots |Updated screenshots of Project creation completion window with new UI and Project properties window |  
+[MPLAB Harmony 3 Configurator (MHC)](./source/basic/mplab_harmony_3_configurator/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated the MPLAB Harmony Configurator 3 plugin installation screenshot |  
+[Create “Hello World” application on PIC MCUs](./source/basic/create_hello_world_pic_mcus/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated the Pin Settings UI screenshot |  
+[Creating a New TrustZone Project](./source/basic/create_new_trust_zone_project/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated screenshots of Project creation completion window and Project properties window |  
 
 - New video Weblinks added in [Basic](./source/basic/readme.md) page
 - New video Weblinks added in [Peripheral](./source/peripheral/readme.md) page
