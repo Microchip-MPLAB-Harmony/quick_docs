@@ -13,6 +13,7 @@ The following table provides the list of new doc pages:
 
 | Doc Name | Doc Type - Content |
 | ---      | ---                |
+[Code generation and API considerations for migration from MCC](./source/migration/code_generation_api_migration_from_mcc/readme.md)								|[Migration](./source/migration/readme.md) - Brief Overview and Web link |
 
 ### Updated Doc Pages
 

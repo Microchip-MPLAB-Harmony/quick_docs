@@ -28,6 +28,7 @@ This page contains quick documentation to migrate to MPLAB® Harmony 3.
 ## 8 bit MPLAB Code Configurator (MCC) to 32 bit MPLAB Harmony Configurator (MHC)
 - ### [Application migration from 8-bit PIC18F to 32-bit SAM D21](./pic18f_to_samd21_migration/readme.md)
 - ### [Application migration from 8-bit AVR to 32-bit SAM D21](./atmega4809_to_samd21_migration/readme.md)
+- ### [Code generation and API considerations for migration from MCC](./code_generation_api_migration_from_mcc/readme.md)
 
 ## Build MPLAB Harmony v3 project with ARM GCC
 - ### [Build MPLAB Harmony v3 project with ARM GCC toolchain in MPLAB X IDE](./build_harmony_3_project_with_gcc/readme.md)
