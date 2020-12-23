@@ -18,6 +18,8 @@ The following table provides the list of new doc pages:
 
 | Doc Name | Doc Type - Content | Comments |
 | ---      | ---                | ---      |  
+[Application migration from 8-bit AVR to 32-bit SAM D21 MCU](./source/migration/atmega4809_to_samd21_migration/readme.md) | [Migration](./source/migration/readme.md) - Full |Updated image source with corrected extension for missing images |  
+[Application migration from 8-bit PIC18F to 32-bit SAM D21 MCU](./source/migration/pic18f_to_samd21_migration/readme.md) | [Migration](./source/migration/readme.md) - Full |Updated image source with corrected extension for missing images |  
 
 - New video Weblinks added in [Basic](./source/basic/readme.md) page
 - New video Weblinks added in [Peripheral](./source/peripheral/readme.md) page
