@@ -5,6 +5,28 @@ nav_order: 499
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Quick Docs Release v1.2.0 (January 2021)
+
+### New Doc Pages
+
+The following table provides the list of new doc pages:
+
+| Doc Name | Doc Type - Content |
+| ---      | ---                |
+
+### Updated Doc Pages
+
+| Doc Name | Doc Type - Content | Comments |
+| ---      | ---                | ---      |  
+
+- New video Weblinks added in [Basic](./source/basic/readme.md) page
+- New video Weblinks added in [Peripheral](./source/peripheral/readme.md) page
+
+### Known Issues
+	- NA -
+
+
+
 
 ## Quick Docs Release v1.1.0 (September 2020)
 

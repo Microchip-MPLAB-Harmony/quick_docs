@@ -11,41 +11,66 @@ nav_order: 2
 
 This page contains quick documentation for MPLAB® Harmony 3 Basics.   
 
-1. ### [MPLAB Harmony 3 Configurator (MHC)](./mplab_harmony_3_configurator/readme.md)
-2. ### [MHC Project Graph](./mhc_project_graph/readme.md)
-3. ### [MHC Clock Configuration](./mhc_clock_configuration/readme.md)
-4. ### [MHC Pin Configuration](./mhc_pin_configuration/readme.md)
-5. ### [MHC NVIC Configuration](./mhc_nvic_configuration/readme.md)
-6. ### [MHC DMA Configuration](./mhc_dma_configuration/readme.md)
-7. ### [MHC Memory protection Unit Configuration](./mhc_memory_protection_unit_configuration/readme.md)
-8. ### [MHC Code Generation](./mhc_code_generation/readme.md)
-9. ### [MHC Window Manager and Log Level](./mhc_window_manager_log_level/readme.md)
-10. ### [Create First MPLAB Harmony 3 Project](./create_first_harmony_3_project/readme.md)
-11. ### [Create "Hello World" application on SAM MCUs](./create_hello_world_sam_mcus/readme.md)
-12. ### [Create "Hello World" application on PIC MCUs](./create_hello_world_pic_mcus/readme.md)
-13. ### [Open an Existing Harmony 3 Project](./open_an_existing_harmony_3_project/readme.md)
-14. ### [Harmony 3 Packages](./harmony_3_packages/readme.md)
-15. ### [Create IAR or Keil project using MHC](./create_iar_or_keil_project_using_mhc/readme.md)
-16. ### [Create new TrustZone Project](./create_new_trust_zone_project/readme.md)
-17. ### [Differences Between MPLAB Harmony v3 Synchronous and Asynchronous Drivers](./harmony_sync_async_drivers/readme.md)
+- ### [MPLAB Harmony 3 Configurator (MHC)](./mplab_harmony_3_configurator/readme.md)
+- ### [MHC Project Graph](./mhc_project_graph/readme.md)
+- ### [MHC Clock Configuration](./mhc_clock_configuration/readme.md)
+- ### [MHC Pin Configuration](./mhc_pin_configuration/readme.md)
+- ### [MHC NVIC Configuration](./mhc_nvic_configuration/readme.md)
+- ### [MHC DMA Configuration](./mhc_dma_configuration/readme.md)
+- ### [MHC Memory protection Unit Configuration](./mhc_memory_protection_unit_configuration/readme.md)
+- ### [MHC Code Generation](./mhc_code_generation/readme.md)
+- ### [MHC Window Manager and Log Level](./mhc_window_manager_log_level/readme.md)
+- ### [Create First MPLAB Harmony 3 Project](./create_first_harmony_3_project/readme.md)
+- ### [Create "Hello World" application on SAM MCUs](./create_hello_world_sam_mcus/readme.md)
+- ### [Create "Hello World" application on PIC MCUs](./create_hello_world_pic_mcus/readme.md)
+- ### [Open an Existing Harmony 3 Project](./open_an_existing_harmony_3_project/readme.md)
+- ### [Harmony 3 Packages](./harmony_3_packages/readme.md)
+- ### [Create IAR or Keil project using MHC](./create_iar_or_keil_project_using_mhc/readme.md)
+- ### [Create new TrustZone Project](./create_new_trust_zone_project/readme.md)
+- ### [Differences Between MPLAB Harmony v3 Synchronous and Asynchronous Drivers](./harmony_sync_async_drivers/readme.md)
 
 ## Microprocessor units (MPUs)
-1. ### [Getting started with SAM MPU Devices on MPLAB X Tools](./sam_mpus_getting_started_mplabx/readme.md)
-2. ### [Getting Started with MPLAB Harmony v3 on the SAMA5D2](./sam_mpus_getting_started_harmony_3/readme.md)
+- ### [Getting started with SAM MPU Devices on MPLAB X Tools](./sam_mpus_getting_started_mplabx/readme.md)
+- ### [Getting Started with MPLAB Harmony v3 on the SAMA5D2](./sam_mpus_getting_started_harmony_3/readme.md)
 
 
 ## Web Links
-1. <a href="https://www.youtube.com/watch?v=5nt3D-Cmbus" target="_blank">VIDEO - How to Set-up the Tools Required to Get Started with MPLAB® Harmony v3</a>
-2. <a href="https://www.youtube.com/watch?v=S02mAli_DTU" target="_blank">VIDEO - Create Your First Project with SAMD21 using MPLAB® Harmony v3</a>
-3. <a href="https://www.youtube.com/watch?v=WECETngdYTU" target="_blank">VIDEO - Create Your First Project with SAMC21 using MPLAB® Harmony v3</a>
-4. <a href="https://www.youtube.com/watch?v=KTEajJQ4ukc" target="_blank">VIDEO - Create Your First Project with SAME54 Using MPLAB® Harmony v3</a>
-5. <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
-6. <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>
-7. <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>
-8. <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony Content Manager</a>
+- <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>  
+- <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>  
+- <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>  
+- <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony Content Manager</a>
 
-
-
+## Videos
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=5nt3D-Cmbus
+" target="_blank"><img src="http://img.youtube.com/vi/5nt3D-Cmbus/0.jpg"
+alt="" width="240" height="180" border="10" title="How to Set-up the Tools Required to Get Started with MPLAB® Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=S02mAli_DTU
+" target="_blank"><img src="http://img.youtube.com/vi/S02mAli_DTU/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAMD21 using MPLAB® Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=WECETngdYTU
+" target="_blank"><img src="http://img.youtube.com/vi/WECETngdYTU/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAMC21 using MPLAB® Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=KTEajJQ4ukc
+" target="_blank"><img src="http://img.youtube.com/vi/KTEajJQ4ukc/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAME54 Using MPLAB® Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=P_sm5OwwQlg
+" target="_blank"><img src="http://img.youtube.com/vi/P_sm5OwwQlg/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with PIC32MZ EF using MPLAB® Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=0GDB7ey2iCA
+" target="_blank"><img src="http://img.youtube.com/vi/0GDB7ey2iCA/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAM E70 using MPLAB Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=xxK6kH8h7No
+" target="_blank"><img src="http://img.youtube.com/vi/xxK6kH8h7No/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAML11 using MPLAB Harmony v3" /> </a>  
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=pg-g3hVwOHA
+" target="_blank"><img src="http://img.youtube.com/vi/pg-g3hVwOHA/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started with the SAM IoT WG Development Board" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=2k893C6E_jE
+" target="_blank"><img src="http://img.youtube.com/vi/2k893C6E_jE/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started with the SAM E51 Curiosity Nano Evaluation Kit" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=xSpcSw_dtyU
+" target="_blank"><img src="http://img.youtube.com/vi/xSpcSw_dtyU/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started with the SAM D21 Curiosity Nano Evaluation Kit" /> </a>
 
 ### **Note:**
 This page provides a quick reference covering the Basic features of MPLAB Harmony 3. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.  

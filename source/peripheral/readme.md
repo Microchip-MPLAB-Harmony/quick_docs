@@ -11,40 +11,61 @@ nav_order: 4
 This page contains quick documentation for MPLAB® Harmony 3 Peripheral Libraries (PLIBs) and drivers usage.   
 
 ## Peripheral Libraries (PLIBs)
-1. ### [Getting Started with Harmony v3 Peripheral Libraries on SAMC2x MCUs](./samc2x_getting_started/readme.md)
-2. ### [Getting Started with Harmony v3 Peripheral Libraries on SAM D5x/E5x MCUs](./samd5x_getting_started/readme.md)
-3. ### [Getting Started with Harmony v3 Peripheral Libraries on SAM E70/S70/V70/V71 MCUs](./same70_getting_started/readme.md)
-4. ### [Getting Started with Harmony v3 Peripheral Libraries on SAM L10 MCUs](./saml10_getting_started/readme.md)
-5. ### [Getting Started with Harmony v3 Peripheral Libraries on SAM D21 MCUs](./samd21_getting_started/readme.md)
-6. ### [Getting Started with Harmony v3 Peripheral Libraries on PIC32MZ EF MCUs](./pic32mz_getting_started/readme.md)
-7. ### [Getting Started with Harmony v3 Peripheral Libraries on PIC32MX 470 MCUs](./pic32mx_getting_started/readme.md)
-8. ### [Getting Started with Harmony v3 Peripheral Libraries on PIC32MK GP MCUs](./pic32mk_getting_started/readme.md)
-9. ### [Low Power Application on SAMC2x (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./samc2x_low_power/readme.md)
-10. ### [Low Power Application on SAM L21 (Cortex M0+) MCUs using MPLAB Harmony v3 Peripheral Libraries](./saml21_low_power/readme.md)
-11. ### [Low Power Application on SAM L10 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./saml10_low_power/readme.md)
-12. ### [Low Power Application on SAM E54 (Cortex M4) MCU Using MPLAB Harmony v3 Peripheral Libraries](./same54_low_power/readme.md)
+- ### [Getting Started with Harmony v3 Peripheral Libraries on SAMC2x MCUs](./samc2x_getting_started/readme.md)
+- ### [Getting Started with Harmony v3 Peripheral Libraries on SAM D5x/E5x MCUs](./samd5x_getting_started/readme.md)
+- ### [Getting Started with Harmony v3 Peripheral Libraries on SAM E70/S70/V70/V71 MCUs](./same70_getting_started/readme.md)
+- ### [Getting Started with Harmony v3 Peripheral Libraries on SAM L10 MCUs](./saml10_getting_started/readme.md)
+- ### [Getting Started with Harmony v3 Peripheral Libraries on SAM D21 MCUs](./samd21_getting_started/readme.md)
+- ### [Getting Started with Harmony v3 Peripheral Libraries on PIC32MZ EF MCUs](./pic32mz_getting_started/readme.md)
+- ### [Getting Started with Harmony v3 Peripheral Libraries on PIC32MX 470 MCUs](./pic32mx_getting_started/readme.md)
+- ### [Getting Started with Harmony v3 Peripheral Libraries on PIC32MK GP MCUs](./pic32mk_getting_started/readme.md)
+- ### [Low Power Application on SAMC2x (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./samc2x_low_power/readme.md)
+- ### [Low Power Application on SAM L21 (Cortex M0+) MCUs using MPLAB Harmony v3 Peripheral Libraries](./saml21_low_power/readme.md)
+- ### [Low Power Application on SAM L10 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./saml10_low_power/readme.md)
+- ### [Low Power Application on SAM E54 (Cortex M4) MCU Using MPLAB Harmony v3 Peripheral Libraries](./same54_low_power/readme.md)
 
 ## Drivers
-11. ### [Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs](./same70_getting_started_drivers/readme.md)
-12. ### [Getting Started with Harmony v3 Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS](./same70_getting_started_drivers_freertos/readme.md)
+- ### [Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs](./same70_getting_started_drivers/readme.md)
+- ### [Getting Started with Harmony v3 Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS](./same70_getting_started_drivers_freertos/readme.md)
 
 ## Web Links
+- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Clock_System%20_Configuration_and_Usage%20on_SAME5x_%20Devices_DS90003226A.pdf" target="_blank">Clock System Configuration and Usage on SAM E5x (Cortex M4) Devices</a>  
+ <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Clock_System_Configuration_Usage_on_SAMC2x(Cortex%20M0+)_%20Devices_DS90003227A.pdf" target="_blank">Clock System Configuration and Usage on SAM C2x (Cortex M0+) Devices</a>  
+- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/How_to_Build_Application_Adding_PLIB_%20Driver_or_Middleware%20_to_MPLAB_Harmony_v3Project_DS90003253A.pdf" target="_blank">How to Build an Application by Adding a New PLIB, Driver, or Middleware to an Existing MPLAB Harmony v3 Project</a>  
+- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Various_Timers_%20on_SAM%20Device_DS90003230A.pdf" target="_blank">Various Timers on SAM Devices</a>
+- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/How_to_Use_%20TCM_on_Cortex-%20Based_MCU_with_%20XC32Compiler_DS90003240A.pdf" target="_blank">How to Use the TCM on A Cortex-M7 Based MCU with the XC32 Compiler</a>  
+- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/How_to_Create_Non-Cacheabl_%20Memory_Region_on_Cortex-M7_(SAME70)_MCU_Using_MPLAB_Harmonyv3_DS90003260A.pdf" target="_blank">How to Create Non-Cacheable Memory Region on CortexM7 (SAM S70/ E70/ V70/ V71) MCUs Using MPLAB Harmony v3</a>  
+- <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1001233" target="_blank">SleepWalking with Event System Using the SAM E54</a>  
+- <a href="http://ww1.microchip.com/downloads/en/Appnotes/Execute-In-Place%20_with_QSPI_on_%20Cortex-M7_MCUs_Using_MPLAB_Harmony_v3_DS00003443A.pdf" target="_blank">Execute-In-Place (XIP) with QSPI on Cortex-M7 MCUs Using MPLAB Harmony v3</a>  
+- <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1002029" target="_blank">Using XDMAC with QSPI on Arm Cortex-M7 MCUs Using MPLAB Harmony v3</a>  
+- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/90003243A.pdf" target="_blank">How to Wake-up Fast From an External Event on Cortex M0+ Based MCUs</a>
+- <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1003095" target="_blank">Using Sigma-Delta Analog-to-Digital Converter (SDADC) on a SAMC MCU with MPLAB Harmony v3</a>
 
 
-1. <a href="https://www.youtube.com/watch?v=S02mAli_DTU" target="_blank">VIDEO - Create Your First Project with SAMD21 using MPLAB® Harmony v3</a>
-2. <a href="https://www.youtube.com/watch?v=WECETngdYTU" target="_blank">VIDEO - Create Your First Project with SAMC21 using MPLAB® Harmony v3</a>
-3. <a href="https://www.youtube.com/watch?v=KTEajJQ4ukc" target="_blank">VIDEO - Create Your First Project with SAME54 Using MPLAB® Harmony v3</a>
-4. <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Clock_System%20_Configuration_and_Usage%20on_SAME5x_%20Devices_DS90003226A.pdf" target="_blank">Clock System Configuration and Usage on SAM E5x (Cortex M4) Devices</a>
-5. <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Clock_System_Configuration_Usage_on_SAMC2x(Cortex%20M0+)_%20Devices_DS90003227A.pdf" target="_blank">Clock System Configuration and Usage on SAM C2x (Cortex M0+) Devices</a>
-6. <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/How_to_Build_Application_Adding_PLIB_%20Driver_or_Middleware%20_to_MPLAB_Harmony_v3Project_DS90003253A.pdf" target="_blank">How to Build an Application by Adding a New PLIB, Driver, or Middleware to an Existing MPLAB Harmony v3 Project</a>
-7. <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Various_Timers_%20on_SAM%20Device_DS90003230A.pdf" target="_blank">Various Timers on SAM Devices</a>
-8. <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/How_to_Use_%20TCM_on_Cortex-%20Based_MCU_with_%20XC32Compiler_DS90003240A.pdf" target="_blank">How to Use the TCM on A Cortex-M7 Based MCU with the XC32 Compiler</a>
-9. <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/How_to_Create_Non-Cacheabl_%20Memory_Region_on_Cortex-M7_(SAME70)_MCU_Using_MPLAB_Harmonyv3_DS90003260A.pdf" target="_blank">How to Create Non-Cacheable Memory Region on CortexM7 (SAM S70/ E70/ V70/ V71) MCUs Using MPLAB Harmony v3</a>
-10. <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1001233" target="_blank">SleepWalking with Event System Using the SAM E54</a>
-11. <a href="http://ww1.microchip.com/downloads/en/Appnotes/Execute-In-Place%20_with_QSPI_on_%20Cortex-M7_MCUs_Using_MPLAB_Harmony_v3_DS00003443A.pdf" target="_blank">Execute-In-Place (XIP) with QSPI on Cortex-M7 MCUs Using MPLAB Harmony v3</a>
-12. <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1002029" target="_blank">Using XDMAC with QSPI on Arm Cortex-M7 MCUs Using MPLAB Harmony v3</a>
-13. <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/90003243A.pdf" target="_blank">How to Wake-up Fast From an External Event on Cortex M0+ Based MCUs</a>
-14. <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1003095" target="_blank">Using Sigma-Delta Analog-to-Digital Converter (SDADC) on a SAMC MCU with MPLAB Harmony v3</a>
+
+## Videos
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=S02mAli_DTU
+" target="_blank"><img src="http://img.youtube.com/vi/S02mAli_DTU/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAMD21 using MPLAB® Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=WECETngdYTU
+" target="_blank"><img src="http://img.youtube.com/vi/WECETngdYTU/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAMC21 using MPLAB® Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=KTEajJQ4ukc
+" target="_blank"><img src="http://img.youtube.com/vi/KTEajJQ4ukc/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAME54 Using MPLAB® Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=P_sm5OwwQlg
+" target="_blank"><img src="http://img.youtube.com/vi/P_sm5OwwQlg/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with PIC32MZ EF using MPLAB® Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=0GDB7ey2iCA
+" target="_blank"><img src="http://img.youtube.com/vi/0GDB7ey2iCA/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAM E70 using MPLAB Harmony v3" /> </a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=xxK6kH8h7No
+" target="_blank"><img src="http://img.youtube.com/vi/xxK6kH8h7No/0.jpg"
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAML11 using MPLAB Harmony v3" /> </a>  
+
+
+
+
 
 
 ### **Note:**  

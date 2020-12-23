@@ -61,9 +61,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 - ### [Create your first Motor Control Application](./create_first_motor_control_application/readme.md)
 
 ## Web Links
-
-
-1. <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/How_to_Use_Harmony_v3_Debug_System_Service_DS90003246A.pdf" target="_blank">How to Use the MPLAB Harmony v3 Debug System Service</a>
+- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/How_to_Use_Harmony_v3_Debug_System_Service_DS90003246A.pdf" target="_blank">How to Use the MPLAB Harmony v3 Debug System Service</a>
 
 ### **Note:**  
 This page provides a quick reference covering the MPLAB Harmony 3 Middleware Libraries usage. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.  
