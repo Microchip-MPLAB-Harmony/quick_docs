@@ -28,6 +28,8 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 - ### [Create IAR or Keil project using MHC](./create_iar_or_keil_project_using_mhc/readme.md)
 - ### [Create new TrustZone Project](./create_new_trust_zone_project/readme.md)
 - ### [Differences Between MPLAB Harmony v3 Synchronous and Asynchronous Drivers](./harmony_sync_async_drivers/readme.md)
+- ### [Difference Between MPLAB Harmony v3 PLIBs and Drivers](./harmony_drivers_plibs/readme.md)
+- ### [MPLAB Harmony v3 Synchronous drivers and their usage in FreeRTOS based applications](./harmony_sync_drivers_freertos/readme.md)
 
 ## Microprocessor units (MPUs)
 - ### [Getting started with SAM MPU Devices on MPLAB X Tools](./sam_mpus_getting_started_mplabx/readme.md)

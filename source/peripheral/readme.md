@@ -23,10 +23,13 @@ This page contains quick documentation for MPLAB® Harmony 3 Peripheral Librarie
 - ### [Low Power Application on SAM L21 (Cortex M0+) MCUs using MPLAB Harmony v3 Peripheral Libraries](./saml21_low_power/readme.md)
 - ### [Low Power Application on SAM L10 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./saml10_low_power/readme.md)
 - ### [Low Power Application on SAM E54 (Cortex M4) MCU Using MPLAB Harmony v3 Peripheral Libraries](./same54_low_power/readme.md)
+- ### [Arm TrustZone Getting Started Application on SAM L11 MCUs](./arm_trustzone_saml11_getting_started/readme.md)
+
 
 ## Drivers
 - ### [Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs](./same70_getting_started_drivers/readme.md)
 - ### [Getting Started with Harmony v3 Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS](./same70_getting_started_drivers_freertos/readme.md)
+- ### [Getting Started with Harmony v3 Drivers on SAM D21 MCUs Using FreeRTOS](./samd21_getting_started_drivers_freertos/readme.md)
 
 ## Web Links
 - <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Clock_System%20_Configuration_and_Usage%20on_SAME5x_%20Devices_DS90003226A.pdf" target="_blank">Clock System Configuration and Usage on SAM E5x (Cortex M4) Devices</a>  
@@ -40,8 +43,8 @@ This page contains quick documentation for MPLAB® Harmony 3 Peripheral Librarie
 - <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1002029" target="_blank">Using XDMAC with QSPI on Arm Cortex-M7 MCUs Using MPLAB Harmony v3</a>  
 - <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/90003243A.pdf" target="_blank">How to Wake-up Fast From an External Event on Cortex M0+ Based MCUs</a>
 - <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1003095" target="_blank">Using Sigma-Delta Analog-to-Digital Converter (SDADC) on a SAMC MCU with MPLAB Harmony v3</a>
-
-
+- <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1005197" target="_blank">Live Update Application on PIC32MZ MCUs Using MPLAB Harmony v3</a>
+- <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1005443" target="_blank">Live Update Application on SAM E54 MCU Using MPLAB Harmony v3</a>
 
 ## Videos
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=S02mAli_DTU

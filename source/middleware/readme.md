@@ -14,6 +14,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 
 
 - ### [Getting Started with Harmony v3 Drivers and Middleware on PIC32MZ EF MCUs using FreeRTOS](./pic32mz_getting_started_middleware/readme.md)
+- ### [Getting Started with USB on SAM MCUs Using MPLAB Harmony v3](./same70_getting_started_middleware/readme.md)
 
 ## Audio
 - ### [MPLAB Harmony 3 Audio Overview](./harmony_3_audio_overview/readme.md)

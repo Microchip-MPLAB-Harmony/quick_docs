@@ -33,6 +33,10 @@ This page contains quick documentation to migrate to MPLAB® Harmony 3.
 ## Build MPLAB Harmony v3 project with ARM GCC
 - ### [Build MPLAB Harmony v3 project with ARM GCC toolchain in MPLAB X IDE](./build_harmony_3_project_with_gcc/readme.md)
 
+## Migrating SAM C21 Application to PIC32CM MC Application
+- ### [Migrating ASF SAM C21 Application to MPLAB Harmony v3 PIC32CM MC](./samc21_asf_to_pic32cmmc_harmony/readme.md)
+
+
 ### **Note:**  
 This page provides a quick reference covering the Migration to MPLAB Harmony 3. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.  
 

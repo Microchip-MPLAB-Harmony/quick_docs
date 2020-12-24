@@ -13,7 +13,13 @@ The following table provides the list of new doc pages:
 
 | Doc Name | Doc Type - Content |
 | ---      | ---                |
+[Difference Between MPLAB Harmony v3 PLIBs and Drivers](./source/basic/harmony_drivers_plibs/readme.md) |[Basic](./source/basic/readme.md) - Brief Overview and Web link |
+[MPLAB Harmony v3 Synchronous drivers and their usage in FreeRTOS based applications](./source/basic/harmony_sync_drivers_freertos/readme.md) |[Basic](./source/basic/readme.md) - Brief Overview and Web link |
+[Arm TrustZone Getting Started Application on SAM L11 MCUs](./source/peripheral/arm_trustzone_saml11_getting_started/readme.md) |[Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |
+[Getting Started with Harmony v3 Drivers on SAM D21 MCUs Using FreeRTOS](./source/peripheral/samd21_getting_started_drivers_freertos/readme.md) |[Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |
 [Code generation and API considerations for migration from MCC](./source/migration/code_generation_api_migration_from_mcc/readme.md)								|[Migration](./source/migration/readme.md) - Brief Overview and Web link |
+[Migrating ASF SAM C21 Application to MPLAB Harmony v3 PIC32CM MC](./source/migration/samc21_asf_to_pic32cmmc_harmony/readme.md)								|[Migration](./source/migration/readme.md) - Brief Overview and Web link |
+[Getting Started with USB on SAM MCUs Using MPLAB® Harmony v3](./source/middleware/same70_getting_started_middleware/readme.md)								|[Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
 
 ### Updated Doc Pages
 
