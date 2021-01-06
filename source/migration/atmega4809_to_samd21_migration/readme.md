@@ -62,11 +62,11 @@ nav_order: 10
 ## Software/Tools Used:
 <span style="color:blue"> *This project has been verified to work with the following versions of software tools:*</span>  
 
-- [MPLAB Harmony v3 "csp" repo v3.8.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.1)
+- [MPLAB Harmony v3 "csp" repo v3.8.3](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.3)
 - [MPLAB Harmony v3 "dev_packs" repo v3.8.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.8.0)
-- [MPLAB Harmony v3 "mhc" repo v3.5.1](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.5.1)
-- MPLAB Harmony Configurator Plugin v3.6.0
-- [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB Harmony v3 "mhc" repo v3.6.5](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.6.5)
+- MPLAB Harmony 3 Launcher Plugin v3.6.2
+- [MPLAB X IDE v5.45](https://www.microchip.com/mplab/mplab-x-ide)
 - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
 - Any Serial Terminal application like Tera Term terminal application.  
 
@@ -179,23 +179,23 @@ The Pin Manager consists of Pin Settings, the Pin Diagram, and the Pin Table tab
  -	select the MHC **Pin Table** tab and then scroll down to the **SERCOM5** module as shown below.  
  	Enable USART_TX on PA22 (Pin #31)    
  	Enable USART_TX on PB22 (Pin #37)    
- <img src = "images/sercom5_pin_config.png" width="600" height="200" align="middle">    
+ <img src = "images/sercom5_pin_config.png" width="865" height="235" align="middle">    
 
 <a id="Generate-Code"> </a>
 ### Generate Code
 7.	Generate Code  
  -	When done, before generating code, click the **Save** icon in MPLAB® Harmony Configurator (MHC) as shown below.    
- <img src = "images/save_mhc_step1.png" width="200" height="50" align="middle">  
+ <img src = "images/save_mhc_step1.png" width="228" height="61" align="middle">  
  -	Save the configuration in its default location when prompted.    
- <img src = "images/save_mhc_step2.png" width="700" height="500" align="middle">  
+ <img src = "images/save_mhc_step2.png" width="620" height="429" align="middle">  
  -	Click on the **Code Generate** button as shown below to start generating code.    
- <img src = "images/generate_code_step1.png" width="250" height="50" align="middle">    
+ <img src = "images/generate_code_step1.png" width="228" height="61" align="middle">    
 
  -	Click on the **Generate** button in the **Generate Project** window, keeping the default settings as shown below. If prompted for saving the configuration, click **Save**.    
-  <img src = "images/save_mhc_confirmation.png" width="700" height="150" align="middle">     
-  <img src = "images/generate_code_step2.png" width="700" height="600" align="middle">    
+  <img src = "images/save_mhc_confirmation.png" width="650" height="119" align="middle">     
+  <img src = "images/generate_code_step2.png" width="650" height="656" align="middle">    
   -	As the code is generated, MHC displays the progress as shown below.  
-  <img src = "images/generate_code_step3.png" width="900" height="600" align="middle">    
+  <img src = "images/generate_code_step3.png" width="800" height="347" align="middle">    
   -	Navigate to the **Projects** tab in MPLAB X IDE to view the project tree structure.
   -	Examine the generated code as shown below.  
  <img src = "images/project_tree.png" width="300" height="600" align="middle">    
@@ -220,11 +220,11 @@ The Pin Manager consists of Pin Settings, the Pin Diagram, and the Pin Table tab
 9.	Before proceeding to Build and program, set up the compiler toolchain. Click on the **Projects** tab on the top left pane in MPLAB X IDE. Right click on the project name **pic18f_to_sam_d21_cnano** and go to **Properties**.  
  <img src = "images/project_view.png" width="400" height="800" align="middle">  
 10.	Make sure that XC32 (v2.41) is selected as the Compiler Toolchain for XC32. Click on **Apply** and then click on **OK**.  
- <img src = "images/project_properties.png" width="900" height="600" align="middle">  
+ <img src = "images/project_properties.png" width="900" height="576" align="middle">  
 11.	Clean and build your application by clicking on the **Clean and Build** button as shown below.   
- <img src = "images/clean_and_build_icon.png" width="300" height="50" align="middle">  
+ <img src = "images/clean_and_build_icon.png" width="279" height="34" align="middle">  
 12.	Program your application to the device by clicking on the **Make and Program** button as shown below.    
- <img src = "images/make_and_program.png" width="300" height="50" align="middle">    
+ <img src = "images/make_and_program.png" width="287" height="40" align="middle">    
  The lab should build and program successfully.  
 
 <a id="Verify-Hello-World-output"> </a>

@@ -5,12 +5,10 @@ has_toc: false
 nav_order: 2
 ---
 
-![](basic.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../r_images/quick_home.png" title="Home">](../../readme.md) [<img src="../r_images/quick_back.png"  title="Back">](../../readme.md)  
+![](basic.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../r_images/quick_home.png" title="Home">](../../readme.md) [<img src="../r_images/quick_back.png"  title="Back">](../../readme.md)
 
 # MPLAB Harmony Basics Documentation
-
-This page contains quick documentation for MPLAB® Harmony 3 Basics.   
-
+This page contains quick documentation for MPLAB® Harmony 3 Basics. 
 - ### [MPLAB Harmony 3 Configurator (MHC)](./mplab_harmony_3_configurator/readme.md)
 - ### [MHC Project Graph](./mhc_project_graph/readme.md)
 - ### [MHC Clock Configuration](./mhc_clock_configuration/readme.md)
@@ -37,9 +35,9 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 
 
 ## Web Links
-- <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>  
-- <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>  
-- <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>  
+- <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
+- <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>
+- <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>
 - <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony Content Manager</a>
 
 ## Videos
@@ -63,8 +61,7 @@ alt="" width="240" height="180" border="10" title="Create Your First Project wit
 alt="" width="240" height="180" border="10" title="Create Your First Project with SAM E70 using MPLAB Harmony v3" /> </a>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=xxK6kH8h7No
 " target="_blank"><img src="http://img.youtube.com/vi/xxK6kH8h7No/0.jpg"
-alt="" width="240" height="180" border="10" title="Create Your First Project with SAML11 using MPLAB Harmony v3" /> </a>  
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=pg-g3hVwOHA
+alt="" width="240" height="180" border="10" title="Create Your First Project with SAML11 using MPLAB Harmony v3" /> </a><a href="http://www.youtube.com/watch?feature=player_embedded&v=pg-g3hVwOHA
 " target="_blank"><img src="http://img.youtube.com/vi/pg-g3hVwOHA/0.jpg"
 alt="" width="240" height="180" border="10" title="Getting Started with the SAM IoT WG Development Board" /> </a>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2k893C6E_jE
@@ -75,10 +72,8 @@ alt="" width="240" height="180" border="10" title="Getting Started with the SAM 
 alt="" width="240" height="180" border="10" title="Getting Started with the SAM D21 Curiosity Nano Evaluation Kit" /> </a>
 
 ### **Note:**
-This page provides a quick reference covering the Basic features of MPLAB Harmony 3. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.  
-
+This page provides a quick reference covering the Basic features of MPLAB Harmony 3. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.
 Peripheral/Technology specific documentation are available in technology repositories like <a href="https://github.com/Microchip-MPLAB-Harmony/csp" target="_blank">csp</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/core" target="_blank">core</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/usb" target="_blank">usb</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/net" target="_blank">net</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/audio" target="_blank">audio</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/gfx_apps" target="_blank">gfx_apps</a>, etc.
 
 ## Reference Links
-
-[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../r_images/mplab_compiler.png"> </a>]()  
+[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../r_images/mplab_compiler.png"> </a>]()

@@ -6,12 +6,11 @@ nav_order: 2
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../r_images/quick_back.png"  title="Back">](../readme.md)
-# MHC Project Graph
 
+# MHC Project Graph
 The Project Graph displays all the instantiated component blocks. In Figure below BSP, USART and STDIO modules from Peripherals (CSP), I2C module from Harmony Core Driver, and FreeRTOS from Third-Party Software components are activated. MHC uses concept of Capability and Dependency for easy instantiation of modules.
 
 ## Generic Capability and Dependency
-
 A generic capability has a common name that identifies an interface that can be provided by a component but does not have an implementation of its own. One or more other components must implement the capability as shown in the following figure.
 
 <img src = "images/figure_5.6.png" width="710" height="375" align="middle">
@@ -29,13 +28,11 @@ Click button <img src = "images/btn_adjust_canvas.png"> to adjust the “Canvas 
 <img src = "images/figure_5.6.png" width="735" height="415" align="middle">
 
 ## Multi-Dependency and Multi-Capability
-
 A component can have more than one dependency and capability respectively. The following figure illustrates the multi dependency and multi-capability feature of Harmony and shown with square block unlike a diamond block in single dependency. For example, in the below figure File System component is dependent on SD Card (SPI), SDHC and MEMORY components respectively whereas each of these exposes a DRV_MEDIA capability.
 
-<img src = "images/figure_5.7.png" width="645" height="520" align="middle">
+<img src = "images/figure_5.7.png" width="735" height="410" align="middle">
 
 ## Container or Group Creation
-
 The following are different group options. The Root is the default group. See the figure 5.9 below.
 
 - **Create Group** or click <img src = "images/btn_create_group.png"> : Creates a group. If user selects any component and clicks <img src = "images/btn_create_group.png">, then a pop-up is shown asking to automatically add selected components to the new group.
@@ -43,23 +40,24 @@ The following are different group options. The Root is the default group. See th
 - **Add selected to Group/Container** or click <img src = "images/btn_add_to_group.png">: Adds selected component in to a target container. On clicking <img src = "images/btn_add_to_group.png"> a pop-up with drop down menu option is shown asking user to select the target container.
 - **View selected Group/Container** or click <img src = "images/btn_view_group.png">: Select a group and click <img src = "images/btn_view_group.png"> or double click a group to view the components grouped together in a container.
 - **Configure Group Node** or click <img src = "images/btn_configure_group.png"> : Select a group then click <img src = "images/btn_configure_group.png">  to display the connections of the components if any. On clicking <img src = "images/btn_configure_group.png"> a pop-up window is displayed showing the tabular list of available nodes, select the nodes to display in the group.
-- **Select Next Highest Group** or click <img src = "images/btn_select_next_group.png">: Selects the next highest group available. Root is the default group. Select a group and click <img src = "images/btn_view_group.png">  or double click a group to view the components grouped together in a container then to select next highest group click <img src = "images/btn_select_next_group.png"> or to select a group under a drop down  
-<img src = "images/figure_5.9.png" width="700" height="285" align="middle">  
-Multiple components added to group or container. This helps in simplifying the Project Graph view. The following figure illustrates the grouping of SPI Driver and SPI PLIB components. Similarly, user can create any number of group or container based on the requirement. Say for example separate container for TCP/IP and USB and so on. or based on the application need.
-<img src = "images/figure_5.10.png" width="700" height="300" align="middle">
+- **Select Next Highest Group** or click <img src = "images/btn_select_next_group.png">: Selects the next highest group available. Root is the default group. Select a group and click <img src = "images/btn_view_group.png">  or double click a group to view the components grouped together in a container then to select next highest group click <img src = "images/btn_select_next_group.png"> or to select a group under a drop down
+
+    <img src = "images/figure_5.9.png" width="700" height="285" align="middle">
+
+    Multiple components added to group or container. This helps in simplifying the Project Graph view. The following figure illustrates the grouping of SPI Driver and SPI PLIB components. Similarly, user can create any number of group or container based on the requirement. Say for example separate container for TCP/IP and USB and so on. or based on the application need.
+
+    <img src = "images/figure_5.10.png" width="700" height="300" align="middle">
 
 ## Note
-<span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>  
+<span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>
+- [MPLAB Harmony v3 "csp" repo v3.8.3](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.3)
+- [MPLAB Harmony v3 "dev_packs" repo v3.8.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.8.0)
+- [MPLAB Harmony v3 "mhc" repo v3.6.5](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.6.5)
+- MPLAB Harmony 3 Launcher Plugin v3.6.2
+- [MPLAB X IDE v5.45](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
 
- - [MPLAB Harmony v3 "csp" repo v3.8.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.1)
- - [MPLAB Harmony v3 "dev_packs" repo v3.8.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.8.0)
- - [MPLAB Harmony v3 "mhc" repo v3.5.1](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.5.1)
- - MPLAB Harmony Configurator Plugin v3.6.0
- - [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
- - [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
-
-<span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>  
-
+<span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>
 
 ## Reference Links
-[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]()  
+[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]()
