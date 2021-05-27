@@ -5,6 +5,11 @@ nav_order: 499
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Quick Docs Release v1.3.0 (June 2021)
+
+### New Doc Pages
+
+
 ## Quick Docs Release v1.2.0 (January 2021)
 
 ### New Doc Pages
