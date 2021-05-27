@@ -8,7 +8,7 @@ nav_order: 2
 ![](basic.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../r_images/quick_home.png" title="Home">](../../readme.md) [<img src="../r_images/quick_back.png"  title="Back">](../../readme.md)
 
 # MPLAB Harmony Basics Documentation
-This page contains quick documentation for MPLAB® Harmony 3 Basics. 
+This page contains quick documentation for MPLAB® Harmony 3 Basics.
 - ### [MPLAB Harmony 3 Configurator (MHC)](./mplab_harmony_3_configurator/readme.md)
 - ### [MHC Project Graph](./mhc_project_graph/readme.md)
 - ### [MHC Clock Configuration](./mhc_clock_configuration/readme.md)
@@ -70,6 +70,17 @@ alt="" width="240" height="180" border="10" title="Getting Started with the SAM 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=xSpcSw_dtyU
 " target="_blank"><img src="http://img.youtube.com/vi/xSpcSw_dtyU/0.jpg"
 alt="" width="240" height="180" border="10" title="Getting Started with the SAM D21 Curiosity Nano Evaluation Kit" /> </a>
+<a href="https://www.youtube.com/watch?v=_h1TlXQlBXw
+" target="_blank"><img src="http://img.youtube.com/vi/_h1TlXQlBXw/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started with the PIC32CM MC00 Curiosity Nano Evaluation Kit" /> </a>
+<a href="https://www.youtube.com/watch?v=ta9vvaY1RBU
+" target="_blank"><img src="http://img.youtube.com/vi/ta9vvaY1RBU/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started with the PIC32CM MC00 Curiosity Nano Evaluation Kit" /> </a>
+<a href="https://www.youtube.com/watch?v=FcY08Mj6DV0
+" target="_blank"><img src="http://img.youtube.com/vi/FcY08Mj6DV0/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started with the PIC32CM MC00 Curiosity Nano Evaluation Kit " /> </a>
+
+
 
 ### **Note:**
 This page provides a quick reference covering the Basic features of MPLAB Harmony 3. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.

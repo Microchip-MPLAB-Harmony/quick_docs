@@ -30,6 +30,10 @@ This page contains quick documentation for MPLAB® Harmony 3 Peripheral Librarie
 - ### [Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs](./same70_getting_started_drivers/readme.md)
 - ### [Getting Started with Harmony v3 Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS](./same70_getting_started_drivers_freertos/readme.md)
 - ### [Getting Started with Harmony v3 Drivers on SAM D21 MCUs Using FreeRTOS](./samd21_getting_started_drivers_freertos/readme.md)
+- ### [Getting Started with Harmony v3 Drivers on SAM E5x MCUs Using FreeRTOS](./same5x_getting_started_drivers_freertos/readme.md)
+- ### [Getting Started with Harmony v3 Drivers on SAM C2x MCUs Using FreeRTOS](./samc2x_getting_started_drivers_freertos/readme.md)
+
+
 
 ## Web Links
 - <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Clock_System%20_Configuration_and_Usage%20on_SAME5x_%20Devices_DS90003226A.pdf" target="_blank">Clock System Configuration and Usage on SAM E5x (Cortex M4) Devices</a>  
@@ -45,6 +49,11 @@ This page contains quick documentation for MPLAB® Harmony 3 Peripheral Librarie
 - <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1003095" target="_blank">Using Sigma-Delta Analog-to-Digital Converter (SDADC) on a SAMC MCU with MPLAB Harmony v3</a>
 - <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1005197" target="_blank">Live Update Application on PIC32MZ MCUs Using MPLAB Harmony v3</a>
 - <a href="https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1005443" target="_blank">Live Update Application on SAM E54 MCU Using MPLAB Harmony v3</a>
+- <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/How-to-Move-an-Application-into-a-Desired-Flash-Memory-Location-with-the-Help-of-Linker-Script-TB-DS90003298A.pdf" target="_blank">Handling Cache Coherency Issues at Runtime Using Cache Maintenance Operations on Cortex-M7 MCUs Using MPLAB Harmony v3</a>
+- <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/Multiplexed-and-Remappable-Functionalities-on-IOpins-on-PIC32M-Devices-Using-MPLAB-HarmonyV3-DS90003296.pdf" target="_blank">Multiplexed and Remappable Functionalities on I/O pins on PIC32M Devices Using MPLAB Harmony v3</a>
+- <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/How-to-Move-an-Application-into-a-Desired-Flash-Memory-Location-with-the-Help-of-Linker-Script-TB-DS90003298A.pdf" target="_blank">How to Move an Application into a Desired Flash Memory Location with the Help of Linker Script on SAM E54</a>
+
+
 
 ## Videos
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=S02mAli_DTU

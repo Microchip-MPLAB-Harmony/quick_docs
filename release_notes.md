@@ -8,7 +8,18 @@ nav_order: 499
 ## Quick Docs Release v1.3.0 (June 2021)
 
 ### New Doc Pages
+The following table provides the list of new doc pages:
 
+| Doc Name | Doc Type - Content |
+| ---      | ---                |
+[Getting Started with Harmony v3 Drivers on SAM E5x MCUs Using FreeRTOS](./source/peripheral/same5x_getting_started_drivers_freertos/readme.md) |[Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |
+[Getting Started with Harmony v3 Drivers on SAM C2x MCUs Using FreeRTOS](./source/peripheral/samc2x_getting_started_drivers_freertos/readme.md) |[Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |
+
+
+- New video Weblinks added in [Basic](./source/basic/readme.md) page
+
+### Known Issues
+	- NA -
 
 ## Quick Docs Release v1.2.0 (January 2021)
 
