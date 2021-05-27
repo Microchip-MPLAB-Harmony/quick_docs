@@ -2508,498 +2508,564 @@ var myVariable = `
     "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_getting_started/readme.html",
     "relUrl": "/source/peripheral/samc2x_getting_started/readme.html"
   },"418": {
+    "doc": "Getting Started with Drivers on SAM C2x MCUs Using FreeRTOS",
+    "title": "Getting Started with Harmony v3 Drivers on SAM C2x MCUs Using FreeRTOS",
+    "content": "This tutorial shows you how to use MHC to create an application that gets you started in developing applications on SAM C21 MCUs using MPLAB Harmony v3 software framework with FreeRTOS™. Harmony v3 drivers support Asynchronous and Synchronous modes of operation. | Asynchronous Mode . | Non-blocking Application Program Interfaces (APIs) | Works seamlessly in bare-metal and RTOS environment | Interrupt and thread-safe | . | Synchronous Mode . | Blocking APIs | Suitable for use in RTOS environment | Interrupt and thread-safe | . | . In this tutorial, you will use Harmony drivers in the Synchronous mode of operation. The application makes use of the SAM C21 Xplained Pro Evaluation Kit and I/O1 Xplained Pro Extension Kit (sold separately). The application reads the current room temperature from the temperature sensor on the I/O1 Xplained Pro Extension Kit. The temperature reading is displayed on a serial console periodically every second. Further, the application writes the temperature readings to EEPROM. When a character is entered on the console, the last five written temperature values are read from the EEPROM and displayed on the console. Also, an LED (LED0) is toggled every time the temperature is displayed on the serial console. The application you create will utilize: . | I²C Synchronous Driver to read the temperature from a temperature sensor and store/retrieve to/from EEPROM. | Universal Synchronous Asynchronous Receiver Transmitter (USART) Synchronous Driver to print the temperature values on a COM (serial) port terminal application running on a PC. | PORTS Peripheral Library to toggle an LED. | FreeRTOS library to create application threads and intercommunicate between application threads. | . For more information refer the links below. ",
+    "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_getting_started_drivers_freertos/readme.html#getting-started-with-harmony-v3-drivers-on-sam-c2x-mcus-using-freertos",
+    "relUrl": "/source/peripheral/samc2x_getting_started_drivers_freertos/readme.html#getting-started-with-harmony-v3-drivers-on-sam-c2x-mcus-using-freertos"
+  },"419": {
+    "doc": "Getting Started with Drivers on SAM C2x MCUs Using FreeRTOS",
+    "title": " ",
+    "content": " ",
+    "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_getting_started_drivers_freertos/readme.html",
+    "relUrl": "/source/peripheral/samc2x_getting_started_drivers_freertos/readme.html"
+  },"420": {
+    "doc": "Getting Started with Drivers on SAM C2x MCUs Using FreeRTOS",
+    "title": "Web Links",
+    "content": ". | Getting Started with Harmony v3 Drivers on SAM C21 MCUs Using FreeRTOS | . ",
+    "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_getting_started_drivers_freertos/readme.html#web-links",
+    "relUrl": "/source/peripheral/samc2x_getting_started_drivers_freertos/readme.html#web-links"
+  },"421": {
+    "doc": "Getting Started with Drivers on SAM C2x MCUs Using FreeRTOS",
+    "title": "Reference Links",
+    "content": "                . ",
+    "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_getting_started_drivers_freertos/readme.html#reference-links",
+    "relUrl": "/source/peripheral/samc2x_getting_started_drivers_freertos/readme.html#reference-links"
+  },"422": {
+    "doc": "Getting Started with Drivers on SAM C2x MCUs Using FreeRTOS",
+    "title": "Getting Started with Drivers on SAM C2x MCUs Using FreeRTOS",
+    "content": "                                                                                                      . ",
+    "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_getting_started_drivers_freertos/readme.html",
+    "relUrl": "/source/peripheral/samc2x_getting_started_drivers_freertos/readme.html"
+  },"423": {
     "doc": "Low Power with PLIBs on SAMC2x MCUs",
     "title": "Low Power Application on SAMC2x (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries",
     "content": "SAMC2x is part of Microchip’s 32-bit Arm® Cortex® M0+ microcontroller (MCU) family that can be used to meet the needs of power-constrained applications. SAMC2x MCUs provide various sleep modes to meet the power consumption requirements of the application. The Power Manager (PM) module is responsible for controlling the low power modes. SAMC2x supports two low power modes; IDLE and STANDBY. Idle sleep mode: In Idle mode, CPU and Synchronous clocks are stopped except when requested. Idle mode allows power optimization with fast wakeup time. Standby sleep mode: In standby mode, the CPU is stopped as well as the peripherals, except those that are running using the RUN IN STANDBY option. Standby mode allows the device to consume the lowest power with little overhead on wakeup time. The application makes use of the SAM C21 Xplained Pro evaluation kit and the I/O1 Xplained Pro Extension Kit (sold separately). On power-up, the application is in sleep (standby) mode. The application wakes up from the sleep mode and enters active mode when you cover the light sensor (by placing a hand over it) on the I/O1 Xplained Pro extension kit. The application periodically prints room temperature on a serial terminal while the light sensor is covered. The application goes back to sleep (standby) mode when you uncover the light sensor. LED0 in the SAM C21 evaluation kit is toggled every time the temperature is displayed on the serial console. When you press the switch SW0, the application switches sleep mode from standby mode to idle mode. The application you create will utilize: . | SERCOM (as I²C) Peripheral Library to read the temperature from the temperature sensor. | RTC Peripheral Library to periodically generate an event for the ADC to sample the light sensor. | SERCOM (as USART) and DMA Peripheral Libraries to print the temperature values on a COM (serial) port terminal application running on a PC. | PORT Peripheral Library to toggle the LED. | ADC Peripheral Library to sample the light sensor analog input and detect whether the light sensor is covered or not. | PM (Power Manager) and Supply Controller (SUPC) Peripheral Libraries to configure low power modes. | EIC (External Interrupt controller) Peripheral Library to control switch SW0. Event System Peripheral Library to trigger the start of the ADC conversion on every RTC compare match event. The event system allows for peripheral-to-peripheral communication without CPU intervention. This reduces the burden on the CPU and other resources when compared to the conventional interrupt-based systems. | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_low_power/readme.html#low-power-application-on-samc2x-cortex-m0-mcus-using-mplab-harmony-v3-peripheral-libraries",
     "relUrl": "/source/peripheral/samc2x_low_power/readme.html#low-power-application-on-samc2x-cortex-m0-mcus-using-mplab-harmony-v3-peripheral-libraries"
-  },"419": {
+  },"424": {
     "doc": "Low Power with PLIBs on SAMC2x MCUs",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_low_power/readme.html",
     "relUrl": "/source/peripheral/samc2x_low_power/readme.html"
-  },"420": {
+  },"425": {
     "doc": "Low Power with PLIBs on SAMC2x MCUs",
     "title": "Web Links",
     "content": ". | Low Power Application on SAMC2x (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_low_power/readme.html#web-links",
     "relUrl": "/source/peripheral/samc2x_low_power/readme.html#web-links"
-  },"421": {
+  },"426": {
     "doc": "Low Power with PLIBs on SAMC2x MCUs",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_low_power/readme.html#reference-links",
     "relUrl": "/source/peripheral/samc2x_low_power/readme.html#reference-links"
-  },"422": {
+  },"427": {
     "doc": "Low Power with PLIBs on SAMC2x MCUs",
     "title": "Low Power with PLIBs on SAMC2x MCUs",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samc2x_low_power/readme.html",
     "relUrl": "/source/peripheral/samc2x_low_power/readme.html"
-  },"423": {
+  },"428": {
     "doc": "Getting Started with PLIBs on SAM D21 MCUs",
     "title": "Getting Started with Harmony v3 Peripheral Libraries on SAM D21 MCUs",
     "content": "This tutorial shows you how to use MHC to create an application that gets you started in developing applications on SAM D21 MCUs using MPLAB Harmony v3 software framework. The application makes use of SAM D21 Xplained Pro Evaluation Kit and I/O1 Xplained Pro Extension Kit (sold separately). The application reads the current room temperature from the temperature sensor on the I/O1 Xplained Pro Extension. The temperature read is displayed on a serial console periodically every 500 milliseconds. The periodicity of the temperature values displayed on the serial console is changed to 1 second, 2 seconds, 4 seconds and back to 500 milliseconds every time you press the switch SW0 on the SAM D21 Xplained Pro Evaluation Kit. Also, an LED0 is toggled every time the temperature is displayed on the serial console. The application you create will utilize: . | SERCOM (as I²C) PLIB to read the temperature from a temperature sensor | Real-Time Clock (RTC) PLIB to periodically sample temperature sensor data | SERCOM (as Universal Synchronous Asynchronous Receiver Transmitter (USART)) and Direct Memory Access (DMA) PLIBs to print the temperature values on a COM (serial) port terminal application running on a PC | PORT PLIB to toggle the LED | External Interrupt Controller (EIC) PLIB to change the periodicity of temperature sensor data read using SWITCH press event | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd21_getting_started/readme.html#getting-started-with-harmony-v3-peripheral-libraries-on-sam-d21-mcus",
     "relUrl": "/source/peripheral/samd21_getting_started/readme.html#getting-started-with-harmony-v3-peripheral-libraries-on-sam-d21-mcus"
-  },"424": {
+  },"429": {
     "doc": "Getting Started with PLIBs on SAM D21 MCUs",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd21_getting_started/readme.html",
     "relUrl": "/source/peripheral/samd21_getting_started/readme.html"
-  },"425": {
+  },"430": {
     "doc": "Getting Started with PLIBs on SAM D21 MCUs",
     "title": "Web Links",
     "content": ". | Getting Started with Harmony v3 Peripheral Libraries on SAM D21 MCUs | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd21_getting_started/readme.html#web-links",
     "relUrl": "/source/peripheral/samd21_getting_started/readme.html#web-links"
-  },"426": {
+  },"431": {
     "doc": "Getting Started with PLIBs on SAM D21 MCUs",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd21_getting_started/readme.html#reference-links",
     "relUrl": "/source/peripheral/samd21_getting_started/readme.html#reference-links"
-  },"427": {
+  },"432": {
     "doc": "Getting Started with PLIBs on SAM D21 MCUs",
     "title": "Getting Started with PLIBs on SAM D21 MCUs",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd21_getting_started/readme.html",
     "relUrl": "/source/peripheral/samd21_getting_started/readme.html"
-  },"428": {
+  },"433": {
     "doc": "Getting Started with Drivers on SAM D21 MCUs Using FreeRTOS",
     "title": "Getting Started with Harmony v3 Drivers on SAM D21 MCUs Using FreeRTOS",
     "content": "This tutorial shows you how to use MHC to create an application that gets you started in developing applications on SAM D21 MCUs using MPLAB Harmony v3 software framework with FreeRTOS. Harmony v3 drivers support Asynchronous and Synchronous modes of operation. | Asynchronous Mode . | Non-blocking Application Program Interfaces (APIs) | Works seamlessly in bare-metal and RTOS environment | Interrupt and thread-safe | . | Synchronous Mode . | Blocking APIs | Suitable for use in RTOS environment | Interrupt and thread-safe | . | . In this tutorial, you will use Harmony drivers in Synchronous mode of operation. The application makes use of the SAM D21 Xplained pro Evaluation Kit and I/O1 Xplained Pro Extension Kit (sold separately). The application reads the current room temperature from the temperature sensor on the I/O1 Xplained Pro Extension Kit. The temperature reading is displayed on a serial console periodically every second. Further, the application writes the temperature readings to EEPROM. When a character is entered on the console, the last five written temperature values are read from the EEPROM and displayed on the console. Also, an LED (LED0) is toggled every time the temperature is displayed on the serial console. The application you create will utilize: . | I²C Synchronous Driver to read the temperature from a temperature sensor and store/retrieve to/from EEPROM. | Universal Synchronous Asynchronous Receiver Transmitter (USART) Synchronous Driver to print the temperature values on a COM (serial) port terminal application running on a PC. | PORTS Peripheral Library to toggle an LED. | FreeRTOS library to create application threads and intercommunicate between application threads. | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd21_getting_started_drivers_freertos/readme.html#getting-started-with-harmony-v3-drivers-on-sam-d21-mcus-using-freertos",
     "relUrl": "/source/peripheral/samd21_getting_started_drivers_freertos/readme.html#getting-started-with-harmony-v3-drivers-on-sam-d21-mcus-using-freertos"
-  },"429": {
+  },"434": {
     "doc": "Getting Started with Drivers on SAM D21 MCUs Using FreeRTOS",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd21_getting_started_drivers_freertos/readme.html",
     "relUrl": "/source/peripheral/samd21_getting_started_drivers_freertos/readme.html"
-  },"430": {
+  },"435": {
     "doc": "Getting Started with Drivers on SAM D21 MCUs Using FreeRTOS",
     "title": "Web Links",
     "content": ". | Getting Started with Harmony v3 Drivers on SAM D21 MCUs Using FreeRTOS | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd21_getting_started_drivers_freertos/readme.html#web-links",
     "relUrl": "/source/peripheral/samd21_getting_started_drivers_freertos/readme.html#web-links"
-  },"431": {
+  },"436": {
     "doc": "Getting Started with Drivers on SAM D21 MCUs Using FreeRTOS",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd21_getting_started_drivers_freertos/readme.html#reference-links",
     "relUrl": "/source/peripheral/samd21_getting_started_drivers_freertos/readme.html#reference-links"
-  },"432": {
+  },"437": {
     "doc": "Getting Started with Drivers on SAM D21 MCUs Using FreeRTOS",
     "title": "Getting Started with Drivers on SAM D21 MCUs Using FreeRTOS",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd21_getting_started_drivers_freertos/readme.html",
     "relUrl": "/source/peripheral/samd21_getting_started_drivers_freertos/readme.html"
-  },"433": {
+  },"438": {
     "doc": "Getting Started with PLIBs on SAM D5x/E5x MCUs",
     "title": "Getting Started with Harmony v3 Peripheral Libraries on SAM D5x/E5x MCUs",
     "content": "This tutorial shows you how to use the MPLAB Harmony Configurator (MHC) to create an application that gets you started in developing applications on SAM D5x/E5x MCUs using MPLAB Harmony v3 software framework. The application makes use of SAM E54 Xplained Pro Evaluation Kit and I/O1 Xplained Pro Extension Kit (sold separately). The application reads the current room temperature from the temperature sensor on the I/O1 Xplained Pro Extension. The temperature read is displayed on a serial console periodically every 500 milliseconds. The periodicity of the temperature values displayed on the serial console is changed to 1 second, 2 seconds, 4 seconds and back to 500 milliseconds every time you press the switch SW0 on the SAM E54 Xplained Pro Evaluation Kit. Also, LED0 is toggled every time temperature is displayed on the serial console. The application you create will utilize: . | SERCOM (as I²C) Peripheral Library (PLIB) to read the temperature from a temperature sensor. | Real-Time Clock (RTC) PLIB to periodically sample temperature sensor data. | SERCOM (as USART), Direct Memory Access (DMA) PLIBS to print the temperature values on a COM (serial) port terminal application running on a PC. PORTS PLIB to toggle the LED. | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd5x_getting_started/readme.html#getting-started-with-harmony-v3-peripheral-libraries-on-sam-d5xe5x-mcus",
     "relUrl": "/source/peripheral/samd5x_getting_started/readme.html#getting-started-with-harmony-v3-peripheral-libraries-on-sam-d5xe5x-mcus"
-  },"434": {
+  },"439": {
     "doc": "Getting Started with PLIBs on SAM D5x/E5x MCUs",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd5x_getting_started/readme.html",
     "relUrl": "/source/peripheral/samd5x_getting_started/readme.html"
-  },"435": {
+  },"440": {
     "doc": "Getting Started with PLIBs on SAM D5x/E5x MCUs",
     "title": "Web Links",
     "content": ". | Getting Started with Harmony v3 Peripheral Libraries on SAM D5x/E5x MCUs | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd5x_getting_started/readme.html#web-links",
     "relUrl": "/source/peripheral/samd5x_getting_started/readme.html#web-links"
-  },"436": {
+  },"441": {
     "doc": "Getting Started with PLIBs on SAM D5x/E5x MCUs",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd5x_getting_started/readme.html#reference-links",
     "relUrl": "/source/peripheral/samd5x_getting_started/readme.html#reference-links"
-  },"437": {
+  },"442": {
     "doc": "Getting Started with PLIBs on SAM D5x/E5x MCUs",
     "title": "Getting Started with PLIBs on SAM D5x/E5x MCUs",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/samd5x_getting_started/readme.html",
     "relUrl": "/source/peripheral/samd5x_getting_started/readme.html"
-  },"438": {
+  },"443": {
     "doc": "Low Power with PLIBs on SAM E54 MCU",
     "title": "Low Power Application on SAM E54 (Cortex M4) MCUs Using MPLAB Harmony v3 Peripheral Libraries",
     "content": "This tutorial shows you how to create a low power application on a SAM E54 using MPLAB® Harmony v3 software framework. The SAM E54 is a 32-bit Arm® Cortex®-M4 based microcontroller that provides features to reduce power consumption through different Sleep modes, such as Idle, Standby, Backup, Hibernate and Off. | In Idle mode, the CPU and the synchronous clocks are stopped, except when requested. This mode allows power optimization with a fast wake-up time. | In Standby mode, the CPU and the peripherals are stopped, except those that are running using the Run in Standby mode feature. This mode allows the device to consume the lowest power with little overhead on wake-up time. | In Backup mode, the device is entirely powered off, except for the peripherals in the backup domain. This mode allows you to achieve the lowest power consumption aside from Off mode but increases the wake-up time compared to Standby mode. | In Hibernate sleep mode, the device is entirely powered off, except for the peripherals in the Hibernate sleep mode. This mode allows you to achieve the lowest power consumption but little more than Backup mode and wake-up time is little faster than Backup mode. | In Off mode, the device is entirely powered off. This mode allows you to achieve the lowest power consumption. Since the device must be reset to recover from this mode, the wake-up time is longer. | . The Power Manager (PM) module is responsible for controlling the Low Power modes. Additionally, the SAM E54 provides SleepWalking, an advanced low power operation mode which is based on event propagation managed by the Event System (EVSYS). This application makes use of the SAM E54 Xplained Pro Evaluation Kit and the I/O1 Xplained Pro Extension Kit (sold separately). On power-up, the device is set to Standby Sleep mode. The device wakes up from Standby mode and enters Active mode when you cover the light sensor (by placing a hand over it, for example) on the I/O1 Xplained Pro extension kit. The application periodically prints the room temperature on a serial terminal while the light sensor is covered. The device goes back to Standby mode when you uncover the light sensor. LED0 on the SAM E54 evaluation kit is toggled every time the temperature is displayed on the serial console. When you press the switch button SW0, the application switches Sleep mode from Standby mode to Idle mode. The application you create will utilize the following peripherals: . | SERCOM3 (as I²C) peripheral library to read the temperature from the temperature sensor. | Real-Time Clock (RTC) peripheral library to periodically generate an event for the ADC to sample the light sensor. | SERCOM2 (as Universal Synchronous Asynchronous Receiver Transmitter (USART)) peripheral library to print messages on a serial console running on a computer. | Direct Memory Access Controller (DMAC) peripheral library to send the converted temperature value to the SERCOM0. | PORT peripheral library to toggle the LED0. | Analog-to-Digital Converter (ADC1) peripheral library to sample the light sensor analog input and detect whether the light sensor is covered or not. | PM and Supply Controller (SUPC) peripheral libraries to configure Low Power modes. | External Interrupt Controller (EIC) peripheral library to control the user button SW0. | EVSYS peripheral library to trigger the start of the ADC conversion on every RTC compare match event. The EVSYS allows for peripheral-to-peripheral communication without CPU intervention. This reduces the burden on the CPU and other resources when compared to the conventional interrupt-based systems. | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same54_low_power/readme.html#low-power-application-on-sam-e54-cortex-m4-mcus-using-mplab-harmony-v3-peripheral-libraries",
     "relUrl": "/source/peripheral/same54_low_power/readme.html#low-power-application-on-sam-e54-cortex-m4-mcus-using-mplab-harmony-v3-peripheral-libraries"
-  },"439": {
+  },"444": {
     "doc": "Low Power with PLIBs on SAM E54 MCU",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same54_low_power/readme.html",
     "relUrl": "/source/peripheral/same54_low_power/readme.html"
-  },"440": {
+  },"445": {
     "doc": "Low Power with PLIBs on SAM E54 MCU",
     "title": "Web Links",
     "content": ". | Low Power Application on SAM E54 (Cortex M4) MCU Using MPLAB Harmony v3 Peripheral Libraries | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same54_low_power/readme.html#web-links",
     "relUrl": "/source/peripheral/same54_low_power/readme.html#web-links"
-  },"441": {
+  },"446": {
     "doc": "Low Power with PLIBs on SAM E54 MCU",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same54_low_power/readme.html#reference-links",
     "relUrl": "/source/peripheral/same54_low_power/readme.html#reference-links"
-  },"442": {
+  },"447": {
     "doc": "Low Power with PLIBs on SAM E54 MCU",
     "title": "Low Power with PLIBs on SAM E54 MCU",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same54_low_power/readme.html",
     "relUrl": "/source/peripheral/same54_low_power/readme.html"
-  },"443": {
+  },"448": {
+    "doc": "Getting Started with Drivers on SAM E5x MCUs Using FreeRTOS",
+    "title": "Getting Started with Harmony v3 Drivers on SAM E5x MCUs Using FreeRTOS",
+    "content": "This tutorial shows you how to use MHC to create an application that gets you started in developing applications on SAM E54 MCUs using MPLAB Harmony v3 software framework with FreeRTOS™. Harmony v3 drivers support Asynchronous and Synchronous modes of operation. | Asynchronous Mode . | Non-blocking Application Program Interfaces (APIs) | Works seamlessly in bare-metal and RTOS environment | Interrupt and thread-safe | . | Synchronous Mode . | Blocking APIs | Suitable for use in RTOS environment | Interrupt and thread-safe | . | . In this tutorial, you will use Harmony drivers in the Synchronous mode of operation. The application makes use of the SAM E54 Xplained Pro Evaluation Kit and I/O1 Xplained Pro Extension Kit (sold separately). The application reads the current room temperature from the temperature sensor on the I/O1 Xplained Pro Extension Kit. The temperature reading is displayed on a serial console periodically every second. Further, the application writes the temperature readings to EEPROM. When a character is entered on the console, the last five written temperature values are read from the EEPROM and displayed on the console. Also, an LED (LED0) is toggled every time the temperature is displayed on the serial console. The application you create will utilize: . | I²C Synchronous Driver to read the temperature from a temperature sensor and store/retrieve to/from EEPROM. | Universal Synchronous Asynchronous Receiver Transmitter (USART) Synchronous Driver to print the temperature values on a COM (serial) port terminal application running on a PC. | PORTS Peripheral Library to toggle an LED. | FreeRTOS library to create application threads and intercommunicate between application threads. | . For more information refer the links below. ",
+    "url": "http://localhost:4000/quick_docs/source/peripheral/same5x_getting_started_drivers_freertos/readme.html#getting-started-with-harmony-v3-drivers-on-sam-e5x-mcus-using-freertos",
+    "relUrl": "/source/peripheral/same5x_getting_started_drivers_freertos/readme.html#getting-started-with-harmony-v3-drivers-on-sam-e5x-mcus-using-freertos"
+  },"449": {
+    "doc": "Getting Started with Drivers on SAM E5x MCUs Using FreeRTOS",
+    "title": " ",
+    "content": " ",
+    "url": "http://localhost:4000/quick_docs/source/peripheral/same5x_getting_started_drivers_freertos/readme.html",
+    "relUrl": "/source/peripheral/same5x_getting_started_drivers_freertos/readme.html"
+  },"450": {
+    "doc": "Getting Started with Drivers on SAM E5x MCUs Using FreeRTOS",
+    "title": "Web Links",
+    "content": ". | Getting Started with Harmony v3 Drivers on SAM E54 MCUs Using FreeRTOS | . ",
+    "url": "http://localhost:4000/quick_docs/source/peripheral/same5x_getting_started_drivers_freertos/readme.html#web-links",
+    "relUrl": "/source/peripheral/same5x_getting_started_drivers_freertos/readme.html#web-links"
+  },"451": {
+    "doc": "Getting Started with Drivers on SAM E5x MCUs Using FreeRTOS",
+    "title": "Reference Links",
+    "content": "                . ",
+    "url": "http://localhost:4000/quick_docs/source/peripheral/same5x_getting_started_drivers_freertos/readme.html#reference-links",
+    "relUrl": "/source/peripheral/same5x_getting_started_drivers_freertos/readme.html#reference-links"
+  },"452": {
+    "doc": "Getting Started with Drivers on SAM E5x MCUs Using FreeRTOS",
+    "title": "Getting Started with Drivers on SAM E5x MCUs Using FreeRTOS",
+    "content": "                                                                                                      . ",
+    "url": "http://localhost:4000/quick_docs/source/peripheral/same5x_getting_started_drivers_freertos/readme.html",
+    "relUrl": "/source/peripheral/same5x_getting_started_drivers_freertos/readme.html"
+  },"453": {
     "doc": "Getting Started with PLIBs on SAM E70/S70/V70/V71 MCUs",
     "title": "Getting Started with Harmony v3 Peripheral Libraries on SAM E70/S70/V70/V71 MCUs",
     "content": "This tutorial shows you how to use MHC to create an application that gets you started in developing applications on SAM E70/S70/V70/V71 MCUs using MPLAB Harmony v3 software framework. The application makes use of SAM E70 Xplained Ultra board and I/O1 Xplained Pro Extension Kit (sold separately). The application reads the current room temperature from the temperature sensor on the I/O1 Xplained Pro Extension. The temperature read is displayed on a serial console periodically every 500 milliseconds. The periodicity of the temperature values displayed on the serial console is changed to 1 second, 2 seconds, 4 seconds, and back to 500 milliseconds every time you press the switch SW0 on the SAM E70 Xplained Ultra Evaluation Kit. Also, an LED, LED3, is toggled every time the temperature is displayed on the serial console. The application you create will utilize: . | Two-Wire Interfaces (TWIHS) (I²C) Peripheral Library to read the temperature from a temperature sensor | Timer Counter (TC) Peripheral Library to periodically sample temperature sensor data | Universal Synchronous Asynchronous Receiver Transmitter (USART) and Direct Memory Access (DMA) Peripheral Libraries to print the temperature values on a COM (serial) port terminal application running on a PC | PORTS Peripheral Library to change the periodicity of temperature sensor data read using SWITCH event and toggle the LED | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started/readme.html#getting-started-with-harmony-v3-peripheral-libraries-on-sam-e70s70v70v71-mcus",
     "relUrl": "/source/peripheral/same70_getting_started/readme.html#getting-started-with-harmony-v3-peripheral-libraries-on-sam-e70s70v70v71-mcus"
-  },"444": {
+  },"454": {
     "doc": "Getting Started with PLIBs on SAM E70/S70/V70/V71 MCUs",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started/readme.html",
     "relUrl": "/source/peripheral/same70_getting_started/readme.html"
-  },"445": {
+  },"455": {
     "doc": "Getting Started with PLIBs on SAM E70/S70/V70/V71 MCUs",
     "title": "Web Links",
     "content": ". | Getting Started with Harmony v3 Peripheral Libraries on SAM E70/S70/V70/V71 MCUs | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started/readme.html#web-links",
     "relUrl": "/source/peripheral/same70_getting_started/readme.html#web-links"
-  },"446": {
+  },"456": {
     "doc": "Getting Started with PLIBs on SAM E70/S70/V70/V71 MCUs",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started/readme.html#reference-links",
     "relUrl": "/source/peripheral/same70_getting_started/readme.html#reference-links"
-  },"447": {
+  },"457": {
     "doc": "Getting Started with PLIBs on SAM E70/S70/V70/V71 MCUs",
     "title": "Getting Started with PLIBs on SAM E70/S70/V70/V71 MCUs",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started/readme.html",
     "relUrl": "/source/peripheral/same70_getting_started/readme.html"
-  },"448": {
+  },"458": {
     "doc": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs",
     "title": "Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs",
     "content": "This tutorial shows you how to use MHC to create an application that gets you started in developing applications on SAM E70/S70/V70/V71 MCUs using MPLAB Harmony v3 software framework. The application makes use of SAM E70 Xplained Ultra board and I/O1 Xplained Pro Extension Kit (sold separately). The application reads the current room temperature from the temperature sensor on the I/O1 Xplained Pro Extension Kit. The temperature reading is displayed on a serial console periodically every second. Further, the application writes the temperature readings to EEPROM. When a character is entered on the console, the last five written temperature values are read from the EEPROM and displayed on the console. Also, an LED (LED3) is toggled every time the temperature is displayed on the serial console. The application you create will utilize: . | Two-Wire Interfaces (TWIHS) (I²C) Driver to read the temperature from a temperature sensor and store/retrieve to/from EEPROM. | Timer System Service to periodically sample temperature sensor data. | Universal Synchronous Asynchronous Receiver Transmitter (USART) Driver (in Direct Memory Access (DMA) mode) to print the temperature values on a COM (serial) port terminal application running on a PC. | PORTS Peripheral Library to toggle an LED. | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started_drivers/readme.html#getting-started-with-harmony-v3-drivers-and-system-services-on-sam-e70s70v70v71-mcus",
     "relUrl": "/source/peripheral/same70_getting_started_drivers/readme.html#getting-started-with-harmony-v3-drivers-and-system-services-on-sam-e70s70v70v71-mcus"
-  },"449": {
+  },"459": {
     "doc": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started_drivers/readme.html",
     "relUrl": "/source/peripheral/same70_getting_started_drivers/readme.html"
-  },"450": {
+  },"460": {
     "doc": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs",
     "title": "Web Links",
     "content": ". | Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started_drivers/readme.html#web-links",
     "relUrl": "/source/peripheral/same70_getting_started_drivers/readme.html#web-links"
-  },"451": {
+  },"461": {
     "doc": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started_drivers/readme.html#reference-links",
     "relUrl": "/source/peripheral/same70_getting_started_drivers/readme.html#reference-links"
-  },"452": {
+  },"462": {
     "doc": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs",
     "title": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started_drivers/readme.html",
     "relUrl": "/source/peripheral/same70_getting_started_drivers/readme.html"
-  },"453": {
+  },"463": {
     "doc": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS",
     "title": "Getting Started with Harmony v3 Drivers on SAM E70/S70/V70/V71 MCUs Using FreeRTOS",
     "content": "This tutorial shows you how to use MHC to create an application that gets you started in developing applications on SAM E70/S70/V70/V71 MCUs using MPLAB Harmony v3 software framework. Harmony v3 drivers support Asynchronous and Synchronous modes of operation. | Asynchronous Mode . | Non-blocking Application Program Interfaces (APIs) | Works seamlessly in bare-metal and RTOS environment | Interrupt and thread-safe | . | Synchronous Mode . | Blocking APIs | Suitable for use in RTOS environment | Interrupt and thread-safe | . | . In this tutorial, you will use Harmony drivers in Synchronous mode of operation. The application makes use of SAM E70 Xplained Ultra board and I/O1 Xplained Pro Extension Kit (sold separately). The application reads the current room temperature from the temperature sensor on the I/O1 Xplained Pro Extension Kit. The temperature reading is displayed on a serial console periodically every second. Further, the application writes the temperature readings to EEPROM. When a character is entered on the console, the last five written temperature values are read from the EEPROM and displayed on the console. Also, an LED (LED3) is toggled every time the temperature is displayed on the serial console. The application you create will utilize: . | Two-Wire Interface High Speed (TWIHS) (I²C) Synchronous Driver to read the temperature from a temperature sensor and store/retrieve to/from EEPROM. | USART Synchronous Driver to print the temperature values on a COM (serial) port terminal application running on a PC. | PORTS Peripheral Library to toggle an LED. | FreeRTOS library to create application threads and intercommunicate between application threads. | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started_drivers_freertos/readme.html#getting-started-with-harmony-v3-drivers-on-sam-e70s70v70v71-mcus-using-freertos",
     "relUrl": "/source/peripheral/same70_getting_started_drivers_freertos/readme.html#getting-started-with-harmony-v3-drivers-on-sam-e70s70v70v71-mcus-using-freertos"
-  },"454": {
+  },"464": {
     "doc": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started_drivers_freertos/readme.html",
     "relUrl": "/source/peripheral/same70_getting_started_drivers_freertos/readme.html"
-  },"455": {
+  },"465": {
     "doc": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS",
     "title": "Web Links",
     "content": ". | Getting Started with Harmony v3 Drivers on SAM E70/S70/V70/V71 MCUs Using FreeRTOS | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started_drivers_freertos/readme.html#web-links",
     "relUrl": "/source/peripheral/same70_getting_started_drivers_freertos/readme.html#web-links"
-  },"456": {
+  },"466": {
     "doc": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started_drivers_freertos/readme.html#reference-links",
     "relUrl": "/source/peripheral/same70_getting_started_drivers_freertos/readme.html#reference-links"
-  },"457": {
+  },"467": {
     "doc": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS",
     "title": "Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/same70_getting_started_drivers_freertos/readme.html",
     "relUrl": "/source/peripheral/same70_getting_started_drivers_freertos/readme.html"
-  },"458": {
+  },"468": {
     "doc": "Getting Started with PLIBs on SAM L10 MCUs",
     "title": "Getting Started with Harmony v3 Peripheral Libraries on SAM L10 MCUs",
     "content": "This tutorial shows you how to use the MHC to create an application that gets you started in developing applications on SAM L10 MCUs using MPLAB Harmony v3 software framework. The application makes use of SAM L10 Xplained Pro Evaluation Kit and I/O1 Xplained Pro Extension Kit (sold separately). The application reads the current room temperature from the temperature sensor on the I/O1 Xplained Pro Extension. The temperature read is displayed on a serial console periodically every 500 milliseconds. The periodicity of the temperature values displayed on the serial console is changed to one second, two seconds, four seconds, and back to 500 milliseconds every time you press the switch SW0 on the SAM L10 Xplained Pro Evaluation Kit. Also, an LED0 is toggled every time the temperature is displayed on the serial console. The application you create will utilize: . | SERCOM (as I²C) PLIB to read the temperature from a temperature sensor | Real-Time Clock (RTC) PLIB to periodically sample temperature sensor data | SERCOM (as Universal Synchronous Asynchronous Receiver Transmitter (USART)) and Direct Memory Access (DMA) PLIBs to print the temperature values on a COM (serial) port terminal application running on a PC | PORT PLIB to toggle the LED | External Interrupt Controller (EIC) PLIB to change the periodicity of temperature sensor data read using SWITCH press event | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml10_getting_started/readme.html#getting-started-with-harmony-v3-peripheral-libraries-on-sam-l10-mcus",
     "relUrl": "/source/peripheral/saml10_getting_started/readme.html#getting-started-with-harmony-v3-peripheral-libraries-on-sam-l10-mcus"
-  },"459": {
+  },"469": {
     "doc": "Getting Started with PLIBs on SAM L10 MCUs",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml10_getting_started/readme.html",
     "relUrl": "/source/peripheral/saml10_getting_started/readme.html"
-  },"460": {
+  },"470": {
     "doc": "Getting Started with PLIBs on SAM L10 MCUs",
     "title": "Web Links",
     "content": ". | Getting Started with Harmony v3 Peripheral Libraries on SAM L10 MCUs | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml10_getting_started/readme.html#web-links",
     "relUrl": "/source/peripheral/saml10_getting_started/readme.html#web-links"
-  },"461": {
+  },"471": {
     "doc": "Getting Started with PLIBs on SAM L10 MCUs",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml10_getting_started/readme.html#reference-links",
     "relUrl": "/source/peripheral/saml10_getting_started/readme.html#reference-links"
-  },"462": {
+  },"472": {
     "doc": "Getting Started with PLIBs on SAM L10 MCUs",
     "title": "Getting Started with PLIBs on SAM L10 MCUs",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml10_getting_started/readme.html",
     "relUrl": "/source/peripheral/saml10_getting_started/readme.html"
-  },"463": {
+  },"473": {
     "doc": "Low Power with PLIBs on SAM L10 MCUs",
     "title": "Low Power Application on SAM L10 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries",
     "content": "This tutorial shows you how to create a low power application on a SAM L10 using MPLAB® Harmony v3 software framework. The SAM L10 is a 32-bit Arm® Cortex®-based M23 microcontroller that provides features to reduce power consumption through different Sleep modes, such as Idle, Standby, and Off. | In Idle mode, the CPU and the synchronous clocks are stopped, except when requested. This mode allows power optimization with a fast wake-up time. | In Standby mode, the CPU and the peripherals are stopped, except those that are running using the Run in Standby mode feature. This mode allows the device to consume the lowest power with little overhead on wake-up time. | In Off mode, the device is entirely powered off. This mode allows you to achieve the lowest power consumption. Since the device must be reset to recover from this mode, the wake-up time is longer. | . The Power Manager (PM) module is responsible for controlling the Low Power modes. Additionally, the SAM L10 provides SleepWalking, an advanced low power operation mode which is based on event propagation managed by the Event System (EVSYS). This application makes use of the SAM L10 Xplained Pro Evaluation Kit and the I/O1 Xplained Pro Extension Kit (sold separately). On power-up, the device is set to Standby Sleep mode. The device wakes up from Standby mode and enters Active mode when you cover the light sensor (by placing a hand over it, for example) on the I/O1 Xplained Pro extension kit. The application periodically prints the room temperature on a serial terminal while the light sensor is covered. The device goes back to Standby mode when you uncover the light sensor. LED0 on the SAM L10 evaluation kit is toggled every time the temperature is displayed on the serial console. When you press the switch button SW0, the application switches Sleep mode from Standby mode to Idle mode. The application you create will utilize the following peripherals: . | SERCOM1 (as I²C) peripheral library to read the temperature from the temperature sensor. | Real-Time Clock (RTC) peripheral library to periodically generate an event for the ADC to sample the light sensor. | SERCOM0 (as Universal Synchronous Asynchronous Receiver Transmitter (USART)) peripheral library to print messages on a serial console running on a computer. | Direct Memory Access Controller (DMAC) peripheral library to send the converted temperature value to the SERCOM0. | PORT peripheral library to toggle the LED0. | Analog-to-Digital Converter (ADC) peripheral library to sample the light sensor analog input and detect whether the light sensor is covered or not. | PM and Supply Controller (SUPC) peripheral libraries to configure Low Power modes. | External Interrupt Controller (EIC) peripheral library to control the user button SW0. | EVSYS peripheral library to trigger the start of the ADC conversion on every RTC compare match event. The EVSYS allows for peripheral-to-peripheral communication without CPU intervention. This reduces the burden on the CPU and other resources when compared to the conventional interrupt-based systems. | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml10_low_power/readme.html#low-power-application-on-sam-l10-cortex-m23-mcus-using-mplab-harmony-v3-peripheral-libraries",
     "relUrl": "/source/peripheral/saml10_low_power/readme.html#low-power-application-on-sam-l10-cortex-m23-mcus-using-mplab-harmony-v3-peripheral-libraries"
-  },"464": {
+  },"474": {
     "doc": "Low Power with PLIBs on SAM L10 MCUs",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml10_low_power/readme.html",
     "relUrl": "/source/peripheral/saml10_low_power/readme.html"
-  },"465": {
+  },"475": {
     "doc": "Low Power with PLIBs on SAM L10 MCUs",
     "title": "Web Links",
     "content": ". | Low Power Application on SAM L10 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml10_low_power/readme.html#web-links",
     "relUrl": "/source/peripheral/saml10_low_power/readme.html#web-links"
-  },"466": {
+  },"476": {
     "doc": "Low Power with PLIBs on SAM L10 MCUs",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml10_low_power/readme.html#reference-links",
     "relUrl": "/source/peripheral/saml10_low_power/readme.html#reference-links"
-  },"467": {
+  },"477": {
     "doc": "Low Power with PLIBs on SAM L10 MCUs",
     "title": "Low Power with PLIBs on SAM L10 MCUs",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml10_low_power/readme.html",
     "relUrl": "/source/peripheral/saml10_low_power/readme.html"
-  },"468": {
+  },"478": {
     "doc": "Low Power with PLIBs on SAM L21 MCUs",
     "title": "Low Power Application on SAM L21 (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries",
     "content": "This tutorial shows you how to create a low power application on a SAM L21 using MPLAB® Harmony v3 software framework. The SAM L21 is a 32-bit Arm® Cortex® M0+ based microcontroller (MCU) that provides features to reduce power consumption through different Sleep modes such as Idle, Standby, Backup, and Off. | In Idle mode, the CPU and the synchronous clocks are stopped, except when requested. This mode allows power optimization with a fast wake-up time. | In Standby mode, the CPU and the peripherals are stopped, except those that are running using the Run in Standby mode feature. This mode allows the device to consume the lowest power with little overhead on wake-up time. | In Backup mode, the device is entirely powered off, except for the peripherals in the backup domain. This mode allows you to achieve the lowest power consumption aside from Off mode but increases the wake-up time compared to Standby mode. | In Off mode, the device is entirely powered off. It allows you to achieve the lowest power consumption. Since the device must be reset to recover from this mode, the wake-up time is the highest. | . The Power Manager (PM) module is responsible for controlling the Low Power modes. Additionally, the SAM L21 provides SleepWalking, an advanced low power operation mode, which is based on event propagation managed by the Event System (EVSYS). This application makes use of the SAM L21 Xplained Pro B evaluation kit and the I/O1 Xplained Pro Extension Kit (sold separately). On power-up, the device is set to Standby Sleep mode. The device wakes up from Standby mode and enters Active mode when you cover the light sensor (by placing a hand over it, for example) on the I/O1 Xplained Pro extension kit. The application periodically prints room temperature on a serial terminal while the light sensor is covered. The device goes back to Standby mode when you uncover the light sensor. LED0 in the SAM L21 evaluation kit is toggled every time the temperature is displayed on the serial console. When you press the switch button SW0, the application switches Sleep mode from Standby mode to Idle mode. The application you create will utilize the following peripherals: . | SERCOM2 (as I²C) peripheral library to read the temperature from the temperature sensor. | Real-Time Clock (RTC) peripheral library to periodically generate an event for the ADC to sample the light sensor. | SERCOM3 (as Universal Synchronous Asynchronous Receiver Transmitter (USART)) peripheral library to print messages on a serial console running on a computer. | Direct Memory Access Controller (DMAC) peripheral library to send the converted temperature value to the SERCOM3. | PORT peripheral library to toggle the LED0. | Analog-to-Digital Converter (ADC) peripheral library to sample the light sensor analog input and detect whether the light sensor is covered or not. | PM and Supply Controller (SUPC) peripheral libraries to configure Low Power modes. | External Interrupt Controller (EIC) peripheral library to control the user button SW0. | EVSYS peripheral library to trigger the start of the ADC conversion on every RTC compare match event. The EVSYS allows for peripheral-to-peripheral communication without CPU intervention. This reduces the burden on the CPU and other resources when compared to the conventional interrupt-based systems. | . For more information refer the links below. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml21_low_power/readme.html#low-power-application-on-sam-l21-cortex-m0-mcus-using-mplab-harmony-v3-peripheral-libraries",
     "relUrl": "/source/peripheral/saml21_low_power/readme.html#low-power-application-on-sam-l21-cortex-m0-mcus-using-mplab-harmony-v3-peripheral-libraries"
-  },"469": {
+  },"479": {
     "doc": "Low Power with PLIBs on SAM L21 MCUs",
     "title": " ",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml21_low_power/readme.html",
     "relUrl": "/source/peripheral/saml21_low_power/readme.html"
-  },"470": {
+  },"480": {
     "doc": "Low Power with PLIBs on SAM L21 MCUs",
     "title": "Web Links",
     "content": ". | Low Power Application on SAM L21 (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml21_low_power/readme.html#web-links",
     "relUrl": "/source/peripheral/saml21_low_power/readme.html#web-links"
-  },"471": {
+  },"481": {
     "doc": "Low Power with PLIBs on SAM L21 MCUs",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml21_low_power/readme.html#reference-links",
     "relUrl": "/source/peripheral/saml21_low_power/readme.html#reference-links"
-  },"472": {
+  },"482": {
     "doc": "Low Power with PLIBs on SAM L21 MCUs",
     "title": "Low Power with PLIBs on SAM L21 MCUs",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/saml21_low_power/readme.html",
     "relUrl": "/source/peripheral/saml21_low_power/readme.html"
-  },"473": {
+  },"483": {
     "doc": "Peripheral Libraries",
     "title": "MPLAB Harmony Peripheral Libraries Documentation",
     "content": "This page contains quick documentation for MPLAB® Harmony 3 Peripheral Libraries (PLIBs) and drivers usage. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/readme.html#mplab-harmony-peripheral-libraries-documentation",
     "relUrl": "/source/peripheral/readme.html#mplab-harmony-peripheral-libraries-documentation"
-  },"474": {
+  },"484": {
     "doc": "Peripheral Libraries",
     "title": "Peripheral Libraries (PLIBs)",
     "content": ". | Getting Started with Harmony v3 Peripheral Libraries on SAMC2x MCUs . | Getting Started with Harmony v3 Peripheral Libraries on SAM D5x/E5x MCUs . | Getting Started with Harmony v3 Peripheral Libraries on SAM E70/S70/V70/V71 MCUs . | Getting Started with Harmony v3 Peripheral Libraries on SAM L10 MCUs . | Getting Started with Harmony v3 Peripheral Libraries on SAM D21 MCUs . | Getting Started with Harmony v3 Peripheral Libraries on PIC32MZ EF MCUs . | Getting Started with Harmony v3 Peripheral Libraries on PIC32MX 470 MCUs . | Getting Started with Harmony v3 Peripheral Libraries on PIC32MK GP MCUs . | Low Power Application on SAMC2x (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries . | Low Power Application on SAM L21 (Cortex M0+) MCUs using MPLAB Harmony v3 Peripheral Libraries . | Low Power Application on SAM L10 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries . | Low Power Application on SAM E54 (Cortex M4) MCU Using MPLAB Harmony v3 Peripheral Libraries . | Arm TrustZone Getting Started Application on SAM L11 MCUs . | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/readme.html#peripheral-libraries-plibs",
     "relUrl": "/source/peripheral/readme.html#peripheral-libraries-plibs"
-  },"475": {
+  },"485": {
     "doc": "Peripheral Libraries",
     "title": "Drivers",
-    "content": ". | Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs . | Getting Started with Harmony v3 Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS . | Getting Started with Harmony v3 Drivers on SAM D21 MCUs Using FreeRTOS . | . ",
+    "content": ". | Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs . | Getting Started with Harmony v3 Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS . | Getting Started with Harmony v3 Drivers on SAM D21 MCUs Using FreeRTOS . | Getting Started with Harmony v3 Drivers on SAM E5x MCUs Using FreeRTOS . | Getting Started with Harmony v3 Drivers on SAM C2x MCUs Using FreeRTOS . | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/readme.html#drivers",
     "relUrl": "/source/peripheral/readme.html#drivers"
-  },"476": {
+  },"486": {
     "doc": "Peripheral Libraries",
     "title": "Web Links",
-    "content": ". | Clock System Configuration and Usage on SAM E5x (Cortex M4) Devices Clock System Configuration and Usage on SAM C2x (Cortex M0+) Devices | How to Build an Application by Adding a New PLIB, Driver, or Middleware to an Existing MPLAB Harmony v3 Project | Various Timers on SAM Devices | How to Use the TCM on A Cortex-M7 Based MCU with the XC32 Compiler | How to Create Non-Cacheable Memory Region on CortexM7 (SAM S70/ E70/ V70/ V71) MCUs Using MPLAB Harmony v3 | SleepWalking with Event System Using the SAM E54 | Execute-In-Place (XIP) with QSPI on Cortex-M7 MCUs Using MPLAB Harmony v3 | Using XDMAC with QSPI on Arm Cortex-M7 MCUs Using MPLAB Harmony v3 | How to Wake-up Fast From an External Event on Cortex M0+ Based MCUs | Using Sigma-Delta Analog-to-Digital Converter (SDADC) on a SAMC MCU with MPLAB Harmony v3 | Live Update Application on PIC32MZ MCUs Using MPLAB Harmony v3 | Live Update Application on SAM E54 MCU Using MPLAB Harmony v3 | . ",
+    "content": ". | Clock System Configuration and Usage on SAM E5x (Cortex M4) Devices Clock System Configuration and Usage on SAM C2x (Cortex M0+) Devices | How to Build an Application by Adding a New PLIB, Driver, or Middleware to an Existing MPLAB Harmony v3 Project | Various Timers on SAM Devices | How to Use the TCM on A Cortex-M7 Based MCU with the XC32 Compiler | How to Create Non-Cacheable Memory Region on CortexM7 (SAM S70/ E70/ V70/ V71) MCUs Using MPLAB Harmony v3 | SleepWalking with Event System Using the SAM E54 | Execute-In-Place (XIP) with QSPI on Cortex-M7 MCUs Using MPLAB Harmony v3 | Using XDMAC with QSPI on Arm Cortex-M7 MCUs Using MPLAB Harmony v3 | How to Wake-up Fast From an External Event on Cortex M0+ Based MCUs | Using Sigma-Delta Analog-to-Digital Converter (SDADC) on a SAMC MCU with MPLAB Harmony v3 | Live Update Application on PIC32MZ MCUs Using MPLAB Harmony v3 | Live Update Application on SAM E54 MCU Using MPLAB Harmony v3 | Handling Cache Coherency Issues at Runtime Using Cache Maintenance Operations on Cortex-M7 MCUs Using MPLAB Harmony v3 | Multiplexed and Remappable Functionalities on I/O pins on PIC32M Devices Using MPLAB Harmony v3 | How to Move an Application into a Desired Flash Memory Location with the Help of Linker Script on SAM E54 | . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/readme.html#web-links",
     "relUrl": "/source/peripheral/readme.html#web-links"
-  },"477": {
+  },"487": {
     "doc": "Peripheral Libraries",
     "title": "Videos",
     "content": ". Note: . This page provides a quick reference covering the MPLAB Harmony 3 Peripheral Libraries (PLIBs) and drivers usage. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation. Peripheral/Technology specific documentation are available in technology repositories like csp, core, usb, net, audio, gfx_apps, etc. ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/readme.html#videos",
     "relUrl": "/source/peripheral/readme.html#videos"
-  },"478": {
+  },"488": {
     "doc": "Peripheral Libraries",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/readme.html#reference-links",
     "relUrl": "/source/peripheral/readme.html#reference-links"
-  },"479": {
+  },"489": {
     "doc": "Peripheral Libraries",
     "title": "Peripheral Libraries",
     "content": "                                                                                   . ",
     "url": "http://localhost:4000/quick_docs/source/peripheral/readme.html",
     "relUrl": "/source/peripheral/readme.html"
-  },"480": {
+  },"490": {
     "doc": "Create First Harmony 3 Project",
     "title": "Create First MPLAB Harmony 3 Project",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#create-first-mplab-harmony-3-project",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#create-first-mplab-harmony-3-project"
-  },"481": {
+  },"491": {
     "doc": "Create First Harmony 3 Project",
     "title": "Overview",
     "content": "The purpose of this tutorial is to show you how to use Microchip MPLAB® Harmony 3 to create a simple “heartbeat” LED application that flashes an LED using the MPLAB® X IDE and the MPLAB® Harmony Configurator (MHC). As a bonus, you can reuse the heartbeat LED application in future projects as a simple indicator of system health. This tutorial focuses on direct use of MPLAB® Harmony peripheral libraries to build an application. If you are interested in using interoperable MPLAB® Harmony drivers, services, or middleware in your application, please see “Creating Your First Project – Harmony” when you’ve finished with this tutorial. The application can be defined by the following flowchart: . ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#overview",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#overview"
-  },"482": {
+  },"492": {
     "doc": "Create First Harmony 3 Project",
     "title": "Required Software",
     "content": "The instructions in this tutorial assume that you have already installed following software. | MPLAB X Integrated Development Environment | MPLAB XC32/32++ C Compiler | MPLAB Harmony Configurator | . ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#required-software",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#required-software"
-  },"483": {
+  },"493": {
     "doc": "Create First Harmony 3 Project",
     "title": "Required Hardware",
     "content": "The instructions in this tutorial use SAMC21N Xplained Pro Evaluation Kitand it has one Yellow Color user LED (PC05) connected GPIO. Similar kits will work similarly, but the setup and steps may not be exactly as described. Setup: The following figure shows the hardware setup details: . | Connect SAMC21N Xplained Pro Evaluation Kit micro USB port to PC using a micro USB cable . | . ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#required-hardware",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#required-hardware"
-  },"484": {
+  },"494": {
     "doc": "Create First Harmony 3 Project",
     "title": "Procedure",
     "content": "The following are the steps to create, generate, build and flash LED Blinking application. Before proceeding, make sure you have downloaded the required Harmony 3 packages (for directions, the MPLAB® Harmony Configurator (MHC) User’s Guide) and setup the required hardware as shown previously. ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#procedure",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#procedure"
-  },"485": {
+  },"495": {
     "doc": "Create First Harmony 3 Project",
     "title": "Create a new project",
     "content": ". | Open the MPLAB® X IDE. | Create a New Project by clicking the New Project icon or by selecting File &gt; New Project. | In the New Project window select 32-Bit MPLAB® Harmony 3 Project. | Click Next. Note: If the option 32-Bit MPLAB Harmony v3 Project is not available, install the MPLAB® Harmony 3 Launcher plug-in from Tools &gt; Plugins &gt; Available Plugins before continuing with this demonstration. | Enter the path to the folder in which you downloaded the MPLAB® Harmony 3 packages in the Framework Path edit box. | In the Project Setting dialog window, fill in or select the information needed as follows: . | Location: Create a “MyBlinky” folder in the location of your choice. | Folder: Project Folder name i.e. “sam_c21n_xpro” | Name: Project Name i.e. “my_blinky_sam_c21n_xpro” | . | In the Configuration Settings dialog window, enter the configuration name as “sam_c21n_xpro” and select the Target Device ATSAMC21N18A from the drop-down menu as shown below. | Click Finish. | When the Configuration Database Setup dialog appears, just click Launch as shown below to open MPLAB® Harmony Configurator plugin. If the below dialog window doesn’t appear then MHC can be launched by selecting MPLAB® Harmony 3 Configurator under Tools ? Embedded. | . ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#create-a-new-project",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#create-a-new-project"
-  },"486": {
+  },"496": {
     "doc": "Create First Harmony 3 Project",
     "title": "Setup MPLAB® Harmony Project Configurator to Generate Code",
     "content": ". | From the “Available Components” panel of MHC (on the left side of the MHC window), drag and drop the TC0 peripheral into the Components Graph: . | Click on the “TC0” component and configure as below and in the figure: . | Select Prescaler value to “Prescaler: GCLK_TC/1024” | Set Timer Period (Milli Sec) to “500” | . This will toggle the LED every 0.5 seconds, producing a LED blink every second. | Launch the Pin Configuration manager from the MHC’s Tools menu: . | Setup pin “PC05” as the board’s LED, set custom name as “LED” and Direction as “Out”: . This is necessary because the project doesn’t use a Board Support Package (BSP). | Generate the application’s code for the first time. | Select the Generate Code button of MHC’s window . | Save the project’s configuration (any name will do for the .xml file): . | Select default as the Merge Strategy (i.e. USER_ALL) and click Generate . Now the project’s initial software has been configured. Note: Here is a brief explanation of the different merge strategies that are available: . | ALL: The user will be prompted with a merge window for all generated files. This includes files that have no user modifications but are changed because of changes in MHC configuration or component updates. (This choice is always the safest.) | USER_ALL: The user will always be prompted with a merge window for all generated files that contain user modifications. | USER_RECENT: The user will be prompted with a merge window for all generated files that contain user modifications. | OVERWRITE: All generated file content will be replaced by the contents of this generate operation. All user changes will be overwritten. | . | Let’s examine the software just created in the Projects panel of MPLAB® X IDE Header Files are shown on the top and Source Files are shown on the bottom. Note: The icons used in this picture of the project’s organization make it seem like the files of the project are organized this way on disk. In fact, this is a virtual organization of these files, not an actual one. On disk, the source and header files are not separated. The following table describes the Header and Source files generated from the sample project: . | # | Source File | Descriptions | . | 1 | definitions.h | Provides configuration-specific definitions | . | 2 | exceptions.c | Implements exception handlers | . | 3 | initialization.c | Implements SYS_Initialize to initializes all libraries and applications | . | 4 | interrupts.c | Implements the interrupt vectors | . | 5 | peripheral [libraries] | Implements peripheral libraries used by the project | . | 6 | startup.c | Startup code for the application | . If you click on the Files tab you will see the actual organization of these files on your drive: . | . ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#setup-mplab-harmony-project-configurator-to-generate-code",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#setup-mplab-harmony-project-configurator-to-generate-code"
-  },"487": {
+  },"497": {
     "doc": "Create First Harmony 3 Project",
     "title": "Adding Code to main.c",
     "content": "Double click on main.c to bring up an editor window and update it to obtain the following code: . #include \\\"definitions.h\\\" // SYS function prototypes static bool volatile bToggleLED = false; // This function is called after period expires void TC0_CH0_TimerInterruptHandler(TC_TIMER_STATUS status, uintptr_t context) { bToggleLED = true; } // ***************************************************************************** // ***************************************************************************** // Section: Main Entry Point // ***************************************************************************** // ***************************************************************************** int main ( void ) { // Initialize all modules SYS_Initialize(NULL); // Register callback function for CH0 period interrupt TC0_TimerCallbackRegister(TC0_CH0_TimerInterruptHandler, (uintptr_t)NULL); // Start the timer channel 0 TC0_TimerStart(); while ( true ) { if ( bToggleLED ) { bToggleLED = false; LED_Toggle(); } } // Execution should not come here during normal operation return EXIT_FAILURE; } . If you do a control click on “LED_Toggle()” the editor will bring up where this token is defined in the file plib_port.h: . &lt;img src = \\\"images/code1.png\\\" width=\\\"700\\\" height=\\\"150\\\" align=\\\"middle\\\"&gt; &lt;img src = \\\"images/code2.png\\\" width=\\\"700\\\" height=\\\"210\\\" align=\\\"middle\\\"&gt; . ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#adding-code-to-mainc",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#adding-code-to-mainc"
-  },"488": {
+  },"498": {
     "doc": "Create First Harmony 3 Project",
     "title": "Upload project to SAMC21N Xplained pro Evaluation Kit",
     "content": ". | Do a right mouse click on the project’s name and bring up the Project Properties dialog: . | Under Categories section, select Conf: (sam_c21n_xpro), and in the Configuration section, select the hardware tool and XC32 Compiler toolchain (here v2.41). Click Apply, and then click OK . | Build and run the project: The board’s LED should flash with a 1 second period . | . We have now implemented a heartbeat for future applications. The LED blinking indicates that the application hasn’t frozen or isn’t stuck in a while(1){} loop (e.g.: assert or exception). ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#upload-project-to-samc21n-xplained-pro-evaluation-kit",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#upload-project-to-samc21n-xplained-pro-evaluation-kit"
-  },"489": {
+  },"499": {
     "doc": "Create First Harmony 3 Project",
     "title": "Result",
     "content": "If configured correctly, the LED PC05 on the SAMC21N Xplained Pro Evaluation Kit should now flash ON/OFF at 500 ms intervals. ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#result",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#result"
-  },"490": {
+  },"500": {
     "doc": "Create First Harmony 3 Project",
     "title": "Note",
     "content": "This page has been verified with the following versions of software tools: . | MPLAB Harmony v3 “csp” repo v3.8.3 | MPLAB Harmony v3 “dev_packs” repo v3.8.0 | MPLAB Harmony v3 “mhc” repo v3.6.5 | MPLAB Harmony 3 Launcher Plugin v3.6.2 | MPLAB X IDE v5.45 | MPLAB XC32 Compiler v2.41 | . Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#note",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#note"
-  },"491": {
+  },"501": {
     "doc": "Create First Harmony 3 Project",
     "title": "References",
     "content": ". | SAMC21N Xplained Pro Evaluation Kit User Guide and Datasheet | MPLAB X IDE User’s Guide see Documentation section at bottom of the page. | User’s Guide direct download | . | . ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#references",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#references"
-  },"492": {
+  },"502": {
     "doc": "Create First Harmony 3 Project",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html#reference-links",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html#reference-links"
-  },"493": {
+  },"503": {
     "doc": "Create First Harmony 3 Project",
     "title": "Create First Harmony 3 Project",
     "content": "                                                                                                      . ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_first_harmony_3_project/readme.html",
     "relUrl": "/source/basic/create_first_harmony_3_project/readme.html"
-  },"494": {
+  },"504": {
     "doc": "Release notes",
     "title": "Microchip MPLAB® Harmony 3 Release Notes",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/release_notes.html#microchip-mplab-harmony-3-release-notes",
     "relUrl": "/release_notes.html#microchip-mplab-harmony-3-release-notes"
-  },"495": {
+  },"505": {
+    "doc": "Release notes",
+    "title": "Quick Docs Release v1.3.0 (June 2021)",
+    "content": "New Doc Pages . The following table provides the list of new doc pages: . | Doc Name | Doc Type - Content | . | Getting Started with Harmony v3 Drivers on SAM E5x MCUs Using FreeRTOS | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 Drivers on SAM C2x MCUs Using FreeRTOS | Peripheral - Brief Overview and Web link | . | New video Weblinks added in Basic page | . Known Issues . - NA - . ",
+    "url": "http://localhost:4000/quick_docs/release_notes.html#quick-docs-release-v130-june-2021",
+    "relUrl": "/release_notes.html#quick-docs-release-v130-june-2021"
+  },"506": {
     "doc": "Release notes",
     "title": "Quick Docs Release v1.2.0 (January 2021)",
     "content": "New Doc Pages . The following table provides the list of new doc pages: . | Doc Name | Doc Type - Content | . | Difference Between MPLAB Harmony v3 PLIBs and Drivers | Basic - Brief Overview and Web link | . | MPLAB Harmony v3 Synchronous drivers and their usage in FreeRTOS based applications | Basic - Brief Overview and Web link | . | Arm TrustZone Getting Started Application on SAM L11 MCUs | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 Drivers on SAM D21 MCUs Using FreeRTOS | Peripheral - Brief Overview and Web link | . | Code generation and API considerations for migration from MCC | Migration - Brief Overview and Web link | . | Migrating ASF SAM C21 Application to MPLAB Harmony v3 PIC32CM MC | Migration - Brief Overview and Web link | . | Getting Started with USB on SAM MCUs Using MPLAB® Harmony v3 | Middleware - Brief Overview and Web link | . Updated Doc Pages . | Doc Name | Doc Type - Content | Comments | . | Application migration from 8-bit AVR to 32-bit SAM D21 MCU | Migration - Full | Updated image source with corrected extension for missing images | . | Application migration from 8-bit PIC18F to 32-bit SAM D21 MCU | Migration - Full | Updated image source with corrected extension for missing images | . | New video Weblinks added in Basic page | New video Weblinks added in Peripheral page | . Known Issues . - NA - . ",
     "url": "http://localhost:4000/quick_docs/release_notes.html#quick-docs-release-v120-january-2021",
     "relUrl": "/release_notes.html#quick-docs-release-v120-january-2021"
-  },"496": {
+  },"507": {
     "doc": "Release notes",
     "title": "Quick Docs Release v1.1.0 (September 2020)",
     "content": ". | Repo restructured to move offline documentation to “docs” folder | . New Doc Pages . The following table provides the list of new doc pages: . | Doc Name | Doc Type - Content | . | Application migration from 8-bit PIC18F to 32-bit SAM D21 | Migration - Full | . | Application migration from 8-bit AVR to 32-bit SAM D21 | Migration - Full | . | Build MPLAB Harmony v3 project with ARM GCC toolchain in MPLAB X IDE | Migration - Full | . | Differences Between MPLAB Harmony v3 Synchronous and Asynchronous Drivers | Basic - Brief Overview and Web link | . | Low Power Application on SAM L10 MCUs using Harmony v3 PLIBs | Peripheral - Brief Overview and Web link | . | Low Power Application on SAM E54 MCU using Harmony v3 PLIBs | Peripheral - Brief Overview and Web link | . | Create your first Motor Control Application using MPLAB Harmony v3 | Middleware - Brief Overview and Web link | . Updated Doc Pages . | Doc Name | Doc Type - Content | Comments | . | Harmony 3 Packages | Basic - Full | Updated the Harmony 3 Package readme.md with the latest release contents. | . | MPLAB Harmony 3 Configurator (MHC) | Basic - Full | Updated the MPLAB Harmony Configurator 3 plugin installation screenshot | . | Create “Hello World” application on PIC MCUs | Basic - Full | Updated the Pin Settings UI screenshot | . | Creating a New TrustZone Project | Basic - Full | Updated screenshots of Project creation completion window and Project properties window | . | New video Weblinks added in Basic page | New video Weblinks added in Peripheral page | New doc Weblink added in Peripheral page | . Known Issues . - NA - . ",
     "url": "http://localhost:4000/quick_docs/release_notes.html#quick-docs-release-v110-september-2020",
     "relUrl": "/release_notes.html#quick-docs-release-v110-september-2020"
-  },"497": {
+  },"508": {
     "doc": "Release notes",
     "title": "Quick Docs Release v1.0.0 (June 2020)",
     "content": "New Doc Pages . The following table provides the list of new doc pages: . | Doc Name | Doc Type - Content | . | MPLAB Harmony 3 Configurator (MHC) | Basic - Full | . | MHC Project Graph | Basic - Full | . | MHC Clock Configuration | Basic - Full | . | MHC Pin Configuration | Basic - Full | . | MHC NVIC Configuration | Basic - Full | . | MHC DMA Configuration | Basic - Full | . | MHC Memory Protection Unit Configuration | Basic - Full | . | MHC Code Generation | Basic - Full | . | MHC Window Manager and Log Level | Basic - Full | . | Create First MPLAB Harmony 3 Project | Basic - Full | . | Create “Hello World” application on SAM MCUs | Basic - Full | . | Create “Hello World” application on PIC MCUs | Basic - Full | . | Open an Existing Harmony 3 Project | Basic - Full | . | Harmony 3 Packages | Basic - Full | . | Create IAR or Keil project using MHC | Basic - Full | . | Create new TrustZone Project | Basic - Full | . | Getting Started with MPLAB Harmony v3 on the SAMA5D2 | Basic - Full | . | Getting started with SAM MPU Devices on MPLAB X Tools | Basic - Full | . | Differences between MPLAB Harmony 2 and Harmony 3 | Migration - Brief Overview and Web link | . | MPLAB Harmony 3 Application Development Guide for MPLAB Harmony 2 Users | Migration - Brief Overview and Web link | . | Graphics Applications | Migration - Brief Overview and Web link | . | TCP/IP Applications | Migration - Brief Overview and Web link | . | USB Applications | Migration - Brief Overview and Web link | . | Introduction to MPLAB and Harmony 3 for Atmel Studio and ASF users | Migration - Brief Overview and Web link | . | Porting Application from ASF3 to MPLAB Harmony 3 Framework | Migration - Brief Overview and Web link | . | Atmel START to MPLAB Harmony 3 Migration Guide | Migration - Brief Overview and Web link | . | Getting Started with Harmony v3 PLIBs on SAMC2x MCUs | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 PLIBs on SAM D5x/E5x MCUs | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 PLIBs on SAM E70/S70/V70/V71 MCUs | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 PLIBs on SAM L10 MCUs | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 PLIBs on SAM D21 MCUs | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 PLIBs on PIC32MZ EF MCUs | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 PLIBs on PIC32MX 470 MCUs | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 PLIBs on PIC32MK GP MCUs | Peripheral - Brief Overview and Web link | . | Low Power Application on SAMC2x MCUs Using Harmony v3 PLIBs | Peripheral - Brief Overview and Web link | . | Low Power Application on SAM L21 MCUs using Harmony v3 PLIBs | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 Drivers and System Services on SAM E70 | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 Drivers on SAM E70 using FreeRTOS | Peripheral - Brief Overview and Web link | . | Getting Started with Harmony v3 Middleware on PIC32MZ EF using FreeRTOS | Middleware - Brief Overview and Web link | . | MPLAB Harmony 3 Audio Overview | Middleware - Brief Overview and Web link | . | Creating your first Audio Application | Middleware - Brief Overview and Web link | . | Creating Your first Audio Decoder Application | Middleware - Brief Overview and Web link | . | SD Card Audio Player/Reader Tutorial | Middleware - Brief Overview and Web link | . | Audio-Tone Generation Using a Lookup Table | Middleware - Brief Overview and Web link | . | Audio-Tone Generation from a Text File Stored in an SD Card | Middleware - Brief Overview and Web link | . | SD Card Reader Support to Load Audio Files | Middleware - Brief Overview and Web link | . | Play a WAV Audio File from an SD Card | Middleware - Brief Overview and Web link | . | Display Graphics Support to Select and Play Audio File | Middleware - Brief Overview and Web link | . | Quickstart Prebuilt Graphics Applications | Middleware - Brief Overview and Web link | . | Creating a new Graphics Application | Middleware - Brief Overview and Web link | . | Graphics Quick Start Application Guides | Middleware - Brief Overview and Web link | . | Harmony Graphics Suite User Guide | Middleware - Brief Overview and Web link | . | Create your first USB Device Application | Middleware - Brief Overview and Web link | . | Create Your First USB Host Application | Middleware - Brief Overview and Web link | . | Harmony USB Stack User Guide | Middleware - Brief Overview and Web link | . | Create your first TCP/IP Application | Middleware - Brief Overview and Web link | . | Harmony TCP/IP User Guide | Middleware - Brief Overview and Web link | . | Create a Touch Project in Harmony | Middleware - Brief Overview and Web link | . | Create Touch Surface &amp; Gesture Project in Harmony | Middleware - Brief Overview and Web link | . | Harmony QTouch User Guide | Middleware - Brief Overview and Web link | . | Harmony Crypto Overview - Board Examples | Middleware - Brief Overview and Web link | . | Create Your First WINC Bypass Mode Example | Middleware - Brief Overview and Web link | . | Harmony WINC Driver Architecture | Middleware - Brief Overview and Web link | . | Create your First Bluetooth Application in Harmony | Middleware - Brief Overview and Web link | . Updated Doc Pages . - NA - . Known Issues . - NA - . ",
     "url": "http://localhost:4000/quick_docs/release_notes.html#quick-docs-release-v100-june-2020",
     "relUrl": "/release_notes.html#quick-docs-release-v100-june-2020"
-  },"498": {
+  },"509": {
     "doc": "Release notes",
     "title": "Reference Links",
     "content": "                . ",
     "url": "http://localhost:4000/quick_docs/release_notes.html#reference-links",
     "relUrl": "/release_notes.html#reference-links"
-  },"499": {
+  },"510": {
     "doc": "Release notes",
     "title": "Release notes",
     "content": " ",
     "url": "http://localhost:4000/quick_docs/release_notes.html",
     "relUrl": "/release_notes.html"
-  },"500": {
+  },"511": {
     "doc": "Harmony 3 Quick Docs",
     "title": "Harmony 3 Quick Docs",
     "content": "# MPLAB Harmony 3 Quick Documentation Package MPLAB Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices. Refer to the following links for more information. This repository contains the MPLAB Harmony 3 Quick Documentation Package. Quick documents are standalone html pages that help to get started developing applications using Microchip 32-bit SAM and PIC MCUs using MPLAB Harmony 3 software framework. [](/quick_docs/source/basic/readme.html) &nbsp; &nbsp; &nbsp; &nbsp; [](/quick_docs/source/migration/readme.html) &nbsp; &nbsp; &nbsp; &nbsp; [](/quick_docs/source/peripheral/readme.html) &nbsp; &nbsp; &nbsp; &nbsp; [](/quick_docs/source/middleware/readme.html) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ ]() - [**Harmony Basics**](/quick_docs/source/basic/readme.html) : Cover topics that help to get started developing applications using MPLAB Harmony 3 software framework. For Example: MPLAB Harmony 3 Configurator (MHC), Creating the first application on Harmony 3, etc. - [**Migration Guides**](/quick_docs/source/migration/readme.html) : Cover topics that help migrate from other Microchip 32-bit software solutions offering to MPLAB Harmony 3 based solution. For example: Port an existing application from Harmony 2/ASF/START to Harmony 3, etc. - [**Peripheral Libraries**](/quick_docs/source/peripheral/readme.html) : Cover topics that help use MPLAB Harmony peripheral libraries and drivers. For Example: Getting Started with Harmony v3 Peripheral Libraries on SAM D5x/E5x MCUs. - [**Middleware Examples**](/quick_docs/source/middleware/readme.html) : Cover topics that help use MPLAB Harmony middleware libraries to implement larger feature rich applications involving integration of multiple technologies. For Example: SD Card Audio Player/Reader Tutorial. The above doc types serve as a reference to evaluate solutions on 32-bit SAM and PIC MCUs by developing applications using MPLAB Harmony 3 software framework on Microchip 32-bit SAM and PIC development boards/kits. **Note**: The doc pages in this repository is a quick source covering the above types. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation. Refer the specific peripheral/technology repository to find specific documentation. **Repository and documentation support:** - The following table lists the fundamental and few technology specific repositories in MPLAB Harmony 3 Software Framework | Repository | # Documentation | --- | ---| csp | Covers documentation for the peripheral libraries (PLIBs) and related applications that directly control the SAM and PIC peripherals | core | Covers documentation for drivers, system services and the related applications using them. Applications that use the drivers and system services that have advanced capabilities and a higher level of abstraction that gives better hardware independence | usb | Covers documentation for USB library and related applications that demonstrate the capabilities of the MPLAB Harmony USB stack | net | Covers documentation for TCP/IP stack and related applications that demonstrate the capabilities of the MPLAB Harmony TCP/IP stack. These applications use well-known protocols like TCP, UDP, HTTP, SMTP, etc | gfx | Covers documentation for the quick start applications that demonstrates MPLAB Harmony Aria/Legato Graphics Libraries | gfx_apps | Covers documentation for the non quick start applications that demonstrates MPLAB Harmony Aria/Legato Graphics Libraries | audio | Covers documentation for Harmony Audio offerings and applications that demonstrates capabilities of the MPLAB Harmony audio offerings, drivers for hardware codecs that can be connected to development boards, audio decoders, etc | ### Note: The above is not an exhaustive list of all MPLAB Harmony 3 packages and corresponding documentation offerings. Refer the MPLAB Harmony 3 GitHub Launch page to view the complete list of MPLAB Harmony 3 packages. In each of these packages refer the underlying documentation. Refer to the following links for release notes and reference application information. - [Release Notes](/quick_docs/release_notes.html) - [MPLAB® Harmony License](/quick_docs/mplab_harmony_license.html) - [MPLAB® Harmony 3 Quick Docs Wiki](https://github.com/Microchip-MPLAB-Harmony/quick_docs/wiki) ____ [ ]() &nbsp; &nbsp; &nbsp; [ ]() &nbsp; &nbsp; &nbsp; [ ]() &nbsp; &nbsp; [ ]() [ ]() ____ [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/quick_docs/blob/master/mplab_harmony_license.md) [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/quick_docs.svg)](https://github.com/Microchip-MPLAB-Harmony/quick_docs/releases/latest) [![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/quick_docs.svg)](https://github.com/Microchip-MPLAB-Harmony/quick_docs/releases/latest) [![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/quick_docs.svg)](https://github.com/Microchip-MPLAB-Harmony/quick_docs/graphs/commit-activity) [![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/quick_docs.svg)]() ____ [![Follow us on Youtube](https://img.shields.io/badge/Youtube-Follow%20us%20on%20Youtube-red.svg)](https://www.youtube.com/user/MicrochipTechnology) [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20us%20on%20LinkedIn-blue.svg)](https://www.linkedin.com/company/microchip-technology) [![Follow us on Facebook](https://img.shields.io/badge/Facebook-Follow%20us%20on%20Facebook-blue.svg)](https://www.facebook.com/microchiptechnology/) [![Follow us on Twitter](https://img.shields.io/twitter/follow/MicrochipTech.svg?style=social)](https://twitter.com/MicrochipTech) [![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/quick_docs.svg?style=social)]() [![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/quick_docs.svg?style=social)]() ",

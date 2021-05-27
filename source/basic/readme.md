@@ -75,10 +75,10 @@ alt="" width="240" height="180" border="10" title="Getting Started with the SAM 
 alt="" width="240" height="180" border="10" title="Getting Started with the PIC32CM MC00 Curiosity Nano Evaluation Kit" /> </a>
 <a href="https://www.youtube.com/watch?v=ta9vvaY1RBU
 " target="_blank"><img src="http://img.youtube.com/vi/ta9vvaY1RBU/0.jpg"
-alt="" width="240" height="180" border="10" title="Getting Started with the PIC32CM MC00 Curiosity Nano Evaluation Kit" /> </a>
+alt="" width="240" height="180" border="10" title="MPLAB® Harmony Quick Docs Package" /> </a>
 <a href="https://www.youtube.com/watch?v=FcY08Mj6DV0
 " target="_blank"><img src="http://img.youtube.com/vi/FcY08Mj6DV0/0.jpg"
-alt="" width="240" height="180" border="10" title="Getting Started with the PIC32CM MC00 Curiosity Nano Evaluation Kit " /> </a>
+alt="" width="240" height="180" border="10" title="Develop 32-bit MCU applications using MPLAB® Harmony v3" /> </a>
 
 
 
