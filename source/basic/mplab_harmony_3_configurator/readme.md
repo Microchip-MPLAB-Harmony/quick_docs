@@ -111,7 +111,9 @@ User can checkout remote packages or update locally downloaded packages once rem
 
 Please click on below link for detailed information
 
-GitHub → <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony 3 Content Manager</a>Gitee → <a href="https://gitee.com/Microchip-MPLAB-Harmony/contentmanager/wikis/" target="_blank">MPLAB Harmony 3 Content Manager</a>
+GitHub → <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony 3 Content Manager</a>
+
+Gitee → <a href="https://gitee.com/Microchip-MPLAB-Harmony/contentmanager/wikis/" target="_blank">MPLAB Harmony 3 Content Manager</a>
 
 ### <a id="Project-Settings"> </a>
 ### Project Settings
@@ -143,8 +145,12 @@ In the New Project window, perform these settings:
 ### Configuration Settings
 Follow these steps to select the project’s configuration settings.
 
-1. In the right pane, under Configuration Settings enter details for the configuration Name and choose the Target Device.**Note**: You can select the Device Family or enter a partial device name to filter the list if Target Devices in order to make it easier to locate the desired device.
-2. After selecting the target device, Click *Finish* to launch the MHC.**Note**: The New Project Wizard will first open a Configuration Database Setup dialog window to allow you to review the packages that will be used by the current project. Click Launch to continue to the MHC Configurator tool.
+1. In the right pane, under Configuration Settings enter details for the configuration Name and choose the Target Device.
+
+    **Note**: You can select the Device Family or enter a partial device name to filter the list if Target Devices in order to make it easier to locate the desired device.
+2. After selecting the target device, Click *Finish* to launch the MHC.
+
+    **Note**: The New Project Wizard will first open a Configuration Database Setup dialog window to allow you to review the packages that will be used by the current project. Click Launch to continue to the MHC Configurator tool.
 
     <img src = "images/figure_3.10.png" width="700" height="510" align="middle">
 
@@ -234,12 +240,12 @@ Similarly, if users sync USB or TCP/IP repositories then the respective Middlewa
 
 ## Note
 <span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>
-- [MPLAB Harmony v3 "csp" repo v3.8.3](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.3)
-- [MPLAB Harmony v3 "dev_packs" repo v3.8.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.8.0)
-- [MPLAB Harmony v3 "mhc" repo v3.6.5](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.6.5)
-- MPLAB Harmony 3 Launcher Plugin v3.6.2
-- [MPLAB X IDE v5.45](https://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB XC32 Compiler v2.41](https://www.microchip.com/mplab/compilers)
+- [MPLAB Harmony v3 "csp" repo v3.9.1](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.9.1)
+- [MPLAB Harmony v3 "dev_packs" repo v3.9.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.9.0)
+- [MPLAB Harmony v3 "mhc" repo v3.7.2](https://github.com/Microchip-MPLAB-Harmony/mhc/releases/tag/v3.7.2)
+- MPLAB Harmony 3 Launcher Plugin v3.6.4
+- [MPLAB X IDE v5.50](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB XC32 Compiler v3.00](https://www.microchip.com/mplab/compilers)
 
 <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>
 
