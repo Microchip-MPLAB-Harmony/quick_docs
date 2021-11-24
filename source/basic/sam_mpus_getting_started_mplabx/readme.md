@@ -7,7 +7,17 @@ nav_order: 16
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../r_images/quick_back.png"  title="Back">](../readme.md)
 
-## Getting started with MPLAB® Harmony 3 on Microchip SAM MPU's
+<span style="color:blue">
+
+### Note
+**MPLAB Harmony v3 is now configurable through MPLAB Code Configurator (MCC). Though the instructions in this guide are for the MPLAB Harmony Configurator (MHC), the flow and experience of creating a project, configuring peripherals, and generating code using MCC is similar. Refer to the below links for specific instructions to use MPLAB Harmony v3 with MCC.**
+- [Create a new MPLAB Harmony v3 project using MCC](https://microchipdeveloper.com/harmony3:getting-started-training-module-using-mcc)
+- [Update and Configure an Existing MHC-based MPLAB Harmony v3 Project to MCC-based Project](https://microchipdeveloper.com/harmony3:update-and-configure-existing-mhc-proj-to-mcc-proj)
+- [Getting Started with MPLAB Harmony v3 Using MPLAB Code Configurator](https://www.youtube.com/watch?v=KdhltTWaDp0)
+
+</span>
+
+# Getting started with MPLAB® Harmony 3 on Microchip SAM MPU's
 The SAM MPU's, like the SAMA5D2 and SAM9X60, have a ROM based boot loader that
 looks for a second stage boot loader in external NVM, relocates it to internal
 SRAM, and executes it. Harmony uses the AT91Bootstrap as its second stage boot
@@ -17,7 +27,7 @@ the application image from NVM to DDR and starting it.
 To make development easier, rather than loading the AT91Bootstrap and Harmony
 images into NVM, we can use MPLAB X to load both the bootloader and application
 via the debug interface (e.g. JTAG/JLINK).  The github page for the <a href="https://github.com/linux4sam/at91bootstrap" target="_blank">bootloader </a> has instructions on how
-to configure and build on both Windows and Linux platforms.  For now, we'll just 
+to configure and build on both Windows and Linux platforms.  For now, we'll just
 focus on only the configuration changes needed to build an image for use with MPLAB X.
 Some of our existing boards already have a defconfig for use with MPLAB X.  Look
 for a defconfig with the name bkptnone in it, e.g, sama5d2_xplained_bkptnone_defconfig.
@@ -40,17 +50,17 @@ Select "Do not load any image after bootstrap run"
 
 Select "Build image for use with debuggers"
 
-<img src = "images/debuggers.png" align="middle"> 
+<img src = "images/debuggers.png" align="middle">
 
 Save the configuration and exit kconfig.  Compile the bootloader.  You'll need
 the boot.bin file created as part of the build process.
 
 Prebuilt binaries are also available in this repository.
 * SAMA5D2
-    * <a href="https://github.com/Microchip-MPLAB-Harmony/csp/wiki/binaries/sama5d2/xplained/sdcard/boot.bin" target="_blank">SAMA5D2 XULT HARMONY</a> 
-    * <a href="https://github.com/Microchip-MPLAB-Harmony/csp/wiki/binaries/sama5d2/xplained/mplab/boot.bin" target="_blank">SAMA5D2 XULT MPLAB</a> 
+    * <a href="https://github.com/Microchip-MPLAB-Harmony/csp/wiki/binaries/sama5d2/xplained/sdcard/boot.bin" target="_blank">SAMA5D2 XULT HARMONY</a>
+    * <a href="https://github.com/Microchip-MPLAB-Harmony/csp/wiki/binaries/sama5d2/xplained/mplab/boot.bin" target="_blank">SAMA5D2 XULT MPLAB</a>
   * SAM9X60
-    * <a href="https://github.com/Microchip-MPLAB-Harmony/csp/wiki/binaries/sam9x60/ek/sdcard/boot.bin" target="_blank">SAM9X60 EK HARMONY</a> 
+    * <a href="https://github.com/Microchip-MPLAB-Harmony/csp/wiki/binaries/sam9x60/ek/sdcard/boot.bin" target="_blank">SAM9X60 EK HARMONY</a>
     * <a href="https://github.com/Microchip-MPLAB-Harmony/csp/wiki/binaries/sam9x60/ek/mplab/boot.bin" target="_blank">SAM9X60 EK MPLAB</a> Next we need to tell MPLAB X how to use the boot.bin image we just created or
 downloaded.  We do this by creating a python script named autoload.py in the
 root folder of the MPLAB X project.  For example, if we want to run the pit
@@ -84,12 +94,12 @@ Now that the autoload.py and bootstrap are in place, we can use MPLAB X to
 download and debug our Harmony application.  Start by loading the project in
 MPLAB X. Right click on the project name and select "Properties".
 
-<img src = "images/properties.png" align="middle"> 
+<img src = "images/properties.png" align="middle">
 
 Select the correct HW debugging tool and Compiler.  In this example the J-Link
 and XC-32 v2.41 are used.  Simply hit the debug image button
 
-<img src = "images/debug_image.png" align="middle"> 
+<img src = "images/debug_image.png" align="middle">
 
 The IDE will connect to the hardware, load the bootloader, wait for it to enter
 debug mode, then load the Harmony application into DDR and execute it.  You can

@@ -6,6 +6,18 @@ nav_order: 1
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../r_images/quick_back.png"  title="Back">](../readme.md)
 
+
+<span style="color:blue">
+
+### Note
+**MPLAB Harmony v3 is now configurable through MPLAB Code Configurator (MCC). Though the instructions in this guide are for the MPLAB Harmony Configurator (MHC), the flow and experience of creating a project, configuring peripherals, and generating code using MCC is similar. Refer to the below links for specific instructions to use MPLAB Harmony v3 with MCC.**
+- [Create a new MPLAB Harmony v3 project using MCC](https://microchipdeveloper.com/harmony3:getting-started-training-module-using-mcc)
+- [Update and Configure an Existing MHC-based MPLAB Harmony v3 Project to MCC-based Project](https://microchipdeveloper.com/harmony3:update-and-configure-existing-mhc-proj-to-mcc-proj)
+- [Getting Started with MPLAB Harmony v3 Using MPLAB Code Configurator](https://www.youtube.com/watch?v=KdhltTWaDp0)
+
+</span>
+
+
 # MPLAB Harmony 3 Configurator (MHC)
 ## Introduction
 <a href="https://github.com/Microchip-MPLAB-Harmony" target="_blank">MPLAB Harmony 3 </a> is a vital part of the <a href="https://www.microchip.com/development-tools/" target="_blank">MPLAB development tools </a> ecosystem for working with <a href="https://www.microchip.com/design-centers/32-bit" target="_blank">Microchip 32-bit </a> SAM® and PIC® micro controllers. It consists of a Graphical User Interface (GUI) called the MPLAB® Harmony Configurator (MHC) and an extensive set of interoperable firmware libraries that accelerate the process of developing embedded applications. The fundamental MHC GUI tools are the content manager and configurator tools. The content manager tool simplifies the process of downloading the firmware libraries, demonstration applications, and extensions to the MHC GUI. The configurator tool provides a convenient GUI for selecting libraries, initialization parameters, and optional features. It also makes it easy to connect everything together and generate C language code in a working configuration for your project.
