@@ -4,6 +4,32 @@ nav_order: 499
 ---
 
 # Microchip MPLAB® Harmony 3 Release Notes
+---
+
+## Quick Docs Release v1.4.0 (December 2021)
+
+### New Doc Pages
+The following table provides the list of new doc pages:
+
+| Doc Name | Doc Type - Content |
+| ---      | ---                |
+[Create a new MPLAB Harmony v3 project using MCC](./source/basic/create_new_harmony_3_project_using_mcc/readme.md) |[Basic](./source/basic/readme.md) - Brief Overview and Web link |
+[Update and Configure an Existing MHC-based MPLAB Harmony v3 Project to MCC-based Project](./source/basic/update_mhc_harmony_3_project_to_mcc/readme.md) |[Basic](./source/basic/readme.md) - Brief Overview and Web link |
+[Low Power Application on SAM D21 (Cortex M0+) MCU Using MPLAB Harmony v3 Peripheral Libraries](./source/peripheral/samd21_low_power/readme.md) |[Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |
+[Rapid prototyping with Curiosity Nano Evaluation Kit using MPLAB Harmony v3](./source/middleware/rapid_prototyping/readme.md) |[Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
+[Add a New Configuration to an Existing MPLAB Harmony v3 Project](./source/basic/add_new_configuration_to_harmony_3_project/readme.md) |[Basic](./source/basic/readme.md) - Brief Overview and Web link |
+[MPLAB Harmony v3 Project Manifest Feature](./source/basic/harmony_3_project_manifest/readme.md) |[Basic](./source/basic/readme.md) - Brief Overview and Web link |
+
+
+- New Weblink added in [Peripheral](./source/peripheral/readme.md#web-links) page
+- New Weblink added in [Middleware](./source/middleware/readme.md#web-links) page
+- New video Weblinks added in [Basic](./source/basic/readme.md#videos) page
+- New video Weblinks added in [Middleware](./source/middleware/readme.md#videos) page
+
+### Known Issues
+	- NA -
+
+---
 
 ## Quick Docs Release v1.3.0 (June 2021)
 
@@ -20,6 +46,8 @@ The following table provides the list of new doc pages:
 
 ### Known Issues
 	- NA -
+
+---
 
 ## Quick Docs Release v1.2.0 (January 2021)
 
@@ -50,7 +78,7 @@ The following table provides the list of new doc pages:
 ### Known Issues
 	- NA -
 
-
+---
 
 
 ## Quick Docs Release v1.1.0 (September 2020)
@@ -90,6 +118,7 @@ The following table provides the list of new doc pages:
 	- NA -
 
 ---
+
 ## Quick Docs Release v1.0.0 (June 2020)
 ### New Doc Pages
 

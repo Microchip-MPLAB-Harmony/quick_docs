@@ -24,7 +24,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Peripheral Librarie
 - ### [Low Power Application on SAM L10 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./saml10_low_power/readme.md)
 - ### [Low Power Application on SAM E54 (Cortex M4) MCU Using MPLAB Harmony v3 Peripheral Libraries](./same54_low_power/readme.md)
 - ### [Arm TrustZone Getting Started Application on SAM L11 MCUs](./arm_trustzone_saml11_getting_started/readme.md)
-
+- ### [Low Power Application on SAM D21 (Cortex M0+) MCU Using MPLAB Harmony v3 Peripheral Libraries](./samd21_low_power/readme.md)
 
 ## Drivers
 - ### [Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs](./same70_getting_started_drivers/readme.md)
@@ -52,6 +52,10 @@ This page contains quick documentation for MPLAB® Harmony 3 Peripheral Librarie
 - <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/How-to-Move-an-Application-into-a-Desired-Flash-Memory-Location-with-the-Help-of-Linker-Script-TB-DS90003298A.pdf" target="_blank">Handling Cache Coherency Issues at Runtime Using Cache Maintenance Operations on Cortex-M7 MCUs Using MPLAB Harmony v3</a>
 - <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/Multiplexed-and-Remappable-Functionalities-on-IOpins-on-PIC32M-Devices-Using-MPLAB-HarmonyV3-DS90003296.pdf" target="_blank">Multiplexed and Remappable Functionalities on I/O pins on PIC32M Devices Using MPLAB Harmony v3</a>
 - <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/How-to-Move-an-Application-into-a-Desired-Flash-Memory-Location-with-the-Help-of-Linker-Script-TB-DS90003298A.pdf" target="_blank">How to Move an Application into a Desired Flash Memory Location with the Help of Linker Script on SAM E54</a>
+- <a href="https://ww1.microchip.com/downloads/en/Appnotes/AES-Cipher-Modes-Using-MPLAB-Harmony-v3-for-SAME54-DS00003923.pdf" target="_blank">AES Cipher Modes Using MPLAB Harmony v3 for the SAM E54</a>
+- <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/Dual-Developer-Application-Development-Use-Case-with-TrustZone-on-SAM-L11-Using-MPLAB-Harmony-DS90003306.pdf" target="_blank">Dual Developer Application Development Use Case with TrustZone on SAM L11 Using MPLAB Harmony v3</a>
+
+
 
 
 

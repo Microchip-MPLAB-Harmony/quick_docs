@@ -15,6 +15,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 
 - ### [Getting Started with Harmony v3 Drivers and Middleware on PIC32MZ EF MCUs using FreeRTOS](./pic32mz_getting_started_middleware/readme.md)
 - ### [Getting Started with USB on SAM MCUs Using MPLAB Harmony v3](./same70_getting_started_middleware/readme.md)
+- ### [Rapid prototyping with Curiosity Nano Evaluation Kit using MPLAB Harmony v3](./rapid_prototyping/readme.md)
 
 ## Audio
 - ### [MPLAB Harmony 3 Audio Overview](./harmony_3_audio_overview/readme.md)
@@ -63,9 +64,30 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 
 ## Web Links
 - <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/How_to_Use_Harmony_v3_Debug_System_Service_DS90003246A.pdf" target="_blank">How to Use the MPLAB Harmony v3 Debug System Service</a>
+- <a href="https://www.microchip.com/en-us/education/technical-learning-center/webinars/rapid-prototyping-webinar-series" target="_blank">Rapid Prototyping Webinar Series</a>
+
+
+
+
 
 ### **Note:**  
 This page provides a quick reference covering the MPLAB Harmony 3 Middleware Libraries usage. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.  
+
+## Videos
+<a href="https://www.youtube.com/watch?v=VsROaf16IvA
+" target="_blank"><img src="http://img.youtube.com/vi/VsROaf16IvA/0.jpg"
+alt="" width="240" height="180" border="10" title="How to Create a BLE Fitness Tracker Application on SAM E51 Curiosity Nano" /> </a>
+<a href="https://event.on24.com/wcc/r/3352656/58281A3AA1611A85620910B5FF080F9D
+" target="_blank"><img src="../r_images/ra_one.png"
+alt="" width="240" height="180" border="10" title="Rapid Prototyping With Curiosity Nano: Part I" /> </a>
+<a href="https://event.on24.com/wcc/r/3352665/6A85514E49592C901DDF6146A3245022
+" target="_blank"><img src="../r_images/ra_two.png"
+alt="" width="240" height="180" border="10" title="Rapid Prototyping With Curiosity Nano: Part II" /> </a>
+<a href="https://event.on24.com/wcc/r/3352692/564B0A516CDFA0AD3CF28C13295B0870
+" target="_blank"><img src="../r_images/ra_three.png"
+alt="" width="240" height="180" border="10" title="Rapid Prototyping With Curiosity Nano: Part III" /> </a>
+
+
 
 Peripheral/Technology specific documentation are available in technology repositories like <a href="https://github.com/Microchip-MPLAB-Harmony/csp" target="_blank">csp</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/core" target="_blank">core</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/usb" target="_blank">usb</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/net" target="_blank">net</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/audio" target="_blank">audio</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/gfx_apps" target="_blank">gfx_apps</a>, etc.
 

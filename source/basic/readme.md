@@ -28,6 +28,11 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 - ### [Differences Between MPLAB Harmony v3 Synchronous and Asynchronous Drivers](./harmony_sync_async_drivers/readme.md)
 - ### [Difference Between MPLAB Harmony v3 PLIBs and Drivers](./harmony_drivers_plibs/readme.md)
 - ### [MPLAB Harmony v3 Synchronous drivers and their usage in FreeRTOS based applications](./harmony_sync_drivers_freertos/readme.md)
+- ### [Create a new MPLAB Harmony v3 project using MCC](./create_new_harmony_3_project_using_mcc/readme.md)
+- ### [Update and Configure an Existing MHC-based MPLAB Harmony v3 Project to MCC-based Project](./update_mhc_harmony_3_project_to_mcc/readme.md)
+- ### [Add a New Configuration to an Existing MPLAB Harmony v3 Project](./add_new_configuration_to_harmony_3_project/readme.md)
+- ### [MPLAB Harmony v3 Project Manifest Feature](./harmony_3_project_manifest/readme.md)
+
 
 ## Microprocessor units (MPUs)
 - ### [Getting started with SAM MPU Devices on MPLAB X Tools](./sam_mpus_getting_started_mplabx/readme.md)
@@ -79,6 +84,18 @@ alt="" width="240" height="180" border="10" title="MPLAB® Harmony Quick Docs Pa
 <a href="https://www.youtube.com/watch?v=FcY08Mj6DV0
 " target="_blank"><img src="http://img.youtube.com/vi/FcY08Mj6DV0/0.jpg"
 alt="" width="240" height="180" border="10" title="Develop 32-bit MCU applications using MPLAB® Harmony v3" /> </a>
+<a href="https://www.youtube.com/watch?v=pulfWuNTyQ0
+" target="_blank"><img src="http://img.youtube.com/vi/pulfWuNTyQ0/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started with the PIC32MZ DA Curiosity Development Kit" /> </a>
+<a href="https://www.youtube.com/watch?v=NpABVoDCcmI
+" target="_blank"><img src="http://img.youtube.com/vi/NpABVoDCcmI/0.jpg"
+alt="" width="240" height="180" border="10" title="MPLAB® Harmony Reference Applications Package" /> </a>
+<a href="https://www.youtube.com/watch?v=KdhltTWaDp0
+" target="_blank"><img src="http://img.youtube.com/vi/KdhltTWaDp0/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started with MPLAB® Harmony v3 Using MPLAB Code Configurator" /> </a>
+
+
+
 
 
 
