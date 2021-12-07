@@ -25,6 +25,7 @@ The following table provides the list of new doc pages:
 - New Weblink added in [Middleware](./source/middleware/readme.md#web-links) page
 - New video Weblinks added in [Basic](./source/basic/readme.md#videos) page
 - New video Weblinks added in [Middleware](./source/middleware/readme.md#videos) page
+- [Basic](./source/basic/readme.md) pages are added with a note on MCC support
 
 ### Known Issues
 	- NA -
