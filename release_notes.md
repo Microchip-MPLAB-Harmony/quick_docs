@@ -6,6 +6,28 @@ nav_order: 499
 # Microchip MPLAB® Harmony 3 Release Notes
 ---
 
+## Quick Docs Release v1.5.0 (June 2022)
+
+### New Doc Pages
+The following table provides the list of new doc pages:
+
+| Doc Name | Doc Type - Content |
+| ---      | ---                |
+[MPLAB Harmony v3 Project Migration](./source/migration/mplab_harmony_v3_project_migration/readme.md) |[Migration](./source/migration/readme.md) - Brief Overview and Web link |
+[Digit Recognition AI/ML Application on SAM E51 IGAT CURIOSITY EVALUATION KIT Using MPLAB Harmony v3](./source/middleware/digit_recognition_ai_ml/readme.md) |[Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
+[MPLAB Code Configurator (MCC) for Harmony 3 Projects](./source/basic/mplab_harmony_3_code_configurator/readme.md) |[Basic](./source/basic/readme.md) - Brief Overview and Web link |
+
+- New Weblink added in [Peripheral](./source/peripheral/readme.md#web-links) page
+- New Weblink added in [Middleware](./source/middleware/readme.md#web-links) page
+- New video Weblinks added in [Basic](./source/basic/readme.md#videos) page
+- New video Weblinks added in [Middleware](./source/middleware/readme.md#videos) page
+
+### Known Issues
+	- NA -
+
+---
+
+
 ## Quick Docs Release v1.4.0 (December 2021)
 
 ### New Doc Pages

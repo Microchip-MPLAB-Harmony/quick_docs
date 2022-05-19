@@ -9,6 +9,7 @@ nav_order: 2
 
 # MPLAB Harmony Basics Documentation
 This page contains quick documentation for MPLAB® Harmony 3 Basics.
+- ### [MPLAB Code Configurator (MCC) for Harmony 3 Projects](./mplab_harmony_3_code_configurator/readme.md)
 - ### [MPLAB Harmony 3 Configurator (MHC)](./mplab_harmony_3_configurator/readme.md)
 - ### [MHC Project Graph](./mhc_project_graph/readme.md)
 - ### [MHC Clock Configuration](./mhc_clock_configuration/readme.md)
@@ -93,6 +94,12 @@ alt="" width="240" height="180" border="10" title="MPLAB® Harmony Reference App
 <a href="https://www.youtube.com/watch?v=KdhltTWaDp0
 " target="_blank"><img src="http://img.youtube.com/vi/KdhltTWaDp0/0.jpg"
 alt="" width="240" height="180" border="10" title="Getting Started with MPLAB® Harmony v3 Using MPLAB Code Configurator" /> </a>
+<a href="https://www.youtube.com/watch?v=POwOhu4TAQM
+" target="_blank"><img src="http://img.youtube.com/vi/POwOhu4TAQM/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started on the PIC32MK MCM Curiosity Pro Development Board
+" /> </a>
+
+
 
 
 
