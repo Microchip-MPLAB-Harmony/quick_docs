@@ -37,7 +37,6 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 
 ## Microprocessor units (MPUs)
 - ### [Getting started with SAM MPU Devices on MPLAB X Tools](./sam_mpus_getting_started_mplabx/readme.md)
-- ### [Getting Started with MPLAB Harmony v3 on the SAMA5D2](./sam_mpus_getting_started_harmony_3/readme.md)
 
 
 ## Web Links

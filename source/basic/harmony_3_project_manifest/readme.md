@@ -39,7 +39,7 @@ For more information refer the **[links](#Web-Links)** below.
 ## <a id="Web-Links"> </a>
 ## Web Links
 
-- <a href="https://microchip.com/DS90003305" target="_blank">How to Use the MPLAB Harmony v3 Project Manifest
+- <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/How-to-Use-the-MPLAB-Harmony-v3-Project-Manifest-Feature-DS90003305.pdf" target="_blank">How to Use the MPLAB Harmony v3 Project Manifest
 Feature</a>
 
 ## Reference Links

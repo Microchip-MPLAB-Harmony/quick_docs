@@ -15,7 +15,7 @@ For more information refer the **[links](#Web-Links)** below.
 ## <a id="Web-Links"> </a>
 ## Web Links
 
-- <a href="https://microchip-mplab-harmony.github.io/gfx/frames.html?frmname=topic&frmfile=index.html" target="_blank">MPLAB Harmony Graphics Suite</a>
+- <a href="https://microchip-mplab-harmony.github.io/gfx" target="_blank">MPLAB Harmony Graphics Suite</a>
 
 
 ## Reference Links

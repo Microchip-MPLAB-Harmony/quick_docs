@@ -16,7 +16,7 @@ The SAM D21 is a 32-bit Arm® Cortex® - M0+ based microcontroller that provides
 The Power Manager (PM) module is responsible for controlling the Low Power modes. Additionally, the SAM D21 provides SleepWalking. SleepWalking is the capability for a device to temporarily wake up clocks for the peripheral to perform a task without waking up the CPU in STANDBY sleep mode.
 
 
-The application makes use of the <a href="https://microchipdeveloper.com/boards:sam-d21-xpro" target="_blank">SAM D21 Xplained Pro evaluation kit</a>, <a href="https://microchipdeveloper.com/hwtools:pwrdebug-start" target="_blank"> Power Debugger </a> and the <a href="https://www.microchip.com/Developmenttools/ProductDetails/ATIO1-XPRO" target="_blank">I/O1 Xplained Pro Extension Kit</a> (sold separately).
+The application makes use of the <a href="https://microchipdeveloper.com/boards:sam-d21-xpro" target="_blank">SAM D21 Xplained Pro evaluation kit</a>, <a href="https://www.microchip.com/en-us/education/developer-help/learn-tools-software/programmers-debuggers/power-debugger" target="_blank"> Power Debugger </a> and the <a href="https://www.microchip.com/Developmenttools/ProductDetails/ATIO1-XPRO" target="_blank">I/O1 Xplained Pro Extension Kit</a> (sold separately).
 
 The application is developed on the MPLAB Harmony v3 software framework. MPLAB Harmony v3 is a modular framework that provides interoperable firmware libraries for application development on 32-bit MCUs and MPUs. It includes an easy-to-use Graphical User Interface (GUI) (MPLAB Harmony Configurator (MHC)) for selecting, configuring, and generating starter codes, peripheral libraries, and middleware (USB, TCP/IP, Graphics and so on).
 
