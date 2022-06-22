@@ -17,6 +17,13 @@ The following table provides the list of new doc pages:
 [Digit Recognition AI/ML Application on SAM E51 IGAT CURIOSITY EVALUATION KIT Using MPLAB Harmony v3](./source/middleware/digit_recognition_ai_ml/readme.md) |[Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
 [MPLAB Code Configurator (MCC) for Harmony 3 Projects](./source/basic/mplab_harmony_3_code_configurator/readme.md) |[Basic](./source/basic/readme.md) - Brief Overview and Web link |
 
+### Updated Doc Pages
+
+| Doc Name | Doc Type - Content | Comments |
+| ---      | ---                | ---      |  
+[Getting started with SAM MPUs using MPLAB® Harmony 3](./source/basic/sam_mpus_getting_started_harmony_3/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated reference to bootstrap and new project steps |  
+
+
 - New Weblink added in [Peripheral](./source/peripheral/readme.md#web-links) page
 - New Weblink added in [Middleware](./source/middleware/readme.md#web-links) page
 - New video Weblinks added in [Basic](./source/basic/readme.md#videos) page

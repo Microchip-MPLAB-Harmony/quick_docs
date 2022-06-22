@@ -1,12 +1,11 @@
 ---
-title: Getting Started with MPLAB Harmony v3 on the SAMA5D2
+title: Getting started with SAM MPU Devices using MPLAB Harmony 3
 parent: Harmony Basics
 has_toc: false
-nav_order: 17
+nav_order: 16
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../r_images/quick_back.png"  title="Back">](../readme.md)
-
 
 
 ### Note:
@@ -18,110 +17,96 @@ nav_order: 17
 
 
 
+# Getting started with SAM MPUs using MPLAB® Harmony 3
+The SAM MPUs, like the SAMA5D2 and SAM9X60, have a ROM based boot loader that
+looks for a second stage boot loader in external NVM, relocates it to internal
+SRAM, and executes it. Harmony uses the AT91Bootstrap as its second stage boot
+loader. The AT91Bootstrap initializes clocks, PIO, and DDR prior to relocating
+the application image from NVM to DDR and starting it.
 
-# Getting started with MPLAB® Harmony 3 on the SAMA5D2
-The SAMA5D2's ROM boot loader looks for a second stage boot loader in external NVM, relocates it to internal SRAM, and executes it. Harmony uses the AT91Bootstrap as its second stage boot loader. The AT91Bootstrap initializes clocks, PIO, and DDR prior to relocating the application image from NVM to DDR and starting it.
+To facilitate the debugging and running of the MPU application, go through the
+<a href="https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_a5d2/blob/master/apps/docs/readme_bootstrap.md" target="_blank">Bootstrapping MPU applications using At91bootstrap loader</a>
 
-As of the 3.2 release of Harmony only loading the AT91bootstrap and Harmony application from an external SD card has been tested. To boot your Harmony application for the SD card, first format the card with the FAT file system.
-Next, download the AT91Bootstrap binary from <a href="https://github.com/Microchip-MPLAB-Harmony/at91bootstrap/blob/master/boot.bin" target="_blank">here</a>  and place the boot.bin on the SD card.
+Also, this document shows you how to create an MPLAB X IDE Harmony v3 project for a SAM MPU from scratch using the MPLAB Harmony v3 software framework.
+### Create a new MPLAB Harmony v3 MPU project Using MCC on MPLAB X IDE
+* Select **File > New Project** from the main IDE menu.
+* In the **Categories** pane of the **New Project** dialog, select **Microchip Embedded**. In the **Projects** pane, select **32-bit MCC Harmony Project**, then click **Next**.
 
-The next step is to download the Harmony 3 framework. This process can be automated using the MPLAB® Harmony Framework Management Tool. First clone the MHC repository found <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager" target="_blank">here</a>  and launch the harmony-content-manager.jar
->`java -jar harmony-content-manager.jar`.
+ <img src = "images/project_creation_setup.png" align="middle">
 
-The downloader will clone the Harmony 3 repositories that you select.
+  **Note:** If 32-bit MCC Harmony Project is not displayed, <a href="https://microchipdeveloper.com/harmony3:getting-started-training-module-using-mcc#Install_MCC_anchor" target="_blank">install MCC</a>.
 
-NOTE: From here on when the document references launching MHC it refers to the mhc.jar file downloaded by the content manager with the mhc repository, along with the rest of the Harmony Framework.
+* In the **Framework Path** edit box, browse to the folder where you downloaded the framework. If you haven't done this, or want to download it to a different folder, click the **Launch Content Manager** button, then click **Next**.
 
-### Launching an Existing Project
-Demo applications can be found in the apps directory in each Harmony repository
-downloaded.  To load the demo application in MHC run:
->`java -jar mhc.jar -fw"=(path to where you downloaded harmony)" -mode=gui -c="(path to harmony.prj file associated with the demo application you'd like to run. e.g. ../csp/apps/uart/uart_echo_interrupt/firmware/src/config/sam_a5d2_xult/harmony.prj)"`
+  **Note:** For more information on the content manager, see the <a href="https://microchipdeveloper.com/harmony3:new-proj-with-mcc#download" target="_blank">Download MPLAB Harmony Framework</a> section.
 
-**NOTE: MHC must be launched from inside the mhc directory.  You can't be in another directory and give a path to mhc.jar, you must be inside the same directory as the mhc.jar file or MHC won't run correctly.**
+ <img src = "images/project_path_setup.png" align="middle">
 
-**Make sure the firmware path (-fw=) contains a trailing directory separator (/ on Linux, \ on Windows)**
+* In the **Project Settings** window, apply the following settings:
+  * **Location:** Indicates the path to the root folder of the new project. All project files will be placed inside this folder. The project location can be any valid path, for example: *<Folder of your choice>\dev\sama5d2_getting_started*.
+  * **Folder:** Indicates the name of the *MPLABX .X* folder. Enter "sam_a5d2_xult" to create a *sam_a5d2_xult.X* folder.
 
-This will launch the existing project in MHC. For documentation on the demo applications shipped with Harmony refer to the github.io pages for the repository containing the app you'd like to run (e.g. <a href="https://microchip-mplab-harmony.github.io/csp" target="_blank"> csp</a>) . Once the project is loaded the code can be regenerated by selecting
->`Generate->Generate Code`
+    **Note:** This must be a valid directory name for your operating system.
 
-from the menu.
+  * **Name:** Enter the project’s logical name as "getting_started_sam_a5d2_xult". This is the name that will be shown from within MPLAB X IDE.
 
-The IAR project has already been created for any demo applications and can be opened by opening **<demo application's firmware directory>/sam_a5d2_xult.IAR/(project name).eww**. Once IAR is launched simply build the application and load the harmony.bin image as described below.
+    **Note:** The **Path** box is read-only. It will update as you make changes to the other entries.
 
-### Creating a New Project
-Once you've cloned the Harmony 3 framework launch MHC by running:
->`java -jar mhc.jar -fw="(path to where you downloaded harmony)" -mode=gui`.
+  * Click **Next** to proceed to Configuration Settings.
 
-With the MHC running create a new Harmony project under
->`File->New Configuration`.
+ <img src = "images/project_naming_setup.png" align="middle">
 
-<img src = "images/project_configuration.png" align="middle">
+  **Note:** Clicking on the **Show Visual Help** button will open a help window providing a detailed description of the various fields in the **Project Settings** window.
 
-NOTES:
-1. As of the 3.2 release using relative paths in MHC causes issues when
-   generating code.  Please uncheck the box marked "Convert to Relative Path for
-   Configuration"
-2. The diff tool should be configured immediately after tool install, before
-   code generation is attempted, otherwise User changes may be lost.
-   1. Select File > Preferences from the menu.
-   2. Enter the pathname to the executable file for your preferred "diff" tool
-      and click Close.  (Pass command line arguments as {0} {1} and so on.)
+ <img src = "images/project_naming_setup_help.png" align="middle">
 
-Add the desired plibs, drivers, and system services your application requires
-and configure them accordingly, then generate the code.
+* Follow the steps below to set the project’s Configuration Settings.
+  * **Name:** Enter the configuration name as “sam_a5d2_xult”.
+  * **Target Device:** Select **ATSAMA5D27** as the target device.
 
-To compile your project launch IAR Embedded Workbench for ARM.  (Harmony has
-been tested with version 8.30.1 of IAR EW.)  Make sure you have IAR
-configured to use project connections by going to
->`Tools->Options->Project->Enable project connections`.
+    **Note:** You can select the Device Family or enter a partial device name to filter the list in Target Device to make it easier to locate the desired device.
+  * After selecting the target device, click **Finish** to create and open MPLAB Harmony v3 Project.
 
-<img src = "images/project_connections.png" align="middle">
+   <img src = "images/project_setup_finish.png" align="middle">
 
-Create a new empty project in a new direcotry under the firmware directory created by MHC (e.g. `HarmonyProjects/myApp/firmware/sam_a5d2_xult.IAR/myApp_sam_a5d2_xult.ewp`).
+    **Note:** If the Finish button is greyed out and if you are seeing the Update device pack button is enabled, then click on the **Update device pack** button to update the device pack.
 
-<img src = "images/new_project.png" align="middle">
+    <img src = "images/project_setup_finish_1.png" align="middle">
 
-Under the Project menu bar select
->`Add Project Connection`
+* Before proceeding, set up the compiler toolchain. Click on the **Project Projects** icon in **getting_started_sam_a5d2_xult - Dashboard** tab.
 
-<img src = "images/add_connection.png" align="middle">
+ <img src = "images/project_view.png" align="middle">
 
-Browse to the ipcf file MHC generated.
+ Make sure that **XC32 (v4.00)** is selected as the Compiler Toolchain for XC32. Click on **Apply** and then click on **OK**.
 
-<img src = "images/ipcf_browse.png" align="middle">
+ <img src = "images/xc32_setup.png" align="middle">
 
-Since the AT91Bootstrap is looking to load a raw binary, we need to have IAR
-convert the ELF it builds into a raw binary.  Right click on the project name
-and select options.  Under Output Converter select the
->`Generate additional output`
+* After the project is created, click on the **MCC** button to launch the MCC tool if the **Content Manager** window is not opened.
 
-box, select Raw binary as the Output format, select the
->`Override default`
+ <img src = "images/mcc_launch_step.png" align="middle">
 
-box and type
->`harmony.bin`
+ In the **Content Manager** window, click on **Select MPLAB Harmony** button to launch MPLAB Harmony.
 
-in the text field.
+ <img src = "images/mcc_launch_step_2.png" align="middle">
 
-<img src = "images/output_converter.png" align="middle">
+ Now, click on **Finish** button to launch the MCC.
 
-Now build your application.  Once the application is built copy the harmony.bin
-file that was generated to the SD card.  Insert the SD card into the board, apply
-power, and your Harmony application should boot and run.
+ <img src = "images/mcc_launch_step_3.png" align="middle">
 
-#### Debugging your application:
-IAR supports source-level debugging of your application.  First connect the SAM-ICE JTAG debugger to the JTAG header on the development board. Go to
->`Options->Debugger`
+* The MCC plugin’s main window for the project will be displayed.
 
-and select
->`J-Link/J-Trace`
+ <img src = "images/launched_mcc_view.png" align="middle">
 
-as the Driver.  If the application
-has booted from the SD card, simply load your project in IAR and select
->`Project->Attach to Running Target`
+  * **Resource Manager** has two sections. One is Project Resources and another one is Device Resources.
+    * **Project Resources** The project resources area displays all of the peripherals currently configured for the project. For example (CMSIS and Device Family Packs (DFP)). Select peripheral here, and the peripheral is ready to be configured in the Composer area. In the Project Resource area, the System module is always present. The System module simplifies the setting of configuration bits and configures the system clock.
+    * **Device Resources** The Device resources area displays available peripherals for the device. Click on the peripheral you want to add to your project. The peripheral moves to the MCC Project Resources area and is ready to be configured to your project's requirements. For example, Harmony Peripheral Libraries (PLIBs) for your device.
+    * **Versions** show MPLAB Code Configurator Plugin version information and different libraries and their version. For example, the supported Harmony v3 library.
+    * **Project Graph:** shows the instantiated components. You can instantiate available components by double-clicking on the component in the Device Resources panel. After successful component instantiation, you can see the instantiated components under the Project Resources panel.
+    * **Configuration Options:** Displays the tree view of the selected component under the Project Graph area. You can configure the selected component in this section.
 
-This will allow you to halt the running
-program, set breakpoints, view and change memory and registers, etc.
+  **Tool Tip:** MCC, by default, has Autosave MCC configuration File option enabled. If you want to disable the MCC autosave option, go to **Tools > Options**. After opening the **Options** window, go to **Plugins** and disable the **Autosave MCC configuration file** option.
+  <img src = "images/mcc_autosave.png" align="middle">
+
 
 ## Note
 <span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>
@@ -133,5 +118,6 @@ program, set breakpoints, view and change memory and registers, etc.
 - [MPLAB XC32 Compiler v4.00](https://www.microchip.com/mplab/compilers)
 
 <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>
+
 ## Reference Links
-[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]()
+[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]()  

@@ -75,6 +75,9 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 This page provides a quick reference covering the MPLAB Harmony 3 Middleware Libraries usage. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.  
 
 ## Videos
+<a href="https://www.youtube.com/watch?v=C4k8oOevk0M
+" target="_blank"><img src="http://img.youtube.com/vi/C4k8oOevk0M/0.jpg"
+alt="" width="240" height="180" border="10" title="Create a Thermal Camera Heatmap Application on the Curiosity PIC32MZ EF 2.0 Development Board" /> </a>
 <a href="https://www.youtube.com/watch?v=bpSrgNdpUPE
 " target="_blank"><img src="http://img.youtube.com/vi/bpSrgNdpUPE/0.jpg"
 alt="" width="240" height="180" border="10" title="How to Create an IoT Based Heart Rate Monitoring Application on the SAM IoT WG Development Board" /> </a>
