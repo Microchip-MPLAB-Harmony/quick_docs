@@ -6,6 +6,22 @@ nav_order: 499
 # Microchip MPLAB® Harmony 3 Release Notes
 ---
 
+## Quick Docs Release v1.6.0 (June 2023)
+
+### New Doc Pages
+The following table provides the list of new doc pages:
+
+| Doc Name | Doc Type - Content |
+| ---      | ---                |
+[Develop a harmony based application for SAM9X60 MPU using MPLAB® X IDE](./source/basic/sam9x60_getting_started_application_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |  
+[Configure first stage bootloader for SAM9X60 MPU](./source/basic/sam9x60_configure_first_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+[Configure/built and debug second stage bootloader(at91bootstrap) for SAM9X60 MPU](./source/basic/sam9x60_configure_second_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+[Flash the at91bootstrap and harmony application binaries using SAM-BA tool](./source/basic/sam9x60_flash_boot_application_using_samba/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+
+| Doc Name | Doc Type - Content | Comments |
+| ---      | ---                | ---      |  
+Getting started with SAM MPUs using MPLAB® Harmony 3 |Full |Deleted this document |  
+
 ## Quick Docs Release v1.5.0 (June 2022)
 
 ### New Doc Pages

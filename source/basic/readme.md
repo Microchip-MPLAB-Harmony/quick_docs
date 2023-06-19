@@ -36,8 +36,10 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 
 
 ## Microprocessor units (MPUs) 
-- ### [Getting started with SAM MPUs using MPLAB® Harmony 3](./sam_mpus_getting_started_harmony_3/readme.md)
-
+- ### [Configure first stage bootloader for SAM9X60 MPU](./sam9x60_configure_first_stage_bootloader/readme.md)
+- ### [Configure/built and debug second stage bootloader(at91bootstrap) for SAM9X60 MPU](./sam9x60_configure_second_stage_bootloader/readme.md)
+- ### [Develop a harmony based application for SAM9X60 MPU using MPLAB® X IDE](./sam9x60_getting_started_application_using_mcc/readme.md) 
+- ### [Flash the at91bootstrap and harmony application binaries using SAM-BA tool](./sam9x60_flash_boot_application_using_samba/readme.md)
 
 ## Web Links
 - <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
