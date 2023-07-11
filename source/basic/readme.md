@@ -40,6 +40,8 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 - ### [Configure/built and debug second stage bootloader(at91bootstrap) for SAM9X60 MPU](./sam9x60_configure_second_stage_bootloader/readme.md)
 - ### [Develop a harmony based application for SAM9X60 MPU using MPLAB® X IDE](./sam9x60_getting_started_application_using_mcc/readme.md) 
 - ### [Flash the at91bootstrap and harmony application binaries using SAM-BA tool](./sam9x60_flash_boot_application_using_samba/readme.md)
+- ### [Configure at91bootstrap to enable QSPI-XIP on MPUs](./configure_at91bootstrap_to_enable_qspi_xip_mpus/readme.md)
+- ### [Develop a harmony based application executed from QSPI for SAM9X60 MPU using MPLAB® X IDE](./sam9x60_qspi_xip_application/readme.md)
 
 ## Web Links
 - <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
