@@ -25,6 +25,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Peripheral Librarie
 - ### [Low Power Application on SAM E54 (Cortex M4) MCU Using MPLAB Harmony v3 Peripheral Libraries](./same54_low_power/readme.md)
 - ### [Arm TrustZone Getting Started Application on SAM L11 MCUs](./arm_trustzone_saml11_getting_started/readme.md)
 - ### [Low Power Application on SAM D21 (Cortex M0+) MCU Using MPLAB Harmony v3 Peripheral Libraries](./samd21_low_power/readme.md)
+- ### [Getting Started with Harmony v3 Peripheral Libraries on SAM9X60 MPUs ](./sam9x60_getting_started/readme.md)
 
 ## Drivers
 - ### [Getting Started with Harmony v3 Drivers and System Services on SAM E70/S70/V70/V71 MCUs](./same70_getting_started_drivers/readme.md)

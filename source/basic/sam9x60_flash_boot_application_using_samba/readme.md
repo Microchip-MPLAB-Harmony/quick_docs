@@ -25,7 +25,7 @@ This document will guide the user on how to,
   <summary> Details
 </summary>   <br>
 
-* Familiar with the features of the SAM9X60\<board\> (board can be evaluation Kit or Curiosity board) and understanding about the jumpers & Connectors in the board.
+* Familiar with the features of the SAM9X60_board (board can be evaluation Kit or Curiosity board) and understanding about the jumpers & Connectors in the board.
 * Install SAM-BA tool on your windows host PC.
   * To Download the latest version of SAM-BA tool for Windows [click this link](https://www.microchip.com/en-us/development-tool/SAM-BA-In-system-Programmer).
   * Download the ZIP file and unzip it into a working directory of your choice.
@@ -34,6 +34,9 @@ This document will guide the user on how to,
     * Choose “Edit the system environment variables” --> Click "Environment Variables" --> "System Variables" --> add SAM-BA directory path to path variables.
       <img src = "images/7.png" align="middle">
   * Once the SAM-BA Host program has been installed, the execution of the application is from the Windows command prompt.
+  * Now open Windows command prompt and enter the below command to ensure sam-ba is installed properly.<br>
+    ***sam-ba -v***<br>
+	<img src = "images/5a.png" align="middle">
 
 * [Refer this link](../sam9x60_configure_second_stage_bootloader/readme.md) to configure and build the at91bootstrap to load the application from the user preferred NVM like QSPI, NAND or SDCard.
   
@@ -69,7 +72,7 @@ Step 6:
 	* 5.2. Reset the board by pressing and then releasing the reset "RESET" button.
     * 5.3. Close the J4 NAND boot jumper.
 
-Now, the SAM9X60\<board\> will boot to the SAM-BA Monitor and start communications with the SAM-BA Host Application. 
+Now, the SAM9X60_board will boot to the SAM-BA Monitor and start communications with the SAM-BA Host Application. 
 
 ***Note:***
   * SAM-BA communication Port can be j-link, serial or secure.
@@ -96,7 +99,7 @@ Now, the SAM9X60\<board\> will boot to the SAM-BA Monitor and start communicatio
 <img src = "images/1.png" align="middle">
 
 ## 1.2. Program boot.bin to QSPI flash memory
-   Program the boot.bin file on the SAM9X60\<board\> with the following command: 
+   Program the boot.bin file on the SAM9X60_board with the following command: 
    
    ***sam-ba -p serial -b sam9x60-ek -a qspiflash -c writeboot:boot.bin***
    * Note: Change directory to the location of boot.bin
@@ -112,12 +115,12 @@ The at91bootstrap file (boot.bin) built with QSPI configuration only to be used 
 
 
 ## 1.3. Program harmony.bin to QSPI flash memory
-   To program the application binary, harmony.bin file on the SAM9X60\<board\>, use the following command:
+   To program the application binary, harmony.bin file on the SAM9X60_board, use the following command:
    
-   ***sam-ba -p serial -b sam9x60-ek -a qspiflash -c write:harmony.bin:\<QSPI_OFFSET\>***
+   ***sam-ba -p serial -b sam9x60-ek -a qspiflash -c write:harmony.bin:QSPI_OFFSET***
    
    **Note:**<br>
-     * The \<QSPI_OFFSET\> should be the same offset used in the KCONFIG, while configuring the at91bootstrap to load from external QSPI <br>
+     * The QSPI_OFFSET should be the same offset used in the KCONFIG, while configuring the at91bootstrap to load from external QSPI <br>
      * Change directory to the location of harmony.bin.
 
    <mark>Example:</mark>
@@ -147,7 +150,7 @@ To learn about more SAM-BA applet commands, refer your **SAM-BA installation dir
   <img src = "images/9.png" align="middle">
 
 ## 2.1. Erase NAND flash memory
-   Erase the contents of the NAND Flash memory on the SAM9X60\<board\> with the following command:
+   Erase the contents of the NAND Flash memory on the SAM9X60_board with the following command:
    
    ***sam-ba -p serial -b sam9x60-ek -a nandflash -c erase***
    
@@ -156,7 +159,7 @@ To learn about more SAM-BA applet commands, refer your **SAM-BA installation dir
 <img src = "images/4.png" align="middle">
 
 ## 2.2. Program boot.bin to NAND flash memory
-   To program the boot.bin file on the SAM9X60\<board\> with the following command:
+   Program the boot.bin file on the SAM9X60_board_ with the following command:
    
    ***sam-ba -p serial -b sam9x60-ek -a nandflash -c writeboot:boot.bin***
   * Note: Change directory to the location of boot.bin
@@ -170,12 +173,12 @@ The at91bootstrap file (boot.bin) built with NAND configuration only to be used 
 
 
 ## 2.3. Program harmony.bin to NAND flash memory
-   To program the application binary, harmony.bin file on the SAM9X60\<board\>, use the following command: :
+   To program the application binary, harmony.bin file on the SAM9X60_board, use the following command:
    
-   ***sam-ba -p serial -b sam9x60-ek -a nandflash -c write:harmony.bin:\<NAND_OFFSET\>***
+   ***sam-ba -p serial -b sam9x60-ek -a nandflash -c write:harmony.bin:NAND_OFFSET***
 
    **Note:** <br>
-      * The \<NAND_OFFSET\> should be same as the one used in the KCONFIG, while configuring the at91bootstrap to load from external NAND flash.<br>
+      * The NAND_OFFSET should be same as the one used in the KCONFIG, while configuring the at91bootstrap to load from external NAND flash.<br>
       * Change directory to the location of harmony.bin.<br>
 
    <mark>Example:</mark>

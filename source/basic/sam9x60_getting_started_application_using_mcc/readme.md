@@ -65,7 +65,7 @@ This project demonstrates below:
  <img src = "images/project_creation_setup.png" align="middle">
 
 * <mark>1.4.</mark> In the **Project Settings** window, apply the following settings:
-  * **Location:** Indicates the path to the root folder of the new project. All project files will be placed inside this folder. The project location can be any valid path, for example: *<Folder of your choice>\dev\sam9x60_getting_started*.
+  * **Location:** Indicates the path to the root folder of the new project. All project files will be placed inside this folder. The project location can be any valid path, for example: *Folder of your choice/dev/sam9x60_getting_started*.
   * **Folder:** Indicates the name of the *MPLABX .X* folder. Enter "sam9x60_cu" to create a *sam9x60_cu.X* folder.
 
     **Note:** This must be a valid directory name for your operating system.
@@ -209,9 +209,9 @@ Among the generated code, notice the library files generated for BSP and periphe
 * <mark>5.1.</mark> Up to this point in the project creation process, MPLAB Code Configurator(MCC) generated code to initialize the device (SAM9X60D1G) and initialize the peripherals. 
   All that is left is for the user to write the application code in main.c file.
   Documentation for each of the peripheral libraries or diver libraries can be accessed as follows:
-  1.	Peripheral libraries APIs can be accessed as a HTML file (*.html) from the Harmony 3 Framework path. (framework_path\csp\docs\index.html)
+  1.	Peripheral libraries APIs can be accessed as a HTML file (*.html) from the Harmony 3 Framework path. (framework_path/csp/docs/index.html)
   2.    BSP libraries APIs can be found in bsp.h
-  3.    Driver libraries APIs can be accessed as a HTML file (*.html) from the Harmony 3 Framework path. (framework_path\core\docs\index.html)
+  3.    Driver libraries APIs can be accessed as a HTML file (*.html) from the Harmony 3 Framework path. (framework_path/core/docs/index.html)
 
 * <mark>5.2.</mark> User can see DBGU_Initialize(), BSP_Initialize(), FLEXCOM0_TWI_Initialize() getting called in SYS_Initialze() function called from main.c.
 
@@ -279,7 +279,7 @@ The boot process of SAM9X60 begins with the MPU’s power-ON reset and progresse
 * <mark>7.2.</mark> User can get the pre-built at91bootstrap libraries by downloading the [project from here](https://www.microchip.com/en-us/development-tool/EV40E67A#Software) as shown below.
 	          <img src = "images/20.png" align="middle">
  
- Unzip the downloaded project, at91bootstrap.elf can be found in the project folder(\sam9x60_cu_graphics_getting_started\firmware\sam9x60_cu.X)
+ Unzip the downloaded project, at91bootstrap.elf can be found in the project folder(sam9x60_cu_graphics_getting_started/firmware/sam9x60_cu.X)
 
 </details>
 

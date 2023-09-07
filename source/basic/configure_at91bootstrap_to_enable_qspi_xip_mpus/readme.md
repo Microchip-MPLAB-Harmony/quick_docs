@@ -68,7 +68,8 @@ This document is written with the assumption that the user is aware of the exter
 		 $ git clone git@https://github.com/linux4sam/at91bootstrap
       * If you don't have git installed, then
         [Download at91bootstrap](https://github.com/linux4sam/at91bootstrap) and unzip into your project directory.
-        <img src = "images/directory.png" align="middle">
+        <img src = "images/directory.png" align="middle"> <br>
+	  * **Note:** Use at91bootstrap version  v4.0.7 or higher
 
 </details> 
  
@@ -128,8 +129,8 @@ Then perform the following changes:
   * Next software type --> Load 4MB into the start of SDRAM.
   * Demo application image storage setup:
      * Flash offset --> QSPI offset where a user wants to flash the application.
-     * Demo app image size --> Size of the app image to be copied from QSPI to DRAM by at91bootstrap.
-     * External RAM address to load Demo-App image --> It should match the .text load address in your application linker script. <br>
+     * Demo app image size --> Size of the app image.
+     * External RAM address to load Demo-App image --> Provide the QSPI starting address of the application. It should match the .text load address in your application linker script. <br>
        External QSPI address of SAM9X60 board starts from 0x70000000 – 0x708000000. Please refer to the data sheet for more details. <br>
 	   External QSPI address of SAMA7G5 board starts from 0x20000000 – 0x280000000. Please refer to the data sheet for more details. <br>
 	   
@@ -158,8 +159,8 @@ Then perform the following changes:
   * Next software type --> Load 4MB into the start of SDRAM.
   * Demo application image storage setup:
      * Flash offset --> QSPI offset where a user wants to flash the application.
-     * Demo app image size --> Size of the app image to be copied from QSPI to DRAM by at91bootstrap.
-     * External RAM address to load Demo-App image --> It should match the .text load address in your harmony application linker script.<br>
+     * Demo app image size --> Size of the app image.
+     * External RAM address to load Demo-App image --> Provide the QSPI starting address of the application. It should match the .text load address in your harmony application linker script.<br>
        External QSPI address of SAM9X60 board starts from 0x70000000 – 0x708000000. Please refer to the data sheet for more details.<br>
 	   External QSPI address of SAMA7G5 board starts from 0x20000000 – 0x280000000. Please refer to the data sheet for more details.
 	   

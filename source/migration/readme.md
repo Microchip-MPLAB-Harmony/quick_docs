@@ -39,6 +39,9 @@ This page contains quick documentation to migrate to MPLAB® Harmony 3.
 ##  MPLAB Harmony v3 Project Migration
 - ### [Migration of an existing MPLAB Harmony v3 based project developed on a particular hardware platform to another one of Microchip's 32-bit hardware platforms of the user's choice](./mplab_harmony_v3_project_migration/readme.md)
 
+## Migrating SAM9X60-EK Harmony Application to SAM9X60 Curiosity Development Board
+- ### [Migrating SAM9X60-EK Harmony Application to SAM9X60 Curiosity Development Board](./sam9x60_ek_to_sam9x60_curiosity_harmony/readme.md)
+
 ### **Note:**  
 This page provides a quick reference covering the Migration to MPLAB Harmony 3. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.  
 
