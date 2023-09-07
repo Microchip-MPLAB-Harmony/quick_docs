@@ -337,7 +337,7 @@ Congratulations! You have opened, configured, built, and debugged an application
 * **NOTE**
   * **[Click here to learn how to configure first stage bootloader for SAM9X60 MPU](../sam9x60_configure_first_stage_bootloader/readme.md)**
   * **[Click here to learn how to configure/built and debug second stage bootloader(at91bootstrap) for SAM9X60 MPU](../sam9x60_configure_second_stage_bootloader/readme.md)**
-  * **[Click here to flash the at91bootstrap and harmony application binaries using SAM-BA tool to NVMs like QSPI External Flash, NAND Flash or to SD Card](../sam9x60_getting_started_application_using_mcc/readme.md)**
+  * **[Click here to flash the at91bootstrap and harmony application binaries using SAM-BA tool to NVMs like QSPI External Flash, NAND Flash or to SD Card](../sam9x60_flash_boot_application_using_samba/readme.md)**
   
 ## Reference Links
 [<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]()  

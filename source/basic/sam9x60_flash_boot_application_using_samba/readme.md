@@ -63,9 +63,9 @@ Step 5: Open Disable boot Jumper(J13) on SAM9X60 Evaluation Kit or Open the J4 N
 
 Step 6:
   * If you are using SAM9X60 Evaluation Kit follow these steps:
-    * 5.1. Push and hold the "BOOT_DIS" button.(This disables booting from the onboard memories - NAND and NOR(QSPI) flash Memory)
+    * 5.1. Push and hold the "DIS_BOOT" button.(This disables booting from the onboard memories - NAND and NOR(QSPI) flash Memory)
 	* 5.2. Reset the board by pressing and then releasing the reset "nRST" button.
-    * 5.3. Release the "BOOT_DIS" button.
+    * 5.3. Release the "DIS_BOOT" button.
 
   * If you are using SAM9X60 Curiosity Development Board follow these steps:
     * 5.1. Open the J4 NAND boot jumper.(This disables booting from the NAND flash Memory)

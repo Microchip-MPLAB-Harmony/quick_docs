@@ -148,7 +148,7 @@ The at91bootstrap built from sam9x60<board>_bkptnone_defconfig can only be used 
 
 
 To do this, go to
-Project --> Properties --> Kconfig --> load --> **project directory** --> configs --> sam9x60(board)_bkptnone_defconfig --> Open --> Apply --> ok.
+Project --> Properties --> Kconfig --> load --> **project directory** --> configs --> sam9x60(board)_bkptnone_defconfig --> Open.
 
 <img src = "images/2_1a.png" align="middle">
 
@@ -168,7 +168,7 @@ Now Click Apply --> OK.
 at91bootstrap can be configured to load the harmony application from QSPI into external volatile memory (DRAM) as follows.
 
 To do this, go to
-Project --> Properties --> Kconfig --> load --> **project directory** --> configs --> sam9x60(board)df_qspi_linux_image_dt_defconfig or sam9x60(board)df_qspi_uboot_defconfig  --> Open
+Project --> Properties --> Kconfig --> load --> **project directory** --> configs --> sam9x60(board)df_qspi_linux_image_dt_defconfig or sam9x60(board)df_qspi_uboot_defconfig  --> Open.
 
 **Legendry:** df --> Data Flash
 
