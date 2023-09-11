@@ -17,6 +17,8 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 - ### [Getting Started with USB on SAM MCUs Using MPLAB Harmony v3](./same70_getting_started_middleware/readme.md)
 - ### [Rapid prototyping with Curiosity Nano Evaluation Kit using MPLAB Harmony v3](./rapid_prototyping/readme.md)
 - ### [Digit Recognition AI/ML Application on SAM E51 IGAT CURIOSITY EVALUATION KIT Using MPLAB Harmony v3](./digit_recognition_ai_ml/readme.md)
+- ### [Getting Started with MPLAB Harmony v3 to Create a Web-Enabled Digital Photo Frame](./web_photo_frame/readme.md)
+- ### [Secure Boot on PIC32CM LS60 Curiosity Pro Evaluation Kit using MPLAB Harmony v3](./pic32cmls60_secure_boot/readme.md)
 
 ## Audio
 - ### [MPLAB Harmony 3 Audio Overview](./harmony_3_audio_overview/readme.md)
@@ -43,6 +45,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 ## TCP/IP
 - ### [Create your first TCP/IP Application](./create_first_tcpip_application/readme.md)
 - ### [Harmony TCP/IP User Guide](./harmony_tcpip_user_guide/readme.md)
+- ### [File Transfer Protocol Using MPLAB Harmony v3 TCP/IP Stack for SAM E54 MCU](./samc2x_getting_started_drivers_freertos/readme.md)
 
 ## Touch
 - ### [Create a Touch Project in Harmony](./create_a_touch_project/readme.md)
@@ -75,6 +78,10 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 This page provides a quick reference covering the MPLAB Harmony 3 Middleware Libraries usage. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.  
 
 ## Videos
+
+<a href="https://www.youtube.com/watch?v=Ks5lPh22iPk
+" target="_blank"><img src="http://img.youtube.com/vi/Ks5lPh22iPk/0.jpg"
+alt="" width="240" height="180" border="10" title="Create a Smart Asset Monitor With a PIC32CM MC00 Curiosity Nano Eval Kit" /> </a>
 <a href="https://www.youtube.com/watch?v=C4k8oOevk0M
 " target="_blank"><img src="http://img.youtube.com/vi/C4k8oOevk0M/0.jpg"
 alt="" width="240" height="180" border="10" title="Create a Thermal Camera Heatmap Application on the Curiosity PIC32MZ EF 2.0 Development Board" /> </a>
@@ -84,6 +91,10 @@ alt="" width="240" height="180" border="10" title="How to Create an IoT Based He
 <a href="https://www.youtube.com/watch?v=VsROaf16IvA
 " target="_blank"><img src="http://img.youtube.com/vi/VsROaf16IvA/0.jpg"
 alt="" width="240" height="180" border="10" title="How to Create a BLE Fitness Tracker Application on SAM E51 Curiosity Nano" /> </a>
+<a href="https://www.microchip.com.hk/pub/web1/download/Rapid%20Prototyping%20Connected%20Applications%20With%2032-Bit%20Microcontrollers.mp4" target="_blank"><img src="../r_images/ra_five.png"
+alt="" width="240" height="180" border="10" title="Tech Insights Asia 2022 - Rapid Prototyping Connected Applications With 32-bit Microcontrollers " /> </a>
+<a href="https://gateway.on24.com/wcc/eh/3685667/lp/3726515/rapid-prototyping-connected-applications-with-32-bit-microcontrollers" target="_blank"><img src="../r_images/ra_four.png"
+alt="" width="240" height="180" border="10" title="Design Week 2022 - Rapid Prototyping Connected Applications With 32-bit Microcontrollers " /> </a>
 <a href="https://event.on24.com/wcc/r/3352656/58281A3AA1611A85620910B5FF080F9D
 " target="_blank"><img src="../r_images/ra_one.png"
 alt="" width="240" height="180" border="10" title="Rapid Prototyping With Curiosity Nano: Part I" /> </a>
@@ -93,9 +104,7 @@ alt="" width="240" height="180" border="10" title="Rapid Prototyping With Curios
 <a href="https://event.on24.com/wcc/r/3352692/564B0A516CDFA0AD3CF28C13295B0870
 " target="_blank"><img src="../r_images/ra_three.png"
 alt="" width="240" height="180" border="10" title="Rapid Prototyping With Curiosity Nano: Part III" /> </a>
-<a href="https://gateway.on24.com/wcc/eh/3685667/lp/3726515/rapid-prototyping-connected-applications-with-32-bit-microcontrollers" target="_blank"><img src="../r_images/ra_four.png"
-alt="" width="240" height="180" border="10" title="Rapid Prototyping Connected Applications With 32-bit Microcontrollers
-" /> </a>
+
 
 
 Peripheral/Technology specific documentation are available in technology repositories like <a href="https://github.com/Microchip-MPLAB-Harmony/csp" target="_blank">csp</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/core" target="_blank">core</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/usb" target="_blank">usb</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/net" target="_blank">net</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/audio" target="_blank">audio</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/gfx_apps" target="_blank">gfx_apps</a>, etc.

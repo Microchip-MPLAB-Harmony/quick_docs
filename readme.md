@@ -10,7 +10,7 @@ and microprocessor devices.  Refer to the following links for more information.
 
 This repository contains the MPLAB Harmony 3 Quick Documentation Package.
 
-Quick documents are standalone html pages that help to get started developing applications using Microchip 32-bit SAM and PIC MCUs using MPLAB Harmony 3 software framework.
+Quick documents are standalone html pages that help to get started developing applications using Microchip 32-bit SAM and PIC MCUs/MPUs using MPLAB Harmony 3 software framework.
 
 [<img src="./source/basic/basic.png">](./source/basic/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./source/migration/migration.png">](./source/migration/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./source/peripheral/peripheral.png">](./source/peripheral/readme.md) &nbsp; &nbsp; &nbsp; &nbsp; [<img src="./source/middleware/middleware.png">](./source/middleware/readme.md) &nbsp; &nbsp; &nbsp; &nbsp;
 
@@ -28,7 +28,7 @@ Cover topics that help use MPLAB Harmony peripheral libraries and drivers. For 
 - [**Middleware Examples**](./source/middleware/readme.md) :    
 Cover topics that help use MPLAB Harmony middleware libraries to implement larger feature rich applications involving integration of multiple technologies. For Example: SD Card Audio Player/Reader Tutorial.
 
-The above doc types serve as a reference to evaluate solutions on 32-bit SAM and PIC MCUs by developing applications using MPLAB Harmony 3 software framework on Microchip 32-bit SAM and PIC development boards/kits.  
+The above doc types serve as a reference to evaluate solutions on 32-bit SAM and PIC MCUs/MPUs by developing applications using MPLAB Harmony 3 software framework on Microchip 32-bit SAM and PIC development boards/kits.  
 
 **Note**:
 The doc pages in this repository is a quick source covering the above types. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation. Refer the specific peripheral/technology repository to find specific documentation.

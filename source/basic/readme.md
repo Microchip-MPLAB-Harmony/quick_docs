@@ -9,6 +9,7 @@ nav_order: 2
 
 # MPLAB Harmony Basics Documentation
 This page contains quick documentation for MPLAB® Harmony 3 Basics.
+- ### [MPLAB® Code Configurator Overview with MPLAB Harmony Content](./mcc_overview_with_harmony_3/readme.md)
 - ### [MPLAB Code Configurator (MCC) for Harmony 3 Projects](./mplab_harmony_3_code_configurator/readme.md)
 - ### [MPLAB Harmony 3 Configurator (MHC)](./mplab_harmony_3_configurator/readme.md)
 - ### [MHC Project Graph](./mhc_project_graph/readme.md)
@@ -48,6 +49,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 - ### [Flash the at91bootstrap and harmony application binaries of SAMA7G5 MPU using SAM-BA tool](./sama7g54_flash_boot_application_using_samba/readme.md)
 
 ## Web Links
+- <a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/ReferenceManuals/32-bit-Microcontroller-Collateral-and-Solutions-Reference-Guide-DS70005534.pdf" target="_blank">32-bit Microcontroller Collateral and Solutions Reference Guide</a>
 - <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
 - <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>
 - <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>

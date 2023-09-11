@@ -6,29 +6,46 @@ nav_order: 499
 # Microchip MPLAB® Harmony 3 Release Notes
 ---
 
-## Quick Docs Release v1.6.0 (June 2023)
+## Quick Docs Release v1.6.0 (Sep 2023)
 
 ### New Doc Pages
 The following table provides the list of new doc pages:
 
 | Doc Name | Doc Type - Content |
 | ---      | ---                |
-[Develop a harmony based application for SAM9X60 MPU using MPLAB® X IDE](./source/basic/sam9x60_getting_started_application_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |  
-[Configure first stage bootloader for SAM9X60 MPU](./source/basic/sam9x60_configure_first_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
-[Configure/built and debug second stage bootloader(at91bootstrap) for SAM9X60 MPU](./source/basic/sam9x60_configure_second_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
-[Flash the at91bootstrap and harmony application binaries using SAM-BA tool](./source/basic/sam9x60_flash_boot_application_using_samba/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
-[Configure at91bootstrap to enable QSPI-XIP on MPUs](./source/basic/configure_at91bootstrap_to_enable_qspi_xip_mpus/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
-[Develop a harmony based application executed from QSPI for SAM9X60 MPU using MPLAB® X IDE](./source/basic/sam9x60_qspi_xip_application_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
-[Configure first stage bootloader for SAMA7G5 MPU](./source/basic/sama7g54_configure_first_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
-[Configure/built and debug second stage bootloader(at91bootstrap) for SAMA7G5 MPU](./source/basic/sama7g54_configure_second_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
-[SAM-BA installation and initialization for SAMA7G5 MPU](./source/basic/sama7g54_samba_installation_setup/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
-[Flash the at91bootstrap and harmony application binaries of SAMA7G5 MPU using SAM-BA tool](./source/basic/sama7g54_flash_boot_application_using_samba/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+[MPLAB Code Configurator Overview with MPLAB Harmony Content](./source/basic/mcc_overview_with_harmony_3/readme.md) | [Basic](./source/basic/readme.md) - Brief Overview and Web link |
+[Getting Started with MPLAB Harmony v3 to Create a Web-Enabled Digital Photo Frame](./source/middleware/web_photo_frame/readme.md) | [Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
+[Secure Boot on PIC32CM LS60 Curiosity Pro Evaluation Kit using MPLAB Harmony v3](./source/middleware/pic32cmls60_secure_boot/readme.md) | [Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
+[File Transfer Protocol Using MPLAB Harmony v3 TCP/IP Stack for SAM E54 MCU](./source/middleware/ftp_harmony_tcpip/readme.md) | [Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
+[Develop a harmony based application for SAM9X60 MPU using MPLAB® X IDE](./source/basic/sam9x60_getting_started_application_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Configure first stage bootloader for SAM9X60 MPU](./source/basic/sam9x60_configure_first_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Configure/built and debug second stage bootloader(at91bootstrap) for SAM9X60 MPU](./source/basic/sam9x60_configure_second_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Flash the at91bootstrap and harmony application binaries using SAM-BA tool](./source/basic/sam9x60_flash_boot_application_using_samba/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Configure at91bootstrap to enable QSPI-XIP on MPUs](./source/basic/configure_at91bootstrap_to_enable_qspi_xip_mpus/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Develop a harmony based application executed from QSPI for SAM9X60 MPU using MPLAB® X IDE](./source/basic/sam9x60_qspi_xip_application_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Configure first stage bootloader for SAMA7G5 MPU](./source/basic/sama7g54_configure_first_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Configure/built and debug second stage bootloader(at91bootstrap) for SAMA7G5 MPU](./source/basic/sama7g54_configure_second_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[SAM-BA installation and initialization for SAMA7G5 MPU](./source/basic/sama7g54_samba_installation_setup/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Flash the at91bootstrap and harmony application binaries of SAMA7G5 MPU using SAM-BA tool](./source/basic/sama7g54_flash_boot_application_using_samba/readme.md) | [Basic](./source/basic/readme.md) - Full |
 [Migrating SAM9X60-EK Harmony Application to SAM9X60 Curiosity Development Board](./source/migration/sam9x60_ek_to_sam9x60_curiosity_harmony/readme.md) | [Migration](./source/migration/readme.md) - Brief Overview and Web link |
 [Getting Started with Harmony v3 Peripheral Libraries on SAM9X60 MPUs ](./source/peripheral/sam9x60_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |
 
+### Deleted Doc Pages
 | Doc Name | Doc Type - Content | Comments |
 | ---      | ---                | ---      |  
-Getting started with SAM MPUs using MPLAB® Harmony 3 |Full |Deleted this document |  
+| Getting started with SAM MPUs using MPLAB® Harmony 3 |Full |Deleted this document as new alternative pages created |  
+
+
+- New Weblink added in [Basic](./source/basic/readme.md#web-links) page
+- New Weblink added in [Peripheral](./source/peripheral/readme.md#web-links) page
+- New video Weblinks added in [Middleware](./source/middleware/readme.md#videos) page
+- New video Weblinks added in [Peripheral](./source/peripheral/readme.md#videos) page
+
+### Known Issues
+	- NA -
+
+---
+
 
 ## Quick Docs Release v1.5.0 (June 2022)
 

@@ -33,6 +33,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Peripheral Librarie
 - ### [Getting Started with Harmony v3 Drivers on SAM D21 MCUs Using FreeRTOS](./samd21_getting_started_drivers_freertos/readme.md)
 - ### [Getting Started with Harmony v3 Drivers on SAM E5x MCUs Using FreeRTOS](./same5x_getting_started_drivers_freertos/readme.md)
 - ### [Getting Started with Harmony v3 Drivers on SAM C2x MCUs Using FreeRTOS](./samc2x_getting_started_drivers_freertos/readme.md)
+- ### [Getting Started with Harmony v3 Drivers on SAM C2x MCUs Using FreeRTOS](./samc2x_getting_started_drivers_freertos/readme.md)
 
 
 
@@ -57,10 +58,19 @@ This page contains quick documentation for MPLAB® Harmony 3 Peripheral Librarie
 - <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/Dual-Developer-Application-Development-Use-Case-with-TrustZone-on-SAM-L11-Using-MPLAB-Harmony-DS90003306.pdf" target="_blank">Dual Developer Application Development Use Case with TrustZone on SAM L11 Using MPLAB Harmony v3</a>
 - <a href="https://ww1.microchip.com/downloads/en/Appnotes/32-bit-Microcontroller-Wafer-Level-Chip-Scale-Package-(WLCSP)-DS00004383.pdf" target="_blank">32-bit Microcontroller Wafer-Level Chip-Scale Package (WLCSP)</a>
 - <a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/TechnicalReferenceManual/Handling-Cache-Coherency-Issues-at-Runtime-Using-Cache-Maintenance-Operations-on-PIC32MZ-MCUs-DS90003308.pdf" target="_blank">Handling Cache Coherency Issues at Runtime Using Cache Maintenance Operations on PIC32MZ MCUs Using MPLAB Harmony v3</a>
-
+- <a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ApplicationNotes/ApplicationNotes/AN4686-Watchdog-Timer-on-ATSAME70-S70-V70-V71-Devices-Using-MPLAB-Harmony-v3-DS00004686.pdf" target="_blank">Watchdog Timer (WDT) on ATSAM E70/S70/V70/V71 Devices Using MPLAB Harmony v3</a>
+- <a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MPU32/ProductDocuments/UserGuides/Peripheral-Power-Consumption-in-Standby-Mode-for-SAM-L10L11-Family-of-Devices-DS90003318.pdf" target="_blank">Peripheral Power Consumption in Standby Mode for SAM L10/L11 Family of Devices</a>
+- <a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/SupportingCollateral/How-to-Perform-ADC-Conversions-with-DMA-Data-Transfers-on-PIC32MK-Devices-Using-MPLAB-Harmony-DS90003319.pdf" target="_blank">How to Perform ADC Conversions with DMA Data Transfers on PIC32MK Devices Using MPLAB Harmony v3</a>
+- <a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/SupportingCollateral/External-Memory-on-SAM-E70-S70-V70-V71-MCUs-Tech-Brief-DS90003321.pdf" target="_blank">External Memory on SAM E70/S70/V70/V71 MCUs</a>
 
 
 ## Videos
+<a href="https://www.youtube.com/watch?v=Z5cWjyYZa5g
+" target="_blank"><img src="http://img.youtube.com/vi/Z5cWjyYZa5g/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started With the PIC32CM LE00 Curiosity Pro Evaluation Kit" /> </a>
+<a href="https://www.youtube.com/watch?v=5w0JYHnSzPM
+" target="_blank"><img src="http://img.youtube.com/vi/5w0JYHnSzPM/0.jpg"
+alt="" width="240" height="180" border="10" title="Getting Started With the TrustZone-based Security on PIC32CM LSx Microcontrollers" /> </a>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=S02mAli_DTU
 " target="_blank"><img src="http://img.youtube.com/vi/S02mAli_DTU/0.jpg"
 alt="" width="240" height="180" border="10" title="Create Your First Project with SAMD21 using MPLAB® Harmony v3" /> </a>
