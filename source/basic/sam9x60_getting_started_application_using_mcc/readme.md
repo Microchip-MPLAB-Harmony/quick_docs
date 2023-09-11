@@ -1,5 +1,5 @@
 ---
-title: Getting started with SAM9X60 Curiosity Development Board using MPLAB Harmony 3
+title: Getting started with SAM9X60 Curiosity Development Board using MPLAB® Harmony 3
 parent: Harmony Basics
 has_toc: false
 nav_order: 16

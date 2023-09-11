@@ -1,5 +1,5 @@
 ---
-title: Open an Existing Harmony 3 Project
+title: Configure at91bootstrap(Second Stage Bootloader) to enable QSPI-XIP on MPUs
 parent: Harmony Basics
 has_toc: false
 nav_order: 13

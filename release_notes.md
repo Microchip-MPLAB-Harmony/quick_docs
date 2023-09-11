@@ -17,6 +17,14 @@ The following table provides the list of new doc pages:
 [Configure first stage bootloader for SAM9X60 MPU](./source/basic/sam9x60_configure_first_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
 [Configure/built and debug second stage bootloader(at91bootstrap) for SAM9X60 MPU](./source/basic/sam9x60_configure_second_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
 [Flash the at91bootstrap and harmony application binaries using SAM-BA tool](./source/basic/sam9x60_flash_boot_application_using_samba/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+[Configure at91bootstrap to enable QSPI-XIP on MPUs](./source/basic/configure_at91bootstrap_to_enable_qspi_xip_mpus/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+[Develop a harmony based application executed from QSPI for SAM9X60 MPU using MPLAB® X IDE](./source/basic/sam9x60_qspi_xip_application_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+[Configure first stage bootloader for SAMA7G5 MPU](./source/basic/sama7g54_configure_first_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+[Configure/built and debug second stage bootloader(at91bootstrap) for SAMA7G5 MPU](./source/basic/sama7g54_configure_second_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+[SAM-BA installation and initialization for SAMA7G5 MPU](./source/basic/sama7g54_samba_installation_setup/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+[Flash the at91bootstrap and harmony application binaries of SAMA7G5 MPU using SAM-BA tool](./source/basic/sama7g54_flash_boot_application_using_samba/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated new project steps |
+[Migrating SAM9X60-EK Harmony Application to SAM9X60 Curiosity Development Board](./source/migration/sam9x60_ek_to_sam9x60_curiosity_harmony/readme.md) | [Migration](./source/migration/readme.md) - Brief Overview and Web link |
+[Getting Started with Harmony v3 Peripheral Libraries on SAM9X60 MPUs ](./source/peripheral/sam9x60_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |
 
 | Doc Name | Doc Type - Content | Comments |
 | ---      | ---                | ---      |  

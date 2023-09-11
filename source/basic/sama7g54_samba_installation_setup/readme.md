@@ -1,12 +1,19 @@
+---
+title: SAM-BA installation and setup for SAMA7G54-EK.
+parent: Harmony Basics
+has_toc: false
+nav_order: 13
+---
 
-# SAM-BA Installation and Setup.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../r_images/quick_back.png"  title="Back">](../readme.md)
 
 
-This training module describes how to Install and Setup SAM-BA tool. 
-
+### Note:
+<span style="color:blue"> **This guide will teach you how to install and setup SAM-BA tool for SAMA7G54-EK.**
+- [SAMA7G54 Evaluation kit ](https://www.microchip.com/en-us/development-tool/EV21H18A)
 
 ## SAM-BA Installation and Setup:
-* Install SAM-BA tool on your windows host PC.
+### Install SAM-BA tool on your windows host PC.
   * To Download the latest version of SAM-BA tool for Windows [click this link](https://www.microchip.com/en-us/development-tool/SAM-BA-In-system-Programmer).
   * Download the ZIP file and unzip it into a working directory of your choice.
   * Add the SAM-BA directory path to the environment variables.
@@ -24,7 +31,7 @@ This training module describes how to Install and Setup SAM-BA tool.
     ***sam-ba -v***<br>
 	<img src = "images/5.png" align="middle">
 	
-* Setup to flash using SAM-BA:
+### Setup to flash using SAM-BA:
   * Open Disable boot Jumper(J22) on SAMA7G54-EK Evaluation Kit.
   * Ensure there is no SD memory card inserted.
   * Power up the SAMA7G54-EK Evaluation Kit by connecting 5V/2A power adapter to J1 connector or by connecting a micro-usb cable to J7 connector.

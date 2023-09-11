@@ -1,5 +1,5 @@
 ---
-title: Open an Existing Harmony 3 Project
+title: Configure the second stage bootloader for SAM9X60 based MPUs
 parent: Harmony Basics
 has_toc: false
 nav_order: 13

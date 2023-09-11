@@ -1,5 +1,5 @@
 ---
-grand_parent: 32-bit MPU Reference Applications
+grand_parent: Developing an application getting executed from QSPI flash on SAM9X60-EK
 parent: Harmony Basics
 has_toc: false
 nav_order: 16
