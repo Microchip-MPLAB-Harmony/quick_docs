@@ -1,5 +1,5 @@
 ---
-title: SAMA7G54 - Flash boot and harmony application binaries using SAM-BA 
+title: SAMA7G54 Flash boot and harmony application binaries using SAM BA
 parent: Harmony Basics
 has_toc: false
 nav_order: 16
@@ -210,7 +210,7 @@ To Disable Emulation Mode:
  3. Write Config     : sam-ba -p j-link -b sama7g5-ek -a bootconfig -c writecfg:bcp-otp:DBGU,SDMMC0_IOSET1 
  4. Lock config      : sam-ba -p j-link -b sama7g5-ek -a bootconfig -c lockcfg:bcp-otp
 
-## 4.4.	Boot Configuration Packet- different configurations available:
+## 4.4. Boot Configuration Packet different configurations available
 The writecfg command programs the Boot Configuration Packet (BCP) into the ***Emulated SRAM***, if the ***emulation mode of the OTPC is enabled***. Else BCP packets are stored inside the ***OTP matrix***.
 
 User can use the below command to get the full list of boot configurations possible:

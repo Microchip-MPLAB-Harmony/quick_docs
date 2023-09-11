@@ -1,5 +1,5 @@
 ---
-title: SAMA7G54 - Configure First Stage Bootloader
+title: SAMA7G54 Configure First Stage Bootloader
 parent: Harmony Basics
 has_toc: false
 nav_order: 16

@@ -1,5 +1,5 @@
 ---
-title: SAM9X60 - Configure First Stage Bootloader
+title: SAM9X60 Configure First Stage Bootloader
 parent: Harmony Basics
 has_toc: false
 nav_order: 16

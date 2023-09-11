@@ -1,5 +1,5 @@
 ---
-title: SAM9X60 - Flash boot and harmony application binaries using SAM-BA 
+title: SAM9X60 Flash boot and harmony application binaries using SAMBA 
 parent: Harmony Basics
 has_toc: false
 nav_order: 16
@@ -240,7 +240,7 @@ To Enable/Disable Emulation mode in Boot Sequence Controller Configuration Regis
  3. Write Config     : sam-ba -p serial -d sam9x60 -a bootconfig -c writecfg:bcp-otp:NFC_IOSET1 // Refer section 4.4. for different configurations
  4. Lock config      : sam-ba -p serial -d sam9x60 -a bootconfig -c lockcfg:bcp-otp
 
-## 4.4.	Boot Configuration Packet- different configurations available:
+## 4.4. Boot Configuration Packet- different configurations available:
 The writecfg command programs the Boot Configuration Packet (BCP) into the ***Emulated SRAM***, if the ***emulation mode of the OTPC is enabled***. Else BCP packets are stored inside the ***OTP matrix***.
 
 User can use the below command to get the full list of boot configurations possible:

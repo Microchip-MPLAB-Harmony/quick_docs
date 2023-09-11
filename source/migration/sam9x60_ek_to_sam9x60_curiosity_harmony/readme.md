@@ -1,5 +1,5 @@
 ---
-title: Migrating a MPLAB® Harmony 3 Application from the SAM9X60-EK to SAM9X60-Curiosity
+title: Migrating a MPLAB Harmony 3 Application from the SAM9X60 EK to SAM9X60 Curiosity
 parent: Migration Guides
 has_toc: false
 nav_order: 5

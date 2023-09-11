@@ -1,5 +1,5 @@
 ---
-title: SAM-BA installation and setup for SAMA7G54-EK.
+title: SAMBA installation and setup for SAMA7G54 EK
 parent: Harmony Basics
 has_toc: false
 nav_order: 13
