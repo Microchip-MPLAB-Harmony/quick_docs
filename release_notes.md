@@ -30,11 +30,11 @@ The following table provides the list of new doc pages:
 [Migrating SAM9X60-EK Harmony Application to SAM9X60 Curiosity Development Board](./source/migration/sam9x60_ek_to_sam9x60_curiosity_harmony/readme.md) | [Migration](./source/migration/readme.md) - Brief Overview and Web link |
 [Getting Started with Harmony v3 Peripheral Libraries on SAM9X60 MPUs ](./source/peripheral/sam9x60_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |
 
-### Deleted Doc Pages
+### Deleted Doc Pages  
+
 | Doc Name | Doc Type - Content | Comments |
 | ---      | ---                | ---      |  
-| Getting started with SAM MPUs using MPLAB® Harmony 3 |Full |Deleted this document as new alternative pages created |  
-
+| Getting started with SAM MPUs using MPLAB Harmony 3 | Full | Deleted this document as new alternative pages created |  
 
 - New Weblink added in [Basic](./source/basic/readme.md#web-links) page
 - New Weblink added in [Peripheral](./source/peripheral/readme.md#web-links) page
