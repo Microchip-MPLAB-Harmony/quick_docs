@@ -105,10 +105,10 @@ The at91bootstrap file (boot.bin) built with QSPI configuration only to be used 
 ## 1.3. Program harmony.bin to QSPI flash memory
    To program the application binary, harmony.bin file on the SAMA7G54-EK, use the following command:
    
-   ***sam-ba -p j-link -b sama7g5-ek -a qspiflash -c write:harmony.bin:\<QSPI_OFFSET\>***
+   ***sam-ba -p j-link -b sama7g5-ek -a qspiflash -c write:harmony.bin:QSPI_OFFSET***
    
    **Note:**<br>
-     * The \<QSPI_OFFSET\> should be the same offset used in the KCONFIG, while configuring the at91bootstrap to load from external QSPI <br>
+     * The QSPI_OFFSET should be the same offset used in the KCONFIG, while configuring the at91bootstrap to load from external QSPI <br>
      * Change directory to the location of harmony.bin.
 
    <mark>Example:</mark>
