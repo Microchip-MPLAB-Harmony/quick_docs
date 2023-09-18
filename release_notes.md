@@ -41,6 +41,13 @@ The following table provides the list of new doc pages:
 | [MCC Clock Configuration](./source/basic/mcc_clock_configuration/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
 | [MCC Pin Configuration](./source/basic/mcc_pin_configuration/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
 | [MCC NVIC Configuration](./source/basic/mcc_nvic_configuration/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [MCC Project Graph](./source/basic/mcc_project_graph/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [MCC DMA Configuration](./source/basic/mcc_dma_configuration/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [MCC Memory protection Unit Configuration](./source/basic/mcc_memory_protection_unit_configuration/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [MCC Code Generation](./source/basic/mcc_code_generation/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [Create Hello World application on PIC MCUs](./source/basic/create_hello_world_pic_mcus/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [Creating an IAR or KEIL project using MCC](./source/basic/create_iar_or_keil_project_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+
 
 ### Deleted Doc Pages  
 
