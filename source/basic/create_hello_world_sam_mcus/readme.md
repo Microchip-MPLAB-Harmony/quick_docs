@@ -45,7 +45,7 @@ The instructions in this tutorial use <a href="https://www.microchip.com/Develop
     <img src = "images/figure1_1.png" width="660" height="455" align="middle">
 
 4. Click **Next**.
-5. Under the **Manage Framework** section, enter the **Framework Path** (Path to the folder in which the MPLAB Harmony v3 packages are downloaded). For this demonstration, the MPLAB Harmony v3 packages are downloaded in the following location: *C\harmony3*.
+5. Under the **Manage Framework** section, enter the **Framework Path** (Path to the folder in which the MPLAB Harmony v3 packages are downloaded). For this demonstration, the MPLAB Harmony v3 packages are downloaded in the following location: *C/harmony3*.
 
     <img src = "images/figure1_2.png" width="700" height="510" align="middle">
 
@@ -56,7 +56,7 @@ The instructions in this tutorial use <a href="https://www.microchip.com/Develop
 6. Click **Next**.
 7. Under the **Name and Location** section, enter the following details:
     - Location: Indicates the path to the root folder of the new project. All project files will be placed in this
-    folder. The project location can be any valid path, for example: *C:\Users\HarmonyProjects\tech_brief*.
+    folder. The project location can be any valid path, for example: *C:/Users/HarmonyProjects/tech_brief*.
     - Folder: Indicates the name of the MPLAB X IDE folder. Enter hello_world to create a hello_world.X
     folder.
     - Name: Enter name of the project as *hello_world_sam_d21_xpro*. This name will be displayed in the
@@ -152,7 +152,7 @@ Settings window.
 
 2. The above step triggers these actions in MCC:
     - Generate the code as per the configurations done.
-    - Place the generated code and required MPLAB Harmony framework files in the MPLAB Harmony project directory, in this case: *C:\Users\HarmonyProjects\tech_brief\firmware\src*.
+    - Place the generated code and required MPLAB Harmony framework files in the MPLAB Harmony project directory, in this case: *C:/Users/HarmonyProjects/tech_brief/firmware/src*.
     - Add all generated codes and MPLAB Harmony framework files into the MPLAB Harmony project, as shown in the following figure.
 
     <img src = "images/figure1_19.png" width="360" height="620" align="middle">

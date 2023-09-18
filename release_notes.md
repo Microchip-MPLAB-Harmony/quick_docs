@@ -14,6 +14,7 @@ The following table provides the list of new doc pages:
 | Doc Name | Doc Type - Content |
 | ---      | ---                |
 [MPLAB Code Configurator Overview with MPLAB Harmony Content](./source/basic/mcc_overview_with_harmony_3/readme.md) | [Basic](./source/basic/readme.md) - Brief Overview and Web link |
+[MPLAB Code Configurator Options](./source/basic/mcc_plugin_configurations/readme.md) | [Basic](./source/basic/readme.md) - Full |
 [Getting Started with MPLAB Harmony v3 to Create a Web-Enabled Digital Photo Frame](./source/middleware/web_photo_frame/readme.md) | [Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
 [Secure Boot on PIC32CM LS60 Curiosity Pro Evaluation Kit using MPLAB Harmony v3](./source/middleware/pic32cmls60_secure_boot/readme.md) | [Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
 [File Transfer Protocol Using MPLAB Harmony v3 TCP/IP Stack for SAM E54 MCU](./source/middleware/ftp_harmony_tcpip/readme.md) | [Middleware](./source/middleware/readme.md) - Brief Overview and Web link |
@@ -30,11 +31,23 @@ The following table provides the list of new doc pages:
 [Migrating SAM9X60-EK Harmony Application to SAM9X60 Curiosity Development Board](./source/migration/sam9x60_ek_to_sam9x60_curiosity_harmony/readme.md) | [Migration](./source/migration/readme.md) - Brief Overview and Web link |
 [Getting Started with Harmony v3 Peripheral Libraries on SAM9X60 MPUs ](./source/peripheral/sam9x60_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Brief Overview and Web link |
 
+
+### Updated Doc Pages
+
+| Doc Name | Doc Type - Content | Comments |
+| ---      | ---                | ---      |  
+| [Create First MPLAB Harmony 3 Project](./source/basic/create_first_harmony_3_project/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [Create Hello World application on SAM MCUs](./source/basic/create_hello_world_sam_mcus/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [MCC Clock Configuration](./source/basic/mcc_clock_configuration/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [MCC Pin Configuration](./source/basic/mcc_pin_configuration/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [MCC NVIC Configuration](./source/basic/mcc_nvic_configuration/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+
 ### Deleted Doc Pages  
 
 | Doc Name | Doc Type - Content | Comments |
 | ---      | ---                | ---      |  
 | Getting started with SAM MPUs using MPLAB Harmony 3 | Full | Deleted this document as new alternative pages created |  
+| MHC Window Manager and Log Level | Full | Deleted this document as UI is migrated from MHC to MCC and no corresponding pages exist in MCC |  
 
 - New Weblink added in [Basic](./source/basic/readme.md#web-links) page
 - New Weblink added in [Peripheral](./source/peripheral/readme.md#web-links) page
@@ -62,7 +75,7 @@ The following table provides the list of new doc pages:
 
 | Doc Name | Doc Type - Content | Comments |
 | ---      | ---                | ---      |  
-[Getting started with SAM MPUs using MPLAB® Harmony 3](./source/basic/sam_mpus_getting_started_harmony_3/readme.md) | [Basic](./source/basic/readme.md) - Full |Updated reference to bootstrap and new project steps |  
+| [Getting started with SAM MPUs using MPLAB® Harmony 3](./source/basic/sam_mpus_getting_started_harmony_3/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated reference to bootstrap and new project steps |  
 
 
 - New Weblink added in [Peripheral](./source/peripheral/readme.md#web-links) page
