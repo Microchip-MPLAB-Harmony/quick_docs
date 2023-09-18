@@ -17,7 +17,7 @@ MCC plug-in consists of following plug-ins/managers based on the device selectio
 - DMA Configuration: Enables to configure DMA Channels
 - MPU Configuration: Enables to configure different zones of Memory Protection Unit
 
-To open **Clock Configuration** MCC plug-in, perform this action Project Graph → Plugins then click **Clock Configuration** .
+To open **Clock Configuration** MCC plug-in, perform the action, Project Graph → Plugins then click **Clock Configuration** .
 
 <img src = "images/figure_5.11.png" width="470" height="250" align="middle">
 
@@ -32,11 +32,12 @@ In the MCC, select the Clock Diagram Tab and verify that the clock is configured
 
 ## Note
 <span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>
+- [MPLAB X IDE v6.15](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB XC32 Compiler v4.30](https://www.microchip.com/mplab/compilers)
+- [MPLAB Code Configurator v5.3.7](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator) 
+- MCC Harmony v1.3.2
 - [MPLAB Harmony v3 "csp" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.0)
 - [MPLAB Harmony v3 "dev_packs" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.18.0)
-- MPLAB Harmony 3 Launcher Plugin v3.6.4
-- [MPLAB X IDE v6.10](https://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB XC32 Compiler v4.30](https://www.microchip.com/mplab/compilers)
 
 <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>
 

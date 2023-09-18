@@ -8,7 +8,7 @@ nav_order: 9
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../r_images/quick_back.png"  title="Back">](../readme.md)
 
 
-# MPLAB® Code Configurator Options
+# MPLAB Code Configurator Options
 Several aspects of the operation of the MPLAB® Code Configurator (MCC) can be managed by using the **Options** panel which can be invoked by clicking **Tools>Options>Plugins**.
 
 <img src = "images/options.png" width="750" height="660" align="middle">
@@ -53,11 +53,12 @@ Libraries can be added or removed through this setup.
 
 ## Note
 <span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>
+- [MPLAB X IDE v6.15](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB XC32 Compiler v4.30](https://www.microchip.com/mplab/compilers)
+- [MPLAB Code Configurator v5.3.7](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator) 
+- MCC Harmony v1.3.2
 - [MPLAB Harmony v3 "csp" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.0)
 - [MPLAB Harmony v3 "dev_packs" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.18.0)
-- MPLAB Harmony 3 Launcher Plugin v3.6.4
-- [MPLAB X IDE v6.10](https://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB XC32 Compiler v4.30](https://www.microchip.com/mplab/compilers)
 
 <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>
 
