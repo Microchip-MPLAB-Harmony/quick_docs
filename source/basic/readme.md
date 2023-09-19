@@ -11,7 +11,8 @@ nav_order: 2
 This page contains quick documentation for MPLAB® Harmony 3 Basics.
 - ### [MPLAB® Code Configurator Overview with MPLAB Harmony Content](./mcc_overview_with_harmony_3/readme.md)
 - ### [MPLAB Code Configurator (MCC) for Harmony 3 Projects](./mplab_harmony_3_code_configurator/readme.md)
-- ### [MPLAB Harmony 3 Configurator (MHC)](./mplab_harmony_3_configurator/readme.md)
+- ### [Create a new MPLAB Harmony v3 project using MCC](./create_new_harmony_3_project_using_mcc/readme.md)
+- ### [Update and Configure an Existing MHC-based MPLAB Harmony v3 Project to MCC-based Project](./update_mhc_harmony_3_project_to_mcc/readme.md)
 - ### [MCC Project Graph](./mcc_project_graph/readme.md)
 - ### [MCC Clock Configuration](./mcc_clock_configuration/readme.md)
 - ### [MCC Pin Configuration](./mcc_pin_configuration/readme.md)
@@ -23,15 +24,11 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 - ### [Create First MPLAB Harmony 3 Project](./create_first_harmony_3_project/readme.md)
 - ### [Create "Hello World" application on SAM MCUs](./create_hello_world_sam_mcus/readme.md)
 - ### [Create "Hello World" application on PIC MCUs](./create_hello_world_pic_mcus/readme.md)
-- ### [Open an Existing Harmony 3 Project](./open_an_existing_harmony_3_project/readme.md)
-- ### [Harmony 3 Packages](./harmony_3_packages/readme.md)
 - ### [Create IAR or Keil project using MCC](./create_iar_or_keil_project_using_mcc/readme.md)
 - ### [Create new TrustZone Project](./create_new_trust_zone_project/readme.md)
 - ### [Differences Between MPLAB Harmony v3 Synchronous and Asynchronous Drivers](./harmony_sync_async_drivers/readme.md)
 - ### [Difference Between MPLAB Harmony v3 PLIBs and Drivers](./harmony_drivers_plibs/readme.md)
 - ### [MPLAB Harmony v3 Synchronous drivers and their usage in FreeRTOS based applications](./harmony_sync_drivers_freertos/readme.md)
-- ### [Create a new MPLAB Harmony v3 project using MCC](./create_new_harmony_3_project_using_mcc/readme.md)
-- ### [Update and Configure an Existing MHC-based MPLAB Harmony v3 Project to MCC-based Project](./update_mhc_harmony_3_project_to_mcc/readme.md)
 - ### [Add a New Configuration to an Existing MPLAB Harmony v3 Project](./add_new_configuration_to_harmony_3_project/readme.md)
 - ### [MPLAB Harmony v3 Project Manifest Feature](./harmony_3_project_manifest/readme.md)
 
@@ -120,4 +117,4 @@ This page provides a quick reference covering the Basic features of MPLAB Harmon
 Peripheral/Technology specific documentation are available in technology repositories like <a href="https://github.com/Microchip-MPLAB-Harmony/csp" target="_blank">csp</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/core" target="_blank">core</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/usb" target="_blank">usb</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/net" target="_blank">net</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/audio" target="_blank">audio</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/gfx_apps" target="_blank">gfx_apps</a>, etc.
 
 ## Reference Links
-[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../r_images/mplab_compiler.png"> </a>]()
+[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../r_images/mplab_compiler.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator" target="_blank"> <img src="../r_images/mcc_harmony.png"> </a>]()

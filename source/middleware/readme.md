@@ -45,7 +45,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 ## TCP/IP
 - ### [Create your first TCP/IP Application](./create_first_tcpip_application/readme.md)
 - ### [Harmony TCP/IP User Guide](./harmony_tcpip_user_guide/readme.md)
-- ### [File Transfer Protocol Using MPLAB Harmony v3 TCP/IP Stack for SAM E54 MCU](./samc2x_getting_started_drivers_freertos/readme.md)
+- ### [File Transfer Protocol Using MPLAB Harmony v3 TCP/IP Stack for SAM E54 MCU](./ftp_harmony_tcpip/readme.md)
 
 ## Touch
 - ### [Create a Touch Project in Harmony](./create_a_touch_project/readme.md)
@@ -110,4 +110,4 @@ alt="" width="240" height="180" border="10" title="Rapid Prototyping With Curios
 Peripheral/Technology specific documentation are available in technology repositories like <a href="https://github.com/Microchip-MPLAB-Harmony/csp" target="_blank">csp</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/core" target="_blank">core</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/usb" target="_blank">usb</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/net" target="_blank">net</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/audio" target="_blank">audio</a>, <a href="https://github.com/Microchip-MPLAB-Harmony/gfx_apps" target="_blank">gfx_apps</a>, etc.
 
 ## Reference Links  
-[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../r_images/mplab_compiler.png"> </a>]()
+[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../r_images/mplab_compiler.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator" target="_blank"> <img src="../r_images/mcc_harmony.png"> </a>]()

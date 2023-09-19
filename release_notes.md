@@ -47,6 +47,7 @@ The following table provides the list of new doc pages:
 | [MCC Code Generation](./source/basic/mcc_code_generation/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
 | [Create Hello World application on PIC MCUs](./source/basic/create_hello_world_pic_mcus/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
 | [Creating an IAR or KEIL project using MCC](./source/basic/create_iar_or_keil_project_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
+| [Creating a New TrustZone Project](./source/basic/create_new_trust_zone_project/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |  
 
 
 ### Deleted Doc Pages  
@@ -54,7 +55,14 @@ The following table provides the list of new doc pages:
 | Doc Name | Doc Type - Content | Comments |
 | ---      | ---                | ---      |  
 | Getting started with SAM MPUs using MPLAB Harmony 3 | Full | Deleted this document as new alternative pages created |  
+| MPLAB Harmony 3 Configurator (MHC) | Full | Deleted this document as UI is migrated from MHC and an alternative page for the same on MCC is available |  
+| Open an Existing Harmony 3 Project | Full | Deleted this document as UI is migrated from MHC and an alternative page for the same on MCC is available |  
 | MHC Window Manager and Log Level | Full | Deleted this document as UI is migrated from MHC to MCC and no corresponding pages exist in MCC |  
+| Harmony 3 Packages | Full | Deleted this document. Refer to https://github.com/Microchip-MPLAB-Harmony for the list of packages |  
+
+
+
+
 
 - New Weblink added in [Basic](./source/basic/readme.md#web-links) page
 - New Weblink added in [Peripheral](./source/peripheral/readme.md#web-links) page
@@ -292,4 +300,4 @@ The following table provides the list of new doc pages:
 
 
 ## Reference Links
-[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="./source/r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="./source/r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="./source/r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="./source/r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="./source/r_images/mplab_compiler.png"> </a>]()  
+[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="./source/r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="./source/r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="./source/r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="./source/r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="./source/r_images/mplab_compiler.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator" target="_blank"> <img src="./source/r_images/mcc_harmony.png"> </a>]()

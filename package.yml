@@ -1,0 +1,7 @@
+package:
+  format-version: "1.0.0"
+  name: "quick_docs"
+  version: "dev"
+  type: "documentation"
+  status: "production"
+  required: true
