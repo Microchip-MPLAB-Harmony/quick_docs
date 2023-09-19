@@ -1,5 +1,5 @@
 ---
-title: Create IAR or Keil project using MCC
+title: Create IAR or Keil project using MCC    
 parent: Harmony Basics
 has_toc: false
 nav_order: 15
@@ -9,17 +9,21 @@ nav_order: 15
 
 
 # Creating an IAR or KEIL project using MCC
-When creating projects for IAR or KEIL IDEs, MCC is launched as an application (as opposed to a plugin in MPLAB® X, when creating MPLAB® X projects). We refer to this mode of operation of MCC as "standalone" mode throughout this document.  Follow the steps detailed below to create an project for IAR or KEIL using MCC
+When creating projects for IAR or KEIL IDEs, MCC is launched as an application (as opposed to a plugin in MPLAB® X, when creating MPLAB® X projects). We refer to this mode of operation of MCC as "standalone" throughout this document.  Follow the steps detailed below to create an project for IAR or KEIL using MCC Standalone.
 
-## Launching MCC in standalone mode
-Navigate to the local clone of this repository and run the script that is appropriate for your operating system. That is
+## Installing the MPLAB Code Configurator (MCC) Standalone
 
-* For Windows, run the script **`runmhc.bat`**
-* For Linux/MacOS, run the script **`runmhc.sh`**
+* Goto the MPLAB Code Configurator (MCC) webpage and download the MCC Standalone version for the respective operating system. 
+    <img src = "images/standalone_install.png" width="900" height="180" align="middle">
 
-This will launch the MCC as an application (see below):
+	- Download the MCC Standalone from [here](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator).
 
-     <img src = "images/mhc_standalone.png" width="700" height="400" align="middle">
+## Launching MCC Standalone 
+
+* Launch the MPLAB Code Configurator (MCC) Standalone application from the Start Menu. 
+	- It will appears as a separate application as below:
+
+	<img src = "images/mcc_standalone.png" width="700" height="400" align="middle">
 
 ## Setting user preferences
 User preferences can be set by navigating to File -> Preferences. MCC allows user to configure two preferences
@@ -35,11 +39,11 @@ User preferences can be set by navigating to File -> Preferences. MCC allows use
 ## Creating a new configuration
 To create a new mcc configuration, choose File -> **New 32-bit MCC Harmony configuration**. 
 
-    <img src = "images/create_0.png" width="500" height="300" align="middle">
+<img src = "images/create_0.png" width="500" height="300" align="middle">
 
 A new configuration creation dialog will popup, where we can enter the details of the configuration that we are about to create.
 
-    <img src = "images/create.png" width="600" height="300" align="middle">
+<img src = "images/create.png" width="600" height="300" align="middle">
 
 
 * **Framework Path** - This is not configurable. Framework path defaults to the parent folder of the MCC repository. This folder is should contain relevant harmony 3 repositories required for project creation. Recommend using content manager for downloading and setting up  Harmony 3 repositories. Make sure that the "Convert to relative path for configuration" check box is unchecked.
@@ -69,27 +73,25 @@ Then, Click Next for Setup Configuration.
 Refer to documentation on how to use the project graph for configuring Harmony 3 components using MCC.
 
 ## Generating code and project associated with a configuration
-<img src = "images/toolchain.png" width="750" height="470" align="middle">
 
 * Select the target toolchain by clicking the system component in the project graph and choosing System -> Project Configuration -> Toolchain selections -> Compilers in the configuration option window. Available options are XC32, IAR and KEIL. Some of these options might not be available for all targets. Choosing IAR or KEIL as the target compiler, will result in MCC creating IAR embedded workbench or Keil uVision IDE projects for the selected target. In this case, we have chosen KEIL as the toolchain.
-
+	- **Note**: If the IAR Workbench or KEIL was not installed on the PC, MCC Standalone does not generate the project for the selected toolchain.
+<img src = "images/toolchain.png" width="750" height="470" align="middle">
 * Click **Generate** button in Project Resources to start project generation. In the generation window, we can choose the merge strategies.
 
    <img src = "images/generate.png" width="600" height="380" align="middle">
 
 * MCC identifies that there is a diff in the files it generated (for eg: modification within the project IDE), it will launch the configured diff tool. We can bring in the changes that are relevant and ignore the rest. Once the diff tool is closed, the project generation sequence is continued until the entire configuration is generated.
 
-* If IAR or KEIL is chosen as the toolchain, MCC will also create a folder containing the relevant project files which can then be opened using the  corresponding IDE. The path of this folder, follows the rules explained in the "configuration" section. In this example, it would be under `"D:/Projects/My_Harmony_3/firmware/default.KEIL"`, since we choose keil as the the toolchain.
+* If IAR or KEIL is chosen as the toolchain, MCC will also create a folder containing the relevant project files which can then be opened using the corresponding IDE. The path of this folder, follows the rules explained in the "Setup Configuration" section. In this example, it would be under `"D:/Projects/My_Harmony_3/firmware/Hello_world/Hello_world.uvprojx"`, since we choose keil as the the toolchain.
 
 ## Note
 <span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>
 
-- [MPLAB X IDE v6.15](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB Harmony v3 "csp" repo v3.17.0](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.12.0)
+- [MPLAB Harmony v3 "dev_packs" repo v3.17.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.12.0)
+- [MPLAB Code Configurator [MCC] Standalone v5.3.7](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator)
 - [MPLAB XC32 Compiler v4.30](https://www.microchip.com/mplab/compilers)
-- [MPLAB Code Configurator v5.3.7](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator) 
-- MCC Harmony v1.3.2
-- [MPLAB Harmony v3 "csp" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.0)
-- [MPLAB Harmony v3 "dev_packs" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.18.0)
 
 <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>
 
