@@ -271,7 +271,7 @@
   },"45": {
     "doc": "Create IAR or Keil project using MCC",
     "title": "Note",
-    "content": "This page has been verified with the following versions of software tools: . | MPLAB Harmony v3 “csp” repo v3.17.0 | MPLAB Harmony v3 “dev_packs” repo v3.17.0 | MPLAB Code Configurator [MCC] Standalone v5.3.7 | MPLAB XC32 Compiler v4.30 | . Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. ",
+    "content": "This page has been verified with the following versions of software tools: . | MPLAB X IDE v6.15 | MPLAB XC32 Compiler v4.30 | MPLAB Code Configurator v5.3.7 | MCC Harmony v1.3.2 | MPLAB Harmony v3 “csp” repo v3.18.0 | MPLAB Harmony v3 “dev_packs” repo v3.18.0 | . Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. ",
     "url": "http://localhost:4000/quick_docs/source/basic/create_iar_or_keil_project_using_mcc/readme.html#note",
     "relUrl": "/source/basic/create_iar_or_keil_project_using_mcc/readme.html#note"
   },"46": {
