@@ -8,26 +8,27 @@ nav_order: 14
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../r_images/quick_back.png"  title="Back">](../readme.md)
 # Low Power Application on SAM D21 (Arm® Cortex® M0+) MCUs Using MPLAB® Harmony v3 Peripheral Libraries
 
-The SAM D21 is a 32-bit Arm® Cortex® - M0+ based microcontroller that provides features to reduce power consumption through different Sleep modes, such as Idle and Standby.
+The SAM D21 is a 32-bit Arm® Cortex®-M0+ based microcontroller that provides features to reduce power consumption through different Sleep modes, such as Idle and Standby.
 
 - In Idle mode, the CPU is stopped and optionally, some synchronous clock domains are stopped, depending on the IDLE argument. The regulator operates in Normal mode. This mode allows power optimization with a fast wake-up time.
-- In Standby mode, all clock sources are stopped, except those which are kept running if requested by a running module or have the ONDEMAND bit set to zero. The regulator operates in Low Power mode. Before entering Standby mode the user must make sure that a significant amount of clocks and peripherals are disabled so that the voltage regulator is not overloaded. This mode allows the device to consume the lowest power with little overhead on wake-up time.
+- In Standby mode, all clock sources are stopped, except those that are kept running if requested by a running module or have the ONDEMAND bit set to zero. The regulator operates in Low Power mode. Before entering Standby mode the user must make sure that a significant amount of clocks and peripherals are disabled so that the voltage regulator is not overloaded. This mode allows the device to consume the lowest power with little overhead on wake-up time.
 
 The Power Manager (PM) module is responsible for controlling the Low Power modes. Additionally, the SAM D21 provides SleepWalking. SleepWalking is the capability for a device to temporarily wake up clocks for the peripheral to perform a task without waking up the CPU in STANDBY sleep mode.
 
 
-The application makes use of the <a href="https://microchipdeveloper.com/boards:sam-d21-xpro" target="_blank">SAM D21 Xplained Pro evaluation kit</a>, <a href="https://www.microchip.com/en-us/education/developer-help/learn-tools-software/programmers-debuggers/power-debugger" target="_blank"> Power Debugger </a> and the <a href="https://www.microchip.com/Developmenttools/ProductDetails/ATIO1-XPRO" target="_blank">I/O1 Xplained Pro Extension Kit</a> (sold separately).
+The application makes use of the <a href="https://www.microchip.com/en-us/development-tool/atsamd21-xpro" target="_blank">SAM D21 Xplained Pro Evaluation Kit</a>, <a href="https://www.microchip.com/en-us/development-tool/ATPOWERDEBUGGER" target="_blank"> Power Debugger </a> and the <a href="https://www.microchip.com/en-us/development-tool/ATIO1-XPRO" target="_blank">I/O1 Xplained Pro Extension Kit</a> (sold separately).
 
-The application is developed on the MPLAB Harmony v3 software framework. MPLAB Harmony v3 is a modular framework that provides interoperable firmware libraries for application development on 32-bit MCUs and MPUs. It includes an easy-to-use Graphical User Interface (GUI) (MPLAB Harmony Configurator (MHC)) for selecting, configuring, and generating starter codes, peripheral libraries, and middleware (USB, TCP/IP, Graphics and so on).
+The application is developed on the MPLAB Harmony v3 software framework. MPLAB Harmony v3 is a modular framework that provides interoperable firmware libraries for application development on 32-bit MCUs and MPUs. It includes an easy-to-use Graphical User Interface (GUI) (MPLAB Code Configurator (MCC)) for selecting, configuring, and generating starter codes, peripheral libraries, and middleware (USB, TCP/IP, Graphics and so on).
 
 On power-up, the application prints a menu on a PC serial terminal. The menu provides options to measure the device power consumption in Sleep modes or to measure wake-up time when the device is wake-up from one of the Sleep modes. Once the option is selected, the application sets up EIC peripheral clock source and goes to Standby Sleep mode to enable measurement modes.
 
 
 In this training module,
 
-- The power consumption of the SAM D21 Xplained Pro board is measured using two tools
-  - External Power Debugger - A hardware tool
-  - Data Visualizer - A software tool
+- The power consumption of the SAM D21 Xplained Pro board is measured using two tools.
+  - External Power Debugger - A hardware tool.
+  - Data Visualizer - A software tool.
+  
   The steps to connect and measure the power consumption using these tools are provided in the following sections.
 
 - Device wake-up time is measured using the Logic Analyzer. The steps to connect and measure the wake-up time are provided in the following sections.
@@ -73,7 +74,7 @@ For more information refer the **[links](#Web-Links)** below.
 ## <a id="Web-Links"> </a>
 ## Web Links
 
-- <a href="https://microchipdeveloper.com/harmony3:low-power-application-on-samd21" target="_blank">Low Power Application on SAM D21 (Arm® Cortex® M0+) MCUs Using MPLAB® Harmony v3 Peripheral Libraries</a>
+- <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/harmony/archive/harmony3-low-power-application-on-samd21/" target="_blank">Low Power Application on SAM D21 (Arm® Cortex® M0+) MCUs Using MPLAB® Harmony v3 Peripheral Libraries</a>
 
 ## Reference Links
 [<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator" target="_blank"> <img src="../../r_images/mcc_harmony.png"> </a>]()

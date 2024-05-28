@@ -12,9 +12,9 @@ This tutorial shows you how to develop an application prototype from a concept w
 
 The problem statement you would address is implementing a smart appliance control application on the PIC32CM MC00 Curiosity Nano Evaluation Kit using MPLAB® Harmony v3 software framework.
 
-The application makes use of the [PIC32CM MC00 Curiosity Nano Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV10N93A), the [BM71-XPRO Bluetooth Low energy board](https://www.microchip.com/en-us/development-tool/DM164146), and the following MikroElektronika Click boards: [WEATHER CLICK](https://www.mikroe.com/weather-click), [Fan Click](https://www.mikroe.com/fan-click), [EINK CLICK BUNDLE](https://www.mikroe.com/eink-click).
+The application makes use of the [PIC32CM MC00 Curiosity Nano Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV10N93A), the [BM71-XPRO Bluetooth Low energy board](https://www.microchip.com/en-us/development-tool/DM164146), and the following MikroElektronika Click boards: [WEATHER CLICK](https://www.mikroe.com/weather-click#/263-clickid-yes), [Fan Click](https://www.mikroe.com/fan-click), [EINK CLICK BUNDLE](https://www.mikroe.com/eink-click).
 
-The application is developed on the MPLAB Harmony v3 software framework. MPLAB Harmony v3 is a modular framework that provides interoperable firmware libraries for application development on 32-bit MCUs and MPUs. It includes an easy-to-use Graphical User Interface (GUI) (MPLAB Harmony Configurator (MHC)) for selecting, configuring, and generating starter codes, peripheral libraries, and middleware (USB, TCP/IP, Graphics, and so on).
+The application is developed on the MPLAB Harmony v3 software framework. MPLAB Harmony v3 is a modular framework that provides interoperable firmware libraries for application development on 32-bit MCUs and MPUs. It includes an easy-to-use Graphical User Interface (GUI) (MPLAB Code Configurator (MCC)) for selecting, configuring, and generating starter codes, peripheral libraries, and middleware (USB, TCP/IP, Graphics, and so on).
 
 This application demonstrates smart control of an appliance (fan) through an Android-based smartphone over a Bluetooth Low Energy (BLE) connection.
 
@@ -50,7 +50,7 @@ For more information refer the **[links](#Web-Links)** below.
 ## <a id="Web-Links"> </a>
 ## Web Links
 
-- <a href="https://microchipdeveloper.com/harmony3:rapid-prototyping-with-32-bit-mcu-based-cnano" target="_blank">Rapid prototyping with 32-bit MCU-based Curiosity Nano Evaluation Kit using MPLAB Harmony v3 Software Framework</a>
+- <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/harmony/archive/rapid-prototyping-with-32-bit-mcu-based-cnano/" target="_blank">Rapid prototyping with 32-bit MCU-based Curiosity Nano Evaluation Kit using MPLAB® Harmony v3 Software Framework</a>
 
 ## Reference Links
 [<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator" target="_blank"> <img src="../../r_images/mcc_harmony.png"> </a>]()  

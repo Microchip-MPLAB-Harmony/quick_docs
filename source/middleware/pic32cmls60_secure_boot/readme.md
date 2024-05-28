@@ -1,5 +1,5 @@
 ---
-title: Secure Boot on PIC32CM LS60 Curiosity Pro Evaluation Kit using MPLAB Harmony v3
+title: Secure Boot on PIC32CM LS60 Curiosity Pro Evaluation Kit using MPLAB® Harmony v3
 parent: Middleware Examples
 has_toc: false
 nav_order: 6
@@ -8,7 +8,7 @@ nav_order: 6
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../r_images/quick_back.png"  title="Back">](../readme.md)
 # Secure Boot on PIC32CM LS60 Curiosity Pro Evaluation Kit using MPLAB Harmony v3
 
-This tutorial shows how to use the Secure Boot feature on the PIC32CM LS60 microcontroller (MCU) using ATECC608B to create a Secure Bootloader and an application that is loaded using the Secure Bootloader. This tutorial helps you get started in developing secure applications on PIC32CM LS60 MCUs using Microchip's Trust Platform Design Suite (TPDS) and MPLAB Harmony v3 software framework. The project you create will run on the PIC32CM LS60 Curiosity Pro Evaluation Kit (EV76R77A).  
+This tutorial shows how to use the Secure Boot feature on the PIC32CM LS60 microcontroller (MCU) using [ATECC608B](https://www.microchip.com/en-us/product/atecc608b) to create a Secure Bootloader and an application that is loaded using the Secure Bootloader. This tutorial helps you get started in developing secure applications on PIC32CM LS60 MCUs using Microchip's [Trust Platform Design Suite (TPDS)](https://www.microchip.com/en-us/product/SW-TPDSV2#Software) and MPLAB Harmony v3 software framework. The project you create will run on the [PIC32CM LS60 Curiosity Pro Evaluation Kit (EV76R77A)](https://www.microchip.com/en-us/development-tool/ev76r77a).  
 
 The application demonstrates the development of two projects.
 
@@ -37,7 +37,7 @@ For more information refer the **[links](#Web-Links)** below.
 ## <a id="Web-Links"> </a>
 ## Web Links
 
-- <a href="https://microchipdeveloper.com/harmony3:secure-boot-application-on-pic32cm-ls60" target="_blank">Secure Boot on PIC32CM LS60 Curiosity Pro Evaluation Kit using MPLAB Harmony v3e </a>
+- <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/harmony/secure-boot-app-pic32cm-ls60/" target="_blank">Secure Boot on PIC32CM LS60 Curiosity Pro Evaluation Kit using MPLAB® Harmony v3 </a>
 
 ## Reference Links
 [<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator" target="_blank"> <img src="../../r_images/mcc_harmony.png"> </a>]()  
