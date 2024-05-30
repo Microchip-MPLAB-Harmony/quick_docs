@@ -20,8 +20,8 @@ The SAM E54 is a 32-bit Arm® Cortex®-M4 based microcontroller that provides fe
 
 The Power Manager (PM) module is responsible for controlling the Low Power modes. Additionally, the SAM E54 provides SleepWalking, an advanced low power operation mode which is based on event propagation managed by the Event System (EVSYS).
 
-This application makes use of the <a href="https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAME54-XPRO" target="_blank">SAM E54 Xplained Pro Evaluation Kit</a>
- and the <a href="https://www.microchip.com/Developmenttools/ProductDetails/ATIO1-XPRO" target="_blank">I/O1 Xplained Pro Extension Kit</a> (sold separately).
+This application makes use of the <a href="https://www.microchip.com/en-us/development-tool/ATSAME54-XPRO" target="_blank">SAM E54 Xplained Pro Evaluation Kit</a>
+ and the <a href="https://www.microchip.com/en-us/development-tool/ATIO1-XPRO" target="_blank">I/O1 Xplained Pro Extension Kit</a> (sold separately).
 
 On power-up, the device is set to Standby Sleep mode. The device wakes up from Standby mode and enters Active mode when you cover the light sensor (by placing a hand over it, for example) on the I/O1 Xplained Pro extension kit. The application periodically prints the room temperature on a serial terminal while the light sensor is covered. The device goes back to Standby mode when you uncover the light sensor. LED0 on the SAM E54 evaluation kit is toggled every time the temperature is displayed on the serial console. When you press the switch button SW0, the application switches Sleep mode from Standby mode to Idle mode.
 
@@ -42,9 +42,9 @@ For more information refer the **[links](#Web-Links)** below.
 ## <a id="Web-Links"> </a>
 ## Web Links
 
-- <a href="https://microchipdeveloper.com/harmony3:low-power-application-on-sam-e54" target="_blank">Low Power Application on SAM E54 (Cortex M4) MCU Using MPLAB Harmony v3 Peripheral Libraries</a>
+- <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/harmony/low-power-application-on-sam-e54/" target="_blank">Low Power Application on SAM E54 (Cortex M4) MCU Using MPLAB Harmony v3 Peripheral Libraries</a>
 
 
 
 ## Reference Links
-[<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator" target="_blank"> <img src="../../r_images/mcc_harmony.png"> </a>]()
+[<a href="https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/32-bit-mcus" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator" target="_blank"> <img src="../../r_images/mcc_harmony.png"> </a>]()
