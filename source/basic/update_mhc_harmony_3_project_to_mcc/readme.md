@@ -9,9 +9,9 @@ nav_order: 21
 
 # Update and Configure an Existing MHC-based MPLAB Harmony v3 Project to MCC-based Project
 
-This tutorial shows you how to update and configure an existing MPLAB Harmony Configurator (MHC)-based MPLAB Harmony v3 project to [MPLAB Code Configurator (MCC)](https://microchipdeveloper.com/mplabx:mcc)-based project. This training module uses the [Getting Started Extended Application on Curiosity PIC32MZ EF 2.0 Development Board](https://github.com/Microchip-MPLAB-Harmony/reference_apps/releases/download/v1.3.0/getting_started_ext.zip) to update and configure an existing project.
+This tutorial shows you how to update and configure an existing MPLAB Harmony Configurator (MHC)-based MPLAB Harmony v3 project to [MPLAB Code Configurator (MCC)](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/mcc/)-based project. This training module uses the [Getting Started Extended Application on Curiosity PIC32MZ EF 2.0 Development Board](https://github.com/Microchip-MPLAB-Harmony/reference_apps/releases/download/v1.3.0/getting_started_ext.zip) to update and configure an existing project.
 
-The application makes use of [Curiosity PIC32MZEF v2 Development Board](https://microchipdeveloper.com/boards:curiosity-pic32mz-v2) and [I/O1 Xplained Pro Kit](https://www.microchip.com/en-us/development-tool/ATIO1-XPRO) (optional if you intend to exercise the extended functionality described below).
+The application makes use of [Curiosity PIC32MZEF v2 Development Board](https://www.microchip.com/en-us/development-tool/DM320209) and [I/O1 Xplained Pro Kit](https://www.microchip.com/en-us/development-tool/ATIO1-XPRO) (optional if you intend to exercise the extended functionality described below).
 
 **Note:** Though this application uses the PIC32MZEF microcontroller as an example, the general description and steps to install, configure, and generate code using MCC applies to all 32-bit PIC and SAM microcontrollers.
 
@@ -35,7 +35,7 @@ For more information refer the **[links](#Web-Links)** below.
 ## <a id="Web-Links"> </a>
 ## Web Links
 
-- <a href="https://microchipdeveloper.com/harmony3:update-and-configure-existing-mhc-proj-to-mcc-proj" target="_blank">Update and Configure an Existing MHC-based MPLAB Harmony v3 Project to MCC-based Project</a>
+- <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/harmony/update-and-configure-existing-mhc-proj-to-mcc-proj/" target="_blank">Update and Configure an Existing MHC-based MPLAB Harmony v3 Project to MCC-based Project</a>
 
 ## Reference Links
 [<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator" target="_blank"> <img src="../../r_images/mcc_harmony.png"> </a>]()

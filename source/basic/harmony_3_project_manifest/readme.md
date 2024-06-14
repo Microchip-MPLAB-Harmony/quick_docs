@@ -10,14 +10,13 @@ nav_order: 21
 # MPLAB Harmony v3 Project Manifest Feature
 
 The MPLAB® Harmony v3 software framework is distributed as packages on GitHub under the [Microchip MPLAB
-Harmony project](https://github.com/Microchip-MPLAB-Harmony). MPLAB Harmony v3 provides several software packages (as GitHub repositories), including device setup repositories (csp, core, dev_packs, mhc, etc.), technology-specific repositories (usb, net, wireless, etc.), and reference application (reference_apps) repositories. In addition to the device or technology-specific libraries, these repositories also have application examples.
+Harmony project](https://github.com/Microchip-MPLAB-Harmony). MPLAB Harmony v3 provides several software packages (as GitHub repositories), including device setup repositories (csp, core, etc.), technology-specific repositories (usb, net, wireless, etc.), and reference application (reference_apps) repositories. In addition to the device or technology-specific libraries, these repositories also have application examples.
 
 The release tags identify the MPAB Harmony v3 packages released on GitHub. Microchip regularly updates the
 packages for new feature additions and issue fixes with a new release. Each new release has a dedicated release
 tag.  
 
-An MPLAB Harmony v3 application is developed using these packages. At a minimum, the application would use
-device-specific repositories such as csp, dev_packs, and mhc. If the application is extensive and has feature-rich
+An MPLAB Harmony v3 application is developed using these packages. At a minimum, the application would use **csp** a device-specific repository. If the application is extensive and has feature-rich
 functionality, it could use several packages for development.  
 
 An application example released in an MPLAB Harmony v3 package is developed on specific released versions of

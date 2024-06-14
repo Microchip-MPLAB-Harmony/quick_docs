@@ -64,7 +64,6 @@ nav_order: 9
 <span style="color:blue"> *This project has been verified to work with the following versions of software tools:*</span>  
 
 - [MPLAB Harmony v3 "csp" repo v3.18.5](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.5)
-- [MPLAB Harmony v3 "dev_packs" repo v3.18.1](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.18.1)
 - [MPLAB Code Configurator Plugin v5.5.1](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator)
 - [MPLAB X IDE v6.20](https://www.microchip.com/mplab/mplab-x-ide)
 - [MPLAB XC32 Compiler v4.40](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc32)

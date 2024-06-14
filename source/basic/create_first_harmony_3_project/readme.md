@@ -37,58 +37,78 @@ The following are the steps to create, generate, build and flash LED Blinking ap
 ## Create a new project
 1. Open the MPLAB® X IDE.
 2. Create a New Project by clicking the New Project icon <img src = "images/btn_new_project.png"> or by selecting File > New Project.
-3. In the New Project window select **32-Bit MCC Harmony Project**.
+3. In the New Project window select **Application Project(s)**.
 4. Click Next.
 
-    <img src = "images/new_project_step1.png" width="727" height="500" align="middle">
+    <img src = "images/new_project_step1.png" align="middle">
 
-    **Note**: If the option 32-Bit MPLAB Harmony v3 Project is not available, install the **MPLAB® Harmony 3 Launcher** plug-in from **Tools > Plugins > Available Plugins** before continuing with this demonstration.
-5. Enter the path to the folder in which you downloaded the MPLAB® Harmony 3 packages in the Framework Path edit box.
+    **Note**: 
 
-    <img src = "images/new_project_step2.png" width="684" height="500" align="middle">
+    - If the option 32-Bit MPLAB Harmony v3 Project is not available, install the **MPLAB® Harmony 3 Launcher** plug-in from **Tools > Plugins > Available Plugins** before continuing with this demonstration.
+    - If the **Harmony Content Path** and **Repository** is not set, then go to **Tools > Options**, select **Pugins** and select the **Harmony Repository** and enter the your **Harmony Content Path** as shown in the below figure to download the Harmony packages.
 
-6. In the Project Setting dialog window, fill in or select the information needed as follows:
-    - Location: Create a “**MyProject_blink**” folder in the location of your choice.
-    - Folder: Project Folder name i.e. “**sam_c21n_xpro**”
-    - Name: Project Name i.e. “**my_blinky_sam_c21n_xpro**”
+        <img src = "images/harmony_content_path_setup.png" align="middle">
 
-    <img src = "images/new_project_step3.png" width="685" height="500" align="middle">
+5. In the Select Device dialog window, select the target Device **ATSAMC21N18A** from the drop-down menu as shown below and Click Next.
 
-7. In the Configuration Settings dialog window, enter the configuration name as “**sam_c21n_xpro**” and select the Target Device **ATSAMC21N18A** from the drop-down menu as shown below.
+    <img src = "images/new_project_step2.png" align="middle">
 
-    <img src = "images/new_project_step4.png" width="685" height="500" align="middle">
+6. In the Select Compiler dialog window, select the latest or needed Compiler as follows:
+
+    <img src = "images/new_project_step3.png" align="middle">
+
+    - Click Next.
+
+7. In the Select Project Name and Folder dialog window, fill in or select the information needed as follows:
+    - Project Name: Project naame i.e. “**sam_c21n_xpro**”
+    - Project Location: Select or Enter the Project Location of your choice.
+        - For Example: **MyProject_blink** and the Project Location is:
+            - `C:/Users/<user_id>/MPLABXProjects/sam_c21n/MyProject_blink/firmware`
+        - **Note:** Kindly suffix the **firmware** folder name after the Project folder “**MyProject_blink**”.
+    - Project Folder: This is a read-only field, MCC automatically creates the .X project folder in the above mentioned project location.
+
+    <img src = "images/new_project_step4.png" align="middle">
 
 8. Click **Finish**.
-9. While the MCC tool launches, Click on **Select MPLAB Harmony** content type.
+9. Download the Required Mandatory Harmony Content if not downloaded.
+    - The below MCC Content Manager window will open if the Mandatory Harmony Contents are not present in the **Harmony Content Path** mentioned in the **Step 4**.
 
-    <img src = "images/new_project_step5.png" width="700" height="265" align="middle">
+        <img src = "images/content_manager_step1.png" align="middle">
 
-    Click on the **Finish** Button in the MCC Content Manager Wizard.
-	
-	<img src = "images/new_project_step6.png" width="700" height="265" align="middle">
-	
+    - Click on the **Finish** Button in the MCC Content Manager Wizard to start downloading the Mandatory **Harmony Content**.
+    -  **Note**: For this demonstration application, the following MPLAB Harmony v3 packages are required:
+    **csp**, **harmony-services**, **CMSIS**, and **quick_docs**. The MPLAB Harmony 3 Content Manager tool simplifies the downloading of the MPLAB
+    Harmony v3 packages. If these packages are not downloaded, then the user can use the <a href="https://youtu.be/0rNFSlsVwVw?si=tTK6mX9aV6slOcjA&t=145" target="_blank">MPLAB Harmony 3 Content Manager</a> tool to download them onto their computer.
+        - If you need you can select the optional contents like bsp, core, CMSIS-FreeRTOS, etc and click apply, then Content Manager will start downloading these selected packages under the **Harmony Content** path.
+
+            <img src = "images/content_manager_step2.png" align="middle">
+
+        - Similarly, update the MCC Core Versions to the latest if not already updated.
+
+            <img src = "images/content_manager_step3.png" align="middle">
+
 ## Setup MPLAB® Harmony Project Configurator to Generate Code
 1. Click on the **Resource Management [MCC]** tab, In the **Device Resources** , expand **Harmony > Peripherals > TC**.
 
     Select and double click on **TC0** to add the TC0 to the project.
-    <img src = "images/setup_step1.png" width="749" height="550" align="middle">
+    <img src = "images/setup_step1.png" align="middle">
 
 2. Click on the “**TC0**” component and configure as below and in the figure:
 
     - Select Prescaler value to “**Prescaler: GCLK_TC/1024**”
     - Set Time (Milli Sec) to “**500**”
 
-    <img src = "images/setup_step2.png" width="849" height="319" align="middle">
+    <img src = "images/setup_step2.png" align="middle">
 
     This will toggle the LED every 0.5 seconds, producing a LED blink every second.
 
 3. Launch the **Pin Configuration** manager by clicking **Project Graph > Plugins > Pin Configuration**.
 
-    <img src = "images/setup_step3.png" width="425" height="301" align="middle">
+    <img src = "images/setup_step3.png" align="middle">
 
 4. Setup pin “**PC05**” as the board’s **LED**, set custom name as “LED” and Direction as “**Out**”:
 
-    <img src = "images/setup_step4.png" width="998" height="316" align="middle">
+    <img src = "images/setup_step4.png" align="middle">
 
     This is necessary because the project doesn’t use a Board Support Package (BSP).
 
@@ -96,7 +116,12 @@ The following are the steps to create, generate, build and flash LED Blinking ap
 
 6. Generate the code by using MCC. From the left side tab, **Resource Management [MCC]**, go to **Project Resources** and click on the **Generate** button.
 
-   <img src = "images/setup_step5.png" width="498" height="416" align="middle">
+   <img src = "images/setup_step5.png" align="middle">
+
+    - **Note:**
+        - You can open the Content Manager anytime and download/rebase the Harmony packages by clicking the **Content Manager** under the Device Resources tab as shown below.
+
+        <img src = "images/setup_step5_01.png" align="middle">
 
 7. Let’s examine the software just created in the Projects panel of MPLAB® X IDE Header Files are shown on the top and Source Files are shown on the bottom.
 
@@ -114,11 +139,11 @@ The following are the steps to create, generate, build and flash LED Blinking ap
 
     If you click on the **Projects** tab you will see the actual organization of these files on your drive:
 
-    <img src = "images/setup_step6.png" width="310" height="580" align="middle">
+    <img src = "images/setup_step6.png" align="middle">
 
 ## Adding Code to main.c
 Double click on **main.c** to bring up an editor window and update it to obtain the following code:
-	
+
 ```c
 
 static bool volatile bToggleLED = false;
@@ -162,23 +187,23 @@ int main ( void )
 
 If you do a control click on “LED_Toggle()” the editor will bring up where this token is defined in the file plib_port.h:
 
-<img src = "images/code1.png" width="410" height="100" align="middle">
+<img src = "images/code1.png" align="middle">
 
 
-<img src = "images/code2.png" width="447" height="100" align="middle">
+<img src = "images/code2.png" align="middle">
 
 ## Upload project to SAMC21N Xplained pro Evaluation Kit
 1. Do a right mouse click on the project’s name and bring up the Project Properties dialog:
 
-    <img src = "images/upload1.png" width="347" height="607" align="middle">
+    <img src = "images/upload1.png" align="middle">
 
-2. Under Categories section, select Conf: (sam_c21n_xpro), and in the Configuration section, select the hardware tool and XC32 Compiler toolchain (here v4.30). Click Apply, and then click OK
+2. Under Categories section, select Conf: (sam_c21n_xpro), and in the Configuration section, select the hardware tool and XC32 Compiler toolchain (here v4.40). Click Apply, and then click OK
 
-    <img src = "images/upload2.png" width="800" height="513" align="middle">
+    <img src = "images/upload2.png" align="middle">
 
 3. Build and run the project: The board’s LED should flash with a 1 second period
 
-    <img src = "images/upload3.png" width="170" height="68" align="middle">
+    <img src = "images/upload3.png" align="middle">
 
 We have now implemented a heartbeat for future applications. The LED blinking indicates that the application hasn’t frozen or isn’t stuck in a while(1){} loop (e.g.: assert or exception).
 
@@ -188,19 +213,20 @@ If configured correctly, the LED PC05 on the <a href="https://www.microchip.com/
 ## Note
 <span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>
 
-- [MPLAB X IDE v6.15](https://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB XC32 Compiler v4.30](https://www.microchip.com/mplab/compilers)
-- [MPLAB Code Configurator v5.3.7](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator) 
-- MCC Harmony v1.3.2
-- [MPLAB Harmony v3 "csp" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.0)
-- [MPLAB Harmony v3 "dev_packs" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.18.0)
+- [MPLAB X IDE v6.20](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB XC32 Compiler v4.40](https://www.microchip.com/mplab/compilers)
+- [MPLAB Code Configurator Plugin v5.5.1](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator)
+- [MPLAB Harmony v3 "csp" repo v3.18.5](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.5)
 
 <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>
 
 ## References
 - <a href="https://www.microchip.com/developmenttools/ProductDetails/atsamc21n-xpro" target="_blank">SAMC21N Xplained Pro Evaluation Kit User Guide and Datasheet</a>
-- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">MPLAB X IDE User’s Guide</a> see Documentation section at bottom of the page.
+- <a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank">MPLAB X IDE User’s Guide</a>
     - <a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en556757" target="_blank">User’s Guide direct download</a>
+- <a href="https://youtu.be/0rNFSlsVwVw?si=njPYitpENsH-qBBx" target="_blank">How to Set up the Tools Required to Get Started with MPLAB® Harmony v3 and MCC</a>
+- <a href="https://youtu.be/0rNFSlsVwVw?si=tTK6mX9aV6slOcjA&t=145" target="_blank">MPLAB Harmony 3 Content Manager</a>
+
 
 ## Reference Links
 [<a href="https://www.microchip.com/design-centers/32-bit" target="_blank"> <img src="../../r_images/32_bit_mcus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/design-centers/32-bit-mpus" target="_blank"> <img src="../../r_images/32_bit_mpus.png"> </a>]()  &nbsp; &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-x-ide" target="_blank"> <img src="../../r_images/mplab_x_ide.png"> </a>]()  &nbsp; &nbsp; [<a href="https://www.microchip.com/mplab/mplab-harmony" target="_blank"> <img src="../../r_images/mplab_harmony.png"> </a>]() [<a href="https://www.microchip.com/mplab/compilers" target="_blank"> <img src="../../r_images/mplab_compiler.png"> </a>]() [<a href="https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator" target="_blank"> <img src="../../r_images/mcc_harmony.png"> </a>]()

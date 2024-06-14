@@ -10,7 +10,7 @@ nav_order: 5
 # MPLAB Harmony Middleware Example Documentation
 
 
-This page contains quick documentation for MPLAB® Harmony 3 Middleware Libraries usage.  
+This page contains quick documentation for MPLAB® Harmony 3 Middleware Libraries usage.
 
 
 - ### [Getting Started with Harmony v3 Drivers and Middleware on PIC32MZ EF MCUs using FreeRTOS](./pic32mz_getting_started_middleware/readme.md)
@@ -67,7 +67,7 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 - ### [Create your first Motor Control Application](./create_first_motor_control_application/readme.md)
 
 ## Web Links
-- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/How_to_Use_Harmony_v3_Debug_System_Service_DS90003246A.pdf" target="_blank">How to Use the MPLAB Harmony v3 Debug System Service</a>
+- <a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/SupportingCollateral/How-to-Use-the-MPLAB-Harmony-v3-Debug-System-Service-DS90003246.pdf" target="_blank">How to Use the MPLAB Harmony v3 Debug System Service</a>
 - <a href="https://www.microchip.com/en-us/education/technical-learning-center/webinars/rapid-prototyping-webinar-series" target="_blank">Rapid Prototyping Webinar Series</a>
 
 
@@ -78,19 +78,14 @@ This page contains quick documentation for MPLAB® Harmony 3 Middleware Librarie
 This page provides a quick reference covering the MPLAB Harmony 3 Middleware Libraries usage. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.  
 
 ## Videos
-
-<a href="https://www.youtube.com/watch?v=Ks5lPh22iPk
-" target="_blank"><img src="http://img.youtube.com/vi/Ks5lPh22iPk/0.jpg"
-alt="" width="240" height="180" border="10" title="Create a Smart Asset Monitor With a PIC32CM MC00 Curiosity Nano Eval Kit" /> </a>
-<a href="https://www.youtube.com/watch?v=C4k8oOevk0M
-" target="_blank"><img src="http://img.youtube.com/vi/C4k8oOevk0M/0.jpg"
-alt="" width="240" height="180" border="10" title="Create a Thermal Camera Heatmap Application on the Curiosity PIC32MZ EF 2.0 Development Board" /> </a>
-<a href="https://www.youtube.com/watch?v=bpSrgNdpUPE
-" target="_blank"><img src="http://img.youtube.com/vi/bpSrgNdpUPE/0.jpg"
-alt="" width="240" height="180" border="10" title="How to Create an IoT Based Heart Rate Monitoring Application on the SAM IoT WG Development Board" /> </a>
-<a href="https://www.youtube.com/watch?v=VsROaf16IvA
-" target="_blank"><img src="http://img.youtube.com/vi/VsROaf16IvA/0.jpg"
-alt="" width="240" height="180" border="10" title="How to Create a BLE Fitness Tracker Application on SAM E51 Curiosity Nano" /> </a>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/rvzbqIQG52s?si=gwelUoZF0M2MbkqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/NbMMtvRgFls?si=KLguXBRUwlHlNX3e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/Ks5lPh22iPk?si=DVa_iX52o04_yLKK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/bpSrgNdpUPE?si=pUKrtBmnqyBiHGTW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/Ks5lPh22iPk?si=YRURJ5lQGPQybqVG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/C4k8oOevk0M?si=UaXP3mLMvOJjPmzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/bpSrgNdpUPE?si=mkGmURbOwo_3OJ76" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/VsROaf16IvA?si=Ho2b-Wrhoh2XSkeh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <a href="https://www.microchip.com.hk/pub/web1/download/Rapid%20Prototyping%20Connected%20Applications%20With%2032-Bit%20Microcontrollers.mp4" target="_blank"><img src="../r_images/ra_five.png"
 alt="" width="240" height="180" border="10" title="Tech Insights Asia 2022 - Rapid Prototyping Connected Applications With 32-bit Microcontrollers " /> </a>
 <a href="https://gateway.on24.com/wcc/eh/3685667/lp/3726515/rapid-prototyping-connected-applications-with-32-bit-microcontrollers" target="_blank"><img src="../r_images/ra_four.png"

@@ -26,7 +26,7 @@ When creating projects for IAR or KEIL IDEs, MCC is launched as an application (
 	<img src = "images/mcc_standalone.png" width="700" height="400" align="middle">
 
 ## Setting user preferences
-User preferences can be set by navigating to File -> Preferences. MCC allows user to configure two preferences
+User preferences can be set by navigating to Tools -> Options. MCC allows user to configure two preferences
 
 * **Diff** - Allows user to configure a diff tool. This is an important configuration, and is explained further down in project generation section. We can configure any third party diff tool. To set diff tool,  navigate to its installation directory using the browse button and select the executable. {0} and {1} are place holders for the files that need to diffed during project file generation. In this example, we are using WinMerge as the diff tool.
 
@@ -61,13 +61,22 @@ Then, Click Next for Setup Configuration.
   * *Family Filter* - Allows us to choose the family filter of this configuration. In this example, select **ATSAM** in the family filter configuration.
   * *Target Device* - Device Family drop down limits the options to a specific family when choosing the target device, while Device Filter allows searching for a device by entering few characters.  In this instance, **ATSAMC21N18A** MCU is chosen for creating the configuration.
 
-* The MCC content manager window is displayed. In this click **Select MPLAB Harmony** (by default this option is selected)
+* Download the Required Mandatory Harmony Content if not downloaded.
+    - The below MCC Content Manager window will open if the Mandatory Harmony Contents are not present in the **Harmony Content Path** mentioned in the above Step 4.
 
-    <img src = "images/db_setup.png" width="700" height="450" align="middle">
+        <img src = "images/content_manager_step1.png" align="middle">
 
-* Click **Finish** to launch the MCC tool with the packages.
+    - Click on the **Finish** Button in the MCC Content Manager Wizard to start downloading the Mandatory **Harmony Content**.
+    -  **Note**: For this demonstration application, the following MPLAB Harmony v3 packages are required:
+    **csp**, **harmony-services**, **CMSIS**, and **quick_docs**. The MPLAB Harmony 3 Content Manager tool simplifies the downloading of the MPLAB
+    Harmony v3 packages. If these packages are not downloaded, then the user can use the <a href="https://youtu.be/0rNFSlsVwVw?si=tTK6mX9aV6slOcjA&t=145" target="_blank">MPLAB Harmony 3 Content Manager</a> tool to download them onto their computer.
+        - If you need you can select the optional contents like bsp, core, CMSIS-FreeRTOS, etc and click apply, then Content Manager will start downloading these selected packages under the **Harmony Content** path.
 
-    <img src = "images/db_setup_1.png" width="700" height="450" align="middle">
+            <img src = "images/content_manager_step2.png" align="middle">
+
+        - Similarly, update the MCC Core Versions to the latest if not already updated.
+
+            <img src = "images/content_manager_step3.png" align="middle">
 
 ## Making changes to the configuration
 Refer to documentation on how to use the project graph for configuring Harmony 3 components using MCC.
@@ -88,12 +97,10 @@ Refer to documentation on how to use the project graph for configuring Harmony 3
 ## Note
 <span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>
 
-- [MPLAB X IDE v6.15](https://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB XC32 Compiler v4.30](https://www.microchip.com/mplab/compilers)
-- [MPLAB Code Configurator v5.3.7](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator) 
-- MCC Harmony v1.3.2
-- [MPLAB Harmony v3 "csp" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.0)
-- [MPLAB Harmony v3 "dev_packs" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.18.0)
+- [MPLAB X IDE v6.20](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB XC32 Compiler v4.40](https://www.microchip.com/mplab/compilers)
+- [MPLAB Code Configurator Plugin v5.5.1](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator)
+- [MPLAB Harmony v3 "csp" repo v3.18.5](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.5)
 
 <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>
 

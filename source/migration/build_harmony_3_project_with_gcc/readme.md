@@ -51,7 +51,6 @@ The following bullet points provides links to the topics:
 
 - [MPLAB Harmony v3 "csp" repo v3.18.5](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.5)
 - [MPLAB Harmony v3 "csp_apps_sam_d21_da1" repo v3.4.0](https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d21_da1/releases/tag/v3.4.0)
-- [MPLAB Harmony v3 "dev_packs" repo v3.18.1](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.18.1)
 - [MPLAB Code Configurator Plugin v5.5.1](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator)
 - [MPLAB X IDE v6.20](https://www.microchip.com/mplab/mplab-x-ide)
 - [ARM GNU Toolchain v6.3.1](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio/gcc-compilers)

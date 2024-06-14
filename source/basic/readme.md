@@ -24,6 +24,10 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 - ### [Create First MPLAB Harmony 3 Project](./create_first_harmony_3_project/readme.md)
 - ### [Create "Hello World" application on SAM MCUs](./create_hello_world_sam_mcus/readme.md)
 - ### [Create "Hello World" application on PIC MCUs](./create_hello_world_pic_mcus/readme.md)
+- ### [Create First MPLAB Harmony 3 PIC32CZ CAx Project](./create_first_harmony_3_project_pic32cz_cax/readme.md)
+- ### [Create First MPLAB Harmony 3 PIC32CM JH01 Project](./create_first_harmony_3_project_pic32cm_jh01/readme.md)
+- ### [Create First MPLAB Harmony 3 PIC32CM LSx Project](./create_first_harmony_3_project_pic32cm_lsx/readme.md)
+- ### [Create First MPLAB Harmony 3 PIC32CX SG Project](./create_first_harmony_3_project_pic32cx_sg/readme.md)
 - ### [Create IAR or Keil project using MCC](./create_iar_or_keil_project_using_mcc/readme.md)
 - ### [Create new TrustZone Project](./create_new_trust_zone_project/readme.md)
 - ### [Differences Between MPLAB Harmony v3 Synchronous and Asynchronous Drivers](./harmony_sync_async_drivers/readme.md)
@@ -48,69 +52,47 @@ This page contains quick documentation for MPLAB® Harmony 3 Basics.
 ## Web Links
 - <a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/ReferenceManuals/32-bit-Microcontroller-Collateral-and-Solutions-Reference-Guide-DS70005534.pdf" target="_blank">32-bit Microcontroller Collateral and Solutions Reference Guide</a>
 - <a href="https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki" target="_blank">How to Get Started with MPLAB Harmony v3</a>
-- <a href="https://microchipdeveloper.com/harmony3:new-proj" target="_blank">Create a New MPLAB Harmony v3 Project</a>
-- <a href="https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en1000821" target="_blank">How to Set Up MPLAB Harmony v3 Software Development Framework</a>
-- <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony Content Manager</a>
+- <a href="https://youtu.be/0rNFSlsVwVw?si=njPYitpENsH-qBBx" target="_blank">How to Set up the Tools Required to Get Started with MPLAB® Harmony v3 and MCC</a>
+- <a href="https://youtu.be/0rNFSlsVwVw?si=tTK6mX9aV6slOcjA&t=145" target="_blank">MPLAB Harmony 3 Content Manager</a>
+- <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/harmony/new-proj-with-mcc/" target="_blank">Create a New MPLAB Harmony v3 Project</a>
+- <a href="https://www.microchip.com/content/dam/mchp/documents/MCU32/ProductDocuments/SupportingCollateral/Creating-the-First-Application-on-PIC32CM-JH01-Microcontrollers-Using-MPLAB-Harmony-v3-with-MCC-DS90003353.pdf" target="_blank">Creating the First Application on PIC32CM JH01 Microcontrollers Using MPLAB Harmony v3 with MPLAB Code Configurator (MCC)</a>
+- <a href="https://www.microchip.com/content/dam/mchp/documents/MCU32/ProductDocuments/SupportingCollateral/Creating-the-First-Application-on-PIC32CZ-CAx-Microcontrollers-Using-MPLAB-Harmony-v3-with-MPLAB-Code-Configurator-DS90003348.pdf" target="_blank">Creating the First Application on PIC32CZ CAx Microcontrollers Using MPLAB Harmony v3 with MPLAB Code Configurator (MCC)</a>
+- <a href="https://www.microchip.com/content/dam/mchp/documents/MCU32/ProductDocuments/SupportingCollateral/Creating-the-First-Application-on-PIC32CX-SG-Microcontrollers-Using-MPLAB-Harmony-v3-with-MPLAB-Code-Configurator-DS90003345.pdf" target="_blank">Creating the First Application on PIC32CX SG Microcontrollers Using MPLAB Harmony v3 with MPLAB Code Configurator (MCC)</a>
+- <a href="https://www.microchip.com/content/dam/mchp/documents/MCU32/ProductDocuments/SupportingCollateral/Creating-the-First-Application-on-PIC32CM-LSx-Microcontrollers-Using-MPLAB-Harmony-v3-with-MPLAB-Code-Configurator-DS90003342.pdf" target="_blank">Creating the First Application on PIC32CM LSx Microcontrollers Using MPLAB Harmony v3 with MPLAB Code Configurator (MCC)</a>
+- <a href="https://www.microchip.com/content/dam/mchp/documents/MCU32/ProductDocuments/SupportingCollateral/Creating-the-First-Application-on-PIC32CM-LSx-Microcontrollers-Using-MPLAB-Harmony-v3-with-MPLAB-Code-Configurator-DS90003342.pdf" target="_blank">Creating the First Application on PIC32CM LSx Microcontrollers Using MPLAB Harmony v3 with MPLAB Code Configurator (MCC)</a>
+- <a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/SupportingCollateral/Dual-Developer-Application-Development-Use-Case-with-TrustZone-on-SAM-L11-Using-MPLAB-Harmony-DS90003306.pdf" target="_blank"> Dual Developer Application Development Use Case with TrustZone on SAM L11 Using MPLAB Harmony v3</a>
+- <a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/SupportingCollateral/How-to-Use-the-MPLAB-Data-Visualizer-with-32-bit-MCU-based-Curiosity-Nano-Evaluation-Kits-DS90003355.pdf" target="_blank"> How to Use the MPLAB® Data Visualizer with 32-bit MCU-based Curiosity Nano Evaluation Kits</a>
+
 
 ## Videos
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=5nt3D-Cmbus
-" target="_blank"><img src="http://img.youtube.com/vi/5nt3D-Cmbus/0.jpg"
-alt="" width="240" height="180" border="10" title="How to Set-up the Tools Required to Get Started with MPLAB® Harmony v3" /> </a>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=S02mAli_DTU
-" target="_blank"><img src="http://img.youtube.com/vi/S02mAli_DTU/0.jpg"
-alt="" width="240" height="180" border="10" title="Create Your First Project with SAMD21 using MPLAB® Harmony v3" /> </a>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=WECETngdYTU
-" target="_blank"><img src="http://img.youtube.com/vi/WECETngdYTU/0.jpg"
-alt="" width="240" height="180" border="10" title="Create Your First Project with SAMC21 using MPLAB® Harmony v3" /> </a>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=KTEajJQ4ukc
-" target="_blank"><img src="http://img.youtube.com/vi/KTEajJQ4ukc/0.jpg"
-alt="" width="240" height="180" border="10" title="Create Your First Project with SAME54 Using MPLAB® Harmony v3" /> </a>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=P_sm5OwwQlg
-" target="_blank"><img src="http://img.youtube.com/vi/P_sm5OwwQlg/0.jpg"
-alt="" width="240" height="180" border="10" title="Create Your First Project with PIC32MZ EF using MPLAB® Harmony v3" /> </a>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=0GDB7ey2iCA
-" target="_blank"><img src="http://img.youtube.com/vi/0GDB7ey2iCA/0.jpg"
-alt="" width="240" height="180" border="10" title="Create Your First Project with SAM E70 using MPLAB Harmony v3" /> </a>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=xxK6kH8h7No
-" target="_blank"><img src="http://img.youtube.com/vi/xxK6kH8h7No/0.jpg"
-alt="" width="240" height="180" border="10" title="Create Your First Project with SAML11 using MPLAB Harmony v3" /> </a><a href="http://www.youtube.com/watch?feature=player_embedded&v=pg-g3hVwOHA
-" target="_blank"><img src="http://img.youtube.com/vi/pg-g3hVwOHA/0.jpg"
-alt="" width="240" height="180" border="10" title="Getting Started with the SAM IoT WG Development Board" /> </a>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=2k893C6E_jE
-" target="_blank"><img src="http://img.youtube.com/vi/2k893C6E_jE/0.jpg"
-alt="" width="240" height="180" border="10" title="Getting Started with the SAM E51 Curiosity Nano Evaluation Kit" /> </a>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=xSpcSw_dtyU
-" target="_blank"><img src="http://img.youtube.com/vi/xSpcSw_dtyU/0.jpg"
-alt="" width="240" height="180" border="10" title="Getting Started with the SAM D21 Curiosity Nano Evaluation Kit" /> </a>
-<a href="https://www.youtube.com/watch?v=_h1TlXQlBXw
-" target="_blank"><img src="http://img.youtube.com/vi/_h1TlXQlBXw/0.jpg"
-alt="" width="240" height="180" border="10" title="Getting Started with the PIC32CM MC00 Curiosity Nano Evaluation Kit" /> </a>
-<a href="https://www.youtube.com/watch?v=ta9vvaY1RBU
-" target="_blank"><img src="http://img.youtube.com/vi/ta9vvaY1RBU/0.jpg"
-alt="" width="240" height="180" border="10" title="MPLAB® Harmony Quick Docs Package" /> </a>
-<a href="https://www.youtube.com/watch?v=FcY08Mj6DV0
-" target="_blank"><img src="http://img.youtube.com/vi/FcY08Mj6DV0/0.jpg"
-alt="" width="240" height="180" border="10" title="Develop 32-bit MCU applications using MPLAB® Harmony v3" /> </a>
-<a href="https://www.youtube.com/watch?v=pulfWuNTyQ0
-" target="_blank"><img src="http://img.youtube.com/vi/pulfWuNTyQ0/0.jpg"
-alt="" width="240" height="180" border="10" title="Getting Started with the PIC32MZ DA Curiosity Development Kit" /> </a>
-<a href="https://www.youtube.com/watch?v=NpABVoDCcmI
-" target="_blank"><img src="http://img.youtube.com/vi/NpABVoDCcmI/0.jpg"
-alt="" width="240" height="180" border="10" title="MPLAB® Harmony Reference Applications Package" /> </a>
-<a href="https://www.youtube.com/watch?v=KdhltTWaDp0
-" target="_blank"><img src="http://img.youtube.com/vi/KdhltTWaDp0/0.jpg"
-alt="" width="240" height="180" border="10" title="Getting Started with MPLAB® Harmony v3 Using MPLAB Code Configurator" /> </a>
-<a href="https://www.youtube.com/watch?v=POwOhu4TAQM
-" target="_blank"><img src="http://img.youtube.com/vi/POwOhu4TAQM/0.jpg"
-alt="" width="240" height="180" border="10" title="Getting Started on the PIC32MK MCM Curiosity Pro Development Board
-" /> </a>
-
-
-
-
-
-
-
+<iframe width="240" height="180" src="https://www.youtube.com/embed/Luvb6wgRQUY?si=Tkb-gppQxz_RpIL-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/Al2hDnEskWk?si=XjWIAZJHuGEfPshY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/2ThSZwO5gfs?si=rcnpyb9qc7srLLJ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/0rNFSlsVwVw?si=9eW0dEedbfms_Aab" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/Al2hDnEskWk?si=7K0liMnbEZekMs0z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/tigCfhOmqmc?si=i0ffzRS1A-U9-e2h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/NQurG0mhS2E?si=eQyy2jUkdthlMopg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/xnCO4RbpIho?si=zrNfF38lyQc0nbib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/nHTvRF9Lo0k?si=2TpmHxkYzjZjul_K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/NxjfgwHL2HQ?si=i9eoqNaEcpANcEww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/NWcFjrr2OTE?si=SS4VYEGdEaPW5V3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/5w0JYHnSzPM?si=_PjdIFAPMORWiacJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/Z5cWjyYZa5g?si=Tvoq0j0t5yxiSD_b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/Xf_38GFU2gk?si=ma70oRE4-DWDH5HZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/LJwCS0J5vPg?si=s4IA0TjOV0bv6Wc1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/1PdbXgVjnUU?si=MXlXmp8JrIkBzulH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/sW-yS2FHI54?si=WrQWvLkXgdorTwZB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/xW7pwAQG-vI?si=qJNGRP_5nCV1gs2n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/B8EKHaaGZsc?si=GUj-VcdczJjRRzmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/pg-g3hVwOHA?si=kREPaGwk6UIicJqz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/wZlUVmyrH54?si=sdfFG0mDRP6clqke" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/_ii7DI56WM4?si=5N0bh42lClsVTKk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/P_78i0Dd56o?si=9gdZsctw_0kh-u2Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/PRewTzrI3iE?si=xHZ-zgArEP84VfWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/FcY08Mj6DV0?si=4LPf0EKQDVGNfMsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/pulfWuNTyQ0?si=eT8FW36MGkyEi-PT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/NpABVoDCcmI?si=8CcLyH5QmkwoJ-RW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="240" height="180" src="https://www.youtube.com/embed/POwOhu4TAQM?si=bYXJwqd6IobWsdC7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### **Note:**
 This page provides a quick reference covering the Basic features of MPLAB Harmony 3. MPLAB Harmony 3 solutions provides more peripheral or technology specific documentation.

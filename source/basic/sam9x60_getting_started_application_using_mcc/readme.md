@@ -56,7 +56,7 @@ This project demonstrates below:
 
  <img src = "images/2.png" align="middle">
 
-  **Note:** If 32-bit MCC Harmony Project is not displayed, <a href="https://microchipdeveloper.com/harmony3:getting-started-training-module-using-mcc#Install_MCC_anchor" target="_blank">install MCC</a>.
+  **Note:** If 32-bit MCC Harmony Project is not displayed, <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/harmony/getting-started-training-module-using-mcc/#Install_MCC_anchor" target="_blank">install MCC</a>.
 
 * <mark>1.3.</mark> In the **Framework Path** edit box, browse to the folder where you downloaded the framework. 
 
@@ -106,7 +106,7 @@ To launch MCC manually, from main menu --> click on “Tools” --> “Embedded�
 
     <img src = "images/3.png" align="middle">
 
-* <mark>2.2.</mark> In addition to the required packages (csp, dev_packs), download the optional packages bsp, core, gfx_apps_sam_9x60, csp_apps_sam_9x60,core_apps_sam_9x60 and then click Finish.
+* <mark>2.2.</mark> In addition to the required package (csp), download the optional packages bsp, core, gfx_apps_sam_9x60, csp_apps_sam_9x60,core_apps_sam_9x60 and then click Finish.
 Content download will take some time, please wait till all the contents are downloaded.
 
     <img src = "images/4.png" align="middle">

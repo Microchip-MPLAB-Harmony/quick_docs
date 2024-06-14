@@ -5,6 +5,80 @@ nav_order: 499
 
 # Microchip MPLAB® Harmony 3 Release Notes
 ---
+## Quick Docs Release v1.7.0 (Jun 2024)
+
+### New Doc Pages
+The following table provides the list of new doc pages:
+
+| Doc Name | Doc Type - Content |
+| ---      | ---                |
+[Create a first application on PIC32CM JH01 Microcontrollers using MPLAB Harmony v3 with MCC](./source/basic/create_first_harmony_3_project_pic32cm_jh01/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Create a first application on PIC32CM LSx Microcontrollers using MPLAB Harmony v3 with MCC](./source/basic/create_first_harmony_3_project_pic32cm_lsx/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Create a first application on PIC32CX SG Microcontrollers using MPLAB Harmony v3 with MCC](./source/basic/create_first_harmony_3_project_pic32cx_sg/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Create a first application on PIC32CZ CAx Microcontrollers using MPLAB Harmony v3 with MCC](./source/basic/create_first_harmony_3_project_pic32cz_cax/readme.md) | [Basic](./source/basic/readme.md) - Full |
+[Arm TrustZone Getting Started Application on PIC32CK SG01 (Cortex-M33) MCUs](./source/peripheral/arm_trustzone_pic32ck_sg01_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full |
+[Low Power Application on PIC32CM LE00 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./source/peripheral/pic32cm_le00_low_power/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full |
+
+### Updated Doc Pages
+
+| Doc Name | Doc Type - Content | Comments |
+| ---      | ---                | ---      |
+| [MPLAB® Code Configurator Overview with MPLAB Harmony Content](./source/basic/mcc_overview_with_harmony_3/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [MPLAB Code Configurator (MCC) for Harmony 3 Projects](./source/basic/mplab_harmony_3_code_configurator/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [Create a new MPLAB Harmony v3 project using MCC](./source/basic/create_new_harmony_3_project_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [Update and Configure an Existing MHC-based MPLAB Harmony v3 Project to MCC-based Project](./source/basic/update_mhc_harmony_3_project_to_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [Create First MPLAB Harmony 3 Project](./source/basic/create_first_harmony_3_project/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [Create "Hello World" application on SAM MCUs](./source/basic/create_hello_world_sam_mcus/readme.md) | [Basic](./source/basic/readme.md) - Full | Migrated from MHC to MCC |
+| [Create "Hello World" application on PIC MCUs](./source/basic/create_hello_world_pic_mcus/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [Create IAR or Keil project using MCC](./source/basic/create_iar_or_keil_project_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [Create new TrustZone Project](./source/basic/create_new_trust_zone_project/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [Create first Audio Application](./source/middleware/create_first_audio_application/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Updated new links and steps |
+| [Create first Audio Decoder Application](./source/middleware/create_first_audio_decoder_application/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Updated new links and steps |
+| [MPLAB Harmony 3 Audio Overview](./source/middleware/harmony_3_audio_overview/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Updated new links and steps |
+| [Secure Boot on PIC32CM LS60 Curiosity Pro Evaluation Kit using MPLAB Harmony v3](./source/middleware/pic32cmls60_secure_boot/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Updated new links and steps |
+| [Digit Recognition AI/ML Application on SAM E51 IGAT CURIOSITY EVALUATION KIT Using MPLAB Harmony v3](./source/middleware/digit_recognition_ai_ml/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Updated new links and steps |
+| [Getting Started with Middleware on PIC32MZ EF MCUs](./source/middleware/pic32mz_getting_started_middleware/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Rapid prototyping with Curiosity Nano Evaluation Kit using MPLAB Harmony v3](./source/middleware/rapid_prototyping/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with USB on SAM MCUs Using MPLAB Harmony v3](./source/middleware/same70_getting_started_middleware/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [MPLAB® Harmony v3 SD Card Audio Player/Reader Tutorial](./source/middleware/sdcard_audio_player_reader_tutorial/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with MPLAB Harmony v3 to Create a Web-Enabled Digital Photo Frame](./source/middleware/web_photo_frame/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Updated new links and steps |
+| [Application migration from 8-bit AVR to 32-bit SAM D21 MCU](./source/migration/atmega4809_to_samd21_migration/readme.md) | [Migration](./source/migration/readme.md) - Full | Updated new links and steps |
+| [Build MPLAB Harmony v3 project with ARM GCC toolchain in MPLAB X IDE](./source/migration/build_harmony_3_project_with_gcc/readme.md) | [Migration](./source/middleware/readme.md) - Full | Updated new links and steps |
+| [Migration from MC](./source/migration/code_generation_api_migration_from_mcc/readme.md) | [Migration](./source/middleware/readme.md) - Full | Updated new links and steps |
+| [MPLAB Harmony v3 Project Migration](./source/migration/mplab_harmony_v3_project_migration/readme.md) | [Migration](./source/middleware/readme.md) - Full | Updated new links and steps |
+| [Application migration from 8-bit PIC18F to 32-bit SAM D21 MCU](./source/migration/pic18f_to_samd21_migration/readme.md) | [Migration](./source/middleware/readme.md) - Full | Updated new links and steps |
+| [Migrating ASF SAM C21 Application to MPLAB Harmony v3 PIC32CM MC](./source/migration/samc21_asf_to_pic32cmmc_harmony/readme.md) | [Migration](./source/middleware/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Arm TrustZone Getting Started Application on SAM L11 MCUs](./source/peripheral/arm_trustzone_saml11_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+| [Getting Started with PLIBs on SAM9X60 MPUs](./source/peripheral/sam9x60_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with Drivers on SAM C2x MCUs Using FreeRTOS](./source/peripheral/samc2x_getting_started_drivers_freertos/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with Drivers on SAM C2x MCUs](./source/peripheral/samc2x_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with Drivers on SAM D21 MCUs Using FreeRTOS](./source/peripheral/samd21_getting_started_drivers_freertos/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Low Power with PLIBs on SAM D21 MCUs](./source/peripheral/samd21_low_power/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with Drivers on SAM E5x MCUs Using FreeRTOS](./source/peripheral/same5x_getting_started_drivers_freertos/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+| [Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs](./source/peripheral/same70_getting_started_drivers/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with Drivers on SAM E70/S70/V70/V71 MCUs using FreeRTOS](./source/peripheral/same70_getting_started_drivers_freertos/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with PLIBs on PIC32MK GP MCUs](./source/peripheral/pic32mk_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with PLIBs on PIC32MX 470 MCUs](./source/peripheral/pic32mx_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with PLIBs on PIC32MZ EF MCUs](./source/peripheral/pic32mz_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with PLIBs on SAMC2x MCUs](./source/peripheral/samc2x_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+| [Low Power Application on SAMC2x (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./source/peripheral/samc2x_low_power/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+| [Getting Started with PLIBs on SAM D5x/E5x MCUs](./source/peripheral/samd5x_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with PLIBs on SAM D21 MCUs](./source/peripheral/samd21_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Low Power Application on SAM E54 (Cortex M4) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./source/peripheral/same54_low_power/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+| [Getting Started with PLIBs on SAM E70/S70/V70/V71 MCUs](./source/peripheral/same70_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Getting Started with PLIBs on SAM L10 MCUs](./source/peripheral/saml10_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Low Power Application on SAM L10 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./source/peripheral/saml10_low_power/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+| [Low Power Application on SAM L21 (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./source/peripheral/saml21_low_power/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+
+- New Weblinks and Video added in [Basic](./source/basic/readme.md#web-links) page
+- New Weblinks and Video added in [Peripheral](./source/peripheral/readme.md#web-links) page
+- New Weblinks and Video added in [Middleware](./source/middleware/readme.md#videos) page
+- New Weblinks and Video added in [Peripheral](./source/peripheral/readme.md#videos) page
+
+### Known Issues
+    - NA -
+
+---
 
 ## Quick Docs Release v1.6.0 (Sep 2023)
 

@@ -50,8 +50,7 @@ The instructions in this tutorial use <a href="https://www.microchip.com/Develop
 
     <img src = "images/figure1_2.png" width="700" height="510" align="middle">
 
-    **Note**: For this demonstration application, the following MPLAB Harmony v3 packages are required: **mcc**,
-    **dev_packs**, and **csp**. The MPLAB Harmony 3 Content Manager tool simplifies the downloading of the MPLAB
+    **Note**: For this demonstration application, the following MPLAB Harmony v3 packages are required: **mcc**, and **csp**. The MPLAB Harmony 3 Content Manager tool simplifies the downloading of the MPLAB
     Harmony v3 packages. If these packages are not downloaded, then the user can use the <a href="https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki" target="_blank">MPLAB Harmony 3 Content Manager</a> tool to download them onto their computer.
 
 6. Click **Next**.
@@ -204,12 +203,10 @@ To develop and run an application, follow these steps:
 ## Note
 <span style="color:blue"> *This page has been verified with the following versions of software tools:*</span>
 
-- [MPLAB X IDE v6.15](https://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB XC32 Compiler v4.30](https://www.microchip.com/mplab/compilers)
-- [MPLAB Code Configurator v5.3.7](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator) 
-- MCC Harmony v1.3.2
-- [MPLAB Harmony v3 "csp" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.0)
-- [MPLAB Harmony v3 "dev_packs" repo v3.18.0](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.18.0)
+- [MPLAB X IDE v6.20](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB XC32 Compiler v4.40](https://www.microchip.com/mplab/compilers)
+- [MPLAB Code Configurator Plugin v5.5.1](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator)
+- [MPLAB Harmony v3 "csp" repo v3.18.5](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.18.5)
 
 <span style="color:blue"> Because Microchip regularly update tools, occasionally there could be minor differences with the newer versions of the tools. </span>
 
