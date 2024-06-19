@@ -57,7 +57,7 @@ If no bootable file or no valid boot code is found in memory, the ROM code goes 
   
 * User can write boot sequence controller configuration register (BSC_CR) and the boot configuration packet into OTPC or OTPC Emulated SRAM using **SAM-BA** tool.
 
-* [Go to this link to download and configure SAM-BA.](https://microchipdeveloper.com/32mpu:sam-ba-install)
+* [Go to this link to download and configure SAM-BA.](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/32-bit-isp/host-application-program/)
 
 * [Refer this document to install and setup SAM-BA.](../sama7g54_samba_installation_setup/readme.md)
 

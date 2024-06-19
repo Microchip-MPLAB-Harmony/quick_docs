@@ -17,7 +17,7 @@ nav_order: 13
 This training module describes the following for at91bootstrap, a second-stage bootloader for Microchip Technology Arm®-based Microprocessor Units (MPU), 
   where to get the source code, how to configure, compile and debug using MPLAB® X IDE on windows host.
 
-* The following solution is tested based on **at91bootstrap version 4.0.5**.
+* The following solution is tested based on **at91bootstrap version 4.0.9**.
 
 * The at91bootstrap bootloader can be stored in external NVMs like (SD Memory Card, Embedded Multimedia Card (eMMC), QSPI Flash).
   The first-stage bootloader (ROM Boot Code) will load at91bootstrap from external NVM depending on the value of the Boot Configuration Packet. 
