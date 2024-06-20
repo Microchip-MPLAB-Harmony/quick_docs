@@ -41,7 +41,7 @@ This document will guide the user on how to,
 * [Refer this link](../sam9x60_configure_second_stage_bootloader/readme.md) to configure and build the at91bootstrap to load the application from the user preferred NVM like QSPI, NAND or SDCard.
   
   **Note:** This resultant at91bootstrap file (boot.bin) built with the preferred NVM configuration only to be used here.
-* [Refer this link](../sam9x60_configure_second_stage_bootloader/readme.md) to build harmony application.
+* [Refer this link](../sam9x60_getting_started_application_using_mcc/readme.md) to build harmony application.
 </details> 
 
 # Setup SAM-BA Host to Monitor Communications 
@@ -83,7 +83,6 @@ Now, the SAM9X60_board will boot to the SAM-BA Monitor and start communications 
 
 </details> 
 
-<mark>***The board variant for SAM9X60 Curiosity might not be available yet in SAM-BA, so you can choose the SAM9X60-EK with the -b parameter of SAM-BA.*** </mark>
 # 1. Program external QSPI flash memory
 <details>
   <summary> Details
@@ -99,7 +98,7 @@ Now, the SAM9X60_board will boot to the SAM-BA Monitor and start communications 
 <img src = "images/1.png" align="middle">
 
 ## 1.2. Program boot.bin to QSPI flash memory
-   Program the boot.bin file on the SAM9X60_board with the following command: 
+   Program the boot.bin file on the SAM9X60-board with the following command: 
    
    ***sam-ba -p serial -b sam9x60-ek -a qspiflash -c writeboot:boot.bin***
    * Note: Change directory to the location of boot.bin
@@ -136,32 +135,22 @@ To learn about more SAM-BA applet commands, refer your **SAM-BA installation dir
 <details>
   <summary> Details
 </summary>   <br>
-<mark>Note:By default PMECC configuration for the NAND populated on the SAM9X60 Curiosity Development Board is not aligned with the one of the SAM9X60-EK board.
-           The PMECC parameter for the SAM9X60 Curiosity board with MX30LF4G28AD-XKI NAND flash memory is 0xc2605007.
-		   User has to do the below two modification to use sam9x60-ek sam-ba applet on curiosity to program NAND flash memory.
-		   For information on NAND header values, please refer to SAM9X60 datasheet section "12.4.7.1.1 Method 1 (recommended): NAND Flash Specific Header Detection".</mark>
-		   
-  * To modify the PMECC parameter in the SAM-BA Applet --> open **sam-ba installation directory**/qml/SAMBA/Device/SAM9X60/SAM9X60EK.qml and modify the NAND Flash header to ***0xc2605007***
-
-  <img src = "images/8.png" align="middle"><br>
-  * Set the NAND header of the SAM9X60 Curiosity Development boadr using the below command.<br>
- ***sam-ba -p serial -b sam9x60-ek -a nandflash:::0xc2605007***<br>
-
-  <img src = "images/9.png" align="middle">
 
 ## 2.1. Erase NAND flash memory
-   Erase the contents of the NAND Flash memory on the SAM9X60_board with the following command:
+   Erase the contents of the NAND Flash memory on the SAM9X60-board with the following command:
    
    ***sam-ba -p serial -b sam9x60-ek -a nandflash -c erase***
+   ***sam-ba -p serial -b sam9x60-curiosity -a nandflash -c erase***
    
   <mark>Example:</mark>
 
 <img src = "images/4.png" align="middle">
 
 ## 2.2. Program boot.bin to NAND flash memory
-   Program the boot.bin file on the SAM9X60_board_ with the following command:
+   Program the boot.bin file on the SAM9X60-board with the following command:
    
    ***sam-ba -p serial -b sam9x60-ek -a nandflash -c writeboot:boot.bin***
+   ***sam-ba -p serial -b sam9x60-curiosity -a nandflash -c writeboot:boot.bin***
   * Note: Change directory to the location of boot.bin
  <mark>Example:</mark>
 
@@ -176,6 +165,7 @@ The at91bootstrap file (boot.bin) built with NAND configuration only to be used 
    To program the application binary, harmony.bin file on the SAM9X60_board, use the following command:
    
    ***sam-ba -p serial -b sam9x60-ek -a nandflash -c write:harmony.bin:NAND_OFFSET***
+   ***sam-ba -p serial -b sam9x60-curiosity -a nandflash -c write:harmony.bin:NAND_OFFSET***
 
    **Note:** <br>
       * The NAND_OFFSET should be same as the one used in the KCONFIG, while configuring the at91bootstrap to load from external NAND flash.<br>

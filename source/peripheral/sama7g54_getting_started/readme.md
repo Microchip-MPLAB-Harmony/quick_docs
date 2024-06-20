@@ -1,11 +1,11 @@
 ---
-title: Getting Started with PLIBs on SAM9X60 MPUs
+title: Getting Started with PLIBs on SAMA7G54 MPUs
 parent: Peripheral Libraries
 has_toc: false
 nav_order: 6
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="../../r_images/quick_home.png" title="Home">](../../../readme.md) [<img src="../../r_images/quick_back.png"  title="Back">](../readme.md)
-# Getting Started with Harmony v3 Peripheral Libraries on SAM9X60 MPUs
+# Getting Started with Harmony v3 Peripheral Libraries on SAMA7G54 MPUs
 
 In this tutorial, you will download, configure, and build an MPLAB® Harmony 3 Software Framework application to run on the SAM9X60-EK Evaluation Kit using the MPLAB X Integrated Development Environment (IDE) in Debug mode.<br>
 
@@ -17,9 +17,7 @@ For more information refer the **[links](#Web-Links)** below.
 ## <a id="Web-Links"> </a>
 ## Web Links
 
-- <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/32-bit-harmony-v3/sam9x60-ek-h3-csp-app-rtt-periodic-timeout/" target="_blank">Getting Started with Harmony v3 Peripheral Libraries on SAM9X60 EK Evaluation Board</a>
-- <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/32-bit-harmony-v3/sam9x60-curiosity-h3-csp-app-rtt-periodic-timeout/" target="_blank">Getting Started with Harmony v3 Peripheral Libraries on SAM9X60 Curiosity Developmen Board</a>
-
+- <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/32-bit-harmony-v3/sama7g54-ek-h3-csp-app-pio-led-on-off-interrupt/" target="_blank">Getting Started with Harmony v3 Peripheral Libraries on SAMA7G54 MPUs</a>
 
 
 

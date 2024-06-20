@@ -10,7 +10,7 @@ nav_order: 13
 
 ### Note:
 <span style="color:blue"> **This guide will teach you how to configure the second stage bootloader for SAM9X60 based MPUs.**
-- [SAM9X60 boot process click here ](https://www.microchip.com/en-us/education/developer-help/learn-products/mcu-mpu/32bit-mpu/sam9x60-boot-process)
+- [SAM9X60 boot process click here ](https://developerhelp.microchip.com/xwiki/bin/view/products/mcu-mpu/32bit-mpu/sam9x60-boot-process/)
 - [SAM9X60 data sheet](https://www.microchip.com/en-us/product/SAM9X60)
 - [SAM9X60 curiosity development board ](https://www.microchip.com/en-us/development-tool/EV40E67A)
 - [SAM9X60 Evaluation kit ](https://www.microchip.com/en-us/development-tool/dt100126)
@@ -19,7 +19,7 @@ nav_order: 13
 This training module describes the following for at91bootstrap, a second-stage bootloader for Microchip Technology Arm®-based Microprocessor Units (MPU), 
   where to get the source code, how to configure, compile and debug using MPLAB® X IDE on windows host.
 
-* The following solution is tested based on **at91bootstrap version 4.0.5**.
+* The following solution is tested based on **at91bootstrap version 4.0.9**.
 
 * The at91bootstrap bootloader can be stored in external NVMs like (SD Memory Card), Multimedia Card (MMC), Embedded Multimedia Card (eMMC), NAND Flash, Serial Flash, QSPI Flash, Data Flash memory). 
   The first-stage bootloader (ROM Boot Code) will load at91bootstrap from external NVM depending on the value of the Boot Configuration Packet. 
@@ -108,9 +108,9 @@ User should follow the below steps to build the at91bootstrap as per their exter
   1.2. **Compiler setting:** User can use XC32 compiler to build at91bootstrap.   
        Go to Project --> Properties --> Makefile ---> Copy the XC32 installation path and update it in the build/debug and clean command --> Apply ---> ok .
 
-   E.g. Build/Debug command: make CROSS_COMPILE="C:/Program Files/Microchip/xc32/v4.10/bin/bin/pic32c-"
+   E.g. Build/Debug command: make CROSS_COMPILE="C:/Program Files/Microchip/xc32/v4.40/bin/bin/pic32c-"
 
-       Clean command: make mplabclean CROSS_COMPILE="C:/Program Files/Microchip/xc32/v4.10/bin/bin/pic32c-"
+       Clean command: make mplabclean CROSS_COMPILE="C:/Program Files/Microchip/xc32/v4.40/bin/bin/pic32c-"
 
    <img src = "images/1_2.png" align="middle">
  

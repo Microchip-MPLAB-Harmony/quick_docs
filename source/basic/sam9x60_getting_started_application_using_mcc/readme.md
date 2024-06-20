@@ -34,11 +34,11 @@ This project demonstrates below:
 - [MPLAB® Code Configurator (MCC)](https://microchipdeveloper.com/install:mcc)
 
 <span style="color:blue"> This project has been verified to work with the following versions of software tools:</span>
-  * mcc_version: v5.3.0
-  * mcc_core_version: v5.5.0
-  * mplabx_version: v6.05
+  * mcc_version: v5.4.1
+  * mcc_core_version: v5.6.1
+  * mplabx_version: v6.15
   * harmony_version: v1.2.0
-  * compiler: XC32 (v4.21) 
+  * compiler: XC32 (v4.40) 
 
 ## Hardware Setup : <span id="Setup1"><span>
 - Power up the board by connecting the USB cable to the USB port J1 on the SAM9X60 curiosity development board.
@@ -177,9 +177,8 @@ Behavior --> Autosave MCC Configuration File.
 	
 
 * <mark>3.9.</mark> In the Pin Settings view, select Ports from the Order drop-down menu. The view will be ordered by Port name (labeled as Pin ID). <br>
-	   Ensure the pins mentioned in the above section 3.2. is configured as follows.
-
-	          <img src = "images/15.png" align="middle">
+	   Ensure the pins mentioned in the above section 3.2. is configured as follows. <br>
+       <img src = "images/15.png" align="middle">
 * <mark>3.10.</mark> Save your configuration by clicking on the Save icon or selecting File --> Save Configuration from the menu bar.
 This completes the configuration of the required peripheral libraries.
 
@@ -190,13 +189,13 @@ This completes the configuration of the required peripheral libraries.
   <summary> Details
 </summary>   <br>
 * <mark>4.1.</mark> Now, generate the code by using MCC. From the left side tab, Resource Management (MCC), go to Project Resources and click on the Generate button. <br>
-	          <img src = "images/16.png" align="middle">
+             <img src = "images/16.png" align="middle">
 
-* <mark>4.2.</mark> As the code is generated, MCC displays the progress.
-	          <img src = "images/17.png" align="middle">
-			  
-* <mark>4.3.</mark> Examine the generated code files.
-	          <img src = "images/18.png" align="middle">
+* <mark>4.2.</mark> As the code is generated, MCC displays the progress. <br>
+             <img src = "images/17.png" align="middle">
+
+* <mark>4.3.</mark> Examine the generated code files. <br>
+             <img src = "images/18.png" align="middle">
 MCC will include all the MPLAB Harmony v3 library files and generate the code based on the MCC selections. The generated code will add files and folders to your Harmony project.
 Among the generated code, notice the library files generated for BSP and peripheral libraries Debug, Flexcom. MCC also generates a template main file main.c.
 </details>
@@ -273,8 +272,7 @@ Ensure the terminal emulation program(Eg: PUTTY) is configured to the COM port a
 The boot process of SAM9X60 begins with the MPU’s power-ON reset and progresses in stages reading binary files from external Non-Volatile Memory (NVM) and loading them into volatile memory (internal Static RAM (SRAM) and external Dynamic RAM (DRAM)).
 
 * <mark>7.1.</mark> User can build the at91bootstrap file required to debug the application on MPLAB X IDE by following the [steps mentioned here](../sam9x60_configure_second_stage_bootloader/readme.md)
-
-                                          or
+                             or
 
 * <mark>7.2.</mark> User can get the pre-built at91bootstrap libraries by downloading the [project from here](https://www.microchip.com/en-us/development-tool/EV40E67A#Software) as shown below.
 	          <img src = "images/20.png" align="middle">

@@ -18,7 +18,7 @@ For more information refer the **[links](#Web-Links)** below.
 ## <a id="Web-Links"> </a>
 ## Web Links
 
-- <a href="https://github.com/Microchip-MPLAB-Harmony/usb/wiki/MPLAB-Harmony-2-to-Harmony-3-USB-Application-Migration-Guide" target="_blank">MPLAB Harmony 3 Application Migration Guide from the SAM9X60-EK to SAM9X60-Curiosity Development Board.</a>
+- <a href="https://developerhelp.microchip.com/xwiki/bin/view/software-tools/32-bit-kits/SAM9X60-Curiosity-Development-Board/Migrating-a-MPLAB-Harmony-3-Software-Framework-Application-from-the-SAM9X60-EK-to-SAM9X60-Curiosity-rtt_periodic_timeout/" target="_blank">MPLAB Harmony 3 Application Migration Guide from the SAM9X60-EK to SAM9X60-Curiosity Development Board.</a>
 
 
 ## Reference Links

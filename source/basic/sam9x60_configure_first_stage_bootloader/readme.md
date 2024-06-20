@@ -10,7 +10,7 @@ nav_order: 16
 
 ### Note:
 <span style="color:blue"> **This guide will explain how to configure first stage bootloader for SAM9X60 family of microprocessors.**</span>
-- [SAM9X60 boot process click here ](https://www.microchip.com/en-us/education/developer-help/learn-products/mcu-mpu/32bit-mpu/sam9x60-boot-process)
+- [SAM9X60 boot process click here ](https://developerhelp.microchip.com/xwiki/bin/view/products/mcu-mpu/32bit-mpu/sam9x60-boot-process/)
 - [SAM9X60 data sheet](https://www.microchip.com/en-us/product/SAM9X60)
 - [SAM9X60 curiosity development board ](https://www.microchip.com/en-us/development-tool/EV40E67A)
 - [SAM9X60 Evaluation kit ](https://www.microchip.com/en-us/development-tool/dt100126)
@@ -18,7 +18,7 @@ nav_order: 16
 # Introduction
 This document guides the user on how to configure boot configuration packet for first stage bootloader and how to ensure a valid code in second stage bootloader.
 
-The First stage bootloader (ROM code or Boot ROM or NVM bootloader) is a small piece of mask code, executed on power-on or reset, responsible for loading the second-stage bootloader(Harmony uses the at91Bootstrap as its second stage boot loader)/ User Application from an external NVM into the internal SRAM and execute it.
+The First stage bootloader (ROM code or Boot ROM or NVM bootloader) is a small piece of mask code, executed on power-on or reset, responsible for loading the second-stage bootloader(Harmony uses the at91Bootstrap as its second stage boot loader)/user application from an external NVM into the internal SRAM and execute it.
 
 # First stage bootloader - Boot Sequence
 
@@ -61,7 +61,7 @@ If no bootable file/valid boot code is found in these memories, the ROM code goe
   
 * User can write boot sequence controller configuration register(BSC_CR) and the boot configuration packet to OTP/Emulated SRAM using **SAM-BA** tool.
 
-* [Go to this link to download and configure SAM-BA.](https://microchipdeveloper.com/32mpu:sam-ba-install)
+* [Go to this link to download and configure SAM-BA.](https://www.microchip.com/en-us/development-tool/sam-ba-in-system-programmer)
 
 * [Refer this document for SAM-BA commands to configure BSC_CR and boot configuration packet](../sam9x60_flash_boot_application_using_samba/readme.md)
 * **Note:**

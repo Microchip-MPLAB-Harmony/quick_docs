@@ -43,11 +43,11 @@ nav_order: 16
 - [MPLAB® Code Configurator (MCC)](https://microchipdeveloper.com/install:mcc).
 
 <span style="color:blue"> This project has been verified to work with the following versions of software tools:</span>
-  * mcc_version: v5.3.0
-  * mcc_core_version: v5.5.0
-  * mplabx_version: v6.10
+  * mcc_version: v5.4.1
+  * mcc_core_version: v5.6.1
+  * mplabx_version: v6.15
   * harmony_version: v1.2.0
-  * compiler: XC32 (v4.21) 
+  * compiler: XC32 (v4.40) 
 
 ## Hardware Setup : <span id="Setup1"><span>
 - Power up the board by connecting 5V/2A power adapter to J1 or connect the USB Micro-B port(J7) to the Host PC using a micro-USB cable.
@@ -135,8 +135,7 @@ The following linker file(ddram.ld) modifications are required to enable applica
 <img src = "images/step22.png" align="middle"> <br>
 
 * Assign text section to rom(qspi) and data section to relocate section(so, it will be copied from qspi memory to sram during runtime).<br>
-  ***Note : bss and relocate sections should be NOLOAD sections <br>
-               bss and relocate sections should be load from rom(qspi) and run from ram(sram)***
+  ***Note : bss and relocate sections should be load from rom(qspi) and run from ram(sram)***
 <img src = "images/step23.png" align="middle"> <br>
 
 * Remove cache aligned sections and assign  _ramcode_lma and  _ramdata_lma to ram as shown below.
