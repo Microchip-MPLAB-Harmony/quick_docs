@@ -32,6 +32,14 @@ The following table provides the list of new doc pages:
 | [Create "Hello World" application on PIC MCUs](./source/basic/create_hello_world_pic_mcus/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
 | [Create IAR or Keil project using MCC](./source/basic/create_iar_or_keil_project_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
 | [Create new TrustZone Project](./source/basic/create_new_trust_zone_project/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [Configure at91bootstrap Second Stage Bootloader to enable QSPI XIP on MPUs](./source/basic/configure_at91bootstrap_to_enable_qspi_xip_mpus/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [SAM9X60 Configure First Stage Bootloader](./source/basic/sam9x60_configure_first_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [Configure the second stage bootloader for SAM9X60 based MPUs](./source/basic/sam9x60_configure_second_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [SAM9X60 Flash boot and harmony application binaries using SAMBA ](./source/basic/sam9x60_flash_boot_application_using_samba/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated tools version and images |
+| [Getting started with SAM9X60 Curiosity Development Board using MPLAB Harmony 3](./source/basic/sam9x60_getting_started_application_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated tools version and images |
+| [Developing an application getting executed from QSPI flash on SAM9X60-EK](./source/basic/sam9x60_qspi_xip_application_using_mcc/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated tools version |
+| [SAMA7G54 Configure First Stage Bootloader](./source/basic/sama7g54_configure_first_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated new links and steps |
+| [Configure the second stage bootloader for SAMA7G54 based MPUs](./source/basic/sama7g54_configure_second_stage_bootloader/readme.md) | [Basic](./source/basic/readme.md) - Full | Updated at91bootstrap version |
 | [Create first Audio Application](./source/middleware/create_first_audio_application/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Updated new links and steps |
 | [Create first Audio Decoder Application](./source/middleware/create_first_audio_decoder_application/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Updated new links and steps |
 | [MPLAB Harmony 3 Audio Overview](./source/middleware/harmony_3_audio_overview/readme.md) | [Middleware](./source/middleware/readme.md) - Full | Updated new links and steps |
@@ -48,6 +56,7 @@ The following table provides the list of new doc pages:
 | [MPLAB Harmony v3 Project Migration](./source/migration/mplab_harmony_v3_project_migration/readme.md) | [Migration](./source/middleware/readme.md) - Full | Updated new links and steps |
 | [Application migration from 8-bit PIC18F to 32-bit SAM D21 MCU](./source/migration/pic18f_to_samd21_migration/readme.md) | [Migration](./source/middleware/readme.md) - Full | Updated new links and steps |
 | [Migrating ASF SAM C21 Application to MPLAB Harmony v3 PIC32CM MC](./source/migration/samc21_asf_to_pic32cmmc_harmony/readme.md) | [Migration](./source/middleware/readme.md) - Full | Migrated from MHC to MCC and updated links |
+| [Migrating a MPLAB Harmony 3 Application from the SAM9X60 EK to SAM9X60 Curiosity](./source/migration/sam9x60_ek_to_sam9x60_curiosity_harmony/readme.md) | [Migration](./source/middleware/readme.md) - Full | Migrated from MHC to MCC and updated links |
 | [Arm TrustZone Getting Started Application on SAM L11 MCUs](./source/peripheral/arm_trustzone_saml11_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
 | [Getting Started with PLIBs on SAM9X60 MPUs](./source/peripheral/sam9x60_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
 | [Getting Started with Drivers on SAM C2x MCUs Using FreeRTOS](./source/peripheral/samc2x_getting_started_drivers_freertos/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
@@ -69,6 +78,10 @@ The following table provides the list of new doc pages:
 | [Getting Started with PLIBs on SAM L10 MCUs](./source/peripheral/saml10_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Migrated from MHC to MCC and updated links |
 | [Low Power Application on SAM L10 (Cortex M23) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./source/peripheral/saml10_low_power/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
 | [Low Power Application on SAM L21 (Cortex M0+) MCUs Using MPLAB Harmony v3 Peripheral Libraries](./source/peripheral/saml21_low_power/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+| [Getting Started with PLIBs on SAM9X60 MPUs](./source/peripheral/sam9x60_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+| [Getting Started with PLIBs on SAMA5D29 MPUs](./source/peripheral/sama5d29_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+| [Getting Started with PLIBs on SAMA7G54 MPUs](./source/peripheral/sama7g54_getting_started/readme.md) | [Peripheral](./source/peripheral/readme.md) - Full | Updated new links and steps |
+
 
 - New Weblinks and Video added in [Basic](./source/basic/readme.md#web-links) page
 - New Weblinks and Video added in [Peripheral](./source/peripheral/readme.md#web-links) page
