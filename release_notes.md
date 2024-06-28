@@ -86,7 +86,12 @@ The following table provides the list of new doc pages:
 - New Weblinks and Video added in [Basic](./source/basic/readme.md#web-links) page
 - New Weblinks and Video added in [Peripheral](./source/peripheral/readme.md#web-links) page
 - New Weblinks and Video added in [Middleware](./source/middleware/readme.md#videos) page
-- New Weblinks and Video added in [Peripheral](./source/peripheral/readme.md#videos) page
+
+### Development Tools
+- [MPLAB® X IDE v6.20](https://www.microchip.com/mplab/mplab-x-ide) or higher
+- [MPLAB® XC32 C/C++ Compiler v4.40](https://www.microchip.com/mplab/compilers)
+- MPLAB® X IDE plug-ins:
+  - MPLAB® Code Configurator 5.5.1 or higher
 
 ### Known Issues
     - NA -
